@@ -4,7 +4,10 @@
   "header_url": "https://epg.pw/xmltv/epg_US.xml",
   "guides": [
     {"name": "United States (plain XMLTV)", "url": "https://epg.pw/xmltv/epg_US.xml"},
-    {"name": "United States (gzipped XMLTV)", "url": "https://epg.pw/xmltv/epg_US.xml.gz"}
+    {"name": "United States (gzipped XMLTV)", "url": "https://epg.pw/xmltv/epg_US.xml.gz"},
+    {"name": "Pluto TV US (XMLTV via matthuisman/i.mjh.nz; matches platform channel IDs)", "url": "https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/us.xml.gz"},
+    {"name": "Samsung TV Plus US (XMLTV via matthuisman/i.mjh.nz; matches platform channel IDs)", "url": "https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz"},
+    {"name": "Roku Channel (XMLTV via matthuisman/i.mjh.nz; matches platform channel IDs)", "url": "https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz"}
   ],
-  "note": "Links only: EPG data is hosted and updated by its provider, not mirrored here. XMLTV channel IDs may differ from playlist tvg-id values; match them in your player if necessary. Guide availability and redistribution rights are not guaranteed."
+  "note": "Links only: EPG data is hosted and updated by its providers, not mirrored here. The playlist header carries every guide URL as a comma-separated x-tvg-url list; players pick the guide whose channel IDs match each playlist entry (epg.pw for *.us IDs, i.mjh.nz for FAST platform IDs). Guide availability and redistribution rights are not guaranteed."
 }

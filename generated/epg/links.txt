@@ -1,2 +1,5 @@
 https://epg.pw/xmltv/epg_US.xml
 https://epg.pw/xmltv/epg_US.xml.gz
+https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/us.xml.gz
+https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz
+https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz

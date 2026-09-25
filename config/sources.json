@@ -1,4 +1,5 @@
 {
+  "_comment": "Candidate playlists are NOT proof of distribution rights. Only pre-reviewed publisher/FAST/public-access hosts or specific channel-ID+host approvals in policy.json can reach generated files. id_style=platform accepts a source's own channel IDs (24-32 hex or US-prefixed) for country-filtered FAST lineups whose guides use those IDs. resolve_redirects sources are resolved through config/redirect_cache.json (see scripts/resolve_redirects.py).",
   "sources": [
     {
       "name": "iptv-org US (community-submitted candidates)",
@@ -11,6 +12,28 @@
       "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_usa.m3u8",
       "github_api_fallback": "https://api.github.com/repos/Free-TV/IPTV/contents/playlists/playlist_usa.m3u8?ref=master",
       "required": true
+    },
+    {
+      "name": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
+      "github_api_fallback": "https://api.github.com/repos/BuddyChewChew/app-m3u-generator/contents/playlists/plutotv_us.m3u?ref=main",
+      "id_style": "platform",
+      "required": false
+    },
+    {
+      "name": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+      "github_api_fallback": "https://api.github.com/repos/BuddyChewChew/app-m3u-generator/contents/playlists/roku_all.m3u?ref=main",
+      "id_style": "platform",
+      "required": false
+    },
+    {
+      "name": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
+      "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
+      "github_api_fallback": "https://api.github.com/repos/BuddyChewChew/app-m3u-generator/contents/playlists/samsungtvplus_us.m3u?ref=main",
+      "id_style": "platform",
+      "resolve_redirects": true,
+      "required": false
     }
   ]
 }

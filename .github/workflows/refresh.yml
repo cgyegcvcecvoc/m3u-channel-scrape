@@ -2,7 +2,12 @@ name: Refresh reviewed M3U playlists
 
 # Scheduled workflows only run once the workflow file exists on the default
 # branch. Even then, generated files are written ONLY to this Arena work branch.
+# The push trigger runs the same pipeline on ordinary commits (skipping the
+# github-actions bot's own commits so it cannot loop).
 on:
+  push:
+    branches:
+      - arena/01a0da43-m3u-channel-scrape
   schedule:
     - cron: "17 6 * * *" # daily, UTC; GitHub may delay scheduled starts
   workflow_dispatch:
@@ -11,23 +16,26 @@ permissions:
   contents: write
 
 concurrency:
-  group: refresh-arena-01a0da01-m3u-channel-scrape
+  group: refresh-arena-01a0da43-m3u-channel-scrape
   cancel-in-progress: false
 
 jobs:
   refresh:
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: arena/01a0da01-m3u-channel-scrape
+          ref: arena/01a0da43-m3u-channel-scrape
           persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
       - name: Test without network
         run: python3 -m unittest discover -s tests -v
+      - name: Resolve FAST redirector URLs
+        run: python3 scripts/resolve_redirects.py
       - name: Fetch candidate feeds and regenerate reviewed playlists
         run: python3 scripts/update_playlists.py
         env:
@@ -38,10 +46,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add generated/
+          git add generated/ config/redirect_cache.json usa-all.m3u
           if git diff --cached --quiet; then
             echo "No playlist or EPG-link changes."
             exit 0
           fi
           git commit -m "Refresh reviewed free-viewing playlists"
-          git push origin HEAD:refs/heads/arena/01a0da01-m3u-channel-scrape
+          git pull --rebase origin arena/01a0da43-m3u-channel-scrape
+          git push origin HEAD:refs/heads/arena/01a0da43-m3u-channel-scrape
