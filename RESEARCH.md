@@ -76,7 +76,12 @@ probes every catalog URL and the root bulk playlist:
 1. fetch the HLS master manifest (following redirects),
 2. fetch a media playlist rendition,
 3. download one complete media segment and check container bytes
-   (MPEG-TS sync / ISO-BMFF `ftyp` / ADTS), not decode it.
+   (MPEG-TS sync / ISO-BMFF `ftyp` / ADTS), not decode it. HLS streams whose
+   media playlist declares `#EXT-X-KEY:METHOD=AES-128` (Pluto, Roku and other
+   stitchers) deliver ciphertext that cannot pass a byte signature; there a
+   fetched, high-entropy binary body of sane size from a keyed playlist
+   counts as a real segment (reason `manifest_and_encrypted_segment`), while
+   HTML/JSON error bodies still reject.
 
 Statuses: `segment_ok`, `manifest_ok`, `geo_blocked` (HTTP 451),
 `unavailable` (definitive miss: 404/410, DNS failure, non-HLS body),

@@ -223,9 +223,12 @@ def channel_from_entry(attrs: dict, raw_name: str, url: str, source: dict, polic
     if len(raw_id) > 128 or not valid_id:
         return None, "not_us_or_no_id"
     channel_id, _, feed_id = raw_id.partition("@")
-    # Discard only quality labels. @KERO/@East are distinct regional feeds;
-    # replacing them with ABC.us/Eastless could assign the WRONG EPG schedule.
-    tvg_id = channel_id if feed_id.lower() in QUALITY_FEEDS else raw_id
+    # Discard only quality labels and the nationwide @US marker. @KERO/@East
+    # are distinct regional feeds; replacing them with ABC.us could assign
+    # the WRONG EPG schedule. @US is the no-region feed used for generic
+    # FAST/series ids (DogtheBountyHunter.us@US -> DogtheBountyHunter.us).
+    tvg_id = channel_id if (feed_id.lower() in QUALITY_FEEDS
+                            or feed_id.lower() == "us") else raw_id
     country = attrs.get("tvg-country", "")
     if country and "US" not in re.split(r"[,;/ ]+", country.upper()):
         return None, "not_us_or_no_id"
