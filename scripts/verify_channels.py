@@ -14,11 +14,17 @@ Statuses written to generated/verification.json:
   unavailable   definitive miss: HTTP 404/410/400, DNS failure, non-HLS body
   inconclusive  network/TLS/timeout/5xx/403/401 — NOT evidence a channel is dead
 
+Inputs:
+  generated/channels.json                reviewed catalog
+  generated/bulk_source.m3u              pristine copy of the original bulk
+                                         playlist (4,021 entries); read-only,
+                                         never the previous filtered output
+
 Outputs:
   generated/verification.json            full per-channel results + method notes
   generated/playlists/usa-verified.m3u   catalog entries with segment_ok
-  usa-verified.m3u (repository root)     root bulk playlist filtered to
-                                         segment_ok, https, direct-HLS entries
+  usa-verified.m3u (repository root)     bulk source filtered to segment_ok,
+                                         https, direct-HLS entries
 
 A probe only proves that ONE segment loaded from ONE runner location at ONE
 moment. It says nothing about rights, terms, continuity, or your location.
@@ -330,7 +336,7 @@ def run(catalog_path: Path, root_playlist: Path, out_json: Path,
         root_pairs = parse_playlist_pairs(original)
         root_targets = [(url, url) for _, url in root_pairs]
         root_results = _probe_all(root_targets, workers, timeout)
-        report[root_playlist.name] = {
+        report["usa-verified.m3u"] = {
             "total": len(root_pairs),
             "counts": _counts(root_results),
             "results": [
@@ -342,7 +348,7 @@ def run(catalog_path: Path, root_playlist: Path, out_json: Path,
             ],
         }
         root_out.write_bytes(emit_root_verified(original, root_results, checked))
-        print(f"  {root_out}: filtered to {report[root_playlist.name]['counts'].get('segment_ok', 0)} "
+        print(f"  {root_out}: filtered to {report['usa-verified.m3u']['counts'].get('segment_ok', 0)} "
               f"working of {len(root_pairs)}")
     # -- outputs ----------------------------------------------------------
     out_json.parent.mkdir(parents=True, exist_ok=True)
@@ -366,7 +372,8 @@ def parse_playlist_pairs_name(extinf: str) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--catalog", type=Path, default=ROOT / "generated/channels.json")
-    parser.add_argument("--root-playlist", type=Path, default=ROOT / "usa-verified.m3u")
+    parser.add_argument("--root-playlist", type=Path, default=ROOT / "generated/bulk_source.m3u",
+                        help="pristine bulk playlist input (never the filtered root output)")
     parser.add_argument("--out", type=Path, default=ROOT / "generated/verification.json")
     parser.add_argument("--verified-out", type=Path,
                         default=ROOT / "generated/playlists/usa-verified.m3u")

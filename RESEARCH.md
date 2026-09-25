@@ -89,11 +89,13 @@ Statuses: `segment_ok`, `manifest_ok`, `geo_blocked` (HTTP 451),
 
 Results land in [`generated/verification.json`](generated/verification.json):
 
+- the bulk probe always starts from the pristine original playlist,
+  [`generated/bulk_source.m3u`](generated/bulk_source.m3u) (4,021 entries), so
+  successive runs re-check the full input instead of compounding filters;
 - `generated/playlists/usa-verified.m3u` = catalog entries that returned a
   real media segment on the last run;
-- root `usa-verified.m3u` = the repository's original bulk playlist (the
-  4,021-entry file uploaded to `main`) filtered to entries that are still
-  policy-format HTTPS HLS **and** returned a media segment; per-entry
+- root `usa-verified.m3u` = the bulk source filtered to entries that are
+  still policy-format HTTPS HLS **and** returned a media segment; per-entry
   `policy_format` flags show which survivors would also pass host review.
 
 Caveats that a probe cannot remove: one runner location (GitHub-hosted, US),
