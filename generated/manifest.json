@@ -1,0 +1,40 @@
+{
+  "counts": {
+    "usa-all.m3u": 248,
+    "usa-entertainment.m3u": 8,
+    "usa-intermittent.m3u": 6,
+    "usa-kids.m3u": 6,
+    "usa-local.m3u": 175,
+    "usa-movies.m3u": 4,
+    "usa-music.m3u": 1,
+    "usa-news.m3u": 35,
+    "usa-sports.m3u": 8
+  },
+  "epg_url": "https://epg.pw/xmltv/epg_US.xml",
+  "generated_utc": "2026-09-25T19:35:53Z",
+  "skipped": {
+    "custom_headers": 10,
+    "duplicate": 1,
+    "excluded_pay_tv": 14,
+    "not_direct_https_hls": 164,
+    "not_us_or_no_id": 54,
+    "unreviewed_host": 999
+  },
+  "sources": [
+    {
+      "approved_candidates": 245,
+      "candidates": 1462,
+      "name": "iptv-org US (community-submitted candidates)",
+      "sha256": "0ccde695b3165e1299c209f3a6faee8abce30771ae29175cf835963aa1dd271f",
+      "url": "https://iptv-org.github.io/iptv/countries/us.m3u"
+    },
+    {
+      "approved_candidates": 4,
+      "candidates": 28,
+      "name": "Free-TV US (curated candidates, not a rights guarantee)",
+      "sha256": "c82e07f39c8c6597711895e1720e735f560be5028ec1188860ca5ca9fa7363dd",
+      "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_usa.m3u8"
+    }
+  ],
+  "stream_probe": "not performed; accessibility, territory and rights are not guaranteed"
+}

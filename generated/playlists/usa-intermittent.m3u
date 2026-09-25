@@ -1,0 +1,13 @@
+#EXTM3U url-tvg="https://epg.pw/xmltv/epg_US.xml" x-tvg-url="https://epg.pw/xmltv/epg_US.xml"
+#EXTINF:-1 tvg-id="CapitalCityConnectionMontgomery.us" tvg-name="Capital City Connection Montgomery [Not 24/7]" tvg-logo="https://image.roku.com/developer_channels/prod/a2cb55884ff88035ebbbb32ef9c60a228314d0a2ac4c86722aff5ea1cb9abcd8.png" group-title="Legislative",Capital City Connection Montgomery [Not 24/7]
+https://capitalcityconnection.cablecast.tv/live/stream-1/live.m3u8
+#EXTINF:-1 tvg-id="FernandinaBeachChannel.us" tvg-name="Fernandina Beach Channel [Not 24/7]" tvg-logo="https://i.imgur.com/9UfyekJ.png" group-title="Legislative",Fernandina Beach Channel [Not 24/7]
+https://edge-f.swagit.com/live/fernandinabeachfl/live-1-a/playlist.m3u8
+#EXTINF:-1 tvg-id="GalvestonCountyTV.us" tvg-name="Galveston County TV [Not 24/7]" tvg-logo="https://i.imgur.com/uzjuxdI.png" group-title="Legislative",Galveston County TV [Not 24/7]
+https://edge-f.swagit.com/live/galvestontx/smil:hd-16x9-1-a/playlist.m3u8
+#EXTINF:-1 tvg-id="LeominsterTVPublic.us" tvg-name="Leominster TV Public [Not 24/7]" tvg-logo="https://i.imgur.com/lTzoshf.png" group-title="General",Leominster TV Public [Not 24/7]
+https://livestream.telvue.com/leominster1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us@KNSD" tvg-name="Telemundo KNSD [Not 24/7]" tvg-logo="https://imgx.fubo.tv/station_logos/telemundo_c.png" group-title="General",Telemundo KNSD [Not 24/7]
+https://nbculocallive.akamaized.net/hls/live/2037098/sandiego/stream1/master.m3u8
+#EXTINF:-1 tvg-id="WITN22.us" tvg-name="WITN22 [Not 24/7]" tvg-logo="https://i.imgur.com/Esu8PyB.png" group-title="General",WITN22 [Not 24/7]
+https://witn.cablecast.tv/live-4/live/live.m3u8
