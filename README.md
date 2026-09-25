@@ -1,14 +1,20 @@
 # m3u-channel-scrape
 
+Report issues in #issues and be as detailed as possible about the issue. Full description of the issue, and give it a moment to be resolved; it will be resolved ASAP 
+
+
+
+
+
 **Free-viewing US TV playlists, refreshed from public candidate feeds into this GitHub work branch.**
 
 This checkout originally contained only a README; the earlier M3U Forge dataset described in chat was **not in this repository**. These are generated files, not a copy of a claimed 10,000+ channel database. The catalog now holds **1,059 host-reviewed US listings** — local/public channels, free news, free sports, and full US lineups from FAST platforms (Pluto TV, Roku Channel, Samsung TV Plus); counts change on every refresh, so trust the live [manifest](generated/manifest.json) over any fixed number.
 
-> Public URL ≠ permission to restream. This project does **not** carry cable subscriptions, DRM keys, pay-TV mirrors, captured credentials, VOD, or proxy bypasses. Streams are links to other publishers, not video hosted here. Publisher terms, regional restrictions and playback can change; the host review is a best-effort filter, **not a guarantee** that every link is authorized or works in your location.
+> Public URL ≠ permission to restream. This project does **not** carry cable subscriptions, DRM keys, pay-TV mirrors, captured credentials, VOD, or proxy bypasses. Streams are links to other publishers, not video hosted here. Publisher terms, regional restrictions, and playback can change; the host review is a best-effort filter, **not a guarantee** that every link is authorized or works in your location.
 
-## Download / play
+## Download/play
 
-Open an M3U link in VLC (Media → Open Network Stream) or import it in an IPTV player. Direct GitHub RAW URL for the US playlist on **this work branch**:
+Open an M3U link in VLC (Media → Open Network Stream) or import it in an IPTV player. Direct GitHub RAW URL for the US playlist on **this working branch**:
 
 ```text
 https://raw.githubusercontent.com/cgyegcvcecvoc/m3u-channel-scrape/refs/heads/arena/01a0da43-m3u-channel-scrape/generated/playlists/usa-all.m3u
