@@ -1,0 +1,16 @@
+{
+  "guides": [
+    {
+      "name": "United States (plain XMLTV)",
+      "url": "https://epg.pw/xmltv/epg_US.xml"
+    },
+    {
+      "name": "United States (gzipped XMLTV)",
+      "url": "https://epg.pw/xmltv/epg_US.xml.gz"
+    }
+  ],
+  "header_url": "https://epg.pw/xmltv/epg_US.xml",
+  "note": "Links only: EPG data is hosted and updated by its provider, not mirrored here. XMLTV channel IDs may differ from playlist tvg-id values; match them in your player if necessary. Guide availability and redistribution rights are not guaranteed.",
+  "provider": "epg.pw",
+  "provider_page": "https://epg.pw/xmltv.html?lang=en"
+}

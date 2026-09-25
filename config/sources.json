@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "name": "iptv-org US (community-submitted candidates)",
+      "url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "github_api_fallback": "https://api.github.com/repos/iptv-org/iptv/contents/countries/us.m3u?ref=gh-pages",
+      "required": true
+    },
+    {
+      "name": "Free-TV US (curated candidates, not a rights guarantee)",
+      "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_usa.m3u8",
+      "github_api_fallback": "https://api.github.com/repos/Free-TV/IPTV/contents/playlists/playlist_usa.m3u8?ref=master",
+      "required": true
+    }
+  ]
+}

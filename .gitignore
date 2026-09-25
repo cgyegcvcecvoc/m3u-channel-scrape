@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+# generated/ is intentionally tracked: it is the published playlist/EPG-link output.

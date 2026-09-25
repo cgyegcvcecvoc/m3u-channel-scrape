@@ -1,0 +1,3 @@
+#EXTM3U url-tvg="https://epg.pw/xmltv/epg_US.xml" x-tvg-url="https://epg.pw/xmltv/epg_US.xml"
+#EXTINF:-1 tvg-id="30AMusic.us" tvg-name="30A Music" tvg-logo="https://i.imgur.com/gNWg9tl.png" group-title="Music",30A Music
+https://30a-tv.com/music.m3u8
