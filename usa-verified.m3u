@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/us.xml,https://iptv-org.github.io/epg.xml,https://i.mjh.nz/PlutoTV/us.xml.gz" url-tvg="https://iptv-org.github.io/epg/guides/us.xml,https://iptv-org.github.io/epg.xml,https://i.mjh.nz/PlutoTV/us.xml.gz"
-# Verified working: 1801 of 1807 entries (1807 policy-format https/HLS) returned a playable media segment at 2026-09-25T21:03:17Z.
+# Verified working: 1796 of 1801 entries (1801 policy-format https/HLS) returned a playable media segment at 2026-09-25T21:06:11Z.
 # Original bulk playlist filtered by scripts/verify_channels.py; point-in-time probe, not a rights review.
 #EXTINF:-1 tvg-id="" tvg-name="233 Pluto TV Comedy" tvg-logo="https://images.pluto.tv/channels/5a4d3a00ad95e4718ae8d8db/logoAlt.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png" group-title="Comedy",233 Pluto TV Comedy
 https://jmp2.uk/plu-5a4d3a00ad95e4718ae8d8db.m3u8
@@ -477,14 +477,10 @@ https://amg00136-wbd-amg00136c44-lg-us-5704.playouts.now.amagi.tv/playlist/amg00
 https://amg00136-wbd-amg00136c83-lg-us-9807.playouts.now.amagi.tv/playlist/amg00136-warnerbrothersdiscovery-spaceandbeyond-lgus/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]
 #EXTINF:-1 tvg-id="" tvg-name="309 Life Below Zero" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/feeds/images/LifeBelowZero/LBZ_Stacked_400x200.png" group-title="Entertainment",309 Life Below Zero
 https://amg00497-amg00497c36-amgplt0023.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg00497-amg00497c36-amgplt0023/playlist.m3u8?ads.country=[COUNTRY]&ads.donotsell=[DNS]&ads.gdprconsent=[GDPR_CONSENT]&ads.lat=[LMT]&ads.ua=[UA]&ads.usprivacy=[US_PRIVACY]&ads.appname=[APP_NAME]&ads.appstoreurl=[APP_STOREURL]&ads.devicemodel=[DEVICE_MODEL]&ads.gdpr=[GDPR]&ads.ip=[IP]&ads.viewsize=[VIEWSIZE]&ads.bundleid=[APP_BUNDLE]&ads.deviceid=[DEVICE_ID]&ads.devicemake=[DEVICE_MAKE]&ads.fck=[FCK]&ads.givn=[NONCE]&ads.ifa=[IFA]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.ifatype=[IFA_TYPE]&ads.targetad=[TARGETAD_ALLOWED]&coppa=0
-#EXTINF:-1 tvg-id="30ADarcizzleOffshore.us@SD" tvg-name="30A Darcizzle Offshore (720p)" tvg-logo="https://i.imgur.com/Q4l2uao.png" group-title="Outdoor",30A Darcizzle Offshore (720p)
-https://30a-tv.com/darcizzle.m3u8
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us@SD" tvg-name="30A Investment Pitch (720p)" tvg-logo="https://i.imgur.com/CKCtZo7.png" group-title="Business",30A Investment Pitch (720p)
 https://30a-tv.com/feeds/xodglobal/30atv.m3u8
 #EXTINF:-1 tvg-id="30ALuxeLifeDiscovered.us@SD" tvg-name="30A Luxe Life Discovered (720p)" tvg-logo="https://m.media-amazon.com/images/I/51FJ5A0mEyL.jpg" group-title="Lifestyle",30A Luxe Life Discovered (720p)
 https://30a-tv.com/feeds/vidaa/luxelife.m3u8
-#EXTINF:-1 tvg-id="30ASidewalks.us@SD" tvg-name="30A Sidewalks (720p)" tvg-logo="https://i.imgur.com/HSdwqZN.png" group-title="Entertainment",30A Sidewalks (720p)
-https://30a-tv.com/sidewalks.m3u8
 #EXTINF:-1 tvg-id="30ATelevisionChannel.us@SD" tvg-name="30A Television Channel (720p)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTHiYfIB01K44LIBG81aEGAmDuIWw8MA0f2w&s" group-title="Entertainment",30A Television Channel (720p)
 https://30a-tv.com/feeds/masters/30atv.m3u8
 #EXTINF:-1 tvg-id="30ATheBeachShow.us@SD" tvg-name="30A The Beach Show (720p)" tvg-logo="https://i.imgur.com/0j5Aget.png" group-title="Shop",30A The Beach Show (720p)
@@ -901,8 +897,6 @@ https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/
 https://a-cdn.klowdtv.com/live1/awe_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="AWEInternational.us@SD" tvg-name="AWE International (720p)" tvg-logo="https://i.imgur.com/VhxtMUQ.png" group-title="General",AWE International (720p)
 https://a-cdn.klowdtv.com/live1/aweint/playlist.m3u8
-#EXTINF:-1 tvg-id="AWEPlus.us@SD" tvg-name="AWE Plus (720p)" tvg-logo="https://i.imgur.com/hL8i7Ar.png" group-title="General",AWE Plus (720p)
-https://a-cdn.herringnetwork.com/affiliate/awee/playlist.m3u8
 #EXTINF:-1 tvg-id="AWEPlus.us@KPVMLD" tvg-name="AWE Plus KPVM-LD" tvg-logo="https://i.imgur.com/hL8i7Ar.png" group-title="General",AWE Plus KPVM-LD
 https://2-fss-2.streamhoster.com/pl_120/206858-4404552-1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Ax Men" tvg-logo="https://images.vizio.com/v4/btv/1/1725491694/1/267/150/0.jpg" group-title="TV",Ax Men
@@ -2059,8 +2053,6 @@ https://5d23269b3ec0c.streamlock.net/WEB_Ukraine24/ngrp:Ukraine24.stream-adaptiv
 https://cdn.jwplayer.com/live/broadcast/frRD2nUK.m3u8
 #EXTINF:-1 tvg-id="TED.us@SD" tvg-name="TED (1080p)" tvg-logo="https://i.imgur.com/KeIhwNP.png" group-title="Undefined",TED (1080p)
 https://d1b16tvvxk3tnu.cloudfront.net/TED.m3u8
-#EXTINF:-1 tvg-id="TelePam.us@SD" tvg-name="Tele Pam (1080p)" tvg-logo="https://i.ibb.co/xMYMyHh/telepammmm.png" group-title="General",Tele Pam (1080p)
-https://watch.haitilive.net/app/2020/telepam/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="Tempe11.us@SD" tvg-name="Tempe 11" tvg-logo="https://i.imgur.com/KMeHRV3.png" group-title="Undefined",Tempe 11
 https://cdn3.wowza.com/5/cFh0V0QwUVc4SDl2/tempe/G0355_003/chunklist.m3u8
 #EXTINF:-1 tvg-id="TeveVidaNetwork.us@SD" tvg-name="Teve Vida Network (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/lCpf5P1.png" group-title="Religious",Teve Vida Network (480p) [Not 24/7]
@@ -2497,8 +2489,6 @@ https://amg00235-amg00235c6-lg-us-11160.playouts.now.amagi.tv/ts-us-w2-n1/playli
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993044/hls/master.m3u8?ads.xumo_channelId=99993044&ads.asnw=169843&ads.afid=380753606&ads.sfid=17850336&ads.csid=lgchannels_us_nbcuuniversalmonsters_ssai_cro&ads._fw_is_lat=[LMT]&ads._fw_us_privacy=[US_PRIVACY]&ads._fw_coppa=0&ads._fw_did=[IFA]&ads._fw_vcid2=512116:[IFA]&ads._fw_app_bundle=[APP_BUNDLE]&ads._fw_app_store_url=[APP_STOREURL]&ads._fw_content_category=IAB1-7&ads._fw_content_genre=television&ads._fw_content_language=en&ads._fw_content_rating=tv-14&ads._fw_deviceMake=[DEVICE_MAKE]&ads._fw_device_model=[DEVICE_MODEL]&ads._fw_deviceType=3-Connected_TV&ads.appVersion=[APP_VERSION]&ads.appName=lgchannels&ads.xumo_contentId=3940&ads.xumo_contentName=NBCUUniversalMonsters&ads.xumo_providerId=3940&ads.xumo_providerName=NBCUUniversalMonsters&ads.channelId=99993044&ads._fw_ifa_type=dpid&ads.givn=[NONCE]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
 #EXTINF:-1 tvg-id="" tvg-name="268 Western Bound Wrangled by INSP" tvg-logo="https://image.xumo.com/v1/channels/channel/99992520/600x200.png?type=white_cropped" group-title="Movies",268 Western Bound Wrangled by INSP
 https://d1bl6tskrpq9ze.cloudfront.net/hls/cw.m3u8?ads.xumo_channelId=99992520&ads.xumo_streamId=99992520&ads.channelId=99992520&ads.ad_tag_id=45116&ads.csid=lgchannels_us_cowboyway_ssai&ads.channelName=cowboyway_us&ads.xumo_contentName=cowboyway&ads.xumo_contentId=3790&ads.xumo_providerName=cowboyway&ads.xumo_providerId=3790&ads.content_category=IAB1-7&ads.content_genre=Western,EW,Entertainment,GV,Drama,GD,Movie,Movies,FF&ads.content_language=en&ads.content_rating=tv-pg&ads.coppa=0&ads.livestream=0&ads.prodq=1&ads.did=[IFA]&ads.lmt=[LMT]&ads.dnt=[DNS]&ads.us_privacy=[US_PRIVACY]&ads.gdpr=[GDPR]&ads.gdpr_consent=[GDPR_CONSENT]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.country=[COUNTRY]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]&ads.app_name=[APP_NAME]&ads.app_bundle=[APP_BUNDLE]&ads.app_storeurl=[APP_STOREURL]
-#EXTINF:-1 tvg-id="30ATVClassicMovies.us@SD" tvg-name="30A TV Classic Movies (720p)" tvg-logo="" group-title="Movies",30A TV Classic Movies (720p)
-https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="375 Universal Crime" tvg-logo="https://image.xumo.com/v1/channels/channel/99993021/600x200.png?type=white_cropped" group-title="Movies",375 Universal Crime
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993021/hls/master.m3u8?ads.xumo_channelId=99993021&ads.asnw=169843&ads.afid=380752676&ads.sfid=17556671&ads.csid=lgchannels_us_nbcuuniversalcrime_ssai_cro&ads._fw_is_lat=[LMT]&ads._fw_us_privacy=[US_PRIVACY]&ads._fw_coppa=0&ads._fw_did=[IFA]&ads._fw_vcid2=512116:[IFA]&ads._fw_app_bundle=[APP_BUNDLE]&ads._fw_app_store_url=[APP_STOREURL]&ads._fw_content_category=IAB1-7&ads._fw_content_genre=television&ads._fw_content_language=en&ads._fw_content_rating=tv-14&ads._fw_deviceMake=[DEVICE_MAKE]&ads._fw_device_model=[DEVICE_MODEL]&ads._fw_deviceType=3-Connected_TV&ads.appVersion=[APP_VERSION]&ads.appName=lgchannels&ads.xumo_contentId=3939&ads.xumo_contentName=NBCUUniversalCrime&ads.xumo_providerId=3939&ads.xumo_providerName=NBCUUniversalCrime&ads.channelId=99993021&ads._fw_ifa_type=dpid&ads.givn=[NONCE]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
 #EXTINF:-1 tvg-id="XUMO_99951439" tvg-name="50 Cent Action" tvg-logo="https://image.xumo.com/v1/channels/channel/99951439/300x300.webp?type=color_onBlack" group-title="XUMO🇺🇸: Action & Drama",50 Cent Action
