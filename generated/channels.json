@@ -9291,6 +9291,25 @@
     "url": "https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc4us/master.m3u8"
   },
   {
+    "approval": "suffix:.amagi.tv",
+    "base_id": "USBA300022JX",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.amagi.com/",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "USBA300022JX",
+    "local": false,
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300022JX_20250513T012654SQUARE.png",
+    "name": "INFAST",
+    "not_24_7": false,
+    "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
+    "url": "https://insighttv-samsung-us-tsv2-h9ryc.amagi.tv/playlist/samsungus-insighttv/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D"
+  },
+  {
     "approval": "host:jmp2.uk",
     "base_id": "InkMaster.us",
     "categories": [
@@ -9365,6 +9384,25 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://jmp2.uk/plu-5cf96b8f4f1ca3f0629f4bf1.m3u8"
+  },
+  {
+    "approval": "suffix:.amagi.tv",
+    "base_id": "USBA300023G8",
+    "categories": [
+      "Documentary"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.amagi.com/",
+    "geo_restricted": false,
+    "group": "Documentary",
+    "id": "USBA300023G8",
+    "local": false,
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300023G8_20250513T012705SQUARE.png",
+    "name": "InWonder",
+    "not_24_7": false,
+    "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
+    "url": "https://amg00861-terninternation-inwonderushd-samsungus-gqtpa.amagi.tv/playlist/amg00861-terninternation-inwonderushd-samsungus/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0"
   },
   {
     "approval": "host:jmp2.uk",
@@ -18528,6 +18566,25 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://edge-f.swagit.com/live/sanantoniotx/live-2-a/playlist.m3u8"
+  },
+  {
+    "approval": "suffix:.amagi.tv",
+    "base_id": "USBA30002142",
+    "categories": [
+      "News"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.amagi.com/",
+    "geo_restricted": false,
+    "group": "News",
+    "id": "USBA30002142",
+    "local": false,
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA30002142_20250325T020252SQUARE.png",
+    "name": "TYT Network",
+    "not_24_7": false,
+    "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
+    "url": "https://tyt-samsungus-tsv2-n8425.amagi.tv/playlist/samsungus-tyt-samsungtv-us/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D"
   },
   {
     "approval": "host:jmp2.uk",

@@ -1,14 +1,14 @@
 {
   "counts": {
-    "usa-all.m3u": 1059,
+    "usa-all.m3u": 1062,
     "usa-business.m3u": 6,
-    "usa-entertainment.m3u": 301,
+    "usa-entertainment.m3u": 302,
     "usa-intermittent.m3u": 17,
     "usa-kids.m3u": 42,
     "usa-local.m3u": 196,
     "usa-movies.m3u": 75,
     "usa-music.m3u": 35,
-    "usa-news.m3u": 81,
+    "usa-news.m3u": 82,
     "usa-spanish.m3u": 15,
     "usa-sports.m3u": 76,
     "usa-weather.m3u": 3
@@ -21,16 +21,16 @@
     "https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz",
     "https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz"
   ],
-  "generated_utc": "2026-09-25T20:44:03Z",
+  "generated_utc": "2026-09-25T20:45:25Z",
   "skipped": {
     "custom_headers": 10,
     "duplicate": 188,
-    "duplicate_name": 114,
+    "duplicate_name": 117,
     "excluded_pay_tv": 14,
     "not_direct_https_hls": 164,
     "not_us_or_no_id": 54,
-    "redirect_unresolved": 581,
-    "unreviewed_host": 552
+    "redirect_unresolved": 39,
+    "unreviewed_host": 1088
   },
   "sources": [
     {
@@ -62,7 +62,7 @@
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u"
     },
     {
-      "approved_candidates": 0,
+      "approved_candidates": 6,
       "candidates": 581,
       "name": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
       "sha256": "588f48574748df5bbe80466584ea52d5ff2e89cc7ea68bf09da5651bcfedf6fc",
