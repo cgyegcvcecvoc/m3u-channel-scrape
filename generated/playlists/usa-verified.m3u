@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://epg.pw/xmltv/epg_US.xml,https://epg.pw/xmltv/epg_US.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz" x-tvg-url="https://epg.pw/xmltv/epg_US.xml,https://epg.pw/xmltv/epg_US.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz"
-# Verified working: 1210 of 1328 catalog channels returned a playable media segment from the probe runner at 2026-09-25T21:06:11Z.
+# Verified working: 1207 of 1328 catalog channels returned a playable media segment from the probe runner at 2026-09-25T21:13:00Z.
 # Point-in-time result from scripts/verify_channels.py; availability in your location and over time is not guaranteed.
 #EXTINF:-1 tvg-id="00sReplay.us" tvg-name="00s Replay" tvg-logo="https://images.pluto.tv/channels/62ba60f059624e000781c436/colorLogoPNG.png" group-title="Movies",00s Replay
 https://jmp2.uk/plu-62ba60f059624e000781c436.m3u8
@@ -7,24 +7,16 @@ https://jmp2.uk/plu-62ba60f059624e000781c436.m3u8
 https://30a-tv.com/darcizzle.m3u8
 #EXTINF:-1 tvg-id="30AGeorgiaHollywoodReview.us" tvg-name="30A Georgia Hollywood Review" tvg-logo="https://images.axios.com/JiG3RuYBwpU_WZFeU6HHjt03FAU=/111x0:1191x1080/320x320/2023/11/09/1699558891265.jpg" group-title="News",30A Georgia Hollywood Review
 https://30a-tv.com/gh.m3u8
-#EXTINF:-1 tvg-id="30AGolfKingdom.us" tvg-name="30A Golf Kingdom" tvg-logo="https://i.imgur.com/Lv53nh4.png" group-title="Sports",30A Golf Kingdom
-https://30a-tv.com/feeds/vidaa/golf.m3u8
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us" tvg-name="30A Investment Pitch" tvg-logo="https://i.imgur.com/CKCtZo7.png" group-title="Business",30A Investment Pitch
 https://30a-tv.com/feeds/xodglobal/30atv.m3u8
 #EXTINF:-1 tvg-id="30ALuxeLifeDiscovered.us" tvg-name="30A Luxe Life Discovered" tvg-logo="https://m.media-amazon.com/images/I/51FJ5A0mEyL.jpg" group-title="Entertainment",30A Luxe Life Discovered
 https://30a-tv.com/feeds/vidaa/luxelife.m3u8
-#EXTINF:-1 tvg-id="30AMusic.us" tvg-name="30A Music" tvg-logo="https://i.imgur.com/gNWg9tl.png" group-title="Music",30A Music
-https://30a-tv.com/music.m3u8
 #EXTINF:-1 tvg-id="30ARidiculousTV.us" tvg-name="30A Ridiculous TV" tvg-logo="https://30a.media/wp-content/uploads/2023/08/pzaz-30atv-2-230x366-ridiculous.jpg" group-title="Entertainment",30A Ridiculous TV
 https://30a-tv.com/feeds/720p/63.m3u8
-#EXTINF:-1 tvg-id="30ASidewalks.us" tvg-name="30A Sidewalks" tvg-logo="https://i.imgur.com/HSdwqZN.png" group-title="Entertainment",30A Sidewalks
-https://30a-tv.com/sidewalks.m3u8
 #EXTINF:-1 tvg-id="30ATelevisionChannel.us" tvg-name="30A Television Channel" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTHiYfIB01K44LIBG81aEGAmDuIWw8MA0f2w&s" group-title="Entertainment",30A Television Channel
 https://30a-tv.com/feeds/masters/30atv.m3u8
 #EXTINF:-1 tvg-id="30ATheBeachShow.us" tvg-name="30A The Beach Show" tvg-logo="https://i.imgur.com/0j5Aget.png" group-title="General",30A The Beach Show
 https://30a-tv.com/beachy.m3u8
-#EXTINF:-1 tvg-id="30ATVClassicMovies.us" tvg-name="30A TV Classic Movies" tvg-logo="" group-title="Movies",30A TV Classic Movies
-https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
 #EXTINF:-1 tvg-id="30AWeLoveCars.us" tvg-name="30A We Love Cars" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxroqfE_hvEApKMQx03sSYXPeEh4ClaF5QSa8XfRwJW_So3vfSN0CjqzxN30H-qEBswqU&usqp=CAU" group-title="General",30A We Love Cars
 https://30a-tv.com/feeds/vidaa/cars.m3u8
 #EXTINF:-1 tvg-id="3ABNEnglish.us" tvg-name="3ABN English" tvg-logo="https://i.imgur.com/16DMxP4.png" group-title="General",3ABN English
@@ -1431,6 +1423,8 @@ https://content.uplynk.com/channel/b02350ef854c4eef8358eead1f59a5cc.m3u8
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wpxibreaking-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="NBC.us@WTMJTV" tvg-name="NBC WTMJ-TV" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="General",NBC WTMJ-TV
 https://aegis-cloudfront-1.tubi.video/d4d923f2-17de-4371-b86d-43490499bcdb/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WTVJ" tvg-name="NBC WTVJ" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="General",NBC WTVJ
+https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream1/master.m3u8
 #EXTINF:-1 tvg-id="NBCLX.us" tvg-name="NBCLX" tvg-logo="https://i.imgur.com/5iT7hEa.png" group-title="Entertainment",NBCLX
 https://nbculocallive.akamaized.net/hls/live/2037096/lx/use1.m3u8
 #EXTINF:-1 tvg-id="NCTV79.us" tvg-name="NCTV79" tvg-logo="https://i.imgur.com/64sZVF9.jpg" group-title="General",NCTV79
