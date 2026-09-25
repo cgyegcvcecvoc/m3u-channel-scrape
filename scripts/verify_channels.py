@@ -186,6 +186,11 @@ def probe(url: str, timeout: float = 10.0) -> tuple[str, str]:
         segments = _segment_urls(manifest, media_url)
         if not segments:
             return "manifest_ok", "no_segments_listed"
+        # AES-128/SAMPLE-AES segments are ciphertext: the byte signature cannot
+        # match, but a fetched, high-entropy binary body of sane size from a
+        # media playlist with a declared key is real playable media.
+        encrypted = ("#EXT-X-KEY:METHOD=AES-128" in manifest
+                     or "#EXT-X-KEY:METHOD=SAMPLE-AES" in manifest)
         last_failure: ProbeFailure | None = None
         for segment_url in segments[-2:]:
             try:
@@ -195,6 +200,10 @@ def probe(url: str, timeout: float = 10.0) -> tuple[str, str]:
                 continue
             if media_signature(chunk[:SEGMENT_CAP]):
                 return "segment_ok", "manifest_and_segment"
+            if (encrypted and len(chunk) >= 512
+                    and len(set(chunk[:512])) >= 96
+                    and chunk[:4] != b"#EXT" and chunk[:1] not in (b"<", b"{")):
+                return "segment_ok", "manifest_and_encrypted_segment"
             last_failure = ProbeFailure("manifest_ok", "segment_signature_mismatch")
         if last_failure is not None and last_failure.status == "manifest_ok":
             return "manifest_ok", last_failure.reason

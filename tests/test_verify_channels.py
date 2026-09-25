@@ -77,6 +77,26 @@ class ProbeTests(unittest.TestCase):
             self.assertEqual(v.probe("https://a.example/live.m3u8"),
                              ("manifest_ok", "no_segments_listed"))
 
+    def test_encrypted_segment_high_entropy_is_segment_ok(self):
+        media = ('#EXTM3U\n#EXT-X-TARGETDURATION:6\n'
+                 '#EXT-X-KEY:METHOD=AES-128,URI="https://cdn.example.org/k.key"\n'
+                 '#EXTINF:6.0,\nseg1.ts\n#EXT-X-ENDLIST\n')
+        ciphertext = bytes(range(256)) + bytes(range(256))  # high entropy, no sync
+        with patch.object(v, "fetch_text", return_value=(media, "https://cdn.example.org/live.m3u8")), \
+                patch.object(v, "fetch_bytes", return_value=ciphertext):
+            self.assertEqual(v.probe("https://cdn.example.org/live.m3u8"),
+                             ("segment_ok", "manifest_and_encrypted_segment"))
+
+    def test_encrypted_but_text_body_is_manifest_ok(self):
+        media = ('#EXTM3U\n#EXT-X-TARGETDURATION:6\n'
+                 '#EXT-X-KEY:METHOD=AES-128,URI="https://cdn.example.org/k.key"\n'
+                 '#EXTINF:6.0,\nseg1.ts\n#EXT-X-ENDLIST\n')
+        html = b"<html><body>JWT verification fails</body></html>" + b" " * 500
+        with patch.object(v, "fetch_text", return_value=(media, "https://cdn.example.org/live.m3u8")), \
+                patch.object(v, "fetch_bytes", return_value=html):
+            self.assertEqual(v.probe("https://cdn.example.org/live.m3u8"),
+                             ("manifest_ok", "segment_signature_mismatch"))
+
     def test_html_body_is_unavailable(self):
         with patch.object(v, "fetch_text",
                           side_effect=v.ProbeFailure("unavailable", "not_hls_body")):
