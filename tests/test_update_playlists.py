@@ -1,4 +1,6 @@
 import base64
+import contextlib
+import io
 import json
 from pathlib import Path
 import tempfile
@@ -213,6 +215,25 @@ https://example.org/headers.m3u8
         raw = (fixture if fixture is not None else self.fixture).encode()
         return u.build(sources_path=self.sources, policy_path=self.policy, epg_path=self.epg,
                        out=self.out, min_channels=1, fetcher=lambda source: raw, **kwargs)
+
+    def test_allowed_host_pattern(self):
+        policy = json.loads(self.policy.read_text())
+        policy["allowed_host_patterns"] = [
+            {"pattern": r"^pb-[a-z0-9]+\.akamaized\.net$", "evidence_url": "e", "reason": "test"}
+        ]
+        self.assertTrue(u.approval("Ch1.us", "pb-abc123xyz.akamaized.net", policy))
+        self.assertFalse(u.approval("Ch1.us", "pb-ABC!invalid.akamaized.net", policy))
+        self.assertFalse(u.approval("Ch1.us", "other.akamaized.net", policy))
+        # build-level: pattern-approved URL survives while plain suffix does not
+        fixture = '#EXTM3U\n#EXTINF:-1 tvg-id="Ch1.us",One\nhttps://pb-abc123xyz.akamaized.net/a/manifest.m3u8\n#EXTINF:-1 tvg-id="Ch2.us",Two\nhttps://wild.akamaized.net/b/manifest.m3u8\n'
+        self.policy.write_text(json.dumps(policy))
+        with contextlib.redirect_stdout(io.StringIO()):
+            manifest = self.build(fixture)
+        listed = json.loads((self.out / "channels.json").read_text())
+        ids = [c["id"] for c in listed]
+        self.assertIn("Ch1.us", ids)
+        self.assertNotIn("Ch2.us", ids)
+        self.assertGreaterEqual(manifest["skipped"]["unreviewed_host"], 1)
 
     def test_build_outputs_and_idempotence(self):
         report = self.build()

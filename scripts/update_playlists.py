@@ -199,6 +199,9 @@ def approval(channel_id: str, host: str, policy: dict) -> tuple[str, str] | None
     for rule in policy["allowed_hosts"]:
         if host == rule["host"]:
             return ("host:" + host, rule["evidence_url"])
+    for rule in policy.get("allowed_host_patterns", ()):
+        if re.fullmatch(rule["pattern"], host):
+            return ("pattern:" + rule["pattern"], rule["evidence_url"])
     for rule in policy["allowed_host_suffixes"]:
         if host.endswith(rule["suffix"]):
             return ("suffix:" + rule["suffix"], rule["evidence_url"])

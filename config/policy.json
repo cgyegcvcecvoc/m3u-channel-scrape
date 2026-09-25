@@ -22,6 +22,9 @@
     {"host": "video.oct.dc.gov", "evidence_url": "https://oct.dc.gov/", "reason": "District of Columbia public meetings"},
     {"host": "voa-ingest.akamaized.net", "evidence_url": "https://www.voanews.com/", "reason": "Voice of America public news streams"}
   ],
+  "allowed_host_patterns": [
+    {"pattern": "^pb-[a-z0-9]+\\.akamaized\\.net$", "evidence_url": "https://www.samsung.com/us/tv-plus/", "reason": "Samsung TV Plus SSAI delivery endpoints observed as the final hop of the documented stvp jmp2.uk redirects (each hostname embeds a channel service ID)"}
+  ],
   "allowed_host_suffixes": [
     {"suffix": ".cablecast.tv", "evidence_url": "https://www.cablecast.tv/", "reason": "Community/government access distribution; check each broadcaster"},
     {"suffix": ".cbsnstream.cbsnews.com", "evidence_url": "https://www.cbsnews.com/live/", "reason": "CBS News local free live channels"},
