@@ -41,11 +41,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin arena/01a0da43-m3u-channel-scrape || true
           git add generated/verification.json generated/playlists/usa-verified.m3u usa-verified.m3u
           if git diff --cached --quiet; then
             echo "No verification changes."
             exit 0
           fi
           git commit -m "Update live channel verification results"
+          git pull --rebase origin arena/01a0da43-m3u-channel-scrape
           git push origin HEAD:refs/heads/arena/01a0da43-m3u-channel-scrape
