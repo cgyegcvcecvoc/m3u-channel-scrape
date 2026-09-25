@@ -27,16 +27,52 @@ ROOT = Path(__file__).resolve().parent.parent
 MAX_DOWNLOAD = 8 * 1024 * 1024
 ATTRIBUTE = re.compile(r'(tvg-id|tvg-name|tvg-logo|tvg-country|tvg-chno|group-title)="([^"]*)"')
 ID = re.compile(r"^[A-Za-z0-9_.-]+\.us(?:@[A-Za-z0-9_-]+)?$", re.IGNORECASE)
+# Country-filtered FAST sources (Pluto TV US, Samsung TV Plus US, Roku) identify
+# channels by their own platform IDs: 24-32 hex slugs or Samsung "US"-prefixed
+# service IDs. Only accepted for sources flagged id_style=platform, whose EPGs
+# (i.mjh.nz) key on the same IDs.
+PLATFORM_ID = re.compile(r"^(?:[0-9a-f]{24,32}|US[A-Z0-9]{6,24})$", re.IGNORECASE)
 QUALITY_FEEDS = {"sd", "hd", "fhd", "uhd", "4k", "8k", "2160p", "1080p", "720p", "480p", "360p"}
 QUALITY = re.compile(r"\s+\((?:\d{3,4}p|4K)\)(?=\s|$)", re.IGNORECASE)
 CONTROLS = re.compile(r"[\x00-\x1f\x7f]")
 LOCAL_STATIONS = re.compile(r"^(?:ABC|CBS|NBC|FOX)\s+[KW][A-Z0-9-]{2,}", re.IGNORECASE)
 SECRET_QUERY = {"token", "auth", "authorization", "password", "pass", "key",
-                "api_key", "sig", "signature", "expires", "exp", "access_token"}
+                "api_key", "sig", "signature", "expires", "exp", "access_token", "authtoken"}
 PARTNER_QUERY = {"deviceid", "devicemodel", "deviceversion", "devicetype", "devicemake",
                  "advertisingid", "embedpartner", "appname", "appversion"}
 CATEGORIES = ("Sports", "News", "Movies", "Entertainment", "Kids", "Music",
-              "Documentary", "Education", "Legislative", "General")
+              "Documentary", "Education", "Legislative", "Weather", "Business",
+              "Spanish", "General")
+# FAST platforms ship free-form group titles ("News + Opinion", "Sports &
+# Outdoors", "En Español"...). Map them onto the categories above; exact
+# category names always pass through unchanged.
+GROUP_RULES = (
+    (("sport", "motorsport"), "Sports"),
+    (("news",), "News"),
+    (("movie", "film"), "Movies"),
+    (("kid", "family", "children"), "Kids"),
+    (("music",), "Music"),
+    (("weather",), "Weather"),
+    (("business", "finance", "invest"), "Business"),
+    (("document", "nature", "history", "science", "animal", "wildlife"), "Documentary"),
+    (("español", "espanol", "spanish", "latino"), "Spanish"),
+    (("educat", "learning", "school"), "Education"),
+    (("legislat", "government", "civic", "council", "city hall", "public access",
+      "municipal", "community media"), "Legislative"),
+    (("entertain", "comedy", "drama", "reality", "classic", "lifestyle", "game",
+      "daytime", "home", "food", "cook", "crime", "reality tv", "tv &"), "Entertainment"),
+)
+
+
+def canonical_group(raw: str) -> str:
+    """Translate a source group title into one of CATEGORIES (fallback General)."""
+    if raw in CATEGORIES:
+        return raw
+    lowered = raw.casefold()
+    for keys, category in GROUP_RULES:
+        if any(key in lowered for key in keys):
+            return category
+    return "General"
 
 
 def cleaned(value: str, *, limit: int = 240) -> str:
@@ -126,7 +162,15 @@ def fetch_bytes(url: str, *, github_api: bool = False) -> bytes:
     if github_api:
         blob = json.loads(data)
         if blob.get("encoding") != "base64" or not blob.get("content"):
-            raise ValueError("GitHub contents API did not supply base64 data")
+            # The contents API omits content for large files; use the blob API.
+            git_url = blob.get("git_url") if isinstance(blob, dict) else None
+            if (not git_url or not valid_url(git_url)
+                    or urlsplit(git_url).hostname != "api.github.com"):
+                raise ValueError("GitHub contents API did not supply base64 data")
+            with urlopen(Request(git_url, headers=headers), timeout=25) as response:
+                blob = json.loads(response.read(MAX_DOWNLOAD + 1))
+            if blob.get("encoding") != "base64" or not blob.get("content"):
+                raise ValueError("GitHub blob API did not supply base64 data")
         data = base64.b64decode(blob["content"])
         if len(data) > MAX_DOWNLOAD:
             raise ValueError("decoded source exceeds 8 MiB limit")
@@ -165,11 +209,15 @@ def approval(channel_id: str, host: str, policy: dict) -> tuple[str, str] | None
 
 
 def channel_from_entry(attrs: dict, raw_name: str, url: str, source: dict, policy: dict,
-                       requires_headers: bool) -> tuple[dict | None, str]:
+                       requires_headers: bool, *, id_style: str = "us",
+                       redirect_cache: dict | None = None) -> tuple[dict | None, str]:
     if requires_headers:
         return None, "custom_headers"
     raw_id = attrs.get("tvg-id", "")
-    if len(raw_id) > 128 or not ID.fullmatch(raw_id):
+    valid_id = ID.fullmatch(raw_id)
+    if id_style == "platform" and not valid_id:
+        valid_id = PLATFORM_ID.fullmatch(raw_id)
+    if len(raw_id) > 128 or not valid_id:
         return None, "not_us_or_no_id"
     channel_id, _, feed_id = raw_id.partition("@")
     # Discard only quality labels. @KERO/@East are distinct regional feeds;
@@ -180,6 +228,13 @@ def channel_from_entry(attrs: dict, raw_name: str, url: str, source: dict, polic
         return None, "not_us_or_no_id"
     if channel_id.casefold() in {x.casefold() for x in policy["excluded_ids"]}:
         return None, "excluded_pay_tv"
+    if redirect_cache is not None:
+        # Sources flagged resolve_redirects publish redirector URLs (e.g.
+        # jmp2.uk/stvp-...) that are only usable after one-time resolution;
+        # an unresolved entry is skipped rather than shipped broken.
+        url = redirect_cache.get(url, "")
+        if not url:
+            return None, "redirect_unresolved"
     if not valid_url(url, stream=True):
         return None, "not_direct_https_hls"
     host = urlsplit(url).hostname or ""
@@ -198,7 +253,9 @@ def channel_from_entry(attrs: dict, raw_name: str, url: str, source: dict, polic
     groups = [cleaned(g) for g in re.split(r"[;,]", attrs.get("group-title", ""))]
     if any("vod" in g.casefold() for g in groups):
         return None, "on_demand_not_live"
-    groups = [g for g in groups if g and g.casefold() not in ("usa", "us", "united states")]
+    groups = [canonical_group(g) for g in groups
+              if g and g.casefold() not in ("usa", "us", "united states")]
+    groups = list(dict.fromkeys(groups))
     for rule in policy["approved_channels"]:
         if channel_id.casefold() == rule["id"].casefold() and host in rule["hosts"]:
             groups = list(dict.fromkeys([rule["category"], *groups]))
@@ -223,8 +280,9 @@ def channel_from_entry(attrs: dict, raw_name: str, url: str, source: dict, polic
     }, "accepted"
 
 
-def m3u(channels: list[dict], guide: str) -> bytes:
-    header = f'#EXTM3U url-tvg="{guide}" x-tvg-url="{guide}"'
+def m3u(channels: list[dict], guides: list[str]) -> bytes:
+    joined = ",".join(guides)
+    header = f'#EXTM3U url-tvg="{joined}" x-tvg-url="{joined}"'
     lines = [header]
     for c in channels:
         lines.extend([
@@ -257,7 +315,8 @@ def build(*, sources_path: Path = ROOT / "config/sources.json",
           policy_path: Path = ROOT / "config/policy.json",
           epg_path: Path = ROOT / "config/epg.json",
           out: Path = ROOT / "generated", min_channels: int = 50,
-          allow_shrink: bool = False, fetcher=download_source) -> dict:
+          allow_shrink: bool = False, fetcher=download_source,
+          redirect_cache_path: Path = ROOT / "config/redirect_cache.json") -> dict:
     sources = json.loads(sources_path.read_text(encoding="utf-8"))["sources"]
     policy = json.loads(policy_path.read_text(encoding="utf-8"))
     epg = json.loads(epg_path.read_text(encoding="utf-8"))
@@ -270,6 +329,14 @@ def build(*, sources_path: Path = ROOT / "config/sources.json",
         raise ValueError("EPG guides must be HTTPS XMLTV URLs and include the header link")
     if not sources:
         raise ValueError("no configured playlist sources")
+    try:
+        redirect_cache = json.loads(redirect_cache_path.read_text(encoding="utf-8"))
+        if not isinstance(redirect_cache, dict):
+            raise ValueError("redirect cache must be a JSON object")
+    except FileNotFoundError:
+        redirect_cache = {}
+    except (OSError, ValueError):
+        redirect_cache = {}
     candidates: list[dict] = []
     skipped: Counter[str] = Counter()
     source_results = []
@@ -283,8 +350,11 @@ def build(*, sources_path: Path = ROOT / "config/sources.json",
             source_results.append({"name": source["name"], "error": str(exc)[:160]})
             continue
         accepted = 0
+        cache = redirect_cache if source.get("resolve_redirects") else None
         for attrs, name, url, needs_headers in entries:
-            channel, reason = channel_from_entry(attrs, name, url, source, policy, needs_headers)
+            channel, reason = channel_from_entry(
+                attrs, name, url, source, policy, needs_headers,
+                id_style=source.get("id_style", "us"), redirect_cache=cache)
             if channel:
                 candidates.append(channel)
                 accepted += 1
@@ -293,15 +363,22 @@ def build(*, sources_path: Path = ROOT / "config/sources.json",
         source_results.append({"name": source["name"], "url": source["url"],
                                "sha256": hashlib.sha256(raw).hexdigest(),
                                "candidates": len(entries), "approved_candidates": accepted})
-    # Prefer earlier (US-specific) sources; one stream/EPG ID and one listing/URL.
+    # Prefer earlier (US-specific) sources; one stream/EPG ID, one URL, one
+    # listing per channel name (FAST platforms repeat the same channel names).
     by_id = {}
     seen_urls = set()
+    seen_names = set()
     for c in candidates:
-        if c["id"].casefold() not in by_id and c["url"] not in seen_urls:
-            by_id[c["id"].casefold()] = c
-            seen_urls.add(c["url"])
-        else:
+        name_key = " ".join(c["name"].casefold().split())
+        if c["id"].casefold() in by_id or c["url"] in seen_urls:
             skipped["duplicate"] += 1
+            continue
+        if name_key in seen_names:
+            skipped["duplicate_name"] += 1
+            continue
+        by_id[c["id"].casefold()] = c
+        seen_urls.add(c["url"])
+        seen_names.add(name_key)
     channels = sorted(by_id.values(), key=lambda c: (c["name"].casefold(), c["id"].casefold()))
     if len(channels) < min_channels:
         raise RuntimeError(f"only {len(channels)} channels approved (minimum {min_channels}); previous files untouched")
@@ -323,16 +400,23 @@ def build(*, sources_path: Path = ROOT / "config/sources.json",
         "usa-entertainment.m3u": [c for c in channels if "Entertainment" in c["categories"]],
         "usa-kids.m3u": [c for c in channels if "Kids" in c["categories"]],
         "usa-music.m3u": [c for c in channels if "Music" in c["categories"]],
+        "usa-weather.m3u": [c for c in channels if "Weather" in c["categories"]],
+        "usa-business.m3u": [c for c in channels if "Business" in c["categories"]],
+        "usa-spanish.m3u": [c for c in channels if "Spanish" in c["categories"]],
         "usa-intermittent.m3u": [c for c in channels if c["not_24_7"]],
     }
-    payloads = {"playlists/" + name: m3u(items, guide) for name, items in files.items()}
+    guide_urls = [guide] + [g["url"] for g in epg["guides"] if g["url"] != guide]
+    payloads = {"playlists/" + name: m3u(items, guide_urls) for name, items in files.items()}
     payloads["channels.json"] = json_bytes(channels)  # provenance for every listed URL
     payloads["epg/links.json"] = json_bytes(epg)
     payloads["epg/links.txt"] = ("\n".join(g["url"] for g in epg["guides"]) + "\n").encode()
     counts = {name: len(items) for name, items in files.items()}
     manifest_without_date = {
         "counts": counts, "sources": source_results, "skipped": dict(sorted(skipped.items())),
-        "epg_url": guide, "stream_probe": "not performed; accessibility, territory and rights are not guaranteed",
+        "epg_url": guide, "epg_urls": guide_urls,
+        "stream_probe": "not performed at build time; run scripts/verify_channels.py "
+                        "(Verify workflow) for point-in-time playback evidence in "
+                        "generated/verification.json",
     }
     prev_without_date = {k: v for k, v in previous.items() if k != "generated_utc"}
     unchanged_files = all((out / name).is_file() and (out / name).read_bytes() == body
@@ -366,7 +450,18 @@ def main() -> int:
     print("Generated:", report["generated_utc"])
     for name, count in report["counts"].items():
         print(f"  {name}: {count}")
-    print("Playlist URLs have NOT been live-probed; only reviewed/free-viewing host rules were applied.")
+    # Keep the root convenience copy (the file opened most often on GitHub)
+    # byte-identical with the reviewed catalog playlist.
+    root_copy = ROOT / "usa-all.m3u"
+    generated_copy = args.out / "playlists" / "usa-all.m3u"
+    if generated_copy.is_file():
+        body = generated_copy.read_bytes()
+        if not root_copy.is_file() or root_copy.read_bytes() != body:
+            atomic_write(root_copy, body)
+            print("  synced root usa-all.m3u")
+    print("Playlist URLs have NOT been live-probed here; only reviewed/free-viewing "
+          "host rules were applied. generated/verification.json carries any "
+          "point-in-time probe results from the Verify workflow.")
     return 0
 
 
