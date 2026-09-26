@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-26T18:35:50Z",
+  "generated_utc": "2026-09-26T19:11:42Z",
   "method": "Entries are classified with the same policy code the updater uses (scripts/update_playlists.py). This report is evidence for host review, not an approval: nothing here publishes or changes policy.json.",
   "note": "structural_rejects cannot be fixed by a host rule (plain HTTP, IP-literal host, non-443 port, expiring/credential query, non-HLS path). unreviewed_hosts can be approved after a host review with evidence.",
   "sources": [
@@ -647,26 +647,26 @@
     },
     {
       "accepted": 13,
-      "entries": 1004,
-      "entries_needing_custom_headers": 889,
+      "entries": 1022,
+      "entries_needing_custom_headers": 907,
       "entries_with_pay_tv_brand_name": 246,
       "name": "doms9/iptv (user-suggested candidates; reviewed entries only)",
-      "other_blocked_entries": 418,
+      "other_blocked_entries": 427,
       "other_reason_notes": {
         "custom_headers": "stream needs referrer/user-agent overrides",
         "not_us_or_no_id": "no US-style tvg-id (and source is not a platform-ID feed)"
       },
       "other_reasons": {
-        "custom_headers": 383,
+        "custom_headers": 392,
         "not_us_or_no_id": 35
       },
       "review_checklist": [
         "confirm d3ehq1uaxory6w.cloudfront.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule"
       ],
-      "sha256": "56ce112cbfdbe1ebd873dab19921e3d1a3c8f96f5d36e87f9f34d8042ea10ca2",
-      "structural_reject_entries": 572,
+      "sha256": "64734ba3634c8a1394adcc3681591ad2a986b943075017b4c3e045895299b264",
+      "structural_reject_entries": 581,
       "structural_rejects": {
-        "expiring_or_credential_query": 224,
+        "expiring_or_credential_query": 221,
         "expiring_or_credential_query(pay_tv_brand)": 183,
         "non_443_port:4004": 1,
         "non_443_port:4007": 1,
@@ -675,8 +675,8 @@
         "non_443_port:8080": 46,
         "non_443_port:8989": 4,
         "non_443_port:9590": 2,
-        "not_hls_path": 23,
-        "scheme:http": 86
+        "not_hls_path": 31,
+        "scheme:http": 90
       },
       "unreviewed_host_entries": 1,
       "unreviewed_hosts": [
@@ -696,10 +696,10 @@
   "sources_file": "/home/runner/work/m3u-channel-scrape/m3u-channel-scrape/config/sources.json",
   "totals": {
     "accepted": 2003,
-    "entries": 4158,
-    "other_blocked_entries": 636,
+    "entries": 4176,
+    "other_blocked_entries": 645,
     "sources": 7,
-    "structural_reject_entries": 1055,
+    "structural_reject_entries": 1064,
     "unreviewed_host_entries": 464
   }
 }
