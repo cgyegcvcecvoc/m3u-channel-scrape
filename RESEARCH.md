@@ -138,3 +138,32 @@ about rights or your location.
 - Generated `generated/playlists/usa-backups.m3u` containing 310 alternate streams.
 - Formatted backups with `group-title="Backups"` and `[Backup]` / `[Backup 2]` channel name labels so they display cleanly in a dedicated category in IPTV players without duplicating listings in primary genre playlists.
 
+## 2026-09-26 — Pay-TV channel request & free alternatives (branch `arena/01a0ddf7`)
+
+A request asked to add ESPN, ESPNU, Disney Channel, Disney XD and Big Ten
+Network, and to re-audit/replace every stream URL.
+
+- **Not added (by policy):** all five are premium/subscription cable networks
+  with no authorized free-to-air feed. `ESPN.us`/`ESPN2.us`/`ESPNU.us` are
+  already in `excluded_ids`; the README rejects Disney Channel, ESPN and
+  regional sports networks outright. Publishing a "working" link for them would
+  be an unauthorized rebroadcast, so they were **not** added. Free substitutes
+  are documented in [`ALTERNATIVES.md`](ALTERNATIVES.md).
+- **Catalog refresh:** re-ran `scripts/update_playlists.py`. Sources are fetched
+  through the GitHub contents/blob API (the runner for this session is egress-
+  firewalled away from `raw.githubusercontent.com` / stream CDNs, so live stream
+  probing is not possible here — that remains the job of the *Verify* GitHub
+  Action, which runs from a runner that can reach the CDNs). The refresh applied
+  the existing policy + `config/redirect_cache.json` and rotated the catalog to
+  current upstream lineups: `usa-all.m3u` 1,409 → 1,408; sports 112, kids 73,
+  backups 270. Churn was benign (new free channels in: PHLY Sports, Zuffa Boxing
+  Prelims, Lassie, Vas O No Vas USA; rotated out: FreeTV Acción, Universal
+  Westerns, EMOCIÓN ATRES TV). All 29 unit tests pass; every playlist is
+  structurally valid (one URL per `#EXTINF`).
+- **Free alternatives mapped:** sports substitutes for ESPN/ESPNU/Big Ten
+  Network (SportsGrid, CBS Sports HQ, Pac-12 Insider, ACC Digital Network, Big
+  12 Studios, beIN SPORTS XTRA, Fubo Sports Network, ESPN8: The Ocho, combat and
+  auto/motorsport FAST, etc.) and kids/family substitutes for Disney Channel /
+  Disney XD (Nickelodeon Pluto TV, PBS Kids, Pokémon, Power Rangers,
+  Transformers, LEGO, Peppa Pig, Moonbug, ToonGoggles, etc.).
+
