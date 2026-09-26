@@ -3,7 +3,7 @@ name: Test playlist generator
 on:
   push:
     branches:
-      - arena/01a0da01-m3u-channel-scrape
+      - arena/01a0db0b-m3u-channel-scrape
   pull_request:
 
 permissions:

@@ -27,16 +27,115 @@ ROOT = Path(__file__).resolve().parent.parent
 MAX_DOWNLOAD = 8 * 1024 * 1024
 ATTRIBUTE = re.compile(r'(tvg-id|tvg-name|tvg-logo|tvg-country|tvg-chno|group-title)="([^"]*)"')
 ID = re.compile(r"^[A-Za-z0-9_.-]+\.us(?:@[A-Za-z0-9_-]+)?$", re.IGNORECASE)
+# Country-filtered FAST sources (Pluto TV US, Samsung TV Plus US, Roku) identify
+# channels by their own platform IDs: 24-32 hex slugs or Samsung "US"-prefixed
+# service IDs. Only accepted for sources flagged id_style=platform, whose EPGs
+# (i.mjh.nz) key on the same IDs.
+PLATFORM_ID = re.compile(r"^(?:[0-9a-f]{24,32}|US[A-Z0-9]{6,24})$", re.IGNORECASE)
 QUALITY_FEEDS = {"sd", "hd", "fhd", "uhd", "4k", "8k", "2160p", "1080p", "720p", "480p", "360p"}
 QUALITY = re.compile(r"\s+\((?:\d{3,4}p|4K)\)(?=\s|$)", re.IGNORECASE)
 CONTROLS = re.compile(r"[\x00-\x1f\x7f]")
 LOCAL_STATIONS = re.compile(r"^(?:ABC|CBS|NBC|FOX)\s+[KW][A-Z0-9-]{2,}", re.IGNORECASE)
 SECRET_QUERY = {"token", "auth", "authorization", "password", "pass", "key",
-                "api_key", "sig", "signature", "expires", "exp", "access_token"}
+                "api_key", "sig", "signature", "expires", "exp", "access_token", "authtoken"}
 PARTNER_QUERY = {"deviceid", "devicemodel", "deviceversion", "devicetype", "devicemake",
                  "advertisingid", "embedpartner", "appname", "appversion"}
 CATEGORIES = ("Sports", "News", "Movies", "Entertainment", "Kids", "Music",
-              "Documentary", "Education", "Legislative", "General")
+              "Documentary", "Education", "Legislative", "Weather", "Business",
+              "Spanish", "General", "Backups")
+# FAST platforms ship free-form group titles ("News + Opinion", "Sports &
+# Outdoors", "En Español"...). Map them onto the categories above; exact
+# category names always pass through unchanged.
+GROUP_RULES = (
+    (("backup", "backups", "alternate"), "Backups"),
+    (("sport", "motorsport"), "Sports"),
+    (("news",), "News"),
+    (("movie", "film"), "Movies"),
+    (("kid", "family", "children"), "Kids"),
+    (("music",), "Music"),
+    (("weather",), "Weather"),
+    (("business", "finance", "invest"), "Business"),
+    (("document", "nature", "history", "science", "animal", "wildlife"), "Documentary"),
+    (("español", "espanol", "spanish", "latino"), "Spanish"),
+    (("educat", "learning", "school"), "Education"),
+    (("legislat", "government", "civic", "council", "city hall", "public access",
+      "municipal", "community media"), "Legislative"),
+    (("entertain", "comedy", "drama", "reality", "classic", "lifestyle", "game",
+      "daytime", "home", "food", "cook", "crime", "reality tv", "tv &"), "Entertainment"),
+)
+
+# Known dead / 404 / DNS-failed streams mapped directly to verified working live feeds
+DEAD_STREAM_REPLACEMENTS: dict[str, str] = {
+    # CBS News national and regional feeds (old akamaized / cbsnstream 404 -> working Pluto TV feeds)
+    "https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8": "https://jmp2.uk/plu-5a6b92f6e22a617379789618.m3u8",
+    "https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/master.m3u8": "https://jmp2.uk/plu-5eb1afb21486df0007abc57c.m3u8",
+    "https://cbsn-bos.cbsnstream.cbsnews.com/out/v1/589d66ec6eb8434c96c28de0370d1326/master.m3u8": "https://jmp2.uk/plu-5eb1af2ad345340008fccd1e.m3u8",
+    "https://cbsn-chi.cbsnstream.cbsnews.com/out/v1/b2fc0d5715d54908adf07f97d2616646/master.m3u8": "https://jmp2.uk/plu-5eb1aeb2fd4b8a00076c2047.m3u8",
+    "https://cbsn-den.cbsnstream.cbsnews.com/out/v1/2e49baf2906244ecb01b07d9885fbe7a/master.m3u8": "https://jmp2.uk/plu-5eb1b12146cba40007aa7e5d.m3u8",
+    "https://cbsn-det.cbsnstream.cbsnews.com/out/v1/169f5c001bc74fa7a179b19c20fea069/master.m3u8": "https://jmp2.uk/plu-634f2610d5023700078f7dee.m3u8",
+    "https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8": "https://jmp2.uk/plu-5dc481cda1d430000948a1b4.m3u8",
+    "https://cbsn-min.cbsnstream.cbsnews.com/out/v1/76518f06941246ba810c8d175600bf74/master.m3u8": "https://jmp2.uk/plu-5eb1b0bf2240d8000732a09c.m3u8",
+    "https://cbsn-ny.cbsnstream.cbsnews.com/out/v1/ec3897d58a9b45129a77d67aa247d136/master.m3u8": "https://jmp2.uk/plu-5dc48170e280c80009a861ab.m3u8",
+    "https://cbsn-phi.cbsnstream.cbsnews.com/out/v1/5c9ad3e215984b0e9ad845b335216b72/master.m3u8": "https://jmp2.uk/plu-5eb1b03cd345340008fccd28.m3u8",
+    "https://cbsn-pit.cbsnstream.cbsnews.com/out/v1/6966dabf8150405ab26f854e3cd6a2b8/master.m3u8": "https://jmp2.uk/plu-5eb1b199042b3100076fe931.m3u8",
+    # The Bob Ross Channel (dead tubi.video 404 -> working Pluto TV embed)
+    "https://aegis-cloudfront-1.tubi.video/45301c94-0d40-4cbb-b342-f5dc7949d76c/playlist.m3u8": "https://jmp2.uk/plu-5f36d726234ce10007784f2a.m3u8",
+    # Baywatch (dead AU amagi dns failure -> working Roku Channel embed)
+    "https://amg00145-fremantlemedian-baywatch-samsungau-gtsd6.amagi.tv/playlist/amg00145-fremantlemedian-baywatch-samsungau/playlist.m3u8": "https://jmp2.uk/rok-ab47c5037be851e6a929a4d09daafeac.m3u8",
+    # Vevo channels (dead AU amagi dns failure -> working Pluto TV embeds)
+    "https://amg00056-vevotv-vevo70saunz-samsungau-xzszd.amagi.tv/playlist/amg00056-vevotv-vevo70saunz-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5f32f26bcd8aea00071240e5.m3u8",
+    "https://amg00056-vevotv-vevo80saunz-samsungau-rp5e3.amagi.tv/playlist/amg00056-vevotv-vevo80saunz-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5fd7b8bf927e090007685853.m3u8",
+    "https://amg00056-vevotv-vevo90saunz-samsungau-n6a0d.amagi.tv/playlist/amg00056-vevotv-vevo90saunz-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5fd7bb1f86d94a000796e2c2.m3u8",
+    "https://amg00056-vevotv-vevocountryau-samsungau-ktmqm.amagi.tv/playlist/amg00056-vevotv-vevocountryau-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5da0d75e84830900098a1ea0.m3u8",
+    # The Hill TV (dead amagi dns failure -> working Samsung TV Plus embed)
+    "https://amg01312-cw-amg01312c15-firetv-us-3444.playouts.now.amagi.tv/playlist.m3u8": "https://jmp2.uk/stvp-US3300008FX",
+    # Transformers TV (dead Pluto slug 404 -> working Samsung TV Plus embed)
+    "https://jmp2.uk/plu-60fb053712f22a0007ff14d2.m3u8": "https://jmp2.uk/stvp-US29000168D",
+    # ABC News Live obsolete regional feeds (404 -> working Pluto TV ABC News Live)
+    "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023562/abcnewshudson3/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023563/abcnewshudson4/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023564/abcnewshudson5/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023565/abcnewshudson6/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023567/abcnewshudson8/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023568/abcnewshudson9/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023569/abcnewshudson10/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    # AMC en Español (dead wurl -> working Samsung TV Plus embed)
+    "https://amc-amcespanol-1-us.lg.wurl.tv/playlist.m3u8": "https://jmp2.uk/stvp-USBA300020W4",
+    # Ninja Kidz TV (dead roku 404 -> working cloudfront CDN stream)
+    "https://jmp2.uk/rok-9dd23031622757d1944e4782b2a192ef.m3u8": "https://d3868b4ny0rgdf.cloudfront.net/playlist.m3u8",
+    # Cinevault 80s (dead tubi 404 -> working Wurl / GSN linear stream)
+    "https://aegis-cloudfront-1.tubi.video/ea1ab5d1-f554-4f6b-b03f-2611fcd94257/playlist.m3u8": "https://wurlgameshownetwork.global.transmit.live/hls/68d16f229e868efab9c34b16/v1/gsn_cinevault_80s_1/lg_us/latest/main/hls/playlist.m3u8",
+    # Canela TV (dead cloudfront -> working Samsung TV Plus embed)
+    "https://d3cx6yargdnl7q.cloudfront.net/canelatv.m3u8": "https://jmp2.uk/stvp-USBC39000080S",
+    # WITN22 (dead live-4 404 -> active cablecast endpoint)
+    "https://witn.cablecast.tv/live-4/live/live.m3u8": "https://witn.cablecast.tv/live-1/live/live.m3u8",
+}
+
+# Defunct publisher endpoints with no viable replacement stream
+DEFUNCT_STREAMS: set[str] = {
+    "https://30a-tv.com/ln.m3u8",
+    "https://30a-tv.com/loomer.m3u8",
+    "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8",
+    "https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8",
+    "https://fast-channels.sinclairstoryline.com/TBD/index.m3u8",
+    "https://rpn.bozztv.com/trn01/gusa-TVSFilmNoir/index.m3u8",
+    "https://dai.google.com/linear/hls/event/HZ3JdLVcQ463l3b1BLXmmQ/master.m3u8",
+    "https://d3svnrf3rmq619.cloudfront.net/krgv-live/smil:krgv-somos.smil/playlist.m3u8",
+}
+
+
+def canonical_group(raw: str) -> str:
+    """Translate a source group title into one of CATEGORIES (fallback General)."""
+    if raw in CATEGORIES:
+        return raw
+    lowered = raw.casefold()
+    for keys, category in GROUP_RULES:
+        if any(key in lowered for key in keys):
+            return category
+    return "General"
 
 
 def cleaned(value: str, *, limit: int = 240) -> str:
@@ -126,7 +225,15 @@ def fetch_bytes(url: str, *, github_api: bool = False) -> bytes:
     if github_api:
         blob = json.loads(data)
         if blob.get("encoding") != "base64" or not blob.get("content"):
-            raise ValueError("GitHub contents API did not supply base64 data")
+            # The contents API omits content for large files; use the blob API.
+            git_url = blob.get("git_url") if isinstance(blob, dict) else None
+            if (not git_url or not valid_url(git_url)
+                    or urlsplit(git_url).hostname != "api.github.com"):
+                raise ValueError("GitHub contents API did not supply base64 data")
+            with urlopen(Request(git_url, headers=headers), timeout=25) as response:
+                blob = json.loads(response.read(MAX_DOWNLOAD + 1))
+            if blob.get("encoding") != "base64" or not blob.get("content"):
+                raise ValueError("GitHub blob API did not supply base64 data")
         data = base64.b64decode(blob["content"])
         if len(data) > MAX_DOWNLOAD:
             raise ValueError("decoded source exceeds 8 MiB limit")
@@ -152,9 +259,14 @@ def download_source(source: dict) -> bytes:
 
 
 def approval(channel_id: str, host: str, policy: dict) -> tuple[str, str] | None:
+    if host in policy.get("excluded_hosts", ()):
+        return None
     for rule in policy["allowed_hosts"]:
         if host == rule["host"]:
             return ("host:" + host, rule["evidence_url"])
+    for rule in policy.get("allowed_host_patterns", ()):
+        if re.fullmatch(rule["pattern"], host):
+            return ("pattern:" + rule["pattern"], rule["evidence_url"])
     for rule in policy["allowed_host_suffixes"]:
         if host.endswith(rule["suffix"]):
             return ("suffix:" + rule["suffix"], rule["evidence_url"])
@@ -165,21 +277,39 @@ def approval(channel_id: str, host: str, policy: dict) -> tuple[str, str] | None
 
 
 def channel_from_entry(attrs: dict, raw_name: str, url: str, source: dict, policy: dict,
-                       requires_headers: bool) -> tuple[dict | None, str]:
+                       requires_headers: bool, *, id_style: str = "us",
+                       redirect_cache: dict | None = None) -> tuple[dict | None, str]:
     if requires_headers:
         return None, "custom_headers"
     raw_id = attrs.get("tvg-id", "")
-    if len(raw_id) > 128 or not ID.fullmatch(raw_id):
+    valid_id = ID.fullmatch(raw_id)
+    if id_style == "platform" and not valid_id:
+        valid_id = PLATFORM_ID.fullmatch(raw_id)
+    if len(raw_id) > 128 or not valid_id:
         return None, "not_us_or_no_id"
     channel_id, _, feed_id = raw_id.partition("@")
-    # Discard only quality labels. @KERO/@East are distinct regional feeds;
-    # replacing them with ABC.us/Eastless could assign the WRONG EPG schedule.
-    tvg_id = channel_id if feed_id.lower() in QUALITY_FEEDS else raw_id
+    # Discard only quality labels and the nationwide @US marker. @KERO/@East
+    # are distinct regional feeds; replacing them with ABC.us could assign
+    # the WRONG EPG schedule. @US is the no-region feed used for generic
+    # FAST/series ids (DogtheBountyHunter.us@US -> DogtheBountyHunter.us).
+    tvg_id = channel_id if (feed_id.lower() in QUALITY_FEEDS
+                            or feed_id.lower() == "us") else raw_id
     country = attrs.get("tvg-country", "")
     if country and "US" not in re.split(r"[,;/ ]+", country.upper()):
         return None, "not_us_or_no_id"
     if channel_id.casefold() in {x.casefold() for x in policy["excluded_ids"]}:
         return None, "excluded_pay_tv"
+    if redirect_cache is not None:
+        # Sources flagged resolve_redirects publish redirector URLs (e.g.
+        # jmp2.uk/stvp-...) that are only usable after one-time resolution;
+        # an unresolved entry is skipped rather than shipped broken.
+        url = redirect_cache.get(url, "")
+        if not url:
+            return None, "redirect_unresolved"
+    if url in DEAD_STREAM_REPLACEMENTS:
+        url = DEAD_STREAM_REPLACEMENTS[url]
+    if url in DEFUNCT_STREAMS:
+        return None, "dead_stream"
     if not valid_url(url, stream=True):
         return None, "not_direct_https_hls"
     host = urlsplit(url).hostname or ""
@@ -198,7 +328,9 @@ def channel_from_entry(attrs: dict, raw_name: str, url: str, source: dict, polic
     groups = [cleaned(g) for g in re.split(r"[;,]", attrs.get("group-title", ""))]
     if any("vod" in g.casefold() for g in groups):
         return None, "on_demand_not_live"
-    groups = [g for g in groups if g and g.casefold() not in ("usa", "us", "united states")]
+    groups = [canonical_group(g) for g in groups
+              if g and g.casefold() not in ("usa", "us", "united states")]
+    groups = list(dict.fromkeys(groups))
     for rule in policy["approved_channels"]:
         if channel_id.casefold() == rule["id"].casefold() and host in rule["hosts"]:
             groups = list(dict.fromkeys([rule["category"], *groups]))
@@ -223,8 +355,9 @@ def channel_from_entry(attrs: dict, raw_name: str, url: str, source: dict, polic
     }, "accepted"
 
 
-def m3u(channels: list[dict], guide: str) -> bytes:
-    header = f'#EXTM3U url-tvg="{guide}" x-tvg-url="{guide}"'
+def m3u(channels: list[dict], guides: list[str]) -> bytes:
+    joined = ",".join(guides)
+    header = f'#EXTM3U url-tvg="{joined}" x-tvg-url="{joined}"'
     lines = [header]
     for c in channels:
         lines.extend([
@@ -257,7 +390,8 @@ def build(*, sources_path: Path = ROOT / "config/sources.json",
           policy_path: Path = ROOT / "config/policy.json",
           epg_path: Path = ROOT / "config/epg.json",
           out: Path = ROOT / "generated", min_channels: int = 50,
-          allow_shrink: bool = False, fetcher=download_source) -> dict:
+          allow_shrink: bool = False, fetcher=download_source,
+          redirect_cache_path: Path = ROOT / "config/redirect_cache.json") -> dict:
     sources = json.loads(sources_path.read_text(encoding="utf-8"))["sources"]
     policy = json.loads(policy_path.read_text(encoding="utf-8"))
     epg = json.loads(epg_path.read_text(encoding="utf-8"))
@@ -270,6 +404,14 @@ def build(*, sources_path: Path = ROOT / "config/sources.json",
         raise ValueError("EPG guides must be HTTPS XMLTV URLs and include the header link")
     if not sources:
         raise ValueError("no configured playlist sources")
+    try:
+        redirect_cache = json.loads(redirect_cache_path.read_text(encoding="utf-8"))
+        if not isinstance(redirect_cache, dict):
+            raise ValueError("redirect cache must be a JSON object")
+    except FileNotFoundError:
+        redirect_cache = {}
+    except (OSError, ValueError):
+        redirect_cache = {}
     candidates: list[dict] = []
     skipped: Counter[str] = Counter()
     source_results = []
@@ -283,8 +425,11 @@ def build(*, sources_path: Path = ROOT / "config/sources.json",
             source_results.append({"name": source["name"], "error": str(exc)[:160]})
             continue
         accepted = 0
+        cache = redirect_cache if source.get("resolve_redirects") else None
         for attrs, name, url, needs_headers in entries:
-            channel, reason = channel_from_entry(attrs, name, url, source, policy, needs_headers)
+            channel, reason = channel_from_entry(
+                attrs, name, url, source, policy, needs_headers,
+                id_style=source.get("id_style", "us"), redirect_cache=cache)
             if channel:
                 candidates.append(channel)
                 accepted += 1
@@ -293,16 +438,48 @@ def build(*, sources_path: Path = ROOT / "config/sources.json",
         source_results.append({"name": source["name"], "url": source["url"],
                                "sha256": hashlib.sha256(raw).hexdigest(),
                                "candidates": len(entries), "approved_candidates": accepted})
-    # Prefer earlier (US-specific) sources; one stream/EPG ID and one listing/URL.
+    # Prefer earlier (US-specific) sources; one stream/EPG ID, one URL, one
+    # listing per channel name (FAST platforms repeat the same channel names).
+    # Alternate working streams are captured and formatted as backups with
+    # category "Backups" for seamless M3U player grouping.
     by_id = {}
+    by_name = {}
     seen_urls = set()
+    backups = []
+    backup_counts = Counter()
+
     for c in candidates:
-        if c["id"].casefold() not in by_id and c["url"] not in seen_urls:
-            by_id[c["id"].casefold()] = c
-            seen_urls.add(c["url"])
-        else:
+        name_key = " ".join(c["name"].casefold().split())
+        url = c["url"]
+        cid = c["id"].casefold()
+
+        if url in seen_urls:
             skipped["duplicate"] += 1
+            continue
+
+        if cid in by_id or name_key in by_name:
+            primary = by_id.get(cid) or by_name.get(name_key)
+            if primary and backup_counts[primary["id"]] < 2 and url != primary["url"]:
+                backup_counts[primary["id"]] += 1
+                b_num = backup_counts[primary["id"]]
+                b_suffix = " [Backup]" if b_num == 1 else f" [Backup {b_num}]"
+                backup_item = dict(c)
+                backup_item["name"] = f"{primary['name']}{b_suffix}"
+                backup_item["group"] = "Backups"
+                backup_item["categories"] = ["Backups"]
+                backup_item["is_backup"] = True
+                backup_item["backup_of"] = primary["id"]
+                backups.append(backup_item)
+                seen_urls.add(url)
+            skipped["duplicate_name" if name_key in by_name else "duplicate"] += 1
+            continue
+
+        by_id[cid] = c
+        by_name[name_key] = c
+        seen_urls.add(url)
+
     channels = sorted(by_id.values(), key=lambda c: (c["name"].casefold(), c["id"].casefold()))
+    backups = sorted(backups, key=lambda c: (c["name"].casefold(), c["id"].casefold()))
     if len(channels) < min_channels:
         raise RuntimeError(f"only {len(channels)} channels approved (minimum {min_channels}); previous files untouched")
     previous = {}
@@ -323,16 +500,24 @@ def build(*, sources_path: Path = ROOT / "config/sources.json",
         "usa-entertainment.m3u": [c for c in channels if "Entertainment" in c["categories"]],
         "usa-kids.m3u": [c for c in channels if "Kids" in c["categories"]],
         "usa-music.m3u": [c for c in channels if "Music" in c["categories"]],
+        "usa-weather.m3u": [c for c in channels if "Weather" in c["categories"]],
+        "usa-business.m3u": [c for c in channels if "Business" in c["categories"]],
+        "usa-spanish.m3u": [c for c in channels if "Spanish" in c["categories"]],
         "usa-intermittent.m3u": [c for c in channels if c["not_24_7"]],
+        "usa-backups.m3u": backups,
     }
-    payloads = {"playlists/" + name: m3u(items, guide) for name, items in files.items()}
+    guide_urls = [guide] + [g["url"] for g in epg["guides"] if g["url"] != guide]
+    payloads = {"playlists/" + name: m3u(items, guide_urls) for name, items in files.items()}
     payloads["channels.json"] = json_bytes(channels)  # provenance for every listed URL
     payloads["epg/links.json"] = json_bytes(epg)
     payloads["epg/links.txt"] = ("\n".join(g["url"] for g in epg["guides"]) + "\n").encode()
     counts = {name: len(items) for name, items in files.items()}
     manifest_without_date = {
         "counts": counts, "sources": source_results, "skipped": dict(sorted(skipped.items())),
-        "epg_url": guide, "stream_probe": "not performed; accessibility, territory and rights are not guaranteed",
+        "epg_url": guide, "epg_urls": guide_urls,
+        "stream_probe": "not performed at build time; run scripts/verify_channels.py "
+                        "(Verify workflow) for point-in-time playback evidence in "
+                        "generated/verification.json",
     }
     prev_without_date = {k: v for k, v in previous.items() if k != "generated_utc"}
     unchanged_files = all((out / name).is_file() and (out / name).read_bytes() == body
@@ -366,7 +551,18 @@ def main() -> int:
     print("Generated:", report["generated_utc"])
     for name, count in report["counts"].items():
         print(f"  {name}: {count}")
-    print("Playlist URLs have NOT been live-probed; only reviewed/free-viewing host rules were applied.")
+    # Keep the root convenience copy (the file opened most often on GitHub)
+    # byte-identical with the reviewed catalog playlist.
+    root_copy = ROOT / "usa-all.m3u"
+    generated_copy = args.out / "playlists" / "usa-all.m3u"
+    if generated_copy.is_file():
+        body = generated_copy.read_bytes()
+        if not root_copy.is_file() or root_copy.read_bytes() != body:
+            atomic_write(root_copy, body)
+            print("  synced root usa-all.m3u")
+    print("Playlist URLs have NOT been live-probed here; only reviewed/free-viewing "
+          "host rules were applied. generated/verification.json carries any "
+          "point-in-time probe results from the Verify workflow.")
     return 0
 
 

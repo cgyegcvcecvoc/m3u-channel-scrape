@@ -1,12 +1,17 @@
 {
-  "_note": "Candidate playlists are NOT proof of distribution rights. Publish only HTTPS HLS streams from these reviewed publisher/public-access hosts or the ID+host approvals below. Review each new host manually. Do not add pay-TV restreams, authentication workarounds, or proxy mirrors.",
+  "_note": "Candidate playlists are NOT proof of distribution rights. Publish only HTTPS HLS streams from these reviewed publisher/FAST/public-access hosts or the ID+host approvals below. Review each new host manually. Do not add pay-TV restreams, authentication workarounds, or proxy mirrors. Suffix rules cover B2B FAST playout platforms (Amagi, Wurl, Publica, Zype, bozztv) whose channel lineups are published by broadcasters/platforms as free ad-supported streams.",
   "allowed_hosts": [
     {"host": "30a-tv.com", "evidence_url": "https://30a-tv.com/m3u8-channels/", "reason": "Publisher's free channel page"},
+    {"host": "247wlive.foxweather.com", "evidence_url": "https://www.foxweather.com/watch-live", "reason": "FOX Weather's own free live HLS endpoint"},
     {"host": "abcnews-streams.akamaized.net", "evidence_url": "https://abcnews.go.com/Live", "reason": "ABC's free news stream"},
     {"host": "aegis-cloudfront-1.tubi.video", "evidence_url": "https://tubitv.com/live", "reason": "Free ad-supported Tubi distribution"},
+    {"host": "bloomberg.com", "evidence_url": "https://www.bloomberg.com/live/us", "reason": "Bloomberg official free linear stream manifests"},
     {"host": "cbsnews.akamaized.net", "evidence_url": "https://www.cbsnews.com/live/", "reason": "CBS News free live service"},
+    {"host": "content.uplynk.com", "evidence_url": "https://www.courttv.com/", "reason": "Official free channel and local-station distributions via the Uplynk CDN (Court TV, America's Voice, Newsy, Telemundo locals)"},
+    {"host": "dai.google.com", "evidence_url": "https://www.samsung.com/us/tv-plus/", "reason": "Official Google DAI SSAI delivery for broadcaster channels on FAST platforms (Samsung TV Plus, CBS News 24/7, ET, CBS Sports Golazo)"},
     {"host": "edge-f.swagit.com", "evidence_url": "https://www.swagit.com/", "reason": "Public meetings/community access distribution"},
     {"host": "fast-channels.sinclairstoryline.com", "evidence_url": "https://comettv.com/", "reason": "Sinclair's free over-the-air/FAST channels"},
+    {"host": "jmp2.uk", "evidence_url": "https://github.com/iptv-org/community/issues/1492", "reason": "Community-documented redirector that resolves to official Pluto TV / Roku / Samsung TV Plus embed manifests; used by iptv-org contributors and FAST playlist generators"},
     {"host": "lineup.cbsivideo.com", "evidence_url": "https://www.cbsnews.com/live/", "reason": "CBS News local live channels"},
     {"host": "livestream.pbskids.org", "evidence_url": "https://pbskids.org/video/livetv", "reason": "PBS Kids free live stream"},
     {"host": "livestream.telvue.com", "evidence_url": "https://telvue.com/", "reason": "Public/community access streams; broadcaster permissions should still be reviewed"},
@@ -19,25 +24,78 @@
     {"host": "video.oct.dc.gov", "evidence_url": "https://oct.dc.gov/", "reason": "District of Columbia public meetings"},
     {"host": "voa-ingest.akamaized.net", "evidence_url": "https://www.voanews.com/", "reason": "Voice of America public news streams"}
   ],
+  "allowed_host_patterns": [
+    {"pattern": "^pb-[a-z0-9]+\\.akamaized\\.net$", "evidence_url": "https://www.samsung.com/us/tv-plus/", "reason": "Samsung TV Plus SSAI delivery endpoints observed as the final hop of the documented stvp jmp2.uk redirects (each hostname embeds a channel service ID)"},
+    {"pattern": "^d[a-z0-9]+\\.cloudfront\\.net$", "evidence_url": "https://www.samsung.com/us/tv-plus/", "reason": "AWS CloudFront MediaTailor linear playout distributions used by Samsung TV Plus and reviewed FAST broadcasters"}
+  ],
   "allowed_host_suffixes": [
     {"suffix": ".cablecast.tv", "evidence_url": "https://www.cablecast.tv/", "reason": "Community/government access distribution; check each broadcaster"},
-    {"suffix": ".cbsnstream.cbsnews.com", "evidence_url": "https://www.cbsnews.com/live/", "reason": "CBS News local free live channels"}
+    {"suffix": ".cbsnstream.cbsnews.com", "evidence_url": "https://www.cbsnews.com/live/", "reason": "CBS News local free live channels"},
+    {"suffix": ".amagi.tv", "evidence_url": "https://www.amagi.com/", "reason": "Amagi cloud playout for official FAST/broadcaster linear channels (Xumo/Plex/Tablo instances, local-news loops, beIN XTRA, SportsGrid, Pac-12)"},
+    {"suffix": ".wurl.tv", "evidence_url": "https://www.wurl.com/", "reason": "Wurl FAST distribution of broadcaster/brand linear channels (Plex, Roku, Samsung TV Plus, LG, Xumo instances)"},
+    {"suffix": ".wurl.com", "evidence_url": "https://www.wurl.com/", "reason": "Wurl FAST distribution of broadcaster/brand linear channels"},
+    {"suffix": ".getpublica.com", "evidence_url": "https://www.publica.com/", "reason": "Publica CTV/FAST platform hosting official free ad-supported channels"},
+    {"suffix": ".zype.com", "evidence_url": "https://www.zype.com/", "reason": "Zype linear hosting for official free channels (e.g. DraftKings Network)"},
+    {"suffix": ".bozztv.com", "evidence_url": "https://www.bozztv.com/", "reason": "Playout hosting for free OTA/religious/community networks and stations (3ABN, TVS, WATC, theDove, VBS)"},
+    {"suffix": ".samsungtv.plus", "evidence_url": "https://www.samsung.com/us/tv-plus/", "reason": "Samsung TV Plus official linear delivery host"},
+    {"suffix": ".mediatailor.us-east-1.amazonaws.com", "evidence_url": "https://www.samsung.com/us/tv-plus/", "reason": "AWS MediaTailor SSAI linear playout distributions used by Samsung TV Plus"}
   ],
   "approved_channels": [
     {"id": "ACCDigitalNetwork.us", "hosts": ["raycom-accdn-firetv.amagi.tv"], "evidence_url": "https://tubitv.com/live/400000012/accdn", "category": "Sports"},
     {"id": "beINSPORTSXTRA.us", "hosts": ["bein-xtra-bein.amagi.tv"], "evidence_url": "https://www.beinsports.com/en-us/articles-video/watch-live-this-week-on-bein-sports-93", "category": "Sports"},
     {"id": "CBSSportsGolazoNetwork.us", "hosts": ["dai.google.com"], "evidence_url": "https://www.cbssports.com/watch/soccer/video/cbs-sports-golazo-network", "category": "Sports"},
+    {"id": "CheddarNews.us", "hosts": ["hls.livecdn.io"], "evidence_url": "https://cheddar.com/", "category": "News"},
     {"id": "FuboSportsNetwork.us", "hosts": ["dnf08l6u6uxnz.cloudfront.net"], "evidence_url": "https://www.fubosportsnetwork.com/", "category": "Sports"},
     {"id": "NBCSportsNOW.us", "hosts": ["d4whmvwm0rdvi.cloudfront.net"], "evidence_url": "https://www.nbcsports.com/now", "category": "Sports"},
     {"id": "Pac12Insider.us", "hosts": ["pac12-firetv.amagi.tv"], "evidence_url": "https://pac-12.com/article/2022/10/20/pac-12-networks-set-cover-mens-and-womens-basketball-never", "category": "Sports"},
     {"id": "SportsGrid.us", "hosts": ["sportsgrid-tribal.amagi.tv"], "evidence_url": "https://www.sportsgrid.com/where-to-watch", "category": "Sports"},
     {"id": "NBCNewsNOW.us", "hosts": ["d1si3n1st4nkgb.cloudfront.net"], "evidence_url": "https://www.nbcnews.com/now", "category": "News"},
     {"id": "TODAYAllDay.us", "hosts": ["d37kx062o4ii0p.cloudfront.net"], "evidence_url": "https://www.nbcnews.com/now", "category": "News"},
-    {"id": "Dateline247.us", "hosts": ["d1si3n1st4nkgb.cloudfront.net"], "evidence_url": "https://www.nbcnews.com/now", "category": "Documentary"}
+    {"id": "Dateline247.us", "hosts": ["d1si3n1st4nkgb.cloudfront.net"], "evidence_url": "https://www.nbcnews.com/now", "category": "Documentary"},
+    {"id": "Newsmax2.us", "hosts": ["amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv"], "evidence_url": "https://www.newsmaxtv.com/", "category": "News"},
+    {"id": "WeatherNation.us", "hosts": ["d2ferbiwcx1539.cloudfront.net", "dada973c.wurl.com"], "evidence_url": "https://www.weathernationtv.com/", "category": "Weather"},
+    {"id": "AmericasVoice.us", "hosts": ["d2jiqiw4g5lj5k.cloudfront.net", "wurlperformanceonemedia.global.transmit.live"], "evidence_url": "https://americasvoice.news/", "category": "News"},
+    {"id": "YahooFinance.us", "hosts": ["d1ewctnvcwvvvu.cloudfront.net"], "evidence_url": "https://finance.yahoo.com/", "category": "Business"},
+    {"id": "Localish.us", "hosts": ["dnmfq3sh1jipj.cloudfront.net"], "evidence_url": "https://localish.com/", "category": "Entertainment"},
+    {"id": "WomensSportsNetwork.us", "hosts": ["d39accvx65hq9o.cloudfront.net"], "evidence_url": "https://womenssports.com/", "category": "Sports"},
+    {"id": "MeritStreet.us", "hosts": ["d9069ugodwkju.cloudfront.net"], "evidence_url": "https://www.meritstreetmedia.com/", "category": "News"},
+    {"id": "BYUTV.us", "hosts": ["d13j8jpstr8iqz.cloudfront.net"], "evidence_url": "https://www.byutv.org/", "category": "Entertainment"},
+    {"id": "TED.us", "hosts": ["d1b16tvvxk3tnu.cloudfront.net"], "evidence_url": "https://www.ted.com/", "category": "Education"},
+    {"id": "ShoutFactoryTV.us", "hosts": ["d1s1wrpgemt9re.cloudfront.net"], "evidence_url": "https://shoutfactorytv.com/", "category": "Movies"},
+    {"id": "MysteryScienceTheater3000.us", "hosts": ["d1c73nj8qxp55a.cloudfront.net"], "evidence_url": "https://mst3k.com/", "category": "Entertainment"},
+    {"id": "UnsolvedMysteries.us", "hosts": ["d31z96rdrmwfsp.cloudfront.net"], "evidence_url": "https://unsolved.com/", "category": "Entertainment"},
+    {"id": "BloombergOriginals.us", "hosts": ["bloomberg.com"], "evidence_url": "https://www.bloomberg.com/live/us", "category": "Business"},
+    {"id": "BloombergTV.us", "hosts": ["bloomberg.com"], "evidence_url": "https://www.bloomberg.com/live/us", "category": "Business"},
+    {"id": "CBSNews.us", "hosts": ["jmp2.uk", "dai.google.com"], "evidence_url": "https://www.cbsnews.com/live/", "category": "News"},
+    {"id": "TheBobRossChannel.us", "hosts": ["jmp2.uk"], "evidence_url": "https://www.bobross.com/", "category": "Entertainment"},
+    {"id": "Baywatch.us", "hosts": ["jmp2.uk"], "evidence_url": "https://www.roku.com/", "category": "Entertainment"},
+    {"id": "TheHillTV.us", "hosts": ["jmp2.uk"], "evidence_url": "https://thehill.com/hilltv/", "category": "News"},
+    {"id": "TransformersTV.us", "hosts": ["jmp2.uk"], "evidence_url": "https://www.samsung.com/us/tv-plus/", "category": "Kids"},
+    {"id": "Vevo70s.us", "hosts": ["jmp2.uk"], "evidence_url": "https://www.vevo.com/", "category": "Music"},
+    {"id": "Vevo80s.us", "hosts": ["jmp2.uk"], "evidence_url": "https://www.vevo.com/", "category": "Music"},
+    {"id": "Vevo90s.us", "hosts": ["jmp2.uk"], "evidence_url": "https://www.vevo.com/", "category": "Music"},
+    {"id": "VevoCountry.us", "hosts": ["jmp2.uk"], "evidence_url": "https://www.vevo.com/", "category": "Music"}
+  ],
+  "excluded_hosts": [
+    "d368vp0qqzvkid.cloudfront.net",
+    "live.nowtelly.com",
+    "mdc.ott.alticeusa.net",
+    "lukentvlive.vgcdn.net",
+    "a-cdn.klowdtv.com",
+    "www.apsattv.com"
   ],
   "excluded_ids": [
     "ACCNetwork.us", "AMC.us", "CNN.us", "ESPN.us", "ESPN2.us", "ESPNDeportes.us",
     "ESPNews.us", "ESPNU.us", "FoxNewsChannel.us", "FoxSports1.us", "HBO.us",
     "NFLNetwork.us", "NBATV.us", "Showtime.us", "Starz.us", "USANetwork.us"
+  ],
+  "_rejected_hosts": [
+    {"host": "jmp2.uk resolves here first for some channels but the direct stitcher URL requires a short-lived JWT — store the jmp2.uk link instead"},
+    {"host": "lukentvlive.vgcdn.net", "reason": "No publisher evidence found for Retro TV/Rev'n/Heartland redistribution (2026-09-25 review)"},
+    {"host": "d368vp0qqzvkid.cloudfront.net", "reason": "Anonymous CloudFront distribution carrying NBC/Telemundo local feeds; no publisher evidence"},
+    {"host": "live.nowtelly.com", "reason": "Publisher of 'News of the World' channels not established"},
+    {"host": "mdc.ott.alticeusa.net", "reason": "Pay-TV operator (Altice) streaming stack"},
+    {"host": "a-cdn.klowdtv.com", "reason": "No publisher evidence reviewed for AWE/Cine Sony redistribution"},
+    {"host": "www.apsattv.com", "reason": "Playlist host returned HTTP 500 during 2026-09-25 review"}
   ]
 }
