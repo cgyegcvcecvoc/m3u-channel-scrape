@@ -13683,25 +13683,6 @@
     "url": "https://amg01515-amg01515c17-xumo-us-2489.playouts.now.amagi.tv/bamus-lovenaturespanish-roku/playlist.m3u8"
   },
   {
-    "approval": "host:jmp2.uk",
-    "base_id": "479fe0d11f3f5132a3f36b617547da3b",
-    "categories": [
-      "Documentary"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "Documentary",
-    "id": "479fe0d11f3f5132a3f36b617547da3b",
-    "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/479fe0d11f3f5132a3f36b617547da3b/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1738776545554_LoveNature_logos_HUB_Centered.png",
-    "name": "Love Nature English",
-    "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-479fe0d11f3f5132a3f36b617547da3b.m3u8"
-  },
-  {
     "approval": "source-pattern:^d[a-z0-9]+\\.cloudfront\\.net$",
     "base_id": "US300065DB",
     "categories": [

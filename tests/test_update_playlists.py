@@ -301,7 +301,7 @@ https://example.org/headers.m3u8
         self.assertEqual(channel["name"], "A&E Crime 360")
         self.assertNotEqual(channel["base_id"], "AE.us")
 
-    def test_dead_vevo_primary_streams_use_verified_us_pluto_feeds(self):
+    def test_dead_primary_streams_use_verified_official_alternates(self):
         policy = json.loads((u.ROOT / "config/policy.json").read_text())
         source = {"name": "iptv-org US", "url": "https://example.org/us.m3u"}
         cases = (
@@ -318,6 +318,15 @@ https://example.org/headers.m3u8
                     {"tvg-id": channel_id}, name, old_url, source, policy, False)
                 self.assertEqual(why, "accepted")
                 self.assertEqual(channel["url"], new_url)
+
+        # The Roku English feed is the same publisher-listed US service; use
+        # the current, segment-verified Pluto TV feed rather than its 404 slug.
+        channel, why = u.channel_from_entry(
+            {"tvg-id": "479fe0d11f3f5132a3f36b617547da3b"}, "Love Nature English",
+            "https://jmp2.uk/rok-479fe0d11f3f5132a3f36b617547da3b.m3u8",
+            source, policy, False, id_style="platform")
+        self.assertEqual(why, "accepted")
+        self.assertEqual(channel["url"], "https://jmp2.uk/plu-66df8a29b25d2b0008fc5fe0.m3u8")
 
     def test_build_outputs_and_idempotence(self):
         report = self.build()

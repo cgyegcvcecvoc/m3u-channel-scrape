@@ -89,6 +89,10 @@ DEAD_STREAM_REPLACEMENTS: dict[str, str] = {
     "https://amg00056-vevotv-vevo80saunz-samsungau-rp5e3.amagi.tv/playlist/amg00056-vevotv-vevo80saunz-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5fd7b8bf927e090007685853.m3u8",
     "https://amg00056-vevotv-vevo90saunz-samsungau-n6a0d.amagi.tv/playlist/amg00056-vevotv-vevo90saunz-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5fd7bb1f86d94a000796e2c2.m3u8",
     "https://amg00056-vevotv-vevocountryau-samsungau-ktmqm.amagi.tv/playlist/amg00056-vevotv-vevocountryau-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5da0d75e84830900098a1ea0.m3u8",
+    # Love Nature English Roku slug is dead; the publisher's channel finder
+    # lists both Roku English and Pluto TV US distributors, and the latter's
+    # current feed verifies as segment_ok (https://lovenature.com/channel-finder/).
+    "https://jmp2.uk/rok-479fe0d11f3f5132a3f36b617547da3b.m3u8": "https://jmp2.uk/plu-66df8a29b25d2b0008fc5fe0.m3u8",
     # The Hill TV (dead amagi dns failure -> working Samsung TV Plus embed)
     "https://amg01312-cw-amg01312c15-firetv-us-3444.playouts.now.amagi.tv/playlist.m3u8": "https://jmp2.uk/stvp-US3300008FX",
     # Transformers TV (dead Pluto slug 404 -> working Samsung TV Plus embed)

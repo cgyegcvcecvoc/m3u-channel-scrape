@@ -1,6 +1,6 @@
 {
   "counts": {
-    "usa-all.m3u": 1410,
+    "usa-all.m3u": 1409,
     "usa-backups.m3u": 271,
     "usa-business.m3u": 10,
     "usa-entertainment.m3u": 458,
@@ -22,11 +22,11 @@
     "https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz",
     "https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz"
   ],
-  "generated_utc": "2026-09-26T01:39:41Z",
+  "generated_utc": "2026-09-26T01:46:39Z",
   "skipped": {
     "custom_headers": 10,
     "dead_stream": 8,
-    "duplicate": 215,
+    "duplicate": 216,
     "duplicate_name": 282,
     "excluded_pay_tv": 15,
     "not_direct_https_hls": 165,
