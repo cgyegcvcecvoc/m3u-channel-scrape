@@ -37,8 +37,6 @@ https://jmp2.uk/plu-5cf968040ab7d8f181e6a68b.m3u8
 https://jmp2.uk/plu-5d8d180092e97a5e107638d3.m3u8
 #EXTINF:-1 tvg-id="USAJ30000148W" tvg-name="CINEVAULT" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ30000148W_20260421T133423SQUARE.png" group-title="Movies",CINEVAULT
 https://pb-tmhy2xdbzw347.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-tmhy2xdbzw347/out/v1/48ea2b021fab4636a72509f5d465c695/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USAJ30000148W&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-tmhy2xdbzw347_akamai
-#EXTINF:-1 tvg-id="Cinevault80s.us" tvg-name="Cinevault 80s" tvg-logo="https://i.imgur.com/xaCyyDd.png" group-title="Movies",Cinevault 80s
-https://aegis-cloudfront-1.tubi.video/ea1ab5d1-f554-4f6b-b03f-2611fcd94257/playlist.m3u8
 #EXTINF:-1 tvg-id="USBB3200015M8" tvg-name="CINEVAULT: Classics" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3200015M8_20260421T133902SQUARE.png" group-title="Movies",CINEVAULT: Classics
 https://pb-iegcojxwhgbsz.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-iegcojxwhgbsz/out/v1/0e69660ca1234222a6416f87bd737c62/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBB3200015M8&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-iegcojxwhgbsz_akamai
 #EXTINF:-1 tvg-id="ClassicCinema.us" tvg-name="Classic Cinema [Not 24/7]" tvg-logo="https://i.imgur.com/FJoPnTb.png" group-title="Movies",Classic Cinema [Not 24/7]
@@ -55,8 +53,6 @@ https://aegis-cloudfront-1.tubi.video/a0ad4b53-ab3a-48dd-be12-bc7f533c372c/playl
 https://rpn.bozztv.com/ebstv/ebscinema/index.m3u8
 #EXTINF:-1 tvg-id="691d1200c2185a44642f5e7c" tvg-name="El Rey Rebel" tvg-logo="https://images.pluto.tv/channels/691d1200c2185a44642f5e7c/colorLogoPNG_1764783865457.png" group-title="Movies",El Rey Rebel
 https://jmp2.uk/plu-691d1200c2185a44642f5e7c.m3u8
-#EXTINF:-1 tvg-id="FilmRiseForensicFiles.us" tvg-name="FilmRise Forensic Files [Geo-blocked]" tvg-logo="https://i.imgur.com/8j2npVc.png" group-title="Movies",FilmRise Forensic Files [Geo-blocked]
-https://pb-x9qsxrudiq9d2.akamaized.net/webvtt/v1/18584c3f3a2a4df8/88886014/master.m3u8
 #EXTINF:-1 tvg-id="6a0629e467b5502c906136dadac290a0" tvg-name="FilmRise Horror" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/6a0629e467b5502c906136dadac290a0/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1774448513257_RokuChannel_FilmRiseHorror_HUD_Logo_260x147.png" group-title="Movies",FilmRise Horror
 https://jmp2.uk/rok-6a0629e467b5502c906136dadac290a0.m3u8
 #EXTINF:-1 tvg-id="FlicksofFury.us" tvg-name="Flicks of Fury" tvg-logo="https://i.imgur.com/rtL5L81.png" group-title="Movies",Flicks of Fury
@@ -99,6 +95,8 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionmystery-ta
 https://pb-pm85ihig4mmr8.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-pm85ihig4mmr8/MyTime_Movie_Network.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBC3900018K6&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-pm85ihig4mmr8_akamai
 #EXTINF:-1 tvg-id="MyTimeMovieNetworkEast.us" tvg-name="MyTime Movie Network East" tvg-logo="https://i.imgur.com/HYgxPVQ.png" group-title="Movies",MyTime Movie Network East
 https://appletree-mytimeau-samsung.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="US8000024G" tvg-name="OUTflix Movies" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US8000024G_20260915T035051SQUARE.png" group-title="Movies",OUTflix Movies
+https://dg37ei3o66x3s.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zzkya1ovwe2jb/OutTV_US.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US8000024G
 #EXTINF:-1 tvg-id="ParamountMovieChannel.us" tvg-name="Paramount Movie Channel" tvg-logo="https://i.imgur.com/sj5h9bl.png" group-title="Movies",Paramount Movie Channel
 https://jmp2.uk/plu-5cb0cae7a461406ffe3f5213.m3u8
 #EXTINF:-1 tvg-id="ParamountPlusPicks.us" tvg-name="Paramount+ Picks" tvg-logo="https://images.pluto.tv/channels/5ff8c708653d080007361b14/featuredImage.jpg" group-title="Movies",Paramount+ Picks
@@ -149,6 +147,8 @@ https://jmp2.uk/plu-634f307c7a068e00072c9982.m3u8
 https://jmp2.uk/plu-6086d3f420fc8500075f8dbf.m3u8
 #EXTINF:-1 tvg-id="349e0f0840cf21b888bff327b41a2413" tvg-name="Scares by Shudder" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/349e0f0840cf21b888bff327b41a2413/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1734485619426_SHUD_FastChanel_Roku_Image_HUD2BillWatts_.png" group-title="Movies",Scares by Shudder
 https://jmp2.uk/rok-349e0f0840cf21b888bff327b41a2413.m3u8
+#EXTINF:-1 tvg-id="ShoutFactoryTV.us" tvg-name="Shout! Factory TV" tvg-logo="https://i.imgur.com/AgoGr6y.png" group-title="Movies",Shout! Factory TV
+https://d1s1wrpgemt9re.cloudfront.net/Shout_TV.m3u8
 #EXTINF:-1 tvg-id="StarTrekDeepSpaceNine.us" tvg-name="Star Trek: Deep Space Nine" tvg-logo="https://images.pluto.tv/channels/65c69bbfd77d450008c7ffee/colorLogoPNG_1758310416057.png" group-title="Movies",Star Trek: Deep Space Nine
 https://jmp2.uk/plu-65c69bbfd77d450008c7ffee.m3u8
 #EXTINF:-1 tvg-id="6675c88da1d7ad00084762cb" tvg-name="Star Trek: The Motion Pictures" tvg-logo="https://images.pluto.tv/channels/6675c88da1d7ad00084762cb/colorLogoPNG.png" group-title="Movies",Star Trek: The Motion Pictures
@@ -165,8 +165,6 @@ https://jmp2.uk/plu-664e640a0120f40008be4582.m3u8
 https://jmp2.uk/plu-5d40bebc5e3d2750a2239d7e.m3u8
 #EXTINF:-1 tvg-id="TVSDriveInMovie.us" tvg-name="TVS Drive In Movie" tvg-logo="https://i.imgur.com/OR9APjb.png" group-title="Movies",TVS Drive In Movie
 https://rpn.bozztv.com/gusa/gusa-tvsdriveinmovie/index.m3u8
-#EXTINF:-1 tvg-id="TVSFilmNoirNetwork.us" tvg-name="TVS Film Noir Network" tvg-logo="https://i.imgur.com/A4yWhQw.png" group-title="Movies",TVS Film Noir Network
-https://rpn.bozztv.com/trn01/gusa-TVSFilmNoir/index.m3u8
 #EXTINF:-1 tvg-id="USBB3200030CG" tvg-name="Universal Movies" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3200030CG_20260421T133614SQUARE.png" group-title="Movies",Universal Movies
 https://pb-vj6bcd6ep17fb.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-vj6bcd6ep17fb/out/v1/6a52628234304df88f7132d0c589c011/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBB3200030CG&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-vj6bcd6ep17fb_akamai
 #EXTINF:-1 tvg-id="WatchitScream.us" tvg-name="Watch it Scream!" tvg-logo="https://i.imgur.com/bz3Caum.png" group-title="Movies",Watch it Scream!

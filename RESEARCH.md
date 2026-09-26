@@ -114,3 +114,27 @@ about rights or your location.
   (`JWT verification fails` without a token), which is why direct
   `*.prd.pluto.tv` links found in older playlists are dead and the jmp2
   embed path is used instead.
+
+## 2026-09-26 Catalog Audit & Expansion
+
+### Dead Stream Replacements & Cleanup
+- Audited all 39 previously unavailable/dead catalog streams.
+- Replaced stale and 404 endpoints with working, verified FAST and broadcast HLS manifests:
+  - **CBS News 24/7 & Local Affiliates:** Legacy `cbsnstream.cbsnews.com` endpoints were discontinued; replaced with official CBS News 24/7 feeds and CBS affiliate live manifests (Pluto TV US embed manifests).
+  - **ABC News Live:** Updated from dead raw Akamai link to active ABC News Live feed.
+  - **Baywatch Channel:** Stale URL replaced with active Fremantle Baywatch FAST feed (`jmp2.uk/stvp-baywatch`).
+  - **Bob Ross Channel:** Replaced stale Akamai feed with official Cinedigm/Bob Ross FAST feed (`jmp2.uk/rok-the-bob-ross-channel`).
+  - **Vevo Music Channels:** Replaced expired Akamai CDN links (Vevo 70s, 80s, Country, etc.) with active Vevo FAST feeds.
+  - **Canela TV & Regional Public Feeds:** Pointed to active broadcaster manifests (e.g. Wilmington WITN22 Cablecast HLS stream).
+- Removed definitively discontinued streams without legal replacements (e.g., closed municipal feeds) via `DEFUNCT_STREAMS`.
+
+### Host Policy & FAST Expansion
+- **CloudFront MediaTailor Pattern (`^d[a-z0-9]+\.cloudfront\.net$`):** Added to `config/policy.json` to permit Samsung TV Plus Dynamic Ad Insertion (DAI) feeds resolved from official `jmp2.uk/stvp-…` redirects. This unlocked 130+ free channels previously discarded by the policy filter.
+- **Approved Broadcaster Suffixes & Hosts:** Added `.linear-origin.flywheelsports.com`, `.imggaming.com`, `.akamaized.net` (subject to channel review) and specific ID+host pairings for Stingray Music channels, AFV, Buzzr, Family Feud, getTV, Circle Country, ION Mystery, Scripps News, and UEFA Champions League.
+- Catalog expanded from 1,059 to 1,456 reviewed channels across News, Sports, Local, Movies, Entertainment, Music, Kids, and Spanish categories.
+
+### Backup Streams (`usa-backups.m3u`)
+- Implemented multi-feed deduplication capturing up to 2 working alternate feeds per channel.
+- Generated `generated/playlists/usa-backups.m3u` containing 310 alternate streams.
+- Formatted backups with `group-title="Backups"` and `[Backup]` / `[Backup 2]` channel name labels so they display cleanly in a dedicated category in IPTV players without duplicating listings in primary genre playlists.
+

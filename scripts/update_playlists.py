@@ -42,11 +42,12 @@ PARTNER_QUERY = {"deviceid", "devicemodel", "deviceversion", "devicetype", "devi
                  "advertisingid", "embedpartner", "appname", "appversion"}
 CATEGORIES = ("Sports", "News", "Movies", "Entertainment", "Kids", "Music",
               "Documentary", "Education", "Legislative", "Weather", "Business",
-              "Spanish", "General")
+              "Spanish", "General", "Backups")
 # FAST platforms ship free-form group titles ("News + Opinion", "Sports &
 # Outdoors", "En Español"...). Map them onto the categories above; exact
 # category names always pass through unchanged.
 GROUP_RULES = (
+    (("backup", "backups", "alternate"), "Backups"),
     (("sport", "motorsport"), "Sports"),
     (("news",), "News"),
     (("movie", "film"), "Movies"),
@@ -62,6 +63,72 @@ GROUP_RULES = (
     (("entertain", "comedy", "drama", "reality", "classic", "lifestyle", "game",
       "daytime", "home", "food", "cook", "crime", "reality tv", "tv &"), "Entertainment"),
 )
+
+# Known dead / 404 / DNS-failed streams mapped directly to verified working live feeds
+DEAD_STREAM_REPLACEMENTS: dict[str, str] = {
+    # CBS News national and regional feeds (old akamaized / cbsnstream 404 -> working Pluto TV feeds)
+    "https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8": "https://jmp2.uk/plu-5a6b92f6e22a617379789618.m3u8",
+    "https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/master.m3u8": "https://jmp2.uk/plu-5eb1afb21486df0007abc57c.m3u8",
+    "https://cbsn-bos.cbsnstream.cbsnews.com/out/v1/589d66ec6eb8434c96c28de0370d1326/master.m3u8": "https://jmp2.uk/plu-5eb1af2ad345340008fccd1e.m3u8",
+    "https://cbsn-chi.cbsnstream.cbsnews.com/out/v1/b2fc0d5715d54908adf07f97d2616646/master.m3u8": "https://jmp2.uk/plu-5eb1aeb2fd4b8a00076c2047.m3u8",
+    "https://cbsn-den.cbsnstream.cbsnews.com/out/v1/2e49baf2906244ecb01b07d9885fbe7a/master.m3u8": "https://jmp2.uk/plu-5eb1b12146cba40007aa7e5d.m3u8",
+    "https://cbsn-det.cbsnstream.cbsnews.com/out/v1/169f5c001bc74fa7a179b19c20fea069/master.m3u8": "https://jmp2.uk/plu-634f2610d5023700078f7dee.m3u8",
+    "https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8": "https://jmp2.uk/plu-5dc481cda1d430000948a1b4.m3u8",
+    "https://cbsn-min.cbsnstream.cbsnews.com/out/v1/76518f06941246ba810c8d175600bf74/master.m3u8": "https://jmp2.uk/plu-5eb1b0bf2240d8000732a09c.m3u8",
+    "https://cbsn-ny.cbsnstream.cbsnews.com/out/v1/ec3897d58a9b45129a77d67aa247d136/master.m3u8": "https://jmp2.uk/plu-5dc48170e280c80009a861ab.m3u8",
+    "https://cbsn-phi.cbsnstream.cbsnews.com/out/v1/5c9ad3e215984b0e9ad845b335216b72/master.m3u8": "https://jmp2.uk/plu-5eb1b03cd345340008fccd28.m3u8",
+    "https://cbsn-pit.cbsnstream.cbsnews.com/out/v1/6966dabf8150405ab26f854e3cd6a2b8/master.m3u8": "https://jmp2.uk/plu-5eb1b199042b3100076fe931.m3u8",
+    # The Bob Ross Channel (dead tubi.video 404 -> working Pluto TV embed)
+    "https://aegis-cloudfront-1.tubi.video/45301c94-0d40-4cbb-b342-f5dc7949d76c/playlist.m3u8": "https://jmp2.uk/plu-5f36d726234ce10007784f2a.m3u8",
+    # Baywatch (dead AU amagi dns failure -> working Roku Channel embed)
+    "https://amg00145-fremantlemedian-baywatch-samsungau-gtsd6.amagi.tv/playlist/amg00145-fremantlemedian-baywatch-samsungau/playlist.m3u8": "https://jmp2.uk/rok-ab47c5037be851e6a929a4d09daafeac.m3u8",
+    # Vevo channels (dead AU / stale regional CDNs -> verified US Pluto TV feeds)
+    "https://d1s6jz7jeei17.cloudfront.net/playlist/amg00056-vevotv-vevo2kau-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5fd7bca3e0a4ee0007a38e8c.m3u8",
+    "https://d128y56w6v2kax.cloudfront.net/playlist/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5d93b635b43dd1a399b39eee.m3u8",
+    "https://amg00056-vevotv-vevo70saunz-samsungau-xzszd.amagi.tv/playlist/amg00056-vevotv-vevo70saunz-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5f32f26bcd8aea00071240e5.m3u8",
+    "https://amg00056-vevotv-vevo80saunz-samsungau-rp5e3.amagi.tv/playlist/amg00056-vevotv-vevo80saunz-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5fd7b8bf927e090007685853.m3u8",
+    "https://amg00056-vevotv-vevo90saunz-samsungau-n6a0d.amagi.tv/playlist/amg00056-vevotv-vevo90saunz-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5fd7bb1f86d94a000796e2c2.m3u8",
+    "https://amg00056-vevotv-vevocountryau-samsungau-ktmqm.amagi.tv/playlist/amg00056-vevotv-vevocountryau-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5da0d75e84830900098a1ea0.m3u8",
+    # Love Nature English Roku slug is dead; the publisher's channel finder
+    # lists both Roku English and Pluto TV US distributors, and the latter's
+    # current feed verifies as segment_ok (https://lovenature.com/channel-finder/).
+    "https://jmp2.uk/rok-479fe0d11f3f5132a3f36b617547da3b.m3u8": "https://jmp2.uk/plu-66df8a29b25d2b0008fc5fe0.m3u8",
+    # The Hill TV (dead amagi dns failure -> working Samsung TV Plus embed)
+    "https://amg01312-cw-amg01312c15-firetv-us-3444.playouts.now.amagi.tv/playlist.m3u8": "https://jmp2.uk/stvp-US3300008FX",
+    # Transformers TV (dead Pluto slug 404 -> working Samsung TV Plus embed)
+    "https://jmp2.uk/plu-60fb053712f22a0007ff14d2.m3u8": "https://jmp2.uk/stvp-US29000168D",
+    # ABC News Live obsolete regional feeds (404 -> working Pluto TV ABC News Live)
+    "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023562/abcnewshudson3/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023563/abcnewshudson4/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023564/abcnewshudson5/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023565/abcnewshudson6/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023567/abcnewshudson8/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023568/abcnewshudson9/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    "https://abcnews-streams.akamaized.net/hls/live/2023569/abcnewshudson10/master.m3u8": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8",
+    # AMC en Español (dead wurl -> working Samsung TV Plus embed)
+    "https://amc-amcespanol-1-us.lg.wurl.tv/playlist.m3u8": "https://jmp2.uk/stvp-USBA300020W4",
+    # Ninja Kidz TV (dead roku 404 -> working cloudfront CDN stream)
+    "https://jmp2.uk/rok-9dd23031622757d1944e4782b2a192ef.m3u8": "https://d3868b4ny0rgdf.cloudfront.net/playlist.m3u8",
+    # Cinevault 80s (dead tubi 404 -> working Wurl / GSN linear stream)
+    "https://aegis-cloudfront-1.tubi.video/ea1ab5d1-f554-4f6b-b03f-2611fcd94257/playlist.m3u8": "https://wurlgameshownetwork.global.transmit.live/hls/68d16f229e868efab9c34b16/v1/gsn_cinevault_80s_1/lg_us/latest/main/hls/playlist.m3u8",
+    # Canela TV (dead cloudfront -> working Samsung TV Plus embed)
+    "https://d3cx6yargdnl7q.cloudfront.net/canelatv.m3u8": "https://jmp2.uk/stvp-USBC39000080S",
+}
+
+# Defunct publisher endpoints with no viable replacement stream
+DEFUNCT_STREAMS: set[str] = {
+    "https://30a-tv.com/ln.m3u8",
+    "https://30a-tv.com/loomer.m3u8",
+    "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8",
+    "https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8",
+    "https://fast-channels.sinclairstoryline.com/TBD/index.m3u8",
+    "https://rpn.bozztv.com/trn01/gusa-TVSFilmNoir/index.m3u8",
+    "https://dai.google.com/linear/hls/event/HZ3JdLVcQ463l3b1BLXmmQ/master.m3u8",
+    "https://d3svnrf3rmq619.cloudfront.net/krgv-live/smil:krgv-somos.smil/playlist.m3u8",
+}
 
 
 def canonical_group(raw: str) -> str:
@@ -195,7 +262,18 @@ def download_source(source: dict) -> bytes:
             raise RuntimeError(f"{source['name']}: primary: {first}; fallback: {second}") from second
 
 
-def approval(channel_id: str, host: str, policy: dict) -> tuple[str, str] | None:
+def approval(channel_id: str, host: str, policy: dict, *, source: dict | None = None,
+             redirect_source_url: str = "") -> tuple[str, str] | None:
+    """Approve a publisher host, or a narrow ID+host/source+redirect combination.
+
+    CloudFront, Akamai `pb-*`, Samsung TV Plus, and AWS MediaTailor are shared
+    delivery infrastructure, not evidence of distribution rights on their own.
+    Rules for those hosts therefore require the entry to come from the reviewed
+    Samsung TV Plus US feed and its stable jmp2.uk `/stvp-` redirect, unless a
+    separate exact channel-ID+host rule exists.
+    """
+    if host in policy.get("excluded_hosts", ()):
+        return None
     for rule in policy["allowed_hosts"]:
         if host == rule["host"]:
             return ("host:" + host, rule["evidence_url"])
@@ -208,6 +286,19 @@ def approval(channel_id: str, host: str, policy: dict) -> tuple[str, str] | None
     for rule in policy["approved_channels"]:
         if channel_id.casefold() == rule["id"].casefold() and host in rule["hosts"]:
             return ("id+host:" + rule["id"], rule["evidence_url"])
+    if source and source.get("resolve_redirects") and redirect_source_url:
+        origin = urlsplit(redirect_source_url)
+        for rule in policy.get("allowed_source_host_patterns", ()):
+            if source.get("name") != rule["source_name"]:
+                continue
+            if origin.hostname != rule["redirect_host"]:
+                continue
+            if not origin.path.startswith(rule["redirect_path_prefix"]):
+                continue
+            if "pattern" in rule and re.fullmatch(rule["pattern"], host):
+                return ("source-pattern:" + rule["pattern"], rule["evidence_url"])
+            if host in rule.get("hosts", ()):
+                return ("source-host:" + host, rule["evidence_url"])
     return None
 
 
@@ -234,17 +325,25 @@ def channel_from_entry(attrs: dict, raw_name: str, url: str, source: dict, polic
         return None, "not_us_or_no_id"
     if channel_id.casefold() in {x.casefold() for x in policy["excluded_ids"]}:
         return None, "excluded_pay_tv"
+    redirect_source_url = ""
     if redirect_cache is not None:
         # Sources flagged resolve_redirects publish redirector URLs (e.g.
         # jmp2.uk/stvp-...) that are only usable after one-time resolution;
-        # an unresolved entry is skipped rather than shipped broken.
+        # retain the original URL so shared CDN hosts can be allowed only for
+        # this reviewed source and redirect path.
+        redirect_source_url = url
         url = redirect_cache.get(url, "")
         if not url:
             return None, "redirect_unresolved"
+    if url in DEAD_STREAM_REPLACEMENTS:
+        url = DEAD_STREAM_REPLACEMENTS[url]
+    if url in DEFUNCT_STREAMS:
+        return None, "dead_stream"
     if not valid_url(url, stream=True):
         return None, "not_direct_https_hls"
     host = urlsplit(url).hostname or ""
-    approved = approval(channel_id, host, policy)
+    approved = approval(channel_id, host, policy, source=source,
+                         redirect_source_url=redirect_source_url)
     if not approved:
         return None, "unreviewed_host"
     name = cleaned(raw_name)
@@ -371,21 +470,46 @@ def build(*, sources_path: Path = ROOT / "config/sources.json",
                                "candidates": len(entries), "approved_candidates": accepted})
     # Prefer earlier (US-specific) sources; one stream/EPG ID, one URL, one
     # listing per channel name (FAST platforms repeat the same channel names).
+    # Alternate working streams are captured and formatted as backups with
+    # category "Backups" for seamless M3U player grouping.
     by_id = {}
+    by_name = {}
     seen_urls = set()
-    seen_names = set()
+    backups = []
+    backup_counts = Counter()
+
     for c in candidates:
         name_key = " ".join(c["name"].casefold().split())
-        if c["id"].casefold() in by_id or c["url"] in seen_urls:
+        url = c["url"]
+        cid = c["id"].casefold()
+
+        if url in seen_urls:
             skipped["duplicate"] += 1
             continue
-        if name_key in seen_names:
-            skipped["duplicate_name"] += 1
+
+        if cid in by_id or name_key in by_name:
+            primary = by_id.get(cid) or by_name.get(name_key)
+            if primary and backup_counts[primary["id"]] < 2 and url != primary["url"]:
+                backup_counts[primary["id"]] += 1
+                b_num = backup_counts[primary["id"]]
+                b_suffix = " [Backup]" if b_num == 1 else f" [Backup {b_num}]"
+                backup_item = dict(c)
+                backup_item["name"] = f"{primary['name']}{b_suffix}"
+                backup_item["group"] = "Backups"
+                backup_item["categories"] = ["Backups"]
+                backup_item["is_backup"] = True
+                backup_item["backup_of"] = primary["id"]
+                backups.append(backup_item)
+                seen_urls.add(url)
+            skipped["duplicate_name" if name_key in by_name else "duplicate"] += 1
             continue
-        by_id[c["id"].casefold()] = c
-        seen_urls.add(c["url"])
-        seen_names.add(name_key)
+
+        by_id[cid] = c
+        by_name[name_key] = c
+        seen_urls.add(url)
+
     channels = sorted(by_id.values(), key=lambda c: (c["name"].casefold(), c["id"].casefold()))
+    backups = sorted(backups, key=lambda c: (c["name"].casefold(), c["id"].casefold()))
     if len(channels) < min_channels:
         raise RuntimeError(f"only {len(channels)} channels approved (minimum {min_channels}); previous files untouched")
     previous = {}
@@ -410,6 +534,7 @@ def build(*, sources_path: Path = ROOT / "config/sources.json",
         "usa-business.m3u": [c for c in channels if "Business" in c["categories"]],
         "usa-spanish.m3u": [c for c in channels if "Spanish" in c["categories"]],
         "usa-intermittent.m3u": [c for c in channels if c["not_24_7"]],
+        "usa-backups.m3u": backups,
     }
     guide_urls = [guide] + [g["url"] for g in epg["guides"] if g["url"] != guide]
     payloads = {"playlists/" + name: m3u(items, guide_urls) for name, items in files.items()}
@@ -446,7 +571,7 @@ def main() -> int:
     parser.add_argument("--out", type=Path, default=ROOT / "generated")
     parser.add_argument("--min-channels", type=int, default=50)
     parser.add_argument("--allow-shrink", action="store_true",
-                        help="allow a >40% decline after investigating upstream or policy changes")
+                        help="allow a decline greater than 40 percent after investigating upstream or policy changes")
     args = parser.parse_args()
     try:
         report = build(out=args.out, min_channels=args.min_channels, allow_shrink=args.allow_shrink)

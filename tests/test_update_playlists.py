@@ -238,6 +238,96 @@ https://example.org/headers.m3u8
         self.assertNotIn("Ch2.us", ids)
         self.assertGreaterEqual(manifest["skipped"]["unreviewed_host"], 1)
 
+    def test_samsung_shared_delivery_hosts_are_source_scoped(self):
+        policy = json.loads((u.ROOT / "config/policy.json").read_text())
+        sources = json.loads((u.ROOT / "config/sources.json").read_text())["sources"]
+        samsung = next(s for s in sources if s.get("resolve_redirects"))
+        original = "https://jmp2.uk/stvp-US123456"
+        hosts = (
+            "d123456789.cloudfront.net",
+            "a" * 32 + ".mediatailor.us-east-1.amazonaws.com",
+            "pb-abc123xyz.akamaized.net",
+            "sis-global.prod.samsungtv.plus",
+        )
+        for host in hosts:
+            with self.subTest(host=host):
+                resolved = f"https://{host}/live.m3u8"
+                channel, why = u.channel_from_entry(
+                    {"tvg-id": "US123456"}, "Samsung FAST Channel", original,
+                    samsung, policy, False, id_style="platform",
+                    redirect_cache={original: resolved})
+                self.assertEqual(why, "accepted")
+                self.assertTrue(channel["approval"].startswith(("source-pattern:", "source-host:")))
+                self.assertIsNone(u.approval("US123456", host, policy))
+
+        # Reviewed channel-ID+host exceptions remain usable but cannot be
+        # borrowed by an unrelated channel ID.
+        self.assertTrue(u.approval(
+            "FuboSportsNetwork.us", "dnf08l6u6uxnz.cloudfront.net", policy))
+        self.assertIsNone(u.approval(
+            "Unrelated.us", "dnf08l6u6uxnz.cloudfront.net", policy))
+        self.assertTrue(u.approval("BloombergTelevision.us", "bloomberg.com", policy))
+        self.assertIsNone(u.approval("Unrelated.us", "bloomberg.com", policy))
+
+        # A shared CDN hostname alone, a redirect from another platform, or a
+        # non-Samsung jmp2 path must not borrow Samsung's source approval.
+        resolved = "https://d123456789.cloudfront.net/live.m3u8"
+        other_source = {**samsung, "name": "Unreviewed source"}
+        for source, redirect in (
+            (samsung, "https://jmp2.uk/plu-US123456"),
+            (other_source, original),
+        ):
+            channel, why = u.channel_from_entry(
+                {"tvg-id": "US123456"}, "Unreviewed FAST Channel", redirect,
+                source, policy, False, id_style="platform",
+                redirect_cache={redirect: resolved})
+            self.assertIsNone(channel)
+            self.assertEqual(why, "unreviewed_host")
+
+    def test_full_ae_network_is_excluded_but_crime_360_is_distinct(self):
+        policy = json.loads((u.ROOT / "config/policy.json").read_text())
+        source = {"name": "Pluto TV", "url": "https://example.org/pluto.m3u"}
+        channel, why = u.channel_from_entry(
+            {"tvg-id": "AE.us"}, "A&E", "https://jmp2.uk/plu-ae.m3u8",
+            source, policy, False)
+        self.assertIsNone(channel)
+        self.assertEqual(why, "excluded_pay_tv")
+
+        channel, why = u.channel_from_entry(
+            {"tvg-id": "6000a5a9e767980007b497ca"}, "A&E Crime 360",
+            "https://jmp2.uk/plu-6000a5a9e767980007b497ca.m3u8",
+            source, policy, False, id_style="platform")
+        self.assertEqual(why, "accepted")
+        self.assertEqual(channel["name"], "A&E Crime 360")
+        self.assertNotEqual(channel["base_id"], "AE.us")
+
+    def test_dead_primary_streams_use_verified_official_alternates(self):
+        policy = json.loads((u.ROOT / "config/policy.json").read_text())
+        source = {"name": "iptv-org US", "url": "https://example.org/us.m3u"}
+        cases = (
+            ("Vevo2K.us", "Vevo 2K",
+             "https://d1s6jz7jeei17.cloudfront.net/playlist/amg00056-vevotv-vevo2kau-samsungau/playlist.m3u8",
+             "https://jmp2.uk/plu-5fd7bca3e0a4ee0007a38e8c.m3u8"),
+            ("VevoPop.us", "Vevo Pop",
+             "https://d128y56w6v2kax.cloudfront.net/playlist/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8",
+             "https://jmp2.uk/plu-5d93b635b43dd1a399b39eee.m3u8"),
+        )
+        for channel_id, name, old_url, new_url in cases:
+            with self.subTest(name=name):
+                channel, why = u.channel_from_entry(
+                    {"tvg-id": channel_id}, name, old_url, source, policy, False)
+                self.assertEqual(why, "accepted")
+                self.assertEqual(channel["url"], new_url)
+
+        # The Roku English feed is the same publisher-listed US service; use
+        # the current, segment-verified Pluto TV feed rather than its 404 slug.
+        channel, why = u.channel_from_entry(
+            {"tvg-id": "479fe0d11f3f5132a3f36b617547da3b"}, "Love Nature English",
+            "https://jmp2.uk/rok-479fe0d11f3f5132a3f36b617547da3b.m3u8",
+            source, policy, False, id_style="platform")
+        self.assertEqual(why, "accepted")
+        self.assertEqual(channel["url"], "https://jmp2.uk/plu-66df8a29b25d2b0008fc5fe0.m3u8")
+
     def test_build_outputs_and_idempotence(self):
         report = self.build()
         self.assertEqual(report["counts"]["usa-all.m3u"], 2)
