@@ -1,14 +1,13 @@
 {
-  "_note": "Candidate playlists are NOT proof of distribution rights. Publish only HTTPS HLS streams from these reviewed publisher/FAST/public-access hosts or the ID+host approvals below. Review each new host manually. Do not add pay-TV restreams, authentication workarounds, or proxy mirrors. Suffix rules cover B2B FAST playout platforms (Amagi, Wurl, Publica, Zype, bozztv) whose channel lineups are published by broadcasters/platforms as free ad-supported streams.",
+  "_note": "Candidate playlists are NOT proof of distribution rights. Publish only HTTPS HLS streams from these reviewed publisher/FAST/public-access hosts or the ID+host approvals below. Review each new host manually. Shared Samsung delivery CDNs are source-scoped to the Samsung TV Plus US feed and resolved jmp2.uk /stvp- URLs; do not add pay-TV restreams, authentication workarounds, or proxy mirrors. Suffix rules cover reviewed B2B FAST playout platforms (Amagi, Wurl, Publica, Zype, bozztv) used for free ad-supported channels.",
+
   "allowed_hosts": [
     {"host": "30a-tv.com", "evidence_url": "https://30a-tv.com/m3u8-channels/", "reason": "Publisher's free channel page"},
     {"host": "247wlive.foxweather.com", "evidence_url": "https://www.foxweather.com/watch-live", "reason": "FOX Weather's own free live HLS endpoint"},
     {"host": "abcnews-streams.akamaized.net", "evidence_url": "https://abcnews.go.com/Live", "reason": "ABC's free news stream"},
     {"host": "aegis-cloudfront-1.tubi.video", "evidence_url": "https://tubitv.com/live", "reason": "Free ad-supported Tubi distribution"},
-    {"host": "bloomberg.com", "evidence_url": "https://www.bloomberg.com/live/us", "reason": "Bloomberg official free linear stream manifests"},
     {"host": "cbsnews.akamaized.net", "evidence_url": "https://www.cbsnews.com/live/", "reason": "CBS News free live service"},
     {"host": "content.uplynk.com", "evidence_url": "https://www.courttv.com/", "reason": "Official free channel and local-station distributions via the Uplynk CDN (Court TV, America's Voice, Newsy, Telemundo locals)"},
-    {"host": "dai.google.com", "evidence_url": "https://www.samsung.com/us/tv-plus/", "reason": "Official Google DAI SSAI delivery for broadcaster channels on FAST platforms (Samsung TV Plus, CBS News 24/7, ET, CBS Sports Golazo)"},
     {"host": "edge-f.swagit.com", "evidence_url": "https://www.swagit.com/", "reason": "Public meetings/community access distribution"},
     {"host": "fast-channels.sinclairstoryline.com", "evidence_url": "https://comettv.com/", "reason": "Sinclair's free over-the-air/FAST channels"},
     {"host": "jmp2.uk", "evidence_url": "https://github.com/iptv-org/community/issues/1492", "reason": "Community-documented redirector that resolves to official Pluto TV / Roku / Samsung TV Plus embed manifests; used by iptv-org contributors and FAST playlist generators"},
@@ -24,10 +23,7 @@
     {"host": "video.oct.dc.gov", "evidence_url": "https://oct.dc.gov/", "reason": "District of Columbia public meetings"},
     {"host": "voa-ingest.akamaized.net", "evidence_url": "https://www.voanews.com/", "reason": "Voice of America public news streams"}
   ],
-  "allowed_host_patterns": [
-    {"pattern": "^pb-[a-z0-9]+\\.akamaized\\.net$", "evidence_url": "https://www.samsung.com/us/tv-plus/", "reason": "Samsung TV Plus SSAI delivery endpoints observed as the final hop of the documented stvp jmp2.uk redirects (each hostname embeds a channel service ID)"},
-    {"pattern": "^d[a-z0-9]+\\.cloudfront\\.net$", "evidence_url": "https://www.samsung.com/us/tv-plus/", "reason": "AWS CloudFront MediaTailor linear playout distributions used by Samsung TV Plus and reviewed FAST broadcasters"}
-  ],
+  "allowed_host_patterns": [],
   "allowed_host_suffixes": [
     {"suffix": ".cablecast.tv", "evidence_url": "https://www.cablecast.tv/", "reason": "Community/government access distribution; check each broadcaster"},
     {"suffix": ".cbsnstream.cbsnews.com", "evidence_url": "https://www.cbsnews.com/live/", "reason": "CBS News local free live channels"},
@@ -36,9 +32,7 @@
     {"suffix": ".wurl.com", "evidence_url": "https://www.wurl.com/", "reason": "Wurl FAST distribution of broadcaster/brand linear channels"},
     {"suffix": ".getpublica.com", "evidence_url": "https://www.publica.com/", "reason": "Publica CTV/FAST platform hosting official free ad-supported channels"},
     {"suffix": ".zype.com", "evidence_url": "https://www.zype.com/", "reason": "Zype linear hosting for official free channels (e.g. DraftKings Network)"},
-    {"suffix": ".bozztv.com", "evidence_url": "https://www.bozztv.com/", "reason": "Playout hosting for free OTA/religious/community networks and stations (3ABN, TVS, WATC, theDove, VBS)"},
-    {"suffix": ".samsungtv.plus", "evidence_url": "https://www.samsung.com/us/tv-plus/", "reason": "Samsung TV Plus official linear delivery host"},
-    {"suffix": ".mediatailor.us-east-1.amazonaws.com", "evidence_url": "https://www.samsung.com/us/tv-plus/", "reason": "AWS MediaTailor SSAI linear playout distributions used by Samsung TV Plus"}
+    {"suffix": ".bozztv.com", "evidence_url": "https://www.bozztv.com/", "reason": "Playout hosting for free OTA/religious/community networks and stations (3ABN, TVS, WATC, theDove, VBS)"}
   ],
   "approved_channels": [
     {"id": "ACCDigitalNetwork.us", "hosts": ["raycom-accdn-firetv.amagi.tv"], "evidence_url": "https://tubitv.com/live/400000012/accdn", "category": "Sports"},
@@ -65,6 +59,7 @@
     {"id": "MysteryScienceTheater3000.us", "hosts": ["d1c73nj8qxp55a.cloudfront.net"], "evidence_url": "https://mst3k.com/", "category": "Entertainment"},
     {"id": "UnsolvedMysteries.us", "hosts": ["d31z96rdrmwfsp.cloudfront.net"], "evidence_url": "https://unsolved.com/", "category": "Entertainment"},
     {"id": "BloombergOriginals.us", "hosts": ["bloomberg.com"], "evidence_url": "https://www.bloomberg.com/live/us", "category": "Business"},
+    {"id": "BloombergTelevision.us", "hosts": ["bloomberg.com"], "evidence_url": "https://www.bloomberg.com/live/us", "category": "Business"},
     {"id": "BloombergTV.us", "hosts": ["bloomberg.com"], "evidence_url": "https://www.bloomberg.com/live/us", "category": "Business"},
     {"id": "CBSNews.us", "hosts": ["jmp2.uk", "dai.google.com"], "evidence_url": "https://www.cbsnews.com/live/", "category": "News"},
     {"id": "TheBobRossChannel.us", "hosts": ["jmp2.uk"], "evidence_url": "https://www.bobross.com/", "category": "Entertainment"},
@@ -85,9 +80,23 @@
     "www.apsattv.com"
   ],
   "excluded_ids": [
-    "ACCNetwork.us", "AMC.us", "CNN.us", "ESPN.us", "ESPN2.us", "ESPNDeportes.us",
-    "ESPNews.us", "ESPNU.us", "FoxNewsChannel.us", "FoxSports1.us", "HBO.us",
-    "NFLNetwork.us", "NBATV.us", "Showtime.us", "Starz.us", "USANetwork.us"
+    "ACCNetwork.us",
+    "AE.us",
+    "AMC.us",
+    "CNN.us",
+    "ESPN.us",
+    "ESPN2.us",
+    "ESPNDeportes.us",
+    "ESPNews.us",
+    "ESPNU.us",
+    "FoxNewsChannel.us",
+    "FoxSports1.us",
+    "HBO.us",
+    "NBATV.us",
+    "NFLNetwork.us",
+    "Showtime.us",
+    "Starz.us",
+    "USANetwork.us"
   ],
   "_rejected_hosts": [
     {"host": "jmp2.uk resolves here first for some channels but the direct stitcher URL requires a short-lived JWT — store the jmp2.uk link instead"},
@@ -97,5 +106,11 @@
     {"host": "mdc.ott.alticeusa.net", "reason": "Pay-TV operator (Altice) streaming stack"},
     {"host": "a-cdn.klowdtv.com", "reason": "No publisher evidence reviewed for AWE/Cine Sony redistribution"},
     {"host": "www.apsattv.com", "reason": "Playlist host returned HTTP 500 during 2026-09-25 review"}
+  ],
+  "allowed_source_host_patterns": [
+    {"source_name": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)", "redirect_host": "jmp2.uk", "redirect_path_prefix": "/stvp-", "pattern": "^d[a-z0-9]+\\.cloudfront\\.net$", "evidence_url": "https://www.samsungtvplus.com/"},
+    {"source_name": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)", "redirect_host": "jmp2.uk", "redirect_path_prefix": "/stvp-", "pattern": "^[a-f0-9]{32}\\.mediatailor\\.us-east-1\\.amazonaws\\.com$", "evidence_url": "https://www.samsungtvplus.com/"},
+    {"source_name": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)", "redirect_host": "jmp2.uk", "redirect_path_prefix": "/stvp-", "hosts": ["sis-global.prod.samsungtv.plus"], "evidence_url": "https://www.samsungtvplus.com/"},
+    {"source_name": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)", "redirect_host": "jmp2.uk", "redirect_path_prefix": "/stvp-", "pattern": "^pb-[a-z0-9]+\\.akamaized\\.net$", "evidence_url": "https://www.samsungtvplus.com/"}
   ]
 }

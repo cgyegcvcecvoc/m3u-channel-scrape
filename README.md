@@ -2,7 +2,7 @@
 
 **Free-viewing US TV playlists, refreshed from public candidate feeds into this GitHub work branch.**
 
-This repository maintains curated, host-reviewed M3U playlists of legal, free-to-air (FTA) and free ad-supported streaming television (FAST) channels in the United States. The catalog currently holds **1,456 host-reviewed US channel listings** and **310 backup stream entries** — encompassing local/public channels, national news, sports, movies, entertainment, music, kids programming, and full US lineups from major FAST platforms (Pluto TV, Roku Channel, Samsung TV Plus). Channel counts change dynamically on refresh runs; consult the live [manifest](generated/manifest.json) for current counts.
+This repository maintains curated, host-reviewed M3U playlists of legal, free-to-air (FTA) and free ad-supported streaming television (FAST) channels in the United States, encompassing local/public channels, national news, sports, movies, entertainment, music, kids programming, and reviewed US lineups from major FAST platforms (Pluto TV, Roku Channel, Samsung TV Plus). Channel and backup counts change dynamically on refresh runs; consult the [manifest](generated/manifest.json) for current totals.
 
 ---
 
@@ -14,6 +14,10 @@ This repository maintains curated, host-reviewed M3U playlists of legal, free-to
 >
 > **3. Strictly Legal, Free-to-Air Streams Only:** Public URL ≠ permission to restream. This project does **not** carry cable subscriptions, DRM keys, pay-TV mirrors, captured credentials, VOD, or proxy bypasses. Streams are direct links to publishers. Host review is a best-effort policy filter, **not a guarantee** of uptime or territorial accessibility in your region.
 
+### A&E Network Availability
+
+The full linear A&E network is not listed as a free stream: [A&E's official live-TV access guidance](https://support.aetv.com/hc/en-us/articles/4416565615383-Why-can-t-I-access-Live-TV-in-the-A-E-app) requires a TV package that includes the network. The playlist may include separately named, free A&E-branded FAST channels such as [A&E Crime 360 on Pluto TV](https://pluto.tv/us/live-tv/6000a5a9e767980007b497ca) or show-specific channels, but those are not substitutes for the full A&E network. The pay-TV channel ID `AE.us` is explicitly excluded; no login, DRM, or proxy workaround is used.
+
 ---
 
 ## Download / Play
@@ -21,7 +25,7 @@ This repository maintains curated, host-reviewed M3U playlists of legal, free-to
 Open an M3U playlist link in VLC (*Media → Open Network Stream*), mpv, Kodi, TiviMate, or any IPTV player. Direct GitHub RAW URL for the primary US playlist on **this working branch**:
 
 ```text
-https://raw.githubusercontent.com/cgyegcvcecvoc/m3u-channel-scrape/refs/heads/arena/01a0db0b-m3u-channel-scrape/generated/playlists/usa-all.m3u
+https://raw.githubusercontent.com/cgyegcvcecvoc/m3u-channel-scrape/refs/heads/arena/01a0db4b-m3u-channel-scrape/generated/playlists/usa-all.m3u
 ```
 
 Replace `usa-all.m3u` with any playlist filename below for specific categories. Files are stored in [generated/playlists/](generated/playlists/):
@@ -118,7 +122,7 @@ python3 scripts/update_playlists.py
 
 The updater reads [config/sources.json](config/sources.json), fetches upstream candidate sources ([iptv-org](https://github.com/iptv-org/iptv), [Free-TV](https://github.com/Free-TV/IPTV), and FAST platforms), and applies [config/policy.json](config/policy.json):
 - Direct HTTPS HLS (`.m3u8` paths, no raw IP addresses, port 443 only)
-- Strict host allowlist, verified CDN patterns, or reviewed ID+host pairs with documented evidence
+- Strict host allowlist, source-scoped Samsung TV Plus delivery-host patterns tied to resolved `/stvp-` URLs, or reviewed channel-ID+host pairs with documented evidence
 - Exclusion of pay-TV channels, expiring tokens, custom auth headers, and VOD
 - Multi-feed deduplication with secondary feeds routed to `usa-backups.m3u`
 
@@ -146,7 +150,7 @@ The verifier contacts each stream URL, downloads the master manifest, parses a r
 
 ## GitHub Automation
 
-- [.github/workflows/refresh.yml](.github/workflows/refresh.yml): Runs on pushes to `arena/01a0db0b-m3u-channel-scrape`, daily at 06:17 UTC, and on manual dispatch. Resolves redirects, updates playlists, runs tests, and commits updated files.
+- [.github/workflows/refresh.yml](.github/workflows/refresh.yml): Runs on pushes to `arena/01a0db4b-m3u-channel-scrape`, daily at 06:17 UTC, and on manual dispatch. Resolves redirects, updates playlists, runs tests, and commits updated files.
 - [.github/workflows/verify.yml](.github/workflows/verify.yml): Probes channel streams daily at 08:43 UTC and commits probe results.
 - [.github/workflows/tests.yml](.github/workflows/tests.yml): Runs test suites on pushes and pull requests.
 

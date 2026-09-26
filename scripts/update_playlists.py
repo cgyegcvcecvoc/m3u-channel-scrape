@@ -82,7 +82,9 @@ DEAD_STREAM_REPLACEMENTS: dict[str, str] = {
     "https://aegis-cloudfront-1.tubi.video/45301c94-0d40-4cbb-b342-f5dc7949d76c/playlist.m3u8": "https://jmp2.uk/plu-5f36d726234ce10007784f2a.m3u8",
     # Baywatch (dead AU amagi dns failure -> working Roku Channel embed)
     "https://amg00145-fremantlemedian-baywatch-samsungau-gtsd6.amagi.tv/playlist/amg00145-fremantlemedian-baywatch-samsungau/playlist.m3u8": "https://jmp2.uk/rok-ab47c5037be851e6a929a4d09daafeac.m3u8",
-    # Vevo channels (dead AU amagi dns failure -> working Pluto TV embeds)
+    # Vevo channels (dead AU / stale regional CDNs -> verified US Pluto TV feeds)
+    "https://d1s6jz7jeei17.cloudfront.net/playlist/amg00056-vevotv-vevo2kau-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5fd7bca3e0a4ee0007a38e8c.m3u8",
+    "https://d128y56w6v2kax.cloudfront.net/playlist/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5d93b635b43dd1a399b39eee.m3u8",
     "https://amg00056-vevotv-vevo70saunz-samsungau-xzszd.amagi.tv/playlist/amg00056-vevotv-vevo70saunz-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5f32f26bcd8aea00071240e5.m3u8",
     "https://amg00056-vevotv-vevo80saunz-samsungau-rp5e3.amagi.tv/playlist/amg00056-vevotv-vevo80saunz-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5fd7b8bf927e090007685853.m3u8",
     "https://amg00056-vevotv-vevo90saunz-samsungau-n6a0d.amagi.tv/playlist/amg00056-vevotv-vevo90saunz-samsungau/playlist.m3u8": "https://jmp2.uk/plu-5fd7bb1f86d94a000796e2c2.m3u8",
@@ -110,8 +112,6 @@ DEAD_STREAM_REPLACEMENTS: dict[str, str] = {
     "https://aegis-cloudfront-1.tubi.video/ea1ab5d1-f554-4f6b-b03f-2611fcd94257/playlist.m3u8": "https://wurlgameshownetwork.global.transmit.live/hls/68d16f229e868efab9c34b16/v1/gsn_cinevault_80s_1/lg_us/latest/main/hls/playlist.m3u8",
     # Canela TV (dead cloudfront -> working Samsung TV Plus embed)
     "https://d3cx6yargdnl7q.cloudfront.net/canelatv.m3u8": "https://jmp2.uk/stvp-USBC39000080S",
-    # WITN22 (dead live-4 404 -> active cablecast endpoint)
-    "https://witn.cablecast.tv/live-4/live/live.m3u8": "https://witn.cablecast.tv/live-1/live/live.m3u8",
 }
 
 # Defunct publisher endpoints with no viable replacement stream
@@ -258,7 +258,16 @@ def download_source(source: dict) -> bytes:
             raise RuntimeError(f"{source['name']}: primary: {first}; fallback: {second}") from second
 
 
-def approval(channel_id: str, host: str, policy: dict) -> tuple[str, str] | None:
+def approval(channel_id: str, host: str, policy: dict, *, source: dict | None = None,
+             redirect_source_url: str = "") -> tuple[str, str] | None:
+    """Approve a publisher host, or a narrow ID+host/source+redirect combination.
+
+    CloudFront, Akamai `pb-*`, Samsung TV Plus, and AWS MediaTailor are shared
+    delivery infrastructure, not evidence of distribution rights on their own.
+    Rules for those hosts therefore require the entry to come from the reviewed
+    Samsung TV Plus US feed and its stable jmp2.uk `/stvp-` redirect, unless a
+    separate exact channel-ID+host rule exists.
+    """
     if host in policy.get("excluded_hosts", ()):
         return None
     for rule in policy["allowed_hosts"]:
@@ -273,6 +282,19 @@ def approval(channel_id: str, host: str, policy: dict) -> tuple[str, str] | None
     for rule in policy["approved_channels"]:
         if channel_id.casefold() == rule["id"].casefold() and host in rule["hosts"]:
             return ("id+host:" + rule["id"], rule["evidence_url"])
+    if source and source.get("resolve_redirects") and redirect_source_url:
+        origin = urlsplit(redirect_source_url)
+        for rule in policy.get("allowed_source_host_patterns", ()):
+            if source.get("name") != rule["source_name"]:
+                continue
+            if origin.hostname != rule["redirect_host"]:
+                continue
+            if not origin.path.startswith(rule["redirect_path_prefix"]):
+                continue
+            if "pattern" in rule and re.fullmatch(rule["pattern"], host):
+                return ("source-pattern:" + rule["pattern"], rule["evidence_url"])
+            if host in rule.get("hosts", ()):
+                return ("source-host:" + host, rule["evidence_url"])
     return None
 
 
@@ -299,10 +321,13 @@ def channel_from_entry(attrs: dict, raw_name: str, url: str, source: dict, polic
         return None, "not_us_or_no_id"
     if channel_id.casefold() in {x.casefold() for x in policy["excluded_ids"]}:
         return None, "excluded_pay_tv"
+    redirect_source_url = ""
     if redirect_cache is not None:
         # Sources flagged resolve_redirects publish redirector URLs (e.g.
         # jmp2.uk/stvp-...) that are only usable after one-time resolution;
-        # an unresolved entry is skipped rather than shipped broken.
+        # retain the original URL so shared CDN hosts can be allowed only for
+        # this reviewed source and redirect path.
+        redirect_source_url = url
         url = redirect_cache.get(url, "")
         if not url:
             return None, "redirect_unresolved"
@@ -313,7 +338,8 @@ def channel_from_entry(attrs: dict, raw_name: str, url: str, source: dict, polic
     if not valid_url(url, stream=True):
         return None, "not_direct_https_hls"
     host = urlsplit(url).hostname or ""
-    approved = approval(channel_id, host, policy)
+    approved = approval(channel_id, host, policy, source=source,
+                         redirect_source_url=redirect_source_url)
     if not approved:
         return None, "unreviewed_host"
     name = cleaned(raw_name)
@@ -541,7 +567,7 @@ def main() -> int:
     parser.add_argument("--out", type=Path, default=ROOT / "generated")
     parser.add_argument("--min-channels", type=int, default=50)
     parser.add_argument("--allow-shrink", action="store_true",
-                        help="allow a >40% decline after investigating upstream or policy changes")
+                        help="allow a decline greater than 40 percent after investigating upstream or policy changes")
     args = parser.parse_args()
     try:
         report = build(out=args.out, min_channels=args.min_channels, allow_shrink=args.allow_shrink)

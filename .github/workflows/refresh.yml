@@ -7,7 +7,7 @@ name: Refresh reviewed M3U playlists
 on:
   push:
     branches:
-      - arena/01a0db0b-m3u-channel-scrape
+      - arena/01a0db4b-m3u-channel-scrape
   schedule:
     - cron: "17 6 * * *" # daily, UTC; GitHub may delay scheduled starts
   workflow_dispatch:
@@ -27,7 +27,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: arena/01a0db0b-m3u-channel-scrape
+          ref: arena/01a0db4b-m3u-channel-scrape
           persist-credentials: true
       - uses: actions/setup-python@v5
         with:
@@ -52,5 +52,5 @@ jobs:
             exit 0
           fi
           git commit -m "Refresh reviewed free-viewing playlists"
-          git pull --rebase origin arena/01a0db0b-m3u-channel-scrape
-          git push origin HEAD:refs/heads/arena/01a0db0b-m3u-channel-scrape
+          git pull --rebase origin arena/01a0db4b-m3u-channel-scrape
+          git push origin HEAD:refs/heads/arena/01a0db4b-m3u-channel-scrape

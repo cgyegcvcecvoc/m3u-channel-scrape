@@ -13,14 +13,10 @@ https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8
 https://aegis-cloudfront-1.tubi.video/2dba5dd9-4097-45e3-b169-56735cc48476/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us@KRCA" tvg-name="ABC KRCA" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="General",ABC KRCA
 https://content.uplynk.com/channel/829a8c85f9e840c6bed963856c231428.m3u8
-#EXTINF:-1 tvg-id="ABC.us@KRGVTV" tvg-name="ABC KRGV-TV" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="General",ABC KRGV-TV
-https://d3svnrf3rmq619.cloudfront.net/krgv-live/smil:krgv-live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us@KSTPTV" tvg-name="ABC KSTP-TV" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="General",ABC KSTP-TV
 https://amg01942-amg01942c2-stirr-us-10173.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us@KXXV" tvg-name="ABC KXXV" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="General",ABC KXXV
 https://content.uplynk.com/channel/9d4e02c9c3544c269d32e6b316792c8f.m3u8
-#EXTINF:-1 tvg-id="ABC.us@WBRZTV" tvg-name="ABC WBRZ-TV" tvg-logo="https://i.imgur.com/n057TgX.png" group-title="General",ABC WBRZ-TV
-https://d2a6g6zgxepbwi.cloudfront.net/wbrz-edge/weather.stream_360p/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us@WDIODT" tvg-name="ABC WDIO-DT" tvg-logo="https://i.imgur.com/ZQ5uRhr.png" group-title="General",ABC WDIO-DT
 https://amg01942-amg01942c3-stirr-us-10196.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us@WFTV" tvg-name="ABC WFTV" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="General",ABC WFTV
@@ -388,7 +384,7 @@ https://stream.swagit.com/live-edge/whiteplainsny/smil:std-4x3-1-b/playlist.m3u8
 #EXTINF:-1 tvg-id="WHOHTV.us" tvg-name="WHOH-TV" tvg-logo="https://i.imgur.com/jTD9nLE.png" group-title="General",WHOH-TV
 https://stream.swagit.com/live-edge/hastingsonhudsonny/smil:std-4x3-1-a/playlist.m3u8
 #EXTINF:-1 tvg-id="WITN22.us" tvg-name="WITN22 [Not 24/7]" tvg-logo="https://i.imgur.com/Esu8PyB.png" group-title="General",WITN22 [Not 24/7]
-https://witn.cablecast.tv/live-1/live/live.m3u8
+https://witn.cablecast.tv/live-4/live/live.m3u8
 #EXTINF:-1 tvg-id="YouDotGov.us" tvg-name="YouDotGov" tvg-logo="https://i.imgur.com/4Mc7baR.png" group-title="Legislative",YouDotGov
 https://reflect-communitytv.cablecast.tv/live-3/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="YumaChannel72.us" tvg-name="Yuma Channel 72" tvg-logo="https://i.imgur.com/QsFBCWv.png" group-title="Legislative",Yuma Channel 72
