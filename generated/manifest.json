@@ -1,13 +1,13 @@
 {
   "counts": {
-    "usa-all.m3u": 1409,
-    "usa-backups.m3u": 271,
+    "usa-all.m3u": 1408,
+    "usa-backups.m3u": 270,
     "usa-business.m3u": 10,
-    "usa-entertainment.m3u": 458,
+    "usa-entertainment.m3u": 457,
     "usa-intermittent.m3u": 17,
     "usa-kids.m3u": 73,
     "usa-local.m3u": 196,
-    "usa-movies.m3u": 85,
+    "usa-movies.m3u": 84,
     "usa-music.m3u": 70,
     "usa-news.m3u": 81,
     "usa-spanish.m3u": 41,
@@ -22,12 +22,12 @@
     "https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz",
     "https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz"
   ],
-  "generated_utc": "2026-09-26T01:46:39Z",
+  "generated_utc": "2026-09-26T11:31:39Z",
   "skipped": {
     "custom_headers": 10,
     "dead_stream": 8,
     "duplicate": 216,
-    "duplicate_name": 282,
+    "duplicate_name": 281,
     "excluded_pay_tv": 15,
     "not_direct_https_hls": 165,
     "not_us_or_no_id": 54,
@@ -50,17 +50,17 @@
       "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_usa.m3u8"
     },
     {
-      "approved_candidates": 430,
-      "candidates": 430,
+      "approved_candidates": 431,
+      "candidates": 431,
       "name": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
-      "sha256": "1a2c55052fae019677667a15795e0461ec193afa219b8ef60881a97255501b0f",
+      "sha256": "f633936b4c1efb0402f0417926db855276110517843d50de31ef0fdcc032b63a",
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u"
     },
     {
-      "approved_candidates": 234,
-      "candidates": 235,
+      "approved_candidates": 231,
+      "candidates": 232,
       "name": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-      "sha256": "8241d0cbc4543e7557947cbea702c51f5d6f832a643d614d2b508add9825c6ba",
+      "sha256": "4842986a075e6f6ff4271458b814c7048b572e4bc09c0c124d4e3d13e975a0ae",
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u"
     },
     {
