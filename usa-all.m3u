@@ -583,6 +583,8 @@ https://pb-iegcojxwhgbsz.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 https://pb-y47pqerspf61b.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-y47pqerspf61b/out/v1/efa83c7614a94380bbdb873939438f68/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USAK3508709A&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-y47pqerspf61b_akamai
 #EXTINF:-1 tvg-id="Circle.us" tvg-name="Circle" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Circle_Network_logo.svg/960px-Circle_Network_logo.svg.png" group-title="Entertainment",Circle
 https://circle-roku.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CircleCountry.us" tvg-name="Circle Country" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s116338_dark_360w_270h.png" group-title="Entertainment",Circle Country
+https://circle-klowdtv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="CityofFairfieldChannel26.us" tvg-name="City of Fairfield Channel 26 [Geo-blocked]" tvg-logo="https://i.imgur.com/fiqaiUe.png" group-title="General",City of Fairfield Channel 26 [Geo-blocked]
 https://reflect-fairfield-ca.cablecast.tv/live-8/live/live.m3u8
 #EXTINF:-1 tvg-id="CityofFortPierce.us" tvg-name="City of Fort Pierce" tvg-logo="https://i.imgur.com/2ChoSsi.png" group-title="Legislative",City of Fort Pierce
@@ -1953,6 +1955,8 @@ https://jmp2.uk/plu-5bdcdf1e851dd5632e2c11d1.m3u8
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1us/master.m3u8
 #EXTINF:-1 tvg-id="89388f7d7bf2910da37d47fa897096bd" tvg-name="QVC en Español" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/89388f7d7bf2910da37d47fa897096bd/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787161790274_qvc_en_espanol_logo_hud.png" group-title="General",QVC en Español
 https://jmp2.uk/rok-89388f7d7bf2910da37d47fa897096bd.m3u8
+#EXTINF:-1 tvg-id="QVCPacific.us" tvg-name="QVC West" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/48/QVC.svg/revision/latest/scale-to-width-down/250?cb=20190429184243" group-title="General",QVC West
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc1uswest/master.m3u8
 #EXTINF:-1 tvg-id="QVC2.us" tvg-name="QVC2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/ab/QVC2_%282017%29.svg/revision/latest/scale-to-width-down/512" group-title="General",QVC2
 https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc2us/master.m3u8
 #EXTINF:-1 tvg-id="QVC3.us" tvg-name="QVC3" tvg-logo="https://i.imgur.com/edswdOO.png" group-title="General",QVC3

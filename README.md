@@ -1,6 +1,6 @@
 # m3u-channel-scrape
 
-**Free-viewing US TV playlists, refreshed from public candidate feeds into this GitHub work branch.**
+**Free-viewing US TV playlists, refreshed from public candidate feeds on the triggering GitHub branch (scheduled runs use main).**
 
 This repository maintains curated, host-reviewed M3U playlists of legal, free-to-air (FTA) and free ad-supported streaming television (FAST) channels in the United States, encompassing local/public channels, national news, sports, movies, entertainment, music, kids programming, and reviewed US lineups from major FAST platforms (Pluto TV, Roku Channel, Samsung TV Plus). Channel and backup counts change dynamically on refresh runs; consult the [manifest](generated/manifest.json) for current totals.
 
@@ -22,10 +22,10 @@ The full linear A&E network is not listed as a free stream: [A&E's official live
 
 ## Download / Play
 
-Open an M3U playlist link in VLC (*Media → Open Network Stream*), mpv, Kodi, TiviMate, or any IPTV player. Direct GitHub RAW URL for the primary US playlist on **this working branch**:
+Open an M3U playlist link in VLC (*Media → Open Network Stream*), mpv, Kodi, TiviMate, or any IPTV player. Direct GitHub RAW URL for the primary US playlist on **main** (after the consolidation PR is merged):
 
 ```text
-https://raw.githubusercontent.com/cgyegcvcecvoc/m3u-channel-scrape/refs/heads/arena/01a0db4b-m3u-channel-scrape/generated/playlists/usa-all.m3u
+https://raw.githubusercontent.com/cgyegcvcecvoc/m3u-channel-scrape/refs/heads/main/generated/playlists/usa-all.m3u
 ```
 
 Replace `usa-all.m3u` with any playlist filename below for specific categories. Files are stored in [generated/playlists/](generated/playlists/):
@@ -54,7 +54,7 @@ The root [usa-verified.m3u](usa-verified.m3u) is the repository's bulk playlist 
 To prevent clutter in the main category playlists while preserving stream redundancy, alternate feeds for channels available across multiple platforms are grouped into [usa-backups.m3u](generated/playlists/usa-backups.m3u). Each backup entry has:
 - `group-title="Backups"` (so your IPTV player isolates them into a separate group)
 - A channel name suffixed with `[Backup]` or `[Backup 2]`
-- Its own verified direct HTTPS HLS stream URL
+- Its own host-reviewed direct HTTPS HLS stream URL (not necessarily playback-verified)
 
 ---
 
@@ -120,7 +120,7 @@ python3 -m unittest discover -s tests -v
 python3 scripts/update_playlists.py
 ```
 
-The updater reads [config/sources.json](config/sources.json), fetches upstream candidate sources ([iptv-org](https://github.com/iptv-org/iptv), [Free-TV](https://github.com/Free-TV/IPTV), and FAST platforms), and applies [config/policy.json](config/policy.json):
+The updater reads [config/sources.json](config/sources.json), fetches upstream candidate sources ([iptv-org](https://github.com/iptv-org/iptv), [Free-TV](https://github.com/Free-TV/IPTV), FAST platforms, aria-tv/aria, and doms9/iptv), and applies [config/policy.json](config/policy.json):
 - Direct HTTPS HLS (`.m3u8` paths, no raw IP addresses, port 443 only)
 - Strict host allowlist, source-scoped Samsung TV Plus delivery-host patterns tied to resolved `/stvp-` URLs, or reviewed channel-ID+host pairs with documented evidence
 - Exclusion of pay-TV channels, expiring tokens, custom auth headers, and VOD
@@ -150,7 +150,7 @@ The verifier contacts each stream URL, downloads the master manifest, parses a r
 
 ## GitHub Automation
 
-- [.github/workflows/refresh.yml](.github/workflows/refresh.yml): Runs on pushes to `arena/01a0db4b-m3u-channel-scrape`, daily at 06:17 UTC, and on manual dispatch. Resolves redirects, updates playlists, runs tests, and commits updated files.
+- [.github/workflows/refresh.yml](.github/workflows/refresh.yml): Runs on pushes to `main` and the current consolidation branch, daily at 06:17 UTC, and on manual dispatch. Resolves redirects, updates playlists, runs tests, and commits updated files.
 - [.github/workflows/verify.yml](.github/workflows/verify.yml): Probes channel streams daily at 08:43 UTC and commits probe results.
 - [.github/workflows/tests.yml](.github/workflows/tests.yml): Runs test suites on pushes and pull requests.
 
@@ -160,3 +160,15 @@ The verifier contacts each stream URL, downloads the master manifest, parses a r
 
 - Upstream playlist feeds: [iptv-org](https://github.com/iptv-org/iptv), [Free-TV/IPTV](https://github.com/Free-TV/IPTV), and [BuddyChewChew/app-m3u-generator](https://github.com/BuddyChewChew/app-m3u-generator).
 - XMLTV guide providers: [epg.pw](https://epg.pw/) and [matthuisman/i.mjh.nz](https://github.com/matthuisman/i.mjh.nz).
+
+### Latest suggested-source review
+
+The aria-tv/aria and doms9/iptv feeds are optional candidate sources, not
+blanket approvals. Exact reviewed aliases repair selected channel IDs without
+relaxing stream policy. See [the source audit](generated/suggested-source-audit.json)
+for the latest candidate probes: all 25 were inconclusive from this sandbox,
+so the new entries are **not playback-verified replacements**. The existing
+verification report retains its own timestamp. Circle Country and QVC West
+were added as primary listings; other accepted feeds may be deduplicated or
+listed as backups. These additions still belong to the free-viewing catalog,
+not a separate premium/no-OTA/no-FAST lineup.
