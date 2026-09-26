@@ -37,22 +37,32 @@ https://jmp2.uk/plu-649b6898f2ec0000081a9460.m3u8
 https://jmp2.uk/plu-6400f731d200410008f9b339.m3u8
 #EXTINF:-1 tvg-id="US17000281T" tvg-name="Donut" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US17000281T_20260303T094105SQUARE.png" group-title="Sports",Donut
 https://pb-yn8oqsdjqcppz.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-yn8oqsdjqcppz/Donut.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US17000281T&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-yn8oqsdjqcppz_akamai
+#EXTINF:-1 tvg-id="US4600010KE" tvg-name="DP World Tour" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4600010KE_20260421T143337SQUARE.png" group-title="Sports",DP World Tour
+https://d2fhc4pzdnok99.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-pi0su8noa2yet/out/v1/a3d7d7a3b6e943909d11cb8cf293dca8/HLS_CMAF_DRM/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4600010KE
 #EXTINF:-1 tvg-id="5976983fa00953dab911a0ebea932943" tvg-name="DraftKings" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/5976983fa00953dab911a0ebea932943/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1694201368177_Roku_DKN_HUD_Logo_Centered.png" group-title="Sports",DraftKings
 https://jmp2.uk/rok-5976983fa00953dab911a0ebea932943.m3u8
 #EXTINF:-1 tvg-id="DraftKingsNetwork.us" tvg-name="DraftKings Network" tvg-logo="https://i.imgur.com/SFYhgrt.png" group-title="Sports",DraftKings Network
 https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8
+#EXTINF:-1 tvg-id="US34000040T" tvg-name="ESPN8: The Ocho" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US34000040T_20251021T192153SQUARE.png" group-title="Sports",ESPN8: The Ocho
+https://d3sqv5h35vlgfp.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-4iwprxvg4r8xp/ESPNTheOcho.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US34000040T&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-4iwprxvg4r8xp_cloudfront
 #EXTINF:-1 tvg-id="b3c06fdf730b2bc048507d096111d6c5" tvg-name="Estrella TV Deportes" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/b3c06fdf730b2bc048507d096111d6c5/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787946349723_DETV_260x147_01_horizontal_DB_1CW_.png" group-title="Sports",Estrella TV Deportes
 https://jmp2.uk/rok-b3c06fdf730b2bc048507d096111d6c5.m3u8
 #EXTINF:-1 tvg-id="USBD1200020Y4" tvg-name="Field & Stream" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1200020Y4_20260325T191716SQUARE.png" group-title="Sports",Field & Stream
 https://pb-c1uw9yo7ncvlk.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-c1uw9yo7ncvlk/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD1200020Y4&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-c1uw9yo7ncvlk_akamai
+#EXTINF:-1 tvg-id="USBD12000255B" tvg-name="FIFA+" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD12000255B_20260714T040800SQUARE.png" group-title="Sports",FIFA+
+https://dhjt18vrrocyd.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-5t243p245k50g/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD12000255B&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-5t243p245k50g_cloudfront
 #EXTINF:-1 tvg-id="1e2a4ec82eb65f729ad7484337c0bcd4" tvg-name="FILMEX" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/1e2a4ec82eb65f729ad7484337c0bcd4/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1659744073738_FMXHD_HUD_WHITE.png" group-title="Sports",FILMEX
 https://jmp2.uk/rok-1e2a4ec82eb65f729ad7484337c0bcd4.m3u8
 #EXTINF:-1 tvg-id="50cd4d6c632d5172834eb5b77fa395c6" tvg-name="FILMEX Clásico" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/50cd4d6c632d5172834eb5b77fa395c6/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1659744349180_FMXCHD_HUD_WHITE.png" group-title="Sports",FILMEX Clásico
 https://jmp2.uk/rok-50cd4d6c632d5172834eb5b77fa395c6.m3u8
 #EXTINF:-1 tvg-id="c5a72a598a355db4b1781ca075280773" tvg-name="FilmRise Western" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/c5a72a598a355db4b1781ca075280773/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1673453694643_FilmRiseWestern_HUDlogo_260x147_copy.png" group-title="Sports",FilmRise Western
 https://jmp2.uk/rok-c5a72a598a355db4b1781ca075280773.m3u8
+#EXTINF:-1 tvg-id="FITE247.us" tvg-name="FITE 24/7" tvg-logo="https://i.imgur.com/ESV6qgH.png" group-title="Sports",FITE 24/7
+https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8
 #EXTINF:-1 tvg-id="58e6bfd1c4819af32ead547dbc82e1f8" tvg-name="FloRacing 24/7" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/58e6bfd1c4819af32ead547dbc82e1f8/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1771353198884_FloRacing_HUDLogo.png" group-title="Sports",FloRacing 24/7
 https://jmp2.uk/rok-58e6bfd1c4819af32ead547dbc82e1f8.m3u8
+#EXTINF:-1 tvg-id="US600011Q2" tvg-name="Formula 1 Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US600011Q2_20260421T143343SQUARE.png" group-title="Sports",Formula 1 Channel
+https://d3g1m5lrv3w26l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-thrsk81iky5l8/out/v1/52ba482df1324f2ca366eddda656ff23/HLS_CMAF_DRM/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US600011Q2
 #EXTINF:-1 tvg-id="5a74b8e1e22a61737979c6bf" tvg-name="FOX Sports" tvg-logo="https://images.pluto.tv/channels/5a74b8e1e22a61737979c6bf/colorLogoPNG.png" group-title="Sports",FOX Sports
 https://jmp2.uk/plu-5a74b8e1e22a61737979c6bf.m3u8
 #EXTINF:-1 tvg-id="9fc6583c28985e15b3f05b46f5d77957" tvg-name="FreeTV Acción" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/9fc6583c28985e15b3f05b46f5d77957/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1710282473878_FREETV_Accion_260x147.png" group-title="Sports",FreeTV Acción
@@ -69,6 +79,8 @@ https://pb-sev6wo2qn931e.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 https://jmp2.uk/plu-63a0e33a45264d000850ed7e.m3u8
 #EXTINF:-1 tvg-id="65493029ab052400089e9d2f" tvg-name="GolfPass" tvg-logo="https://images.pluto.tv/channels/65493029ab052400089e9d2f/colorLogoPNG_1766432879705.png" group-title="Sports",GolfPass
 https://jmp2.uk/plu-65493029ab052400089e9d2f.m3u8
+#EXTINF:-1 tvg-id="USBD4200011W4" tvg-name="Hagerty" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD4200011W4_20240709T002126SQUARE.png" group-title="Sports",Hagerty
+https://dqw6u0upa8l21.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0etl87ne2tj77/Hagerty.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD4200011W4
 #EXTINF:-1 tvg-id="0b8a86b44ef0780c3b3226a63be07e0f" tvg-name="Highway Thru Hell" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/0b8a86b44ef0780c3b3226a63be07e0f/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1755914093970_HighwayThruHell_HUD_logo_260x147.png" group-title="Sports",Highway Thru Hell
 https://jmp2.uk/rok-0b8a86b44ef0780c3b3226a63be07e0f.m3u8
 #EXTINF:-1 tvg-id="108bd1c824eaca47592ec02c00f0a18a" tvg-name="In The Heat of the Night" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/108bd1c824eaca47592ec02c00f0a18a/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1747839494339_InTheHeatOfTheNight_HUDLogo_Centered_260x147.png" group-title="Sports",In The Heat of the Night
@@ -95,6 +107,8 @@ https://jmp2.uk/rok-d32267711c6a5cf36520716c96b5b3fa.m3u8
 https://jmp2.uk/rok-c5cbd4129753f5732d7160596440404f.m3u8
 #EXTINF:-1 tvg-id="USBD300021B8" tvg-name="MSG SportsZone" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD300021B8_20240520T220114SQUARE.png" group-title="Sports",MSG SportsZone
 https://pb-88vnz5zd02b44.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-88vnz5zd02b44/v1/amc_msgsportszone_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD300021B8&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-88vnz5zd02b44_akamai
+#EXTINF:-1 tvg-id="US700021SM" tvg-name="NASCAR Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US700021SM_20250505T232701SQUARE.png" group-title="Sports",NASCAR Channel
+https://d2bgddg4yfsshf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-uomfuf48efmu7/NASCAR.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US700021SM&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-uomfuf48efmu7_cloudfront
 #EXTINF:-1 tvg-id="NBCSportsNOW.us" tvg-name="NBC Sports NOW" tvg-logo="https://i.imgur.com/EzNf2Yx.png" group-title="Sports",NBC Sports NOW
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
 #EXTINF:-1 tvg-id="US300062TG" tvg-name="NESN Nation" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300062TG_20260421T143408SQUARE.png" group-title="Sports",NESN Nation
@@ -103,12 +117,12 @@ https://pb-dvsk3ddl51ii5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 https://jmp2.uk/plu-5ced7d5df64be98e07ed47b6.m3u8
 #EXTINF:-1 tvg-id="NHLNetwork.us" tvg-name="NHL Network" tvg-logo="https://i.imgur.com/UNZ8bef.png" group-title="Sports",NHL Network
 https://nhl-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="82bd10ceb52152a7adb6bdc5d776e794" tvg-name="NHRA TV" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/82bd10ceb52152a7adb6bdc5d776e794/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1669151466290_NHRA-RokuChannel-260x147-hud_centered.png" group-title="Sports",NHRA TV
-https://jmp2.uk/rok-82bd10ceb52152a7adb6bdc5d776e794.m3u8
+#EXTINF:-1 tvg-id="NHRATV.us" tvg-name="NHRA TV" tvg-logo="https://i.imgur.com/jZgcm4k.png" group-title="Sports",NHRA TV
+https://d265y4sk8257lt.cloudfront.net/nh.m3u8
 #EXTINF:-1 tvg-id="US2600006VY" tvg-name="One Championship TV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2600006VY_20260421T143414SQUARE.png" group-title="Sports",One Championship TV
 https://pb-ermjbwr7q3tqu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ermjbwr7q3tqu/out/v1/f985124bbcef4f8d942194aa87b1a99e/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US2600006VY&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-ermjbwr7q3tqu_akamai
-#EXTINF:-1 tvg-id="US33000154M" tvg-name="Overtime" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US33000154M_20260421T143300SQUARE.png" group-title="Sports",Overtime
-https://pb-bovsywhv5jhue.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-bovsywhv5jhue/v1/amc_overtime_1/samsungheadend_us/latest/main/hls/playlist_hd.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US33000154M&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-bovsywhv5jhue_akamai
+#EXTINF:-1 tvg-id="Overtime.us" tvg-name="Overtime" tvg-logo="https://i.imgur.com/9S9k4IK.png" group-title="Sports",Overtime
+https://d1a8aq6t30gkqj.cloudfront.net/v1/amc_overtime_1/samsungheadend_us/latest/main/hls/playlist_hd.m3u8
 #EXTINF:-1 tvg-id="Pac12Insider.us" tvg-name="Pac-12 Insider" tvg-logo="https://i.imgur.com/736QREy.png" group-title="Sports",Pac-12 Insider
 https://pac12-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="e7b30e2a58409242100d0edd2bfebbfd" tvg-name="Pam Grier's Soul Flix" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/e7b30e2a58409242100d0edd2bfebbfd/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1734494082178_PGSF_HUDAthanasiosTsiris.png" group-title="Sports",Pam Grier's Soul Flix
@@ -119,8 +133,8 @@ https://jmp2.uk/plu-60d39387706fe50007fda8e8.m3u8
 https://pb-tekydr9rkimr9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-tekydr9rkimr9/v1/pfl_pflmma_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US350000231&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-tekydr9rkimr9_akamai
 #EXTINF:-1 tvg-id="6334a574605f140007e233c4" tvg-name="PFL MMA" tvg-logo="https://images.pluto.tv/channels/6334a574605f140007e233c4/colorLogoPNG.png" group-title="Sports",PFL MMA
 https://jmp2.uk/plu-6334a574605f140007e233c4.m3u8
-#EXTINF:-1 tvg-id="5de94dacb394a300099fa22a" tvg-name="PGA TOUR" tvg-logo="https://images.pluto.tv/channels/5de94dacb394a300099fa22a/colorLogoPNG.png" group-title="Sports",PGA TOUR
-https://jmp2.uk/plu-5de94dacb394a300099fa22a.m3u8
+#EXTINF:-1 tvg-id="PGATour.us" tvg-name="PGA Tour" tvg-logo="https://i.imgur.com/J0TY9dG.png" group-title="Sports",PGA Tour
+https://d11k1mnrgfposz.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="USBD4200016QR" tvg-name="PickleballTV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD4200016QR_20240520T220130SQUARE.png" group-title="Sports",PickleballTV
 https://pb-p82n52ztxtyz8.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-p82n52ztxtyz8/PickleballTV.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD4200016QR&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-p82n52ztxtyz8_akamai
 #EXTINF:-1 tvg-id="PlutoTVCompetition.us" tvg-name="Pluto TV Competition" tvg-logo="https://images.pluto.tv/channels/603fde9026ecbf0007752c2c/colorLogoPNG.png" group-title="Sports",Pluto TV Competition
@@ -139,8 +153,12 @@ https://pb-gnetz8yng39c7.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 https://jmp2.uk/rok-c5e8a74546771de365652cd053f73351.m3u8
 #EXTINF:-1 tvg-id="US4500005Z1" tvg-name="Roku Sports Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4500005Z1_20260811T043555SQUARE.png" group-title="Sports",Roku Sports Channel
 https://pb-f4wurth1pd78j.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-f4wurth1pd78j/Roku_Sports_Channel.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US4500005Z1&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-f4wurth1pd78j_akamai
+#EXTINF:-1 tvg-id="US1000004YJ" tvg-name="RugbyPass TV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1000004YJ_20250714T223139SQUARE.png" group-title="Sports",RugbyPass TV
+https://d3qzq0bmq30tw5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-1k92lpv6gob51/v1/world_rugby_rugbypasstv_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US1000004YJ&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-1k92lpv6gob51_cloudfront
 #EXTINF:-1 tvg-id="5f9c59c52f0ad475d90a33fdfd14d651" tvg-name="Ryz Sports Network" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/5f9c59c52f0ad475d90a33fdfd14d651/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1755024648037_Ryz_Roku_EPG_DarkBG_V3.png" group-title="Sports",Ryz Sports Network
 https://jmp2.uk/rok-5f9c59c52f0ad475d90a33fdfd14d651.m3u8
+#EXTINF:-1 tvg-id="US400221W2" tvg-name="Scripps Sports Network" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US400221W2_20260609T035216SQUARE.png" group-title="Sports",Scripps Sports Network
+https://d3l3b8q99uyekh.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-diekcm5ed48kk/Scripps_Sports_US.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US400221W2&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-diekcm5ed48kk_cloudfront
 #EXTINF:-1 tvg-id="SlopesTV.us" tvg-name="Slopes TV" tvg-logo="https://i.imgur.com/8bzAfgK.png" group-title="Sports",Slopes TV
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2241
 #EXTINF:-1 tvg-id="US4700001B4" tvg-name="SLVR" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4700001B4_20260421T143048SQUARE.png" group-title="Sports",SLVR
@@ -191,19 +209,23 @@ https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
 #EXTINF:-1 tvg-id="65ea8b928145cb0008509426" tvg-name="UEFA Champions League" tvg-logo="https://images.pluto.tv/channels/65ea8b928145cb0008509426/colorLogoPNG.png" group-title="Sports",UEFA Champions League
 https://jmp2.uk/plu-65ea8b928145cb0008509426.m3u8
+#EXTINF:-1 tvg-id="Unbeaten.us" tvg-name="Unbeaten" tvg-logo="https://i.imgur.com/LmkNt3v.png" group-title="Sports",Unbeaten
+https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8
 #EXTINF:-1 tvg-id="US1400008DW" tvg-name="Unbeaten Sports Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1400008DW_20240910T003812SQUARE.png" group-title="Sports",Unbeaten Sports Channel
 https://pb-klo1iddz6t427.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-klo1iddz6t427/Unbeaten.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US1400008DW&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-klo1iddz6t427_akamai
 #EXTINF:-1 tvg-id="8346cc0f3d415e39875fca80b67fd951" tvg-name="Universal Westerns" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/8346cc0f3d415e39875fca80b67fd951/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1701820121460_Universal-Western-ROKU-HUD-LOGO-260x147.png" group-title="Sports",Universal Westerns
 https://jmp2.uk/rok-8346cc0f3d415e39875fca80b67fd951.m3u8
 #EXTINF:-1 tvg-id="35633f08c98857cb9e85c91eae17c0d5" tvg-name="ViX Lo Mejor de Liga MX" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/35633f08c98857cb9e85c91eae17c0d5/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1749856192932_LoMejorDeLigaMX_HUD_ChannelLogo_260x147px.png" group-title="Sports",ViX Lo Mejor de Liga MX
 https://jmp2.uk/rok-35633f08c98857cb9e85c91eae17c0d5.m3u8
-#EXTINF:-1 tvg-id="US20000131M" tvg-name="Willow Sports" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US20000131M_20260421T143224SQUARE.png" group-title="Sports",Willow Sports
-https://pb-qkurwwnhowqg3.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-qkurwwnhowqg3/Willow_TV.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US20000131M&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-qkurwwnhowqg3_akamai
-#EXTINF:-1 tvg-id="686d8dd294a028da3ac59566" tvg-name="Women's Sports Network" tvg-logo="https://images.pluto.tv/channels/686d8dd294a028da3ac59566/colorLogoPNG_1753992941899.png" group-title="Sports",Women's Sports Network
-https://jmp2.uk/plu-686d8dd294a028da3ac59566.m3u8
-#EXTINF:-1 tvg-id="5616f9c0ada51f8004c4b091" tvg-name="World Poker Tour" tvg-logo="https://images.pluto.tv/channels/5616f9c0ada51f8004c4b091/colorLogoPNG-1664295222280.png" group-title="Sports",World Poker Tour
-https://jmp2.uk/plu-5616f9c0ada51f8004c4b091.m3u8
+#EXTINF:-1 tvg-id="WillowSports.us" tvg-name="Willow Sports" tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png" group-title="Sports",Willow Sports
+https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
+#EXTINF:-1 tvg-id="WomensSportsNetwork.us" tvg-name="Women's Sports Network" tvg-logo="https://i.imgur.com/rhIwUcQ.png" group-title="Sports",Women's Sports Network
+https://d39accvx65hq9o.cloudfront.net/Womens_Sports_Network.m3u8
+#EXTINF:-1 tvg-id="WorldPokerTour.us" tvg-name="World Poker Tour" tvg-logo="https://i.imgur.com/98kLMjj.png" group-title="Sports",World Poker Tour
+https://d2e00kr7m9coe4.cloudfront.net/scheduler/scheduleMaster/406.m3u8
 #EXTINF:-1 tvg-id="302d8d86738c0ab83d0ca3a5e2df3492" tvg-name="Xena" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/302d8d86738c0ab83d0ca3a5e2df3492/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1757537081513_Xena_260x147_2x1_channel_logo_center_align_EFEFEF_transparent_bkgd_roku_PNG.png" group-title="Sports",Xena
 https://jmp2.uk/rok-302d8d86738c0ab83d0ca3a5e2df3492.m3u8
 #EXTINF:-1 tvg-id="XFCTV.us" tvg-name="XFC TV" tvg-logo="https://i.imgur.com/LcfzmG0.png" group-title="Sports",XFC TV
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2247
+#EXTINF:-1 tvg-id="US3200012O8" tvg-name="Yahoo! Sports Network" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3200012O8_20260421T143258SQUARE.png" group-title="Sports",Yahoo! Sports Network
+https://d1lo7b6bfnqs3w.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-skitibl14vdyx/Yahoo_Sports_Network.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US3200012O8&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-skitibl14vdyx_cloudfront

@@ -5,8 +5,10 @@
     {"host": "247wlive.foxweather.com", "evidence_url": "https://www.foxweather.com/watch-live", "reason": "FOX Weather's own free live HLS endpoint"},
     {"host": "abcnews-streams.akamaized.net", "evidence_url": "https://abcnews.go.com/Live", "reason": "ABC's free news stream"},
     {"host": "aegis-cloudfront-1.tubi.video", "evidence_url": "https://tubitv.com/live", "reason": "Free ad-supported Tubi distribution"},
+    {"host": "bloomberg.com", "evidence_url": "https://www.bloomberg.com/live/us", "reason": "Bloomberg official free linear stream manifests"},
     {"host": "cbsnews.akamaized.net", "evidence_url": "https://www.cbsnews.com/live/", "reason": "CBS News free live service"},
     {"host": "content.uplynk.com", "evidence_url": "https://www.courttv.com/", "reason": "Official free channel and local-station distributions via the Uplynk CDN (Court TV, America's Voice, Newsy, Telemundo locals)"},
+    {"host": "dai.google.com", "evidence_url": "https://www.samsung.com/us/tv-plus/", "reason": "Official Google DAI SSAI delivery for broadcaster channels on FAST platforms (Samsung TV Plus, CBS News 24/7, ET, CBS Sports Golazo)"},
     {"host": "edge-f.swagit.com", "evidence_url": "https://www.swagit.com/", "reason": "Public meetings/community access distribution"},
     {"host": "fast-channels.sinclairstoryline.com", "evidence_url": "https://comettv.com/", "reason": "Sinclair's free over-the-air/FAST channels"},
     {"host": "jmp2.uk", "evidence_url": "https://github.com/iptv-org/community/issues/1492", "reason": "Community-documented redirector that resolves to official Pluto TV / Roku / Samsung TV Plus embed manifests; used by iptv-org contributors and FAST playlist generators"},
@@ -23,7 +25,8 @@
     {"host": "voa-ingest.akamaized.net", "evidence_url": "https://www.voanews.com/", "reason": "Voice of America public news streams"}
   ],
   "allowed_host_patterns": [
-    {"pattern": "^pb-[a-z0-9]+\\.akamaized\\.net$", "evidence_url": "https://www.samsung.com/us/tv-plus/", "reason": "Samsung TV Plus SSAI delivery endpoints observed as the final hop of the documented stvp jmp2.uk redirects (each hostname embeds a channel service ID)"}
+    {"pattern": "^pb-[a-z0-9]+\\.akamaized\\.net$", "evidence_url": "https://www.samsung.com/us/tv-plus/", "reason": "Samsung TV Plus SSAI delivery endpoints observed as the final hop of the documented stvp jmp2.uk redirects (each hostname embeds a channel service ID)"},
+    {"pattern": "^d[a-z0-9]+\\.cloudfront\\.net$", "evidence_url": "https://www.samsung.com/us/tv-plus/", "reason": "AWS CloudFront MediaTailor linear playout distributions used by Samsung TV Plus and reviewed FAST broadcasters"}
   ],
   "allowed_host_suffixes": [
     {"suffix": ".cablecast.tv", "evidence_url": "https://www.cablecast.tv/", "reason": "Community/government access distribution; check each broadcaster"},
@@ -33,7 +36,9 @@
     {"suffix": ".wurl.com", "evidence_url": "https://www.wurl.com/", "reason": "Wurl FAST distribution of broadcaster/brand linear channels"},
     {"suffix": ".getpublica.com", "evidence_url": "https://www.publica.com/", "reason": "Publica CTV/FAST platform hosting official free ad-supported channels"},
     {"suffix": ".zype.com", "evidence_url": "https://www.zype.com/", "reason": "Zype linear hosting for official free channels (e.g. DraftKings Network)"},
-    {"suffix": ".bozztv.com", "evidence_url": "https://www.bozztv.com/", "reason": "Playout hosting for free OTA/religious/community networks and stations (3ABN, TVS, WATC, theDove, VBS)"}
+    {"suffix": ".bozztv.com", "evidence_url": "https://www.bozztv.com/", "reason": "Playout hosting for free OTA/religious/community networks and stations (3ABN, TVS, WATC, theDove, VBS)"},
+    {"suffix": ".samsungtv.plus", "evidence_url": "https://www.samsung.com/us/tv-plus/", "reason": "Samsung TV Plus official linear delivery host"},
+    {"suffix": ".mediatailor.us-east-1.amazonaws.com", "evidence_url": "https://www.samsung.com/us/tv-plus/", "reason": "AWS MediaTailor SSAI linear playout distributions used by Samsung TV Plus"}
   ],
   "approved_channels": [
     {"id": "ACCDigitalNetwork.us", "hosts": ["raycom-accdn-firetv.amagi.tv"], "evidence_url": "https://tubitv.com/live/400000012/accdn", "category": "Sports"},
@@ -47,7 +52,37 @@
     {"id": "NBCNewsNOW.us", "hosts": ["d1si3n1st4nkgb.cloudfront.net"], "evidence_url": "https://www.nbcnews.com/now", "category": "News"},
     {"id": "TODAYAllDay.us", "hosts": ["d37kx062o4ii0p.cloudfront.net"], "evidence_url": "https://www.nbcnews.com/now", "category": "News"},
     {"id": "Dateline247.us", "hosts": ["d1si3n1st4nkgb.cloudfront.net"], "evidence_url": "https://www.nbcnews.com/now", "category": "Documentary"},
-    {"id": "Newsmax2.us", "hosts": ["amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv"], "evidence_url": "https://www.newsmaxtv.com/", "category": "News"}
+    {"id": "Newsmax2.us", "hosts": ["amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv"], "evidence_url": "https://www.newsmaxtv.com/", "category": "News"},
+    {"id": "WeatherNation.us", "hosts": ["d2ferbiwcx1539.cloudfront.net", "dada973c.wurl.com"], "evidence_url": "https://www.weathernationtv.com/", "category": "Weather"},
+    {"id": "AmericasVoice.us", "hosts": ["d2jiqiw4g5lj5k.cloudfront.net", "wurlperformanceonemedia.global.transmit.live"], "evidence_url": "https://americasvoice.news/", "category": "News"},
+    {"id": "YahooFinance.us", "hosts": ["d1ewctnvcwvvvu.cloudfront.net"], "evidence_url": "https://finance.yahoo.com/", "category": "Business"},
+    {"id": "Localish.us", "hosts": ["dnmfq3sh1jipj.cloudfront.net"], "evidence_url": "https://localish.com/", "category": "Entertainment"},
+    {"id": "WomensSportsNetwork.us", "hosts": ["d39accvx65hq9o.cloudfront.net"], "evidence_url": "https://womenssports.com/", "category": "Sports"},
+    {"id": "MeritStreet.us", "hosts": ["d9069ugodwkju.cloudfront.net"], "evidence_url": "https://www.meritstreetmedia.com/", "category": "News"},
+    {"id": "BYUTV.us", "hosts": ["d13j8jpstr8iqz.cloudfront.net"], "evidence_url": "https://www.byutv.org/", "category": "Entertainment"},
+    {"id": "TED.us", "hosts": ["d1b16tvvxk3tnu.cloudfront.net"], "evidence_url": "https://www.ted.com/", "category": "Education"},
+    {"id": "ShoutFactoryTV.us", "hosts": ["d1s1wrpgemt9re.cloudfront.net"], "evidence_url": "https://shoutfactorytv.com/", "category": "Movies"},
+    {"id": "MysteryScienceTheater3000.us", "hosts": ["d1c73nj8qxp55a.cloudfront.net"], "evidence_url": "https://mst3k.com/", "category": "Entertainment"},
+    {"id": "UnsolvedMysteries.us", "hosts": ["d31z96rdrmwfsp.cloudfront.net"], "evidence_url": "https://unsolved.com/", "category": "Entertainment"},
+    {"id": "BloombergOriginals.us", "hosts": ["bloomberg.com"], "evidence_url": "https://www.bloomberg.com/live/us", "category": "Business"},
+    {"id": "BloombergTV.us", "hosts": ["bloomberg.com"], "evidence_url": "https://www.bloomberg.com/live/us", "category": "Business"},
+    {"id": "CBSNews.us", "hosts": ["jmp2.uk", "dai.google.com"], "evidence_url": "https://www.cbsnews.com/live/", "category": "News"},
+    {"id": "TheBobRossChannel.us", "hosts": ["jmp2.uk"], "evidence_url": "https://www.bobross.com/", "category": "Entertainment"},
+    {"id": "Baywatch.us", "hosts": ["jmp2.uk"], "evidence_url": "https://www.roku.com/", "category": "Entertainment"},
+    {"id": "TheHillTV.us", "hosts": ["jmp2.uk"], "evidence_url": "https://thehill.com/hilltv/", "category": "News"},
+    {"id": "TransformersTV.us", "hosts": ["jmp2.uk"], "evidence_url": "https://www.samsung.com/us/tv-plus/", "category": "Kids"},
+    {"id": "Vevo70s.us", "hosts": ["jmp2.uk"], "evidence_url": "https://www.vevo.com/", "category": "Music"},
+    {"id": "Vevo80s.us", "hosts": ["jmp2.uk"], "evidence_url": "https://www.vevo.com/", "category": "Music"},
+    {"id": "Vevo90s.us", "hosts": ["jmp2.uk"], "evidence_url": "https://www.vevo.com/", "category": "Music"},
+    {"id": "VevoCountry.us", "hosts": ["jmp2.uk"], "evidence_url": "https://www.vevo.com/", "category": "Music"}
+  ],
+  "excluded_hosts": [
+    "d368vp0qqzvkid.cloudfront.net",
+    "live.nowtelly.com",
+    "mdc.ott.alticeusa.net",
+    "lukentvlive.vgcdn.net",
+    "a-cdn.klowdtv.com",
+    "www.apsattv.com"
   ],
   "excluded_ids": [
     "ACCNetwork.us", "AMC.us", "CNN.us", "ESPN.us", "ESPN2.us", "ESPNDeportes.us",

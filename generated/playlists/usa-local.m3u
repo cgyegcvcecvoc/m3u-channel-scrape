@@ -13,10 +13,14 @@ https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8
 https://aegis-cloudfront-1.tubi.video/2dba5dd9-4097-45e3-b169-56735cc48476/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us@KRCA" tvg-name="ABC KRCA" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="General",ABC KRCA
 https://content.uplynk.com/channel/829a8c85f9e840c6bed963856c231428.m3u8
+#EXTINF:-1 tvg-id="ABC.us@KRGVTV" tvg-name="ABC KRGV-TV" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="General",ABC KRGV-TV
+https://d3svnrf3rmq619.cloudfront.net/krgv-live/smil:krgv-live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us@KSTPTV" tvg-name="ABC KSTP-TV" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="General",ABC KSTP-TV
 https://amg01942-amg01942c2-stirr-us-10173.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us@KXXV" tvg-name="ABC KXXV" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="General",ABC KXXV
 https://content.uplynk.com/channel/9d4e02c9c3544c269d32e6b316792c8f.m3u8
+#EXTINF:-1 tvg-id="ABC.us@WBRZTV" tvg-name="ABC WBRZ-TV" tvg-logo="https://i.imgur.com/n057TgX.png" group-title="General",ABC WBRZ-TV
+https://d2a6g6zgxepbwi.cloudfront.net/wbrz-edge/weather.stream_360p/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us@WDIODT" tvg-name="ABC WDIO-DT" tvg-logo="https://i.imgur.com/ZQ5uRhr.png" group-title="General",ABC WDIO-DT
 https://amg01942-amg01942c3-stirr-us-10196.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us@WFTV" tvg-name="ABC WFTV" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="General",ABC WFTV
@@ -94,29 +98,29 @@ https://content.uplynk.com/channel/d1f868588ae5476dadaeff450170a183.m3u8
 #EXTINF:-1 tvg-id="CBSNewsBaltimore.us" tvg-name="CBS News Baltimore" tvg-logo="https://i.imgur.com/jy3UfCe.png" group-title="News",CBS News Baltimore
 https://lineup.cbsivideo.com/playout/8877a7d5-b094-4ac8-bc72-75a5fed68e5b/index.m3u8
 #EXTINF:-1 tvg-id="CBSNewsBayArea.us" tvg-name="CBS News Bay Area" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1a/Logo-cbsn-bayarea-1920x1080.jpg/revision/latest/scale-to-width-down/512" group-title="News",CBS News Bay Area
-https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/master.m3u8
+https://jmp2.uk/plu-5eb1afb21486df0007abc57c.m3u8
 #EXTINF:-1 tvg-id="CBSNewsBoston.us" tvg-name="CBS News Boston" tvg-logo="https://i.imgur.com/9un7R3N.png" group-title="News",CBS News Boston
-https://cbsn-bos.cbsnstream.cbsnews.com/out/v1/589d66ec6eb8434c96c28de0370d1326/master.m3u8
+https://jmp2.uk/plu-5eb1af2ad345340008fccd1e.m3u8
 #EXTINF:-1 tvg-id="CBSNewsChicago.us" tvg-name="CBS News Chicago" tvg-logo="https://i.imgur.com/qGbVQir.png" group-title="News",CBS News Chicago
-https://cbsn-chi.cbsnstream.cbsnews.com/out/v1/b2fc0d5715d54908adf07f97d2616646/master.m3u8
+https://jmp2.uk/plu-5eb1aeb2fd4b8a00076c2047.m3u8
 #EXTINF:-1 tvg-id="CBSNewsColorado.us" tvg-name="CBS News Colorado" tvg-logo="https://i.imgur.com/2oyYwBw.png" group-title="News",CBS News Colorado
-https://cbsn-den.cbsnstream.cbsnews.com/out/v1/2e49baf2906244ecb01b07d9885fbe7a/master.m3u8
+https://jmp2.uk/plu-5eb1b12146cba40007aa7e5d.m3u8
 #EXTINF:-1 tvg-id="CBSNewsDetroit.us" tvg-name="CBS News Detroit" tvg-logo="https://i.imgur.com/cMels2Y.png" group-title="News",CBS News Detroit
-https://cbsn-det.cbsnstream.cbsnews.com/out/v1/169f5c001bc74fa7a179b19c20fea069/master.m3u8
+https://jmp2.uk/plu-634f2610d5023700078f7dee.m3u8
 #EXTINF:-1 tvg-id="CBSNewsLosAngeles.us" tvg-name="CBS News Los Angeles" tvg-logo="https://i.imgur.com/klULxMV.png" group-title="News",CBS News Los Angeles
-https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8
+https://jmp2.uk/plu-5dc481cda1d430000948a1b4.m3u8
 #EXTINF:-1 tvg-id="CBSNewsMiami.us" tvg-name="CBS News Miami" tvg-logo="https://i.imgur.com/DExbVa9.png" group-title="News",CBS News Miami
 https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/master.m3u8
 #EXTINF:-1 tvg-id="CBSNewsMinnesota.us" tvg-name="CBS News Minnesota" tvg-logo="https://i.imgur.com/ubxwfMY.png" group-title="News",CBS News Minnesota
-https://cbsn-min.cbsnstream.cbsnews.com/out/v1/76518f06941246ba810c8d175600bf74/master.m3u8
+https://jmp2.uk/plu-5eb1b0bf2240d8000732a09c.m3u8
 #EXTINF:-1 tvg-id="CBSNewsNewYork.us" tvg-name="CBS News New York" tvg-logo="https://i.imgur.com/bpc4v0u.png" group-title="News",CBS News New York
-https://cbsn-ny.cbsnstream.cbsnews.com/out/v1/ec3897d58a9b45129a77d67aa247d136/master.m3u8
+https://jmp2.uk/plu-5dc48170e280c80009a861ab.m3u8
 #EXTINF:-1 tvg-id="5eb1b05ea168cc000767ba67" tvg-name="CBS News Philadelphia" tvg-logo="https://images.pluto.tv/channels/5eb1b05ea168cc000767ba67/colorLogoPNG.png" group-title="News",CBS News Philadelphia
 https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8
 #EXTINF:-1 tvg-id="CBSNewsPhilly.us" tvg-name="CBS News Philly" tvg-logo="https://i.imgur.com/FmtTbNY.png" group-title="News",CBS News Philly
-https://cbsn-phi.cbsnstream.cbsnews.com/out/v1/5c9ad3e215984b0e9ad845b335216b72/master.m3u8
+https://jmp2.uk/plu-5eb1b03cd345340008fccd28.m3u8
 #EXTINF:-1 tvg-id="CBSNewsPittsburgh.us" tvg-name="CBS News Pittsburgh" tvg-logo="https://i.imgur.com/Un9IrUh.png" group-title="News",CBS News Pittsburgh
-https://cbsn-pit.cbsnstream.cbsnews.com/out/v1/6966dabf8150405ab26f854e3cd6a2b8/master.m3u8
+https://jmp2.uk/plu-5eb1b199042b3100076fe931.m3u8
 #EXTINF:-1 tvg-id="CBSNewsSacramento.us" tvg-name="CBS News Sacramento" tvg-logo="https://i.imgur.com/0e1kSGX.png" group-title="News",CBS News Sacramento
 https://lineup.cbsivideo.com/playout/c1ed69db-6b71-4581-a937-a70ab4089f8a/index.m3u8
 #EXTINF:-1 tvg-id="5eceb0d4065c240007688ec6" tvg-name="CBS News Texas" tvg-logo="https://images.pluto.tv/channels/5eceb0d4065c240007688ec6/colorLogoPNG.png" group-title="News",CBS News Texas
@@ -384,7 +388,7 @@ https://stream.swagit.com/live-edge/whiteplainsny/smil:std-4x3-1-b/playlist.m3u8
 #EXTINF:-1 tvg-id="WHOHTV.us" tvg-name="WHOH-TV" tvg-logo="https://i.imgur.com/jTD9nLE.png" group-title="General",WHOH-TV
 https://stream.swagit.com/live-edge/hastingsonhudsonny/smil:std-4x3-1-a/playlist.m3u8
 #EXTINF:-1 tvg-id="WITN22.us" tvg-name="WITN22 [Not 24/7]" tvg-logo="https://i.imgur.com/Esu8PyB.png" group-title="General",WITN22 [Not 24/7]
-https://witn.cablecast.tv/live-4/live/live.m3u8
+https://witn.cablecast.tv/live-1/live/live.m3u8
 #EXTINF:-1 tvg-id="YouDotGov.us" tvg-name="YouDotGov" tvg-logo="https://i.imgur.com/4Mc7baR.png" group-title="Legislative",YouDotGov
 https://reflect-communitytv.cablecast.tv/live-3/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="YumaChannel72.us" tvg-name="Yuma Channel 72" tvg-logo="https://i.imgur.com/QsFBCWv.png" group-title="Legislative",Yuma Channel 72

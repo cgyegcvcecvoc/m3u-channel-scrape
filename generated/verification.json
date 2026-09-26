@@ -1,9 +1,8 @@
 {
   "catalog": {
     "counts": {
-      "inconclusive": 82,
-      "segment_ok": 1207,
-      "unavailable": 39
+      "inconclusive": 83,
+      "segment_ok": 1373
     },
     "results": [
       {
@@ -12,6 +11,20 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-62ba60f059624e000781c436.m3u8"
+      },
+      {
+        "id": "USBB320000397",
+        "name": "21 Jump Street",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d10fr3noe1h6x.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-oiw60y9nizwmc/21_Jump_Street_SONO6.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBB320000397&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-oiw60y9nizwmc_cloudfront"
+      },
+      {
+        "id": "24HourFreeMovies.us",
+        "name": "24 Hour Free Movies",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1j2u714xk898n.cloudfront.net/scheduler/scheduleMaster/145.m3u8"
       },
       {
         "id": "30ADarcizzleOffshore.us",
@@ -30,8 +43,8 @@
       {
         "id": "30AGolfKingdom.us",
         "name": "30A Golf Kingdom",
-        "reason": "RemoteDisconnected",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://30a-tv.com/feeds/vidaa/golf.m3u8"
       },
       {
@@ -40,20 +53,6 @@
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://30a-tv.com/feeds/xodglobal/30atv.m3u8"
-      },
-      {
-        "id": "30ALionelNation.us",
-        "name": "30A Lionel Nation",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://30a-tv.com/ln.m3u8"
-      },
-      {
-        "id": "30ALoomeredTV.us",
-        "name": "30A Loomered TV",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://30a-tv.com/loomer.m3u8"
       },
       {
         "id": "30ALuxeLifeDiscovered.us",
@@ -65,22 +64,22 @@
       {
         "id": "30AMusic.us",
         "name": "30A Music",
-        "reason": "RemoteDisconnected",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://30a-tv.com/music.m3u8"
       },
       {
         "id": "30ARidiculousTV.us",
         "name": "30A Ridiculous TV",
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "RemoteDisconnected",
+        "status": "inconclusive",
         "url": "https://30a-tv.com/feeds/720p/63.m3u8"
       },
       {
         "id": "30ASidewalks.us",
         "name": "30A Sidewalks",
-        "reason": "RemoteDisconnected",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://30a-tv.com/sidewalks.m3u8"
       },
       {
@@ -100,8 +99,8 @@
       {
         "id": "30ATVClassicMovies.us",
         "name": "30A TV Classic Movies",
-        "reason": "RemoteDisconnected",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8"
       },
       {
@@ -161,11 +160,18 @@
         "url": "https://pb-ordgdql88omzf.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ordgdql88omzf/manifest.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US4000064JE&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-ordgdql88omzf_akamai"
       },
       {
-        "id": "6176f39e709f160007ec61c3",
+        "id": "48Hours.us",
         "name": "48 Hours",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/plu-6176f39e709f160007ec61c3.m3u8"
+        "url": "https://dai.google.com/linear/hls/event/JUr94WL2QAiVpGNHY5n5dA/master.m3u8"
+      },
+      {
+        "id": "USBD70000412",
+        "name": "4UV",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3qg1liq0unuxm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3hcrwuad60ian/4UV.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD70000412"
       },
       {
         "id": "50CentAction.us",
@@ -191,14 +197,14 @@
       {
         "id": "70sCinema.us",
         "name": "70s Cinema",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5f4d878d3d19b30007d2e782.m3u8"
       },
       {
         "id": "80sRewind.us",
         "name": "80s Rewind",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5ca525b650be2571e3943c63.m3u8"
       },
@@ -219,7 +225,7 @@
       {
         "id": "90sThrowback.us",
         "name": "90s Throwback",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5f4d86f519358a00072b978e.m3u8"
       },
@@ -301,6 +307,13 @@
         "url": "https://content.uplynk.com/channel/829a8c85f9e840c6bed963856c231428.m3u8"
       },
       {
+        "id": "ABC.us@KRGVTV",
+        "name": "ABC KRGV-TV",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3svnrf3rmq619.cloudfront.net/krgv-live/smil:krgv-live.smil/playlist.m3u8"
+      },
+      {
         "id": "ABC.us@KSTPTV",
         "name": "ABC KSTP-TV",
         "reason": "manifest_and_segment",
@@ -315,81 +328,25 @@
         "url": "https://content.uplynk.com/channel/9d4e02c9c3544c269d32e6b316792c8f.m3u8"
       },
       {
-        "id": "6508be683a0d700008c534e4",
+        "id": "USBC39000171G",
         "name": "ABC News Live",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://pb-0n3n2ej0w8pl9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-0n3n2ej0w8pl9/ABCNewsLive_Disney.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.content_cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBC39000171G&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-0n3n2ej0w8pl9_akamai"
+      },
+      {
+        "id": "ABCNewsLive1.us",
+        "name": "ABC News Live 1",
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8"
       },
       {
-        "id": "ABCNewsLive1.us",
-        "name": "ABC News Live 1",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8"
-      },
-      {
-        "id": "ABCNewsLive10.us",
-        "name": "ABC News Live 10",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://abcnews-streams.akamaized.net/hls/live/2023569/abcnewshudson10/master.m3u8"
-      },
-      {
-        "id": "ABCNewsLive2.us",
-        "name": "ABC News Live 2",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master.m3u8"
-      },
-      {
-        "id": "ABCNewsLive3.us",
-        "name": "ABC News Live 3",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://abcnews-streams.akamaized.net/hls/live/2023562/abcnewshudson3/master.m3u8"
-      },
-      {
-        "id": "ABCNewsLive4.us",
-        "name": "ABC News Live 4",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://abcnews-streams.akamaized.net/hls/live/2023563/abcnewshudson4/master.m3u8"
-      },
-      {
-        "id": "ABCNewsLive5.us",
-        "name": "ABC News Live 5",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://abcnews-streams.akamaized.net/hls/live/2023564/abcnewshudson5/master.m3u8"
-      },
-      {
-        "id": "ABCNewsLive6.us",
-        "name": "ABC News Live 6",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://abcnews-streams.akamaized.net/hls/live/2023565/abcnewshudson6/master.m3u8"
-      },
-      {
-        "id": "ABCNewsLive7.us",
-        "name": "ABC News Live 7",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master.m3u8"
-      },
-      {
-        "id": "ABCNewsLive8.us",
-        "name": "ABC News Live 8",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://abcnews-streams.akamaized.net/hls/live/2023567/abcnewshudson8/master.m3u8"
-      },
-      {
-        "id": "ABCNewsLive9.us",
-        "name": "ABC News Live 9",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://abcnews-streams.akamaized.net/hls/live/2023568/abcnewshudson9/master.m3u8"
+        "id": "ABC.us@WBRZTV",
+        "name": "ABC WBRZ-TV",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2a6g6zgxepbwi.cloudfront.net/wbrz-edge/weather.stream_360p/playlist.m3u8"
       },
       {
         "id": "ABC.us@WDIODT",
@@ -450,7 +407,7 @@
       {
         "id": "AcapulcoShore.us",
         "name": "Acapulco Shore US",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-64dab1f835425100080e1e7b.m3u8"
       },
@@ -511,6 +468,13 @@
         "url": "https://livestream.telvue.com/accvision2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8"
       },
       {
+        "id": "US4100028ZF",
+        "name": "According to Jim",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2clpoicomiitr.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-h4x204nsuu7p5/out/v1/4ab3a9e3ad794bc0a092211bf433b266/HLS_CMAF_DRM/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4100028ZF"
+      },
+      {
         "id": "AccuWeatherNOW.us",
         "name": "AccuWeather NOW",
         "reason": "manifest_and_segment",
@@ -560,6 +524,13 @@
         "url": "https://pb-t2e3q5og720wc.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-t2e3q5og720wc/out/v1/2db37dd41ee44050a6edad58f9a283be/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US1800014CG&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-t2e3q5og720wc_akamai"
       },
       {
+        "id": "USBC100000630",
+        "name": "Alien Nation by DUST",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://depudv3s765sn.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-5lfrnakiqu4pp/playlist.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBC100000630&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-5lfrnakiqu4pp_cloudfront"
+      },
+      {
         "id": "USBB2300001QP",
         "name": "ALL ACTION",
         "reason": "manifest_and_segment",
@@ -602,11 +573,11 @@
         "url": "https://pb-h498rvy3w598p.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-h498rvy3w598p/All_Out_Reality.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBB4400016F9&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-h498rvy3w598p_akamai"
       },
       {
-        "id": "6793ea255225b515b4ba91a7",
+        "id": "ALLBLKGems.us",
         "name": "ALLBLK Gems",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/plu-6793ea255225b515b4ba91a7.m3u8"
+        "url": "https://df1zke3zj042m.cloudfront.net/playlist.m3u8"
       },
       {
         "id": "USBD27000156I",
@@ -623,11 +594,11 @@
         "url": "https://jmp2.uk/plu-69eaa34817801c84fca05d94.m3u8"
       },
       {
-        "id": "86c08261fc015a58866210bea63eb8f4",
+        "id": "AlwaysFunnyVideos.us",
         "name": "Always Funny Videos",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/rok-86c08261fc015a58866210bea63eb8f4.m3u8"
+        "url": "https://d24l3uppudokci.cloudfront.net/playlist.m3u8"
       },
       {
         "id": "US4900004KP",
@@ -635,13 +606,6 @@
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://pb-i4wsvrlw8bf85.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-i4wsvrlw8bf85/Amazon_Live.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US4900004KP&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-i4wsvrlw8bf85_akamai"
-      },
-      {
-        "id": "AMCenEspanol.us",
-        "name": "AMC en Espanol",
-        "reason": "dns_failure",
-        "status": "unavailable",
-        "url": "https://amc-amcespanol-1-us.lg.wurl.tv/playlist.m3u8"
       },
       {
         "id": "USBD7000017L",
@@ -714,11 +678,32 @@
         "url": "https://pb-k9ikw6ov8z4qi.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-k9ikw6ov8z4qi/American_Pickers_by_History.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD3500041ZF&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-k9ikw6ov8z4qi_akamai"
       },
       {
+        "id": "US4100039PO",
+        "name": "America’s Funniest Home Videos",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1mp1kdk5zi1ie.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-upluuumbom0c7/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4100039PO"
+      },
+      {
         "id": "Ameritrade.us",
         "name": "Ameritrade [Not 24/7]",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://tdameritrade-vizio.amagi.tv/playlist.m3u8"
+      },
+      {
+        "id": "AMP1.us",
+        "name": "AMP 1",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch1/video.m3u8"
+      },
+      {
+        "id": "AMP2.us",
+        "name": "AMP 2",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch2/video.m3u8"
       },
       {
         "id": "6887a8fd8e92b5e0a7244e88",
@@ -772,7 +757,7 @@
       {
         "id": "AnimexHIDIVE.us",
         "name": "Anime x HIDIVE",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-6793eaa4bc03978b9bc63db1.m3u8"
       },
@@ -819,11 +804,11 @@
         "url": "https://jmp2.uk/rok-3ee48530e00e0abe8eb40c71fc819aa0.m3u8"
       },
       {
-        "id": "USBD25000138Y",
+        "id": "AtHomewithFamilyHandyman.us",
         "name": "At Home with Family Handyman",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://pb-zx5oxtp5qxu46.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-zx5oxtp5qxu46/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD25000138Y&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-zx5oxtp5qxu46_akamai"
+        "url": "https://d1ik2p49apxqjf.cloudfront.net/playlist.m3u8"
       },
       {
         "id": "AuroraTV.us",
@@ -849,7 +834,7 @@
       {
         "id": "04be54c79d1f55d0909e684f64f9fb57",
         "name": "Azteca Deportes Network LITE 3",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-04be54c79d1f55d0909e684f64f9fb57.m3u8"
       },
@@ -880,6 +865,13 @@
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8"
+      },
+      {
+        "id": "Backstage.us",
+        "name": "Backstage",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2ah48mnofquik.cloudfront.net/Backstage.m3u8"
       },
       {
         "id": "654932fa4d6d8f00084c4723",
@@ -915,6 +907,13 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-9210a8fbeab66e9d1ce20c187804ee7d.m3u8"
+      },
+      {
+        "id": "USBD3300012VX",
+        "name": "batteryPOP",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d24c0gmuazjo9x.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-9glk984r1jvda/master.m3u8?useRelativeUrls=true&skipBeacons=true&declaredCC1Language=en&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD3300012VX&coppa=1"
       },
       {
         "id": "BattlestarGalactica.us",
@@ -961,9 +960,16 @@
       {
         "id": "Baywatch.us",
         "name": "Baywatch",
-        "reason": "dns_failure",
-        "status": "unavailable",
-        "url": "https://amg00145-fremantlemedian-baywatch-samsungau-gtsd6.amagi.tv/playlist/amg00145-fremantlemedian-baywatch-samsungau/playlist.m3u8"
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/rok-ab47c5037be851e6a929a4d09daafeac.m3u8"
+      },
+      {
+        "id": "US4500009VV",
+        "name": "BBC Comedy",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1em2hga7sgumq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-eprn63ljtaxsa/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4500009VV"
       },
       {
         "id": "US3700005GP",
@@ -980,18 +986,25 @@
         "url": "https://jmp2.uk/plu-656535fc2c46f30008870fae.m3u8"
       },
       {
-        "id": "USBC6000108Z",
+        "id": "BBCFood.us",
         "name": "BBC Food",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://pb-n2l4zmu70non2.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-n2l4zmu70non2/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBC6000108Z&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-n2l4zmu70non2_akamai"
+        "url": "https://d1e9r0b71zfwk7.cloudfront.net/playlist.m3u8"
       },
       {
-        "id": "USBC600017FG",
+        "id": "BBCHomeGarden.us",
         "name": "BBC Home & Garden",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://pb-ynuc9crzglgjd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ynuc9crzglgjd/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBC600017FG&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-ynuc9crzglgjd_akamai"
+        "url": "https://d11r33s5i066xh.cloudfront.net/playlist.m3u8"
+      },
+      {
+        "id": "BBCKids.us",
+        "name": "BBC Kids",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dmr1h4skdal9h.cloudfront.net/playlist.m3u8"
       },
       {
         "id": "65d92a8c8b24c80008e285c0",
@@ -1073,7 +1086,7 @@
       {
         "id": "BETCinema.us",
         "name": "BET Cinema",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-58af4c093a41ca9d4ecabe96.m3u8"
       },
@@ -1101,7 +1114,7 @@
       {
         "id": "BETThrowbacks.us",
         "name": "BET Throwbacks",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-61326275b3c86a00078e4833.m3u8"
       },
@@ -1157,14 +1170,14 @@
       {
         "id": "BeverlyHills90210.us",
         "name": "Beverly Hills 90210",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5f4d83e0a382c00007bc02e7.m3u8"
       },
       {
         "id": "BeyondtheGates.us",
         "name": "Beyond the Gates",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-687ff00ff6bc08130f16ab81.m3u8"
       },
@@ -1267,6 +1280,13 @@
         "url": "https://pb-buwuk37lh8xr3.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-buwuk37lh8xr3/Lights_Legends_Icons.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US26000201N&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-buwuk37lh8xr3_akamai"
       },
       {
+        "id": "US1700027JI",
+        "name": "BizaarTV",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3s08lnvd4zcd7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-q9tuqndqo215x/webvtt/v1/18584c3f3a2a4df8/88886061/master.m3u8?useRelativeUrls=true&skipBeacons=true&declaredCC1Language=en&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US1700027JI"
+      },
+      {
         "id": "BlackFamilySitcoms.us",
         "name": "Black Family Sitcoms",
         "reason": "manifest_and_encrypted_segment",
@@ -1290,7 +1310,7 @@
       {
         "id": "BlazeLive.us",
         "name": "Blaze Live",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5e46fba0c43b0d00096e5ac1.m3u8"
       },
@@ -1302,18 +1322,32 @@
         "url": "https://pb-kguitq5i61p7w.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-kguitq5i61p7w/Blippi_SONO46.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US9000032J&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&coppa=1&pb_type=pb-kguitq5i61p7w_akamai"
       },
       {
-        "id": "USAJ30000041W",
-        "name": "Bloomberg Originals",
+        "id": "BloombergTelevision.us",
+        "name": "Bloomberg",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://pb-gwj32tjkupdmt.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-gwj32tjkupdmt/v1/bloomberg_quicktake_3/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USAJ30000041W&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-gwj32tjkupdmt_akamai"
+        "url": "https://bloomberg.com/media-manifest/streams/us.m3u8"
       },
       {
         "id": "BloombergOriginals.us",
-        "name": "Bloomberg Originals SD",
+        "name": "Bloomberg Originals",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://86fdc85a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnT3JpZ2luYWxzX0hMUw/playlist.m3u8"
+        "url": "https://bloomberg.com/media-manifest/streams/qt.m3u8"
+      },
+      {
+        "id": "BloombergTV.us@LiveEvent",
+        "name": "Bloomberg TV Live Event",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://bloomberg.com/media-manifest/streams/us-event.m3u8"
+      },
+      {
+        "id": "BloombergTV.us@PoliticsLiveEvent",
+        "name": "Bloomberg TV Politics Live Event",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://bloomberg.com/media-manifest/streams/politics.m3u8"
       },
       {
         "id": "54ff7ba69222cb1c2624c584",
@@ -1505,6 +1539,13 @@
         "url": "https://reflect-stream-bronxnet.cablecast.tv/live-16/live/stream-1/live.m3u8"
       },
       {
+        "id": "BYUTV.us",
+        "name": "BYU TV",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d13j8jpstr8iqz.cloudfront.net/BYUtv.m3u8"
+      },
+      {
         "id": "US410000230",
         "name": "BYUtv",
         "reason": "manifest_and_segment",
@@ -1517,6 +1558,13 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-5cbb91d07dbd5b92ae3ef3e37be7f2ce.m3u8"
+      },
+      {
+        "id": "USBD50000048H",
+        "name": "Caillou",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2mshoh3usf646.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ymen9lq6zp2an/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD50000048H&coppa=1"
       },
       {
         "id": "CaliforniaMusicChannel.us",
@@ -1626,7 +1674,7 @@
       {
         "id": "CBSenespanol.us",
         "name": "CBS en espanol",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-668c5cb4f01dbe0008dd4082.m3u8"
       },
@@ -1661,9 +1709,9 @@
       {
         "id": "CBSNews.us",
         "name": "CBS News",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8"
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/plu-5a6b92f6e22a617379789618.m3u8"
       },
       {
         "id": "CBSNews247.us",
@@ -1682,44 +1730,44 @@
       {
         "id": "CBSNewsBayArea.us",
         "name": "CBS News Bay Area",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/master.m3u8"
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/plu-5eb1afb21486df0007abc57c.m3u8"
       },
       {
         "id": "CBSNewsBoston.us",
         "name": "CBS News Boston",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://cbsn-bos.cbsnstream.cbsnews.com/out/v1/589d66ec6eb8434c96c28de0370d1326/master.m3u8"
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/plu-5eb1af2ad345340008fccd1e.m3u8"
       },
       {
         "id": "CBSNewsChicago.us",
         "name": "CBS News Chicago",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://cbsn-chi.cbsnstream.cbsnews.com/out/v1/b2fc0d5715d54908adf07f97d2616646/master.m3u8"
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/plu-5eb1aeb2fd4b8a00076c2047.m3u8"
       },
       {
         "id": "CBSNewsColorado.us",
         "name": "CBS News Colorado",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://cbsn-den.cbsnstream.cbsnews.com/out/v1/2e49baf2906244ecb01b07d9885fbe7a/master.m3u8"
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/plu-5eb1b12146cba40007aa7e5d.m3u8"
       },
       {
         "id": "CBSNewsDetroit.us",
         "name": "CBS News Detroit",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://cbsn-det.cbsnstream.cbsnews.com/out/v1/169f5c001bc74fa7a179b19c20fea069/master.m3u8"
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/plu-634f2610d5023700078f7dee.m3u8"
       },
       {
         "id": "CBSNewsLosAngeles.us",
         "name": "CBS News Los Angeles",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8"
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/plu-5dc481cda1d430000948a1b4.m3u8"
       },
       {
         "id": "CBSNewsMiami.us",
@@ -1731,16 +1779,16 @@
       {
         "id": "CBSNewsMinnesota.us",
         "name": "CBS News Minnesota",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://cbsn-min.cbsnstream.cbsnews.com/out/v1/76518f06941246ba810c8d175600bf74/master.m3u8"
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/plu-5eb1b0bf2240d8000732a09c.m3u8"
       },
       {
         "id": "CBSNewsNewYork.us",
         "name": "CBS News New York",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://cbsn-ny.cbsnstream.cbsnews.com/out/v1/ec3897d58a9b45129a77d67aa247d136/master.m3u8"
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/plu-5dc48170e280c80009a861ab.m3u8"
       },
       {
         "id": "5eb1b05ea168cc000767ba67",
@@ -1752,16 +1800,16 @@
       {
         "id": "CBSNewsPhilly.us",
         "name": "CBS News Philly",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://cbsn-phi.cbsnstream.cbsnews.com/out/v1/5c9ad3e215984b0e9ad845b335216b72/master.m3u8"
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/plu-5eb1b03cd345340008fccd28.m3u8"
       },
       {
         "id": "CBSNewsPittsburgh.us",
         "name": "CBS News Pittsburgh",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://cbsn-pit.cbsnstream.cbsnews.com/out/v1/6966dabf8150405ab26f854e3cd6a2b8/master.m3u8"
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/plu-5eb1b199042b3100076fe931.m3u8"
       },
       {
         "id": "CBSNewsSacramento.us",
@@ -1787,7 +1835,7 @@
       {
         "id": "CBSSportsHQ.us",
         "name": "CBS Sports HQ",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5e9f2c05172a0f0007db4786.m3u8"
       },
@@ -1962,7 +2010,7 @@
       {
         "id": "CineAdrenalina.us",
         "name": "Cine Adrenalina",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5d8d164d92e97a5e107638d2.m3u8"
       },
@@ -1976,7 +2024,7 @@
       {
         "id": "Cineaventura.us",
         "name": "Cine aventura",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-60fb2f47c133270007327375.m3u8"
       },
@@ -2009,11 +2057,11 @@
         "url": "https://pb-0jf1pt1725c54.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-0jf1pt1725c54/zuvPJYoOOdEMDNF2j2mvmg.XD-5XW7bmDpD5yWfV328oU9NWPX1Y7dhiYqJY3ymkerRKjKvBm9YaKmRu09CS8ak3vKkgVwPUO3_k0fGhRTEqmRj8vj-oWa2c7AfycYxckSjrhw6M5wnSHb_M-ipF-_gAUgB4Au2GiAbu9plqlpzSelj70dag8LI1WtRCBFc5POzwoqNj6MnletDK7AIJH8MQpa6CHWCIwcVAuMZxZ1Bp6wEqyEKGdO89flHaPae-PFrmRrbIXG4e5yaUlKGWwqdCbpmgN-iWWY4W1LkvfhStw/manifest.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD2500022U5&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-0jf1pt1725c54_akamai"
       },
       {
-        "id": "79eb3a43680e5a9f9689fee074502a3b",
+        "id": "CineRomantico.us",
         "name": "Cine Romantico",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/rok-79eb3a43680e5a9f9689fee074502a3b.m3u8"
+        "url": "https://d1si3n1st4nkgb.cloudfront.net/10502/88886011/hls/master.m3u8?ads.xumo_channelId=88886011"
       },
       {
         "id": "CineTerror.us",
@@ -2035,13 +2083,6 @@
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://pb-tmhy2xdbzw347.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-tmhy2xdbzw347/out/v1/48ea2b021fab4636a72509f5d465c695/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USAJ30000148W&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-tmhy2xdbzw347_akamai"
-      },
-      {
-        "id": "Cinevault80s.us",
-        "name": "Cinevault 80s",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://aegis-cloudfront-1.tubi.video/ea1ab5d1-f554-4f6b-b03f-2611fcd94257/playlist.m3u8"
       },
       {
         "id": "CinevaultWesterns.us",
@@ -2114,6 +2155,13 @@
         "url": "https://edge-f.swagit.com/live/chinohillsca/live-1-a/playlist.m3u8"
       },
       {
+        "id": "CityTVLakewood.us",
+        "name": "CityTV Lakewood",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dlttx48mxf9m3.cloudfront.net/vod_clients/lakewood/live/ch1/video.m3u8"
+      },
+      {
         "id": "CityTVWhittier.us",
         "name": "CityTV Whittier",
         "reason": "http_403",
@@ -2126,6 +2174,27 @@
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://pb-ejabhmrtoju9i.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ejabhmrtoju9i/b2c874a8_68b3_49cb_9435_0264a4d32e4a/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US17000186W&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-ejabhmrtoju9i_akamai"
+      },
+      {
+        "id": "US1700019P7",
+        "name": "CJ ENM K-Novela en Espanol",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d32e935uzaanj4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-aucr2h0hb96zk/e66911c8_a9c5_4206_979f_1ad694dcb8ad/hls/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US1700019P7"
+      },
+      {
+        "id": "US39000038W",
+        "name": "CJ ENM K-POP",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3kmrn2mstrnk5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7ppcp3lxg7oer/f4acc9ba_daae_4ed0_b836_32126cead919/hls/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US39000038W"
+      },
+      {
+        "id": "USBB2900001P9",
+        "name": "CJ ENM K-Reality",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dh0rbofp58isq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-00pncx2tgwlhd/e91c6419_2e45_4f6c_a646_b912658d73b8/hls/playlist.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBB2900001P9&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-00pncx2tgwlhd_cloudfront"
       },
       {
         "id": "US17000164B",
@@ -2193,7 +2262,7 @@
       {
         "id": "ClassicTVFamilies.us",
         "name": "Classic TV: Families",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-61325d18f5166c00081b84e0.m3u8"
       },
@@ -2329,6 +2398,13 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5ca671f215a62078d2ec0abf.m3u8"
+      },
+      {
+        "id": "USBD7000145C",
+        "name": "Comedy Dynamics",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3a5mry3t5fzw9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zazzvuyxddba1/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD7000145C"
       },
       {
         "id": "ComercioTV.us",
@@ -2536,7 +2612,7 @@
       {
         "id": "CrimenesImperfectos.us",
         "name": "Crimenes Imperfectos",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5e94cd036cc69d0007e8a1ba.m3u8"
       },
@@ -2578,14 +2654,14 @@
       {
         "id": "CSI.us",
         "name": "CSI (United States)",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5efbd29e4aa26700076c0d06.m3u8"
       },
       {
         "id": "CSIenespanol.us",
         "name": "CSI en espanol",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-604928d54a4f730007ff76bc.m3u8"
       },
@@ -2599,7 +2675,7 @@
       {
         "id": "CSIMiamienespanol.us",
         "name": "CSI: Miami en espanol",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-632b5950b515b000079e6b81.m3u8"
       },
@@ -2616,6 +2692,13 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-632b606e12a67b0007c9e371.m3u8"
+      },
+      {
+        "id": "CTN.us",
+        "name": "CTN (United States)",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3k5y954fiztgy.cloudfront.net/FREECAST/CTN-2b0dd347-f7b0-e7ed-9096-68966d29db50/index.m3u8"
       },
       {
         "id": "a61227fe8ede21ffc0e223763ccbe42f",
@@ -2651,6 +2734,27 @@
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://pb-ycy61qk5eq2bd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ycy61qk5eq2bd/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US700020AX&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-ycy61qk5eq2bd_akamai"
+      },
+      {
+        "id": "CVCEducation.us",
+        "name": "CVC Education",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dlttx48mxf9m3.cloudfront.net/vod_clients/bolton/live/ch2/video.m3u8"
+      },
+      {
+        "id": "CVCGovernment.us",
+        "name": "CVC Government",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dlttx48mxf9m3.cloudfront.net/vod_clients/bolton/live/ch3/video.m3u8"
+      },
+      {
+        "id": "CVCPublic.us",
+        "name": "CVC Public",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dlttx48mxf9m3.cloudfront.net/vod_clients/bolton/live/ch1/video.m3u8"
       },
       {
         "id": "CVTVChannel192.us",
@@ -2695,11 +2799,11 @@
         "url": "https://pb-z02izgi68rhao.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-z02izgi68rhao/Dance_Moms.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBC3900021HS&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-z02izgi68rhao_akamai"
       },
       {
-        "id": "447d63b6da208bb796b69f0383c474a1",
+        "id": "DangerTV.us",
         "name": "Danger TV",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/rok-447d63b6da208bb796b69f0383c474a1.m3u8"
+        "url": "https://dk0n7jh428tzj.cloudfront.net/v1/dangertv/samsungheadend_us/latest/main/hls/playlist.m3u8"
       },
       {
         "id": "USAJ3504708A",
@@ -2800,11 +2904,11 @@
         "url": "https://pb-2pks40tuu4pfg.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-2pks40tuu4pfg/SONO66.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US2900007HA&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-2pks40tuu4pfg_akamai"
       },
       {
-        "id": "5c6eeb85c05dfc257e5a50c4",
+        "id": "Degrassi.us",
         "name": "Degrassi",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/plu-5c6eeb85c05dfc257e5a50c4.m3u8"
+        "url": "https://d3537vnymvfque.cloudfront.net/playlist.m3u8"
       },
       {
         "id": "68bb16ba3efb41cd971f3ce6",
@@ -2982,6 +3086,13 @@
         "url": "https://pb-b2q86pe6s9z7p.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-b2q86pe6s9z7p/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD700016JY&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-b2q86pe6s9z7p_akamai"
       },
       {
+        "id": "US4600010KE",
+        "name": "DP World Tour",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2fhc4pzdnok99.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-pi0su8noa2yet/out/v1/a3d7d7a3b6e943909d11cb8cf293dca8/HLS_CMAF_DRM/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4600010KE"
+      },
+      {
         "id": "845b77875b6056d192401e10949948d2",
         "name": "Dr. G: Medical Examiner",
         "reason": "manifest_and_encrypted_segment",
@@ -3005,7 +3116,7 @@
       {
         "id": "6a2b0f2509705ebdf781231d",
         "name": "Dr. Quinn Medicine Woman",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-6a2b0f2509705ebdf781231d.m3u8"
       },
@@ -3029,6 +3140,13 @@
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://pb-ns82jg28epxjz.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ns82jg28epxjz/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USAJ3000002OC&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-ns82jg28epxjz_akamai"
+      },
+      {
+        "id": "USAJ30000039U",
+        "name": "Dry Bar Comedy",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://ed26e7d0159f4266a552c44f68472edc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_DryBarComedy/playlist.m3u8?ads.us_privacy=%7BUS_PRIVACY%7D&ads.wurl_channel=370&ads.wurl_name=DryBarComedy&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0"
       },
       {
         "id": "DryBarComedyPlus.us",
@@ -3066,9 +3184,16 @@
         "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2226"
       },
       {
+        "id": "US3400005I4",
+        "name": "Dungeons & Dragons: Adventures",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2d79yitjueykr.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-m6jap93memk2j/out/v1/fa5878fe9bb246f6b0bf01909cb98e6e/HLS_CMAF_DRM/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US3400005I4"
+      },
+      {
         "id": "Dynasty.us",
         "name": "Dynasty",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-64d1606b4c5ed80008e3b8b9.m3u8"
       },
@@ -3199,6 +3324,13 @@
         "url": "https://pb-rwfu08wzzpw87.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-rwfu08wzzpw87/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USAJ3504719A&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-rwfu08wzzpw87_akamai"
       },
       {
+        "id": "US34000040T",
+        "name": "ESPN8: The Ocho",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3sqv5h35vlgfp.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-4iwprxvg4r8xp/ESPNTheOcho.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US34000040T&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-4iwprxvg4r8xp_cloudfront"
+      },
+      {
         "id": "EstrellaGames.us",
         "name": "Estrella Games",
         "reason": "http_403",
@@ -3285,7 +3417,7 @@
       {
         "id": "FamilyTies.us",
         "name": "Family Ties (United States)",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5f77939a630f530007dde654.m3u8"
       },
@@ -3367,6 +3499,13 @@
         "url": "https://pb-c1uw9yo7ncvlk.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-c1uw9yo7ncvlk/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD1200020Y4&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-c1uw9yo7ncvlk_akamai"
       },
       {
+        "id": "USBD12000255B",
+        "name": "FIFA+",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dhjt18vrrocyd.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-5t243p245k50g/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD12000255B&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-5t243p245k50g_cloudfront"
+      },
+      {
         "id": "1e2a4ec82eb65f729ad7484337c0bcd4",
         "name": "FILMEX",
         "reason": "manifest_and_encrypted_segment",
@@ -3379,6 +3518,13 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-50cd4d6c632d5172834eb5b77fa395c6.m3u8"
+      },
+      {
+        "id": "US3500004M7",
+        "name": "FilmRise Anime",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dvu7aia8rjlfm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-wko6et9si2a33/master.m3u8?useRelativeUrls=true&skipBeacons=true&declaredCC1Language=en&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US3500004M7"
       },
       {
         "id": "b602b0edb0cd58a5a5be2b7554166c07",
@@ -3500,6 +3646,13 @@
         "url": "https://jmp2.uk/rok-add7a09bd437e6598057a7c7fc55a81d.m3u8"
       },
       {
+        "id": "FITE247.us",
+        "name": "FITE 24/7",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8"
+      },
+      {
         "id": "FlicksofFury.us",
         "name": "Flicks of Fury",
         "reason": "manifest_and_encrypted_segment",
@@ -3547,6 +3700,13 @@
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://pb-7zbm16kmdn8iw.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-7zbm16kmdn8iw/v1/aenetworks_forgedinfire_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD2700014QW&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-7zbm16kmdn8iw_akamai"
+      },
+      {
+        "id": "US600011Q2",
+        "name": "Formula 1 Channel",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3g1m5lrv3w26l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-thrsk81iky5l8/out/v1/52ba482df1324f2ca366eddda656ff23/HLS_CMAF_DRM/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US600011Q2"
       },
       {
         "id": "Fox.us@KCPQ",
@@ -3680,6 +3840,13 @@
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://na.linear.zype.com/f2f02a72-71d0-45f3-829f-4ae51f721102/86ef0177-697d-41c4-be57-c4d1a2b83cad-hls4/live.m3u8"
+      },
+      {
+        "id": "FreebieTV.us",
+        "name": "Freebie TV [Not 24/7]",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1h1d6qoy9vnra.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/Freebie-Plex/187.m3u8"
       },
       {
         "id": "9fc6583c28985e15b3f05b46f5d77957",
@@ -3822,11 +3989,32 @@
         "url": "https://amg01460-gemshoppingnetw-gem-ono-x662c.amagi.tv/playlist.m3u8"
       },
       {
+        "id": "US350000563",
+        "name": "GET Comedy",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2ogd5iln76o9l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mv5levhtwda8g/out/v1/3181bb057cf340c8be0756922b01b9b9/HLS_CMAF_DRM/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US350000563"
+      },
+      {
+        "id": "USBD1200002PM",
+        "name": "get TV",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3sqzql0qjb249.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ew9jfngcaklwt/out/v1/d31d02c3165d42a49f8d0b2b64ad5864/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD1200002PM&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-ew9jfngcaklwt_cloudfront"
+      },
+      {
         "id": "64e561a4354251000823a0e0",
         "name": "Ghost Hunters",
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-64e561a4354251000823a0e0.m3u8"
+      },
+      {
+        "id": "US4200004KK",
+        "name": "Ghost Stories",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3qindbjv75wld.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0cml0ynpl0qw8/v1/ae_networks_unxplainedzonehauntings_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4200004KK"
       },
       {
         "id": "6a2b0e66c2b638404f0a4ffb",
@@ -3920,11 +4108,11 @@
         "url": "https://livestream.telvue.com/nashuanh3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8"
       },
       {
-        "id": "USBD700011RE",
+        "id": "GravitasMovies.us",
         "name": "Gravitas Movies",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://pb-7elpwjtl4omet.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-7elpwjtl4omet/Gravitas_Movies.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD700011RE&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-7elpwjtl4omet_akamai"
+        "url": "https://d6dg3ebeih71x.cloudfront.net/Gravitas_Movies.m3u8"
       },
       {
         "id": "GreaterLoveTV.us",
@@ -3983,25 +4171,32 @@
         "url": "https://pb-btte61v2syyh9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-btte61v2syyh9/v1/gustotv_samsung/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USAK3508724A&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-btte61v2syyh9_akamai"
       },
       {
-        "id": "628e685ba3811100070551a8",
-        "name": "Hallmark Movies & More",
-        "reason": "manifest_and_encrypted_segment",
+        "id": "USBD4200011W4",
+        "name": "Hagerty",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/plu-628e685ba3811100070551a8.m3u8"
+        "url": "https://dqw6u0upa8l21.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0etl87ne2tj77/Hagerty.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD4200011W4"
+      },
+      {
+        "id": "HallmarkMoviesMore.us",
+        "name": "Hallmark Movies & More",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709"
       },
       {
         "id": "HappyDays.us",
         "name": "Happy Days (United States)",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5f7794162a4559000781fc12.m3u8"
       },
       {
-        "id": "USBC44000072I",
+        "id": "HappyKids.us",
         "name": "HappyKids",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://pb-i7tag4d2nzuht.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-i7tag4d2nzuht/v1/channel/ft-1375/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBC44000072I&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&coppa=1&pb_type=pb-i7tag4d2nzuht_akamai"
+        "url": "https://dil9xdvretp0f.cloudfront.net/index.m3u8"
       },
       {
         "id": "HarmonyGospelMusicTV.us",
@@ -4109,6 +4304,13 @@
         "url": "https://pb-1w27jqdjw9co1.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-1w27jqdjw9co1/Historia.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US2600019IC&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-1w27jqdjw9co1_akamai"
       },
       {
+        "id": "USBD1200009JI",
+        "name": "History & Warfare Now",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1nzda2a2b3swt.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ang726j6ec5s3/History_Warfare_Now.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD1200009JI"
+      },
+      {
         "id": "USBD35000428O",
         "name": "History 365",
         "reason": "manifest_and_segment",
@@ -4139,7 +4341,7 @@
       {
         "id": "HogansHeroes.us",
         "name": "Hogan's Heroes",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-68939e206727ec919bb39061.m3u8"
       },
@@ -4158,6 +4360,13 @@
         "url": "https://jmp2.uk/plu-68bb16916523408b14bac7f8.m3u8"
       },
       {
+        "id": "USBC21000142T",
+        "name": "Home Refresh",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2bvruyi85eaxl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-wedgbca8p66er/playlist.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.content_cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBC21000142T&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-wedgbca8p66er_cloudfront"
+      },
+      {
         "id": "HomeMadeNation.us",
         "name": "Home.Made.Nation",
         "reason": "manifest_and_encrypted_segment",
@@ -4172,9 +4381,16 @@
         "url": "https://jmp2.uk/plu-66df8aa7abec540008ca8cb6.m3u8"
       },
       {
+        "id": "USBC100001175",
+        "name": "Horror by ALTER",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3opw4b2eztyyq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-enw1laf7uj9fh/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBC100001175"
+      },
+      {
         "id": "HotBench.us",
         "name": "Hot Bench",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-6036e6e7ac69c400072afca2.m3u8"
       },
@@ -4184,6 +4400,13 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-fb29ccf15bc8583ca1db8c42902eeae8.m3u8"
+      },
+      {
+        "id": "US2900013AY",
+        "name": "Hot Wheels Action",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dtz4aepbew7ez.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-j02089jh4uhwc/hotwh.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US2900013AY&coppa=1"
       },
       {
         "id": "HSN.us@East",
@@ -4221,11 +4444,11 @@
         "url": "https://stream.swagit.com/live-edge/houstontx/smil:hd-16x9-2-b/playlist.m3u8"
       },
       {
-        "id": "USAJ2200009C2",
+        "id": "Hungry.us",
         "name": "Hungry",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://pb-m9vxqmjzankk8.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-m9vxqmjzankk8/v1/food/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USAJ2200009C2&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-m9vxqmjzankk8_akamai"
+        "url": "https://dos35knl8v49a.cloudfront.net/v1/food/samsungheadend_us/latest/main/hls/playlist.m3u8"
       },
       {
         "id": "US270000585",
@@ -4254,6 +4477,13 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-6450209d939a5900084dba1d.m3u8"
+      },
+      {
+        "id": "USBB520002173",
+        "name": "Ice Road Truckers",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d27c7ivrw07fxl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lvjy0yd75y498/v1/aenetworks_iceroadtruckers_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBB520002173"
       },
       {
         "id": "3395d3b6c6e895a495fd12a2c719b21c",
@@ -4396,6 +4626,13 @@
         "url": "https://content.uplynk.com/channel/b880a791bf95426d917a509e0c44796a.m3u8"
       },
       {
+        "id": "US11000020V",
+        "name": "It’s Anime",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1isoijd9dbbf7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sx4e903ce0xv7/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US11000020V"
+      },
+      {
         "id": "645518dc5f92519688baed84d025b14e",
         "name": "JAIL",
         "reason": "manifest_and_encrypted_segment",
@@ -4466,6 +4703,13 @@
         "url": "https://jmp2.uk/rok-69e286e45a360c02a5966c668726172f.m3u8"
       },
       {
+        "id": "Journy.us",
+        "name": "Journy",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3s3a5c7f101eb.cloudfront.net/playlist.m3u8"
+      },
+      {
         "id": "USBB1000003HL",
         "name": "JOURNY TV",
         "reason": "manifest_and_segment",
@@ -4494,6 +4738,13 @@
         "url": "https://pb-j2glwbz4050cp.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-j2glwbz4050cp/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBC4400004KK&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-j2glwbz4050cp_akamai"
       },
       {
+        "id": "KContentbyCJENM.us",
+        "name": "K-Content by CJ ENM",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2q0mzb9bm4w5z.cloudfront.net/68fee8e1_605a_437b_b968_244c3c0d5f24/hls/playlist.m3u8"
+      },
+      {
         "id": "6212fc29da09d7938c80b54a09f3fd69",
         "name": "Kalogeras Sisters TV",
         "reason": "manifest_and_encrypted_segment",
@@ -4520,6 +4771,20 @@
         "reason": "http_403",
         "status": "inconclusive",
         "url": "https://reflect-kcat-live.cablecast.tv/live-2/live/live.m3u8"
+      },
+      {
+        "id": "KetchupTV.us",
+        "name": "Ketchup TV",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d24p9tv2w5yorn.cloudfront.net/vod.m3u8"
+      },
+      {
+        "id": "KevinHartsLOLNetwork.us",
+        "name": "Kevin Hart's LOL! Network",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1kt53vrikzr5o.cloudfront.net/v1/lol_lolnetwork_5/samsungheadend_us/latest/main/hls/playlist.m3u8"
       },
       {
         "id": "KFONTV.us",
@@ -4676,6 +4941,13 @@
         "url": "https://jmp2.uk/plu-68758038552299d2b08162e3.m3u8"
       },
       {
+        "id": "LegoChannel.us",
+        "name": "Lego Channel",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dltiqboxjw21d.cloudfront.net/index.m3u8"
+      },
+      {
         "id": "LEGOKidsTV.us",
         "name": "LEGO Kids TV",
         "reason": "manifest_and_encrypted_segment",
@@ -4718,6 +4990,13 @@
         "url": "https://pb-461pdri25iusv.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-461pdri25iusv/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US7000229B&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-461pdri25iusv_akamai"
       },
       {
+        "id": "US4000004N1",
+        "name": "Letterman TV",
+        "reason": "not_probed",
+        "status": "inconclusive",
+        "url": "https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-u03ntq8e91n5d.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4000004N1"
+      },
+      {
         "id": "LGTV.us",
         "name": "LGTV",
         "reason": "manifest_and_segment",
@@ -4737,6 +5016,13 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-223627443ebe5007b1b9461cc1ea297e.m3u8"
+      },
+      {
+        "id": "US19000247F",
+        "name": "Lifetime Cine Selecto",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2srdplhihmu4l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-7zhasy38vq1gg/Lifetime_Cine_Selecto.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US19000247F&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-7zhasy38vq1gg_cloudfront"
       },
       {
         "id": "8d8befc9060e861eb1bdd5b21c0403b3",
@@ -4804,7 +5090,7 @@
       {
         "id": "LiveMusic.us",
         "name": "Live Music",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5873fc21cad696fb37aa9054.m3u8"
       },
@@ -4837,11 +5123,11 @@
         "url": "https://jmp2.uk/plu-68bb164fb3900870ec368759.m3u8"
       },
       {
-        "id": "USBC4400005HY",
+        "id": "Localish.us",
         "name": "Localish",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://pb-bb3z8w9dr0u82.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-bb3z8w9dr0u82/DisneyLocalish.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBC4400005HY&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-bb3z8w9dr0u82_akamai"
+        "url": "https://dnmfq3sh1jipj.cloudfront.net/DisneyLocalish.m3u8"
       },
       {
         "id": "US4100035CD",
@@ -4863,6 +5149,13 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-52c137ae3cdc50768ad7ea3cdaf0f2f4.m3u8"
+      },
+      {
+        "id": "USBC1300009VM",
+        "name": "LOL! Network",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d60ucawhultpi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ow04zyrcgpw21/LOL_Network.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBC1300009VM"
       },
       {
         "id": "LoneStar.us",
@@ -4914,11 +5207,18 @@
         "url": "https://jmp2.uk/rok-479fe0d11f3f5132a3f36b617547da3b.m3u8"
       },
       {
-        "id": "USBA3000044BJ",
+        "id": "US300065DB",
+        "name": "Love Pets",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d31r8y66tn175.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swiro27v7lz6z/Love_Pets.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US300065DB"
+      },
+      {
+        "id": "LuckyDog.us",
         "name": "Lucky Dog",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://pb-p4miesqtiwklg.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-p4miesqtiwklg/Lucky_Dog.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBA3000044BJ&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-p4miesqtiwklg_akamai"
+        "url": "https://d3j95sejv6mybj.cloudfront.net/Lucky_Dog.m3u8"
       },
       {
         "id": "US2900004L2",
@@ -4991,6 +5291,13 @@
         "url": "https://jmp2.uk/plu-60f754f98185580007eb0754.m3u8"
       },
       {
+        "id": "US4500002UB",
+        "name": "Mattel Jr.",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dc6v647pwrp79.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1go7v0oswg4kp/matjr.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4500002UB&coppa=1"
+      },
+      {
         "id": "MaverickBlackCinema.us",
         "name": "Maverick Black Cinema",
         "reason": "manifest_and_segment",
@@ -5012,6 +5319,27 @@
         "url": "https://edge-f.swagit.com/live/miamibeachfl/live-1-a/playlist.m3u8"
       },
       {
+        "id": "MCN6ArtsChannel.us",
+        "name": "MCN6 Arts Channel [Not 24/7]",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_COMEDY.smil/Playlist.m3u8"
+      },
+      {
+        "id": "MCN6MainChannel.us",
+        "name": "MCN6 Main Channel [Not 24/7]",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MAIN.smil/Playlist.m3u8"
+      },
+      {
+        "id": "MCN6MusicChannel.us",
+        "name": "MCN6 Music Channel [Not 24/7]",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8"
+      },
+      {
         "id": "US21000043S",
         "name": "MeatEater",
         "reason": "manifest_and_segment",
@@ -5026,6 +5354,20 @@
         "url": "https://jmp2.uk/rok-11b69d01eadbc0259b0d05042a49f842.m3u8"
       },
       {
+        "id": "MeritStreet.us",
+        "name": "Merit Street",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d9069ugodwkju.cloudfront.net/Merit_Street.m3u8"
+      },
+      {
+        "id": "USAJ22000130U",
+        "name": "MHz Mysteries",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://f8f59665a66d47ab9f9e8c2b7e6881e1.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_MHz/playlist.m3u8?ads.wurl_channel=278&ads.wurl_name=MHz&ads.us_privacy=%7BUS_PRIVACY%7D&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0"
+      },
+      {
         "id": "3030ce6ed7c092f0b6780f05d10405f9",
         "name": "Mi Miedo Canal",
         "reason": "manifest_and_encrypted_segment",
@@ -5038,6 +5380,13 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-bb4cb7662f7c1da1e9a46f9e398d57fa.m3u8"
+      },
+      {
+        "id": "USBD700015LK",
+        "name": "Midnight Pulp",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d18l78mi5ujmqr.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mp84sul05kiy2/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD700015LK"
       },
       {
         "id": "MidsomerMurders.us",
@@ -5084,7 +5433,7 @@
       {
         "id": "MissionImpossible.us",
         "name": "Mission Impossible (United States)",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5f77977bd924d80007eee60c.m3u8"
       },
@@ -5105,7 +5454,7 @@
       {
         "id": "MLB.us",
         "name": "MLB",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5e66968a70f34c0007d050be.m3u8"
       },
@@ -5166,6 +5515,13 @@
         "url": "https://reflect-montgomerycommunitymedia.cablecast.tv/live-11/live/stream-4/live.m3u8"
       },
       {
+        "id": "USBB11000015Q",
+        "name": "Moonbug",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dq2a9ghraf7sw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zxq18dopv0o6q/Moonbug.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBB11000015Q&coppa=1"
+      },
+      {
         "id": "b5cde121f98257329346020e2a60295a",
         "name": "Moonbug Kids",
         "reason": "manifest_and_encrypted_segment",
@@ -5189,7 +5545,7 @@
       {
         "id": "MoreTVSitcoms.us",
         "name": "More TV Sitcoms",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-6132619f9ddaa50007e7dd86.m3u8"
       },
@@ -5336,14 +5692,14 @@
       {
         "id": "MTVFlowLatino.us",
         "name": "MTV Flow Latino",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5d3609cd6a6c78d7672f2a81.m3u8"
       },
       {
         "id": "MTVPlutoTV.us",
         "name": "MTV Pluto TV",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5ca672f515a62078d2ec0ad2.m3u8"
       },
@@ -5383,11 +5739,11 @@
         "url": "https://pb-ci0aq96pvywd5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ci0aq96pvywd5/v1/aenetworks_mysteriesxplored_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBB5200028MM&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-ci0aq96pvywd5_akamai"
       },
       {
-        "id": "US4500004SQ",
+        "id": "MysteryScienceTheater3000.us",
         "name": "Mystery Science Theater 3000",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://pb-o2h6qfnysd376.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-o2h6qfnysd376/Mystery_Science_Theater_3000.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US4500004SQ&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-o2h6qfnysd376_akamai"
+        "url": "https://d1c73nj8qxp55a.cloudfront.net/Mystery_Science_Theater_3000.m3u8"
       },
       {
         "id": "66e0b4866ad04d0008fff4d8",
@@ -5432,11 +5788,11 @@
         "url": "https://jmp2.uk/plu-5f7274806621ff00072651ff.m3u8"
       },
       {
-        "id": "5da0c85bd2c9c10009370984",
+        "id": "Naruto.us",
         "name": "Naruto",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/plu-5da0c85bd2c9c10009370984.m3u8"
+        "url": "https://d21vn5eki5qsdi.cloudfront.net/playlist.m3u8"
       },
       {
         "id": "Narutoenespanol.us",
@@ -5446,18 +5802,11 @@
         "url": "https://jmp2.uk/plu-5ee92e72fb286e0007285fec.m3u8"
       },
       {
-        "id": "NASATVMedia.us",
-        "name": "NASA TV Media",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8"
-      },
-      {
-        "id": "NASATVPublic.us",
-        "name": "NASA TV Public",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8"
+        "id": "US700021SM",
+        "name": "NASCAR Channel",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2bgddg4yfsshf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-uomfuf48efmu7/NASCAR.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US700021SM&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-uomfuf48efmu7_cloudfront"
       },
       {
         "id": "NashBridges.us",
@@ -5733,11 +6082,11 @@
         "url": "https://nhl-firetv.amagi.tv/playlist.m3u8"
       },
       {
-        "id": "82bd10ceb52152a7adb6bdc5d776e794",
+        "id": "NHRATV.us",
         "name": "NHRA TV",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/rok-82bd10ceb52152a7adb6bdc5d776e794.m3u8"
+        "url": "https://d265y4sk8257lt.cloudfront.net/nh.m3u8"
       },
       {
         "id": "NickJrPlutoTV.us",
@@ -5768,11 +6117,11 @@
         "url": "https://pb-e58s4q75liqet.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-e58s4q75liqet/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US2200007QG&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&coppa=1&pb_type=pb-e58s4q75liqet_akamai"
       },
       {
-        "id": "9dd23031622757d1944e4782b2a192ef",
+        "id": "NinjaKidzTV.us",
         "name": "Ninja Kidz TV",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://jmp2.uk/rok-9dd23031622757d1944e4782b2a192ef.m3u8"
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3868b4ny0rgdf.cloudfront.net/playlist.m3u8"
       },
       {
         "id": "66ff0cf663292d0008320cf8",
@@ -5866,11 +6215,32 @@
         "url": "https://livestream.telvue.com/ogat1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8"
       },
       {
+        "id": "OutdoorAmerica.us",
+        "name": "Outdoor America",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1e354daam8g5r.cloudfront.net/playlist.m3u8"
+      },
+      {
         "id": "OutdoorChannel.us",
         "name": "Outdoor Channel",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://amg00718-outdoorchannela-outdoortv-samsungau-uc7mp.amagi.tv/playlist/amg00718-outdoorchannela-outdoortv-samsungau/playlist.m3u8"
+      },
+      {
+        "id": "OuterSphere.us",
+        "name": "OuterSphere",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3o593mz1glx8d.cloudfront.net/OuterSphere_US.m3u8"
+      },
+      {
+        "id": "US8000024G",
+        "name": "OUTflix Movies",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dg37ei3o66x3s.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zzkya1ovwe2jb/OutTV_US.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US8000024G"
       },
       {
         "id": "Outlaw.us@WGGSTV",
@@ -5887,11 +6257,11 @@
         "url": "https://outsidetv-firetv.amagi.tv/playlist.m3u8"
       },
       {
-        "id": "US33000154M",
+        "id": "Overtime.us",
         "name": "Overtime",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://pb-bovsywhv5jhue.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-bovsywhv5jhue/v1/amc_overtime_1/samsungheadend_us/latest/main/hls/playlist_hd.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US33000154M&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-bovsywhv5jhue_akamai"
+        "url": "https://d1a8aq6t30gkqj.cloudfront.net/v1/amc_overtime_1/samsungheadend_us/latest/main/hls/playlist_hd.m3u8"
       },
       {
         "id": "654930a8346f420008d3b0b8",
@@ -5971,6 +6341,20 @@
         "url": "https://amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv/playlist.m3u8"
       },
       {
+        "id": "USBB800001O7",
+        "name": "PBS Digital Studios",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1l4qxz5lz9v2h.cloudfront.net/10501/88886029/hls/master.m3u8?includeAssetTags=true&ads.xumo_channelId=88886029&ads.xumo_streamId=88886029&ads.channelId=88886029&ads.caid=PBSDigitalStudios&ads.csid=samsungtvplus_us_pbsdigitalstudios_ssai&ads.amznslotId=b187c68c-9a6f-4d25-9a9c-b95b42d440af&ads._fw_coppa=0&ads._fw_content_category=IAB19&ads._fw_content_genre=technology&ads._fw_content_language=en&ads._fw_content_rating=tv-g&ads._fw_gdpr=0&ads.xumo_contentId=209&ads.xumo_contentName=pbs&ads.xumo_providerId=209&ads.xumo_providerName=pbs&ads.xumo_channelName=pbs&ads.xumo_imdb_genre=Documentary&ads.xumo_adsystem=mediatailor&ads.tpcl=MIDROLL&ads.playerProf=ssai&declaredCC1Language=en&ads.amznappId=fee8f4c64ab14ff4a9d7917bb2acc050&ads.os=Tizen&ads.xumo_platform=samsung&ads._fw_is_lat=%7BTARGETOPT%7D&ads._fw_us_privacy=1---&ads._fw_did=%7BPSID%7D&ads._fw_deviceMake=samsung&ads._fw_gdpr_consent=%7BTC_STRING%7D&ads.appName=%7BAPP_NAME%7D&ads._fw_app_store_url=%7BAPP_DOMAIN%7D&ads._fw_h_x_country=[H_X_COUNTRY]&ads.appVersion=[APP_VERSION]&ads._fw_device_model=[DEVICE_MODEL]&ads.lat=&ads.lon=&ads.osv="
+      },
+      {
+        "id": "US13000081O",
+        "name": "PBS Food",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2jvtmm6kdz8ah.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-1dodgz7ilzxr8/PBS_Food.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US13000081O&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-1dodgz7ilzxr8_cloudfront"
+      },
+      {
         "id": "US130000639",
         "name": "PBS Genealogy",
         "reason": "manifest_and_segment",
@@ -6013,18 +6397,25 @@
         "url": "https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8"
       },
       {
-        "id": "640a64bd73e013000893d4e0",
+        "id": "PBSNature.us",
         "name": "PBS Nature",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/plu-640a64bd73e013000893d4e0.m3u8"
+        "url": "https://d3mr43kyql7wgk.cloudfront.net/PBS_Nature.m3u8"
       },
       {
-        "id": "US1300005MK",
+        "id": "PBSTravel.us",
         "name": "PBS Travel",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://pb-41d44411qur7m.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-41d44411qur7m/PBS_Travel.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US1300005MK&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-41d44411qur7m_akamai"
+        "url": "https://d3hqevbyoxtkoi.cloudfront.net/PBS_Travel.m3u8"
+      },
+      {
+        "id": "PBS.us@WJXT",
+        "name": "PBS WJXT",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dai.google.com/linear/hls/event/RDmbn03GRCOLNG1eetEKhg/master.m3u8"
       },
       {
         "id": "PCTChannel26.us",
@@ -6097,11 +6488,11 @@
         "url": "https://jmp2.uk/plu-6334a574605f140007e233c4.m3u8"
       },
       {
-        "id": "5de94dacb394a300099fa22a",
-        "name": "PGA TOUR",
-        "reason": "manifest_and_encrypted_segment",
+        "id": "PGATour.us",
+        "name": "PGA Tour",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/plu-5de94dacb394a300099fa22a.m3u8"
+        "url": "https://d11k1mnrgfposz.cloudfront.net/playlist.m3u8"
       },
       {
         "id": "PhillyCAM.us",
@@ -6155,7 +6546,7 @@
       {
         "id": "PlutoTVAction.us",
         "name": "Pluto TV Action (United States)",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-561d7d484dc7c8770484914a.m3u8"
       },
@@ -6176,28 +6567,28 @@
       {
         "id": "PlutoTVAnime.us",
         "name": "Pluto TV Anime",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5812b7d3249444e05d09cc49.m3u8"
       },
       {
         "id": "PlutoTVAnimeMovies.us",
         "name": "Pluto TV Anime Movies",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-67ed8f7e443f0671bc2b2368.m3u8"
       },
       {
         "id": "PlutoTVBackcountry.us",
         "name": "Pluto TV Backcountry",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5cabdf1437b88b26947346b2.m3u8"
       },
       {
         "id": "PlutoTVCars.us",
         "name": "Pluto TV Cars",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5812b3a4249444e05d09cc46.m3u8"
       },
@@ -6211,7 +6602,7 @@
       {
         "id": "PlutoTVComedy.us",
         "name": "Pluto TV Comedy",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5a4d3a00ad95e4718ae8d8db.m3u8"
       },
@@ -6274,7 +6665,7 @@
       {
         "id": "PlutoTVFantastic.us",
         "name": "Pluto TV Fantastic",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5b64a245a202b3337f09e51d.m3u8"
       },
@@ -6288,7 +6679,7 @@
       {
         "id": "PlutoTVFranchiseFavorites.us",
         "name": "Pluto TV Franchise Favorites",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-68fbf8101d26140175db8b58.m3u8"
       },
@@ -6330,14 +6721,14 @@
       {
         "id": "PlutoTVIcons.us",
         "name": "Pluto TV Icons",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-64b585f84ea480000838e446.m3u8"
       },
       {
         "id": "PlutoTVLives.us",
         "name": "Pluto TV Lives",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5d8beeb39b5d5d5f8c672530.m3u8"
       },
@@ -6372,7 +6763,7 @@
       {
         "id": "PlutoTVNovelas.us",
         "name": "Pluto TV Novelas",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5cf96c0222df39f1a338d163.m3u8"
       },
@@ -6386,7 +6777,7 @@
       {
         "id": "PlutoTVReaction.us",
         "name": "Pluto TV Reaction",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-617b37b361e0fd0008cfd8c5.m3u8"
       },
@@ -6442,7 +6833,7 @@
       {
         "id": "PlutoTVScience.us",
         "name": "Pluto TV Science (United States)",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-563a970aa1a1f7fe7c9daad7.m3u8"
       },
@@ -6456,7 +6847,7 @@
       {
         "id": "PlutoTVStaffPicks.us",
         "name": "Pluto TV Staff Picks",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5f4d863b98b41000076cd061.m3u8"
       },
@@ -6484,7 +6875,7 @@
       {
         "id": "PlutoTVThrillers.us",
         "name": "Pluto TV Thrillers (United States)",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5b4e69e08291147bd04a9fd7.m3u8"
       },
@@ -6505,7 +6896,7 @@
       {
         "id": "PlutoTVWesterns.us",
         "name": "Pluto TV Westerns (United States)",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5b4e94282d4ec87bdcbb87cd.m3u8"
       },
@@ -6517,11 +6908,25 @@
         "url": "https://jmp2.uk/plu-6909e5c3a3a4b49706b8373b.m3u8"
       },
       {
+        "id": "pocketwatch.us",
+        "name": "pocket.watch",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dl74gpgmnb7i8.cloudfront.net/pocketwatch_GameOn.m3u8"
+      },
+      {
         "id": "USBD12000153A",
         "name": "pocket.watch Game-On",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://pb-ft7wqnc2o1jv1.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ft7wqnc2o1jv1/pocketwatch_GameOn.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD12000153A&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&coppa=1&pb_type=pb-ft7wqnc2o1jv1_akamai"
+      },
+      {
+        "id": "PoconoTelevisionNetwork.us",
+        "name": "Pocono Television Network",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dfoiz3dv1euv7.cloudfront.net/ptnlive-s3/live1.m3u8"
       },
       {
         "id": "PokerGo.us",
@@ -6557,6 +6962,13 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-a208207740dabd5e846e107b84db9123.m3u8"
+      },
+      {
+        "id": "Portlandia.us",
+        "name": "Portlandia",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1uvnirn6lhs2f.cloudfront.net/playlist.m3u8"
       },
       {
         "id": "US2900012T8",
@@ -6622,11 +7034,25 @@
         "url": "https://pb-c7zxdnjx1pgsi.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-c7zxdnjx1pgsi/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD17000025J&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-c7zxdnjx1pgsi_akamai"
       },
       {
+        "id": "PursuitUP.us",
+        "name": "PursuitUP",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1p1siomv3cm7b.cloudfront.net/playlist.m3u8"
+      },
+      {
         "id": "696998915a0ae9e1b563f0c6",
         "name": "Qello Concerts",
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-696998915a0ae9e1b563f0c6.m3u8"
+      },
+      {
+        "id": "USBD3500024YB",
+        "name": "Qello Concerts by Stingray",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dblg512iwb2z0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-q0x8iuvxobbqy/manifest/qello-qello001-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD3500024YB"
       },
       {
         "id": "6a4fd9f5445cbf6c14ae3ea2",
@@ -6692,6 +7118,13 @@
         "url": "https://rpn.bozztv.com/radiant/radiant/radiant/index.m3u8"
       },
       {
+        "id": "RainbowRuby.us",
+        "name": "Rainbow Ruby",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dt9mwqwe98q7o.cloudfront.net/master.m3u8"
+      },
+      {
         "id": "US14000030Y",
         "name": "Rainy Day Vibes",
         "reason": "manifest_and_segment",
@@ -6701,7 +7134,7 @@
       {
         "id": "Rawhide.us",
         "name": "Rawhide (United States)",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-634f307c7a068e00072c9982.m3u8"
       },
@@ -6748,6 +7181,13 @@
         "url": "https://jmp2.uk/plu-6549316d2c1d330008631496.m3u8"
       },
       {
+        "id": "USBD1700018II",
+        "name": "Rebelde",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1g1ht9t48jsre.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bijuom88e2pwr/server/distrib/095g5bF4ZDmOi210/zuvPJYoOOdEMDNF2j2mvmg.XD-5XW7bmDpD5yWfV328oU9NWPX1Y7dhiYqJY3ymkerRKjKvBm9YaKmRu09CS8ak3vKkgVwPUO3_k0fGhRTEqiS9HICoI9C-OpcX3AESJI45YBgdGvUDTKLV7OAKQkExUMHDTzb46u-4DPDOJ8m8CB14VS_0C5MyMAoLpN3GpRBVp5RXYAEzNlFh53KotWHvY8ABd7kkbFKKX-NHbi5Epg8dXtPE4himx5Dym9Q7b9sfI7BTmpICYX6JA6IMxW6r0nA7m_eWuLNznQdj74PCZA/manifest.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD1700018II"
+      },
+      {
         "id": "c5e8a74546771de365652cd053f73351",
         "name": "Red Bull TV",
         "reason": "manifest_and_encrypted_segment",
@@ -6769,11 +7209,25 @@
         "url": "https://jmp2.uk/rok-8abbea29b86a5a5da299c7ef2e288cab.m3u8"
       },
       {
+        "id": "USBC36000073J",
+        "name": "RetroCrush",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2nqmwm1ndpgi2.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1uo37riotch0h/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBC36000073J"
+      },
+      {
         "id": "ReutersTV.us",
         "name": "Reuters TV",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8"
+      },
+      {
+        "id": "RevandRoll.us",
+        "name": "Rev and Roll",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d39nqr4d4h6cv6.cloudfront.net/master.m3u8"
       },
       {
         "id": "07143b8eb2940144933e5faadb8c19e2",
@@ -6818,13 +7272,6 @@
         "url": "https://pb-cy00m4ei0fe6a.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-cy00m4ei0fe6a/v1/aenetworks_roadrenegades_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US700002ZB&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-cy00m4ei0fe6a_akamai"
       },
       {
-        "id": "Roar.us",
-        "name": "Roar",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://fast-channels.sinclairstoryline.com/TBD/index.m3u8"
-      },
-      {
         "id": "Roar.us@KOKITV",
         "name": "Roar KOKI-TV",
         "reason": "manifest_and_segment",
@@ -6851,6 +7298,13 @@
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://amg17233-amg17233c1-wisptv-us-6409.playouts.now.amagi.tv/playlist.m3u8"
+      },
+      {
+        "id": "US1000004YJ",
+        "name": "RugbyPass TV",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3qzq0bmq30tw5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-1k92lpv6gob51/v1/world_rugby_rugbypasstv_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US1000004YJ&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-1k92lpv6gob51_cloudfront"
       },
       {
         "id": "Runtime.us",
@@ -6944,6 +7398,13 @@
         "url": "https://amg00732-salemmediagroup-snc-ono-ekp8j.amagi.tv/playlist/amg00732-salemmediagroup-snc-ono/playlist.m3u8"
       },
       {
+        "id": "US300068X7",
+        "name": "Samsung Television Network",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d23ollwr5ob0h4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-d4otq70189kci/out/v1/297a0c029060425389b147a7d604f073/HLS_CMAF_DRM/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US300068X7"
+      },
+      {
         "id": "USBA3000043LH",
         "name": "Samsung Wild Life",
         "reason": "manifest_and_segment",
@@ -6986,6 +7447,13 @@
         "url": "https://content.uplynk.com/channel/f9aafa1f132e40af9b9e7238bc18d128.m3u8"
       },
       {
+        "id": "US1400019FA",
+        "name": "Scrambled Up",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d17qtpljebs3sp.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-l11ana2w3qvwo/Scrambled_Up.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US1400019FA&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-l11ana2w3qvwo_cloudfront"
+      },
+      {
         "id": "ScreenDreams.us",
         "name": "Screen Dreams",
         "reason": "manifest_and_encrypted_segment",
@@ -7000,6 +7468,13 @@
         "url": "https://aegis-cloudfront-1.tubi.video/7e1c26b7-7975-4240-9a4f-480eaa8f3ea4/playlist.m3u8"
       },
       {
+        "id": "US400221W2",
+        "name": "Scripps Sports Network",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3l3b8q99uyekh.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-diekcm5ed48kk/Scripps_Sports_US.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US400221W2&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-diekcm5ed48kk_cloudfront"
+      },
+      {
         "id": "SCVTV.us",
         "name": "SCVTV",
         "reason": "http_403",
@@ -7007,11 +7482,25 @@
         "url": "https://reflect-scvtv.cablecast.tv/live-2/live/live.m3u8"
       },
       {
+        "id": "USBD3300013KV",
+        "name": "Sensical Jr",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1p10fe1a9f857.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-tes0cxcyep1vh/Sensical_Jr.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD3300013KV"
+      },
+      {
         "id": "USBD3300017XB",
         "name": "Sensical Makers",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://pb-kit90f6k13ikb.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-kit90f6k13ikb/Sensical_Makers.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD3300017XB&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-kit90f6k13ikb_akamai"
+      },
+      {
+        "id": "US4400006IX",
+        "name": "Series K Edge",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d81ij5c986or8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-j5k68p0bq35aa/playlist.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US4400006IX&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-j5k68p0bq35aa_cloudfront"
       },
       {
         "id": "US4300002FK",
@@ -7070,6 +7559,13 @@
         "url": "https://jmp2.uk/plu-68ee9a999938143525bfc385.m3u8"
       },
       {
+        "id": "ShoutFactoryTV.us",
+        "name": "Shout! Factory TV",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1s1wrpgemt9re.cloudfront.net/Shout_TV.m3u8"
+      },
+      {
         "id": "USBD1200021JM",
         "name": "Shout! TV",
         "reason": "manifest_and_segment",
@@ -7086,7 +7582,7 @@
       {
         "id": "SketchyAF.us",
         "name": "Sketchy AF",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-67882c1c7b11714b795c2008.m3u8"
       },
@@ -7110,6 +7606,13 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2241"
+      },
+      {
+        "id": "USBD33000180S",
+        "name": "Slugterra",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d19m5s4kmtxvps.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ahv53wuggajm8/master.m3u8?useRelativeUrls=true&skipBeacons=true&declaredCC1Language=en&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD33000180S&coppa=1"
       },
       {
         "id": "US4700001B4",
@@ -7154,11 +7657,18 @@
         "url": "https://pb-e9epuzrgqgsu6.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-e9epuzrgqgsu6/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US2100007V7&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-e9epuzrgqgsu6_akamai"
       },
       {
-        "id": "9349c516ca6456b9b5ed7e20cb1c1384",
-        "name": "SNL Vault",
-        "reason": "manifest_and_encrypted_segment",
+        "id": "US10000135V",
+        "name": "SMTOWN",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/rok-9349c516ca6456b9b5ed7e20cb1c1384.m3u8"
+        "url": "https://d3ohxfmvgyctym.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-dg2s8uscqo0aw/out/v1/1fff0ab5a48742e993a2f79906481b26/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US10000135V&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-dg2s8uscqo0aw_cloudfront"
+      },
+      {
+        "id": "SNLVault.us",
+        "name": "SNL Vault",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d4whmvwm0rdvi.cloudfront.net/10007/99993017/hls/master.m3u8?ads.xumo_channelId=99993017"
       },
       {
         "id": "b41118f76d1a5abcb701b9cc0a035c5b",
@@ -7180,6 +7690,13 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2260"
+      },
+      {
+        "id": "SonyCanalNovelas.us",
+        "name": "Sony Canal Novelas",
+        "reason": "not_probed",
+        "status": "inconclusive",
+        "url": "https://a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/CanelaTV_SonyCanalNovelas/playlist.m3u8"
       },
       {
         "id": "SoundViewCommunityMedia.us",
@@ -7247,14 +7764,14 @@
       {
         "id": "StarTrek.us",
         "name": "Star Trek US",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5efbd39f8c4ce900075d7698.m3u8"
       },
       {
         "id": "StarTrekDeepSpaceNine.us",
         "name": "Star Trek: Deep Space Nine",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-65c69bbfd77d450008c7ffee.m3u8"
       },
@@ -7282,7 +7799,7 @@
       {
         "id": "StarTrekVoyager.us",
         "name": "Star Trek: Voyager (United States)",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-634dacf51d90320007fcd5fa.m3u8"
       },
@@ -7294,11 +7811,39 @@
         "url": "https://jmp2.uk/plu-620bfa7df72827000703ddb1.m3u8"
       },
       {
+        "id": "US52000010Y",
+        "name": "StarTalk",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d18ba7mvs8vvgl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ec8mtb4iwhe8w/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US52000010Y"
+      },
+      {
         "id": "73991aa61267bcc005a855c7b6303afc",
         "name": "Stingray Cityscapes",
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-73991aa61267bcc005a855c7b6303afc.m3u8"
+      },
+      {
+        "id": "USBD35000180U",
+        "name": "Stingray Classic Rock",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1gblbamdkwl5k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rlxixsm66esse/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD35000180U"
+      },
+      {
+        "id": "USBD350002623",
+        "name": "Stingray Classica",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2bpmlqcx2tu90.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t0e1oqtyors2s/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD350002623"
+      },
+      {
+        "id": "US4700005EA",
+        "name": "Stingray Country Greats",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2dmm2qtf5kxzs.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fqac1nfv0jn8h/manifest/ose-109ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4700005EA"
       },
       {
         "id": "f8f717f72440fb688192f83faa71a8ab",
@@ -7315,11 +7860,81 @@
         "url": "https://jmp2.uk/plu-696689d13b9ce349c9be3a18.m3u8"
       },
       {
+        "id": "USBD3500011J3",
+        "name": "Stingray Easy Listening",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dplpbqigtm6i2.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-qhbu7pvq86ff3/manifest/ose-137ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD3500011J3"
+      },
+      {
+        "id": "US4700002UF",
+        "name": "Stingray Euro Hits",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2c3wvj4ppee50.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-vnybaoslisn5s/manifest/ose-214ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4700002UF"
+      },
+      {
+        "id": "USBD3500008IJ",
+        "name": "Stingray Flashback 70s",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d30hccj9v28bt6.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-jp7qdac3e1wzj/manifest/ose-115ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD3500008IJ"
+      },
+      {
         "id": "d90a57a66251fdda967c2e2b9e6aa25d",
         "name": "Stingray Free Riding",
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-d90a57a66251fdda967c2e2b9e6aa25d.m3u8"
+      },
+      {
+        "id": "USBD3500022DN",
+        "name": "Stingray Greatest Hits",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2ijgfgrz03rvu.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l5gypvhxzqytm/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD3500022DN"
+      },
+      {
+        "id": "StingrayGreatestHolidayHits.us",
+        "name": "Stingray Greatest Holiday Hits",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/54947915-6504-4548-aaef-eabd451f8607/1.m3u8"
+      },
+      {
+        "id": "USBD3500010MT",
+        "name": "Stingray Hip Hop",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://deskeld503yt0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-z4688plhh59fn/manifest/ose-133ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD3500010MT"
+      },
+      {
+        "id": "USBD3500038R6",
+        "name": "Stingray Holidayscapes",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1cmq1sgpxl58e.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-v2yq21udanpzh/manifest/holidayscapes-hol001ads_hol001-montreal/samsungtvplus/master.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD3500038R6&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-v2yq21udanpzh_cloudfront"
+      },
+      {
+        "id": "USBD3300021KV",
+        "name": "Stingray Hot Country",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d33l69tlyxnc6j.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o1stobjejuzbx/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD3300021KV"
+      },
+      {
+        "id": "US4700006XL",
+        "name": "Stingray Jukebox Oldies",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1rovegzz0yerw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-15la71qirvthm/manifest/ose-021ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4700006XL"
+      },
+      {
+        "id": "US4700003DP",
+        "name": "Stingray Movie Music",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2ncqanjk2s7cl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7aqpp1acyu07v/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4700003DP"
       },
       {
         "id": "d12329eda6e3dcc1f42ce2a350a4623d",
@@ -7329,11 +7944,67 @@
         "url": "https://jmp2.uk/rok-d12329eda6e3dcc1f42ce2a350a4623d.m3u8"
       },
       {
+        "id": "USBD35000149S",
+        "name": "Stingray Nothin' But 90s",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dgxid9pkkhl5v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-eh5fc0owefye7/manifest/ose-142ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD35000149S"
+      },
+      {
+        "id": "USBD3300022QK",
+        "name": "Stingray Remember the 80s",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1imh73yrie9zu.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-tqikpnjgwyvj8/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD3300022QK"
+      },
+      {
+        "id": "USBD3500017CE",
+        "name": "Stingray Romance Latino",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dttd1c4ciosbt.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-w5n3gk7saiz48/manifest/ose-202ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD3500017CE"
+      },
+      {
+        "id": "USBD35000128A",
+        "name": "Stingray Smooth Jazz",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3p7th0srqyelz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-wnw7fmxlfartw/manifest/ose-140ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD35000128A"
+      },
+      {
+        "id": "US4700007GV",
+        "name": "Stingray Soft Hits",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dr9ts6fv5j0ll.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hoy66ss5z278d/manifest/ose-237ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4700007GV"
+      },
+      {
+        "id": "USBD3500013DG",
+        "name": "Stingray Spa",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d9rd4243pcy92.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-e4dxftqz7hlvi/manifest/ose-122ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD3500013DG"
+      },
+      {
         "id": "8b564fb868f8f1d49a1986123724ef18",
         "name": "Stingray Stargaze",
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-8b564fb868f8f1d49a1986123724ef18.m3u8"
+      },
+      {
+        "id": "USBD3500016NH",
+        "name": "Stingray Today's K-Pop",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1nmpy6yoh39yl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o9q511t0qlhez/manifest/ose-317ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD3500016NH"
+      },
+      {
+        "id": "USBD3500009Y3",
+        "name": "Stingray Today's Latin Pop",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3g3z1afc3jeaf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-jaf5q3eu7s7pf/manifest/ose-190ads-montreal/samsungtvplus/master.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD3500009Y3"
       },
       {
         "id": "79876f8f79d0394ba8982259393e5e32",
@@ -7378,6 +8049,13 @@
         "url": "https://pb-fuivn1ahkumfe.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-fuivn1ahkumfe/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US1400014N9&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-fuivn1ahkumfe_akamai"
       },
       {
+        "id": "USBC4400012QS",
+        "name": "Strawberry Shortcake",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2tdny619yw5x1.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mrvy9w3w3rbqi/master.m3u8?useRelativeUrls=true&skipBeacons=true&declaredCC1Language=en&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBC4400012QS&coppa=1"
+      },
+      {
         "id": "667f393836a2f90008fd17c0",
         "name": "Strawberry Shortcake and Friends",
         "reason": "manifest_and_encrypted_segment",
@@ -7408,7 +8086,7 @@
       {
         "id": "SupernaturalDrama.us",
         "name": "Supernatural Drama",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5f24662bebe0f0000767de32.m3u8"
       },
@@ -7497,11 +8175,11 @@
         "url": "https://jmp2.uk/plu-68509fe882d704acfc5bacd1.m3u8"
       },
       {
-        "id": "USBD700017WC",
+        "id": "TastemadeTravel.us",
         "name": "Tastemade Travel",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://pb-q4zbsox7qucpv.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-q4zbsox7qucpv/Tastemade_Travel.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD700017WC&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-q4zbsox7qucpv_akamai"
+        "url": "https://d6ef3usc6d9cl.cloudfront.net/Tastemade_Travel.m3u8"
       },
       {
         "id": "TBCN.us",
@@ -7511,6 +8189,13 @@
         "url": "https://reflect-tampa-bay-community.cablecast.tv/live-16/live/live.m3u8"
       },
       {
+        "id": "US240000434",
+        "name": "Team Liquid",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3qzt5cx2j8lfl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xl92c1a87umdk/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US240000434"
+      },
+      {
         "id": "257afd66cee15a1ca2125fc377e87cc2",
         "name": "Team USA TV",
         "reason": "manifest_and_encrypted_segment",
@@ -7518,9 +8203,16 @@
         "url": "https://jmp2.uk/rok-257afd66cee15a1ca2125fc377e87cc2.m3u8"
       },
       {
+        "id": "TED.us",
+        "name": "TED",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1b16tvvxk3tnu.cloudfront.net/TED.m3u8"
+      },
+      {
         "id": "TeenMom.us",
         "name": "Teen Mom (United States)",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-6127e12ed140e900077e7b6f.m3u8"
       },
@@ -7530,6 +8222,13 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-ceb64d994c7756c2a8f09ace94c3e43f.m3u8"
+      },
+      {
+        "id": "TelemundoAlDia.us",
+        "name": "Telemundo Al Dia",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3f4oii5n0oeqi.cloudfront.net/11701/88814573/hls/master.m3u8?ads.xumo_channelId=88814573"
       },
       {
         "id": "8e0bb4b7ca7c5ea1af52427462297f38",
@@ -7569,9 +8268,16 @@
       {
         "id": "TelemundoTelenovelasClasicas.us",
         "name": "Telemundo Telenovelas Clasicas",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5cf96cc422df39f1a338d165.m3u8"
+      },
+      {
+        "id": "USBD3500015R5",
+        "name": "Teletubbies",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dy9gbyiaxw0rb.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6l19hh92smbi2/master.m3u8?useRelativeUrls=true&skipBeacons=true&declaredCC1Language=en&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD3500015R5&coppa=1"
       },
       {
         "id": "TemeculaTV.us",
@@ -7595,6 +8301,13 @@
         "url": "https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8"
       },
       {
+        "id": "TGJunior.us",
+        "name": "TG Junior",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3i6upqaqzosi1.cloudfront.net/tg/jr_us/tg_jr_us.m3u8"
+      },
+      {
         "id": "TheAddamsFamily.us",
         "name": "The Addams Family",
         "reason": "manifest_and_encrypted_segment",
@@ -7616,11 +8329,18 @@
         "url": "https://jmp2.uk/plu-60f75178e7f8aa0007e9c259.m3u8"
       },
       {
+        "id": "TheAsylum.us",
+        "name": "The Asylum",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1i3g4v4xlfhad.cloudfront.net/The_Asylum.m3u8"
+      },
+      {
         "id": "TheBobRossChannel.us",
         "name": "The Bob Ross Channel",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://aegis-cloudfront-1.tubi.video/45301c94-0d40-4cbb-b342-f5dc7949d76c/playlist.m3u8"
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/plu-5f36d726234ce10007784f2a.m3u8"
       },
       {
         "id": "TheCarolBurnettShow.us",
@@ -7635,6 +8355,13 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5d48685da7e9f476aa8a1888.m3u8"
+      },
+      {
+        "id": "TheCityofMarina.us",
+        "name": "The City of Marina",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch4/video.m3u8"
       },
       {
         "id": "TheConners.us",
@@ -7742,11 +8469,11 @@
         "url": "https://pb-aq5tqlshz44jr.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-aq5tqlshz44jr/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US3300008FX&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-aq5tqlshz44jr_akamai"
       },
       {
-        "id": "TheHillTV.us",
-        "name": "The Hill TV [Geo-blocked]",
-        "reason": "dns_failure",
-        "status": "unavailable",
-        "url": "https://amg01312-cw-amg01312c15-firetv-us-3444.playouts.now.amagi.tv/playlist.m3u8"
+        "id": "US4100031FK",
+        "name": "The Incredible Dr. Pol",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3sr54vclouuvs.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6giayw7fv7bpb/out/v1/95f54e141779493588ce64250f7d5620/HLS_CMAF_DRM/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4100031FK"
       },
       {
         "id": "USBC2100009GT",
@@ -7756,11 +8483,11 @@
         "url": "https://pb-tdmd4j4zqfssc.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-tdmd4j4zqfssc/The_Jack_Hanna_Channel.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBC2100009GT&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-tdmd4j4zqfssc_akamai"
       },
       {
-        "id": "64dab9df3d48f40008868091",
+        "id": "TheJamieOliverChannel.us",
         "name": "The Jamie Oliver Channel",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/plu-64dab9df3d48f40008868091.m3u8"
+        "url": "https://d3i68hpvh19xjd.cloudfront.net/JamieOliver_GB.m3u8"
       },
       {
         "id": "US2900014UU",
@@ -7775,6 +8502,13 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-6283d51144ad8f0007fa382d.m3u8"
+      },
+      {
+        "id": "USBA2300001S8",
+        "name": "The LEGO Channel",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dh18i7whff86v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-pslwq5nud9zg9/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBA2300001S8&coppa=1"
       },
       {
         "id": "65a6dafb7bdc8d0008473c85",
@@ -7812,6 +8546,13 @@
         "url": "https://jmp2.uk/rok-34b686f999ecaacfbcd91bb5195c3124.m3u8"
       },
       {
+        "id": "TheMontereyChannel.us",
+        "name": "The Monterey Channel",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch3/video.m3u8"
+      },
+      {
         "id": "6792c30abc03978b9b8bb832",
         "name": "The NBA Channel",
         "reason": "manifest_and_encrypted_segment",
@@ -7833,6 +8574,13 @@
         "url": "https://jmp2.uk/plu-5aea40b35126c2157123aa64.m3u8"
       },
       {
+        "id": "ThePeninsulaChannel.us",
+        "name": "The Peninsula Channel",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch5/video.m3u8"
+      },
+      {
         "id": "ThePetCollective.us",
         "name": "The Pet Collective",
         "reason": "manifest_and_segment",
@@ -7849,14 +8597,14 @@
       {
         "id": "ThePriceIsRight.us",
         "name": "The Price Is Right",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-643f035d5a0cd50008361534.m3u8"
       },
       {
         "id": "ThePriceIsRightTheBarkerEra.us",
         "name": "The Price Is Right: The Barker Era",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-64c220e15dc1660008a79c96.m3u8"
       },
@@ -7870,7 +8618,7 @@
       {
         "id": "TheRifleman.us",
         "name": "The Rifleman",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5e825550e758c700077b0aef.m3u8"
       },
@@ -8155,13 +8903,6 @@
         "url": "https://pb-6c6x41oq61swo.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-6c6x41oq61swo/out/v1/8491754e876c4820b22d6012aed9109a/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US29000168D&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&coppa=1&pb_type=pb-6c6x41oq61swo_akamai"
       },
       {
-        "id": "TransformersTV.us",
-        "name": "Transformers TV",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://jmp2.uk/plu-60fb053712f22a0007ff14d2.m3u8"
-      },
-      {
         "id": "TribecaChannel.us",
         "name": "Tribeca Channel [Geo-blocked]",
         "reason": "manifest_and_segment",
@@ -8321,13 +9062,6 @@
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://rpn.bozztv.com/gusa/gusa-TVSFamilyChannel/index.m3u8"
-      },
-      {
-        "id": "TVSFilmNoirNetwork.us",
-        "name": "TVS Film Noir Network",
-        "reason": "not_hls_body",
-        "status": "unavailable",
-        "url": "https://rpn.bozztv.com/trn01/gusa-TVSFilmNoir/index.m3u8"
       },
       {
         "id": "TVSFlashbackNetwork.us",
@@ -8507,7 +9241,7 @@
       {
         "id": "65ea8b928145cb0008509426",
         "name": "UEFA Champions League",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-65ea8b928145cb0008509426.m3u8"
       },
@@ -8526,6 +9260,20 @@
         "url": "https://jmp2.uk/plu-656542ae4261ca00082154a8.m3u8"
       },
       {
+        "id": "US4000069ML",
+        "name": "Una Familia de Diez",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dsjun3u7vuqqs.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-2xku5hpnbt8m0/manifest.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4000069ML"
+      },
+      {
+        "id": "Unbeaten.us",
+        "name": "Unbeaten",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8"
+      },
+      {
         "id": "98cafb7f4b01848a967fda4bd2225bd7",
         "name": "Unbeaten Sports",
         "reason": "manifest_and_encrypted_segment",
@@ -8538,6 +9286,13 @@
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://pb-klo1iddz6t427.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-klo1iddz6t427/Unbeaten.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US1400008DW&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-klo1iddz6t427_akamai"
+      },
+      {
+        "id": "Unidentified.us",
+        "name": "Unidentified",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d3ify425qsio2d.cloudfront.net/playlist.m3u8"
       },
       {
         "id": "654933e253fc970008390114",
@@ -8575,11 +9330,18 @@
         "url": "https://jmp2.uk/rok-8346cc0f3d415e39875fca80b67fd951.m3u8"
       },
       {
-        "id": "5b4e96a0423e067bd6df6901",
-        "name": "Unsolved Mysteries",
-        "reason": "manifest_and_encrypted_segment",
+        "id": "US900001CX",
+        "name": "Universe: Mysteries Solved",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/plu-5b4e96a0423e067bd6df6901.m3u8"
+        "url": "https://d3ga7xx94lga4d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-frhhb6b56246j/The_Universe.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US900001CX&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-frhhb6b56246j_cloudfront"
+      },
+      {
+        "id": "UnsolvedMysteries.us",
+        "name": "Unsolved Mysteries",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d31z96rdrmwfsp.cloudfront.net/master.m3u8"
       },
       {
         "id": "11a0e337ea9b53d4b7a9517e219d7f5b",
@@ -8640,23 +9402,23 @@
       {
         "id": "Vevo70s.us",
         "name": "Vevo '70s",
-        "reason": "dns_failure",
-        "status": "unavailable",
-        "url": "https://amg00056-vevotv-vevo70saunz-samsungau-xzszd.amagi.tv/playlist/amg00056-vevotv-vevo70saunz-samsungau/playlist.m3u8"
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/plu-5f32f26bcd8aea00071240e5.m3u8"
       },
       {
         "id": "Vevo80s.us",
         "name": "Vevo '80s",
-        "reason": "dns_failure",
-        "status": "unavailable",
-        "url": "https://amg00056-vevotv-vevo80saunz-samsungau-rp5e3.amagi.tv/playlist/amg00056-vevotv-vevo80saunz-samsungau/playlist.m3u8"
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/plu-5fd7b8bf927e090007685853.m3u8"
       },
       {
         "id": "Vevo90s.us",
         "name": "Vevo '90s",
-        "reason": "dns_failure",
-        "status": "unavailable",
-        "url": "https://amg00056-vevotv-vevo90saunz-samsungau-n6a0d.amagi.tv/playlist/amg00056-vevotv-vevo90saunz-samsungau/playlist.m3u8"
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/plu-5fd7bb1f86d94a000796e2c2.m3u8"
       },
       {
         "id": "USBD120002431",
@@ -8666,18 +9428,32 @@
         "url": "https://pb-rvq329k5ixifc.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-rvq329k5ixifc/mt/rsu/v1/channel/AYd1-nMFTA_IEY8YEBPyCA-V2/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD120002431&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-rvq329k5ixifc_akamai"
       },
       {
-        "id": "5fd7bca3e0a4ee0007a38e8c",
+        "id": "Vevo2K.us",
         "name": "Vevo 2K",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/plu-5fd7bca3e0a4ee0007a38e8c.m3u8"
+        "url": "https://d1s6jz7jeei17.cloudfront.net/playlist/amg00056-vevotv-vevo2kau-samsungau/playlist.m3u8"
       },
       {
         "id": "VevoCountry.us",
         "name": "Vevo Country",
-        "reason": "dns_failure",
-        "status": "unavailable",
-        "url": "https://amg00056-vevotv-vevocountryau-samsungau-ktmqm.amagi.tv/playlist/amg00056-vevotv-vevocountryau-samsungau/playlist.m3u8"
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/plu-5da0d75e84830900098a1ea0.m3u8"
+      },
+      {
+        "id": "US400006630",
+        "name": "Vevo Country Rewind",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dtpafgv4jlncv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6k5baoy1yrsnr/mt/rsu/v1/channel/AZlegsFKILvcvwCBYqT4vQ-V2/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US400006630"
+      },
+      {
+        "id": "VevoHipHop.us",
+        "name": "Vevo Hip Hop",
+        "reason": "http_403",
+        "status": "inconclusive",
+        "url": "https://d3vgs3ro3x6v8a.cloudfront.net/Vevo_Hip_Hop.m3u8"
       },
       {
         "id": "USBC3600002EK",
@@ -8694,18 +9470,18 @@
         "url": "https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist.m3u8"
       },
       {
-        "id": "5d93b635b43dd1a399b39eee",
+        "id": "VevoPop.us",
         "name": "Vevo Pop",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/plu-5d93b635b43dd1a399b39eee.m3u8"
+        "url": "https://d128y56w6v2kax.cloudfront.net/playlist/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8"
       },
       {
-        "id": "5da0d83f66c9700009b96d0e",
+        "id": "VevoRB.us",
         "name": "Vevo R&B",
-        "reason": "manifest_and_encrypted_segment",
-        "status": "segment_ok",
-        "url": "https://jmp2.uk/plu-5da0d83f66c9700009b96d0e.m3u8"
+        "reason": "http_403",
+        "status": "inconclusive",
+        "url": "https://d1hf773q57zx9s.cloudfront.net/Vevo_R_B.m3u8"
       },
       {
         "id": "64dab5fe35425100080e2991",
@@ -8713,6 +9489,13 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-64dab5fe35425100080e2991.m3u8"
+      },
+      {
+        "id": "VevoRetroRock.us",
+        "name": "Vevo Retro Rock",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2lyea6if8kkz9.cloudfront.net/playlist/amg00056-vevotv-vevoretrorockau-samsungau/playlist.m3u8"
       },
       {
         "id": "61d4b38226b8a50007fe03a6",
@@ -8848,6 +9631,13 @@
         "url": "https://aegis-cloudfront-1.tubi.video/d5171dc7-f8c6-469c-81eb-e1ffaaed5721/playlist.m3u8"
       },
       {
+        "id": "US41000060J",
+        "name": "WAPA+",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d15svg0m77868y.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-r6nkqv22qtf2f/v1/hemisphere_wapaplus_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US41000060J"
+      },
+      {
         "id": "6532e8342cf13100083b404c",
         "name": "Warner Bros. TV Say Yes to the Dress",
         "reason": "manifest_and_encrypted_segment",
@@ -8897,6 +9687,20 @@
         "url": "https://waypoint-waypointtv-firetv.amagi.tv/playlist.m3u8"
       },
       {
+        "id": "WBTV641.us",
+        "name": "WBTV 64.1",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2ugl2g2gz1giy.cloudfront.net/index.m3u8"
+      },
+      {
+        "id": "US700004OA",
+        "name": "WBTV News",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2ugl2g2gz1giy.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4fuxzenflzs9j/index.m3u8?start_index=4&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US700004OA"
+      },
+      {
         "id": "bf7ee95e6a905222a1d24174120cc106",
         "name": "WBTV News 3",
         "reason": "manifest_and_encrypted_segment",
@@ -8904,11 +9708,18 @@
         "url": "https://jmp2.uk/rok-bf7ee95e6a905222a1d24174120cc106.m3u8"
       },
       {
-        "id": "a1e38b83ae2a56f09f4d2ee8ed206b35",
-        "name": "Weathernation",
-        "reason": "manifest_and_encrypted_segment",
+        "id": "US1400004HN",
+        "name": "WCNC",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/rok-a1e38b83ae2a56f09f4d2ee8ed206b35.m3u8"
+        "url": "https://d38j7eis2huqak.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5oqijncdwntvq/index.m3u8?vendor=samsung&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US1400004HN"
+      },
+      {
+        "id": "WeatherNation.us",
+        "name": "WeatherNation",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d2ferbiwcx1539.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8zd06wicndthf-ssai-prd/WNNationalSamsung/WNNationalSamsung.m3u8"
       },
       {
         "id": "61e9af6bfbbcc6000700119b",
@@ -8916,6 +9727,20 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-61e9af6bfbbcc6000700119b.m3u8"
+      },
+      {
+        "id": "USAJ3400014LK",
+        "name": "WeatherSpy",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d12gab6t5iutxf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5f9kx6t1zhw2i/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USAJ3400014LK"
+      },
+      {
+        "id": "WeatherSpy.us",
+        "name": "WeatherSpy (United States)",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d12gab6t5iutxf.cloudfront.net/playlist.m3u8"
       },
       {
         "id": "WeedsNurseJackie.us",
@@ -8934,7 +9759,7 @@
       {
         "id": "WesternTV.us",
         "name": "Western TV",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5e8df4bc16e34700077e77d3.m3u8"
       },
@@ -8988,11 +9813,11 @@
         "url": "https://pb-g918wddh86y7o.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-g918wddh86y7o/out/v1/2b9e728074fe4a1fae82948c3a4fb6b9/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US1900013Z7&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-g918wddh86y7o_akamai"
       },
       {
-        "id": "US20000131M",
+        "id": "WillowSports.us",
         "name": "Willow Sports",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://pb-qkurwwnhowqg3.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-qkurwwnhowqg3/Willow_TV.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US20000131M&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-qkurwwnhowqg3_akamai"
+        "url": "https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8"
       },
       {
         "id": "WipeoutXtra.us",
@@ -9011,9 +9836,9 @@
       {
         "id": "WITN22.us",
         "name": "WITN22 [Not 24/7]",
-        "reason": "http_404",
-        "status": "unavailable",
-        "url": "https://witn.cablecast.tv/live-4/live/live.m3u8"
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://witn.cablecast.tv/live-1/live/live.m3u8"
       },
       {
         "id": "US700010XK",
@@ -9030,11 +9855,18 @@
         "url": "https://rpn.bozztv.com/wlmb/wlmb/wlmb/index.m3u8"
       },
       {
-        "id": "686d8dd294a028da3ac59566",
-        "name": "Women's Sports Network",
-        "reason": "manifest_and_encrypted_segment",
+        "id": "USBC3200001S5",
+        "name": "WN Charlotte",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/plu-686d8dd294a028da3ac59566.m3u8"
+        "url": "https://d16xlk626t29pt.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-isdcfuk05zpqa-ssai-prd/ABR.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBC3200001S5"
+      },
+      {
+        "id": "WomensSportsNetwork.us",
+        "name": "Women's Sports Network",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d39accvx65hq9o.cloudfront.net/Womens_Sports_Network.m3u8"
       },
       {
         "id": "69699b6d23ea437206f4a036",
@@ -9044,11 +9876,11 @@
         "url": "https://jmp2.uk/plu-69699b6d23ea437206f4a036.m3u8"
       },
       {
-        "id": "5616f9c0ada51f8004c4b091",
+        "id": "WorldPokerTour.us",
         "name": "World Poker Tour",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://jmp2.uk/plu-5616f9c0ada51f8004c4b091.m3u8"
+        "url": "https://d2e00kr7m9coe4.cloudfront.net/scheduler/scheduleMaster/406.m3u8"
       },
       {
         "id": "USBC1000002NP",
@@ -9058,11 +9890,25 @@
         "url": "https://pb-b62f663v8jteu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-b62f663v8jteu/Worlds_Most_Evil_Killers.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBC1000002NP&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-b62f663v8jteu_akamai"
       },
       {
+        "id": "USBC1000017D8",
+        "name": "WSOC Charlotte",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1q60ra9vxbqm1.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ypzel57tu4ymc-prod/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBC1000017D8"
+      },
+      {
         "id": "WSOCNow.us",
         "name": "WSOC Now [Geo-blocked]",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://amg00327-coxmediagroup-wsocbreaking-plex-t51et.amagi.tv/playlist/amg00327-coxmediagroup-wsocbreaking-plex/playlist.m3u8"
+      },
+      {
+        "id": "WuTangCollection.us",
+        "name": "Wu Tang Collection",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dbrb49pjoymg4.cloudfront.net/10001/99991745/hls/master.m3u8?ads.xumo_channelId=99991745"
       },
       {
         "id": "US700005ID",
@@ -9084,6 +9930,20 @@
         "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2247"
+      },
+      {
+        "id": "USBB320000647",
+        "name": "XITE 80s Flashback",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1n314cytqn9r3.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-bklagqy82v0pr/XITE_80s_Flashback.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBB320000647"
+      },
+      {
+        "id": "XITE90sThrowback.us",
+        "name": "XITE 90's Throwback",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d284aawtm5vi48.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fjdfi2br1jtq7/XITE_90s_Throwback.m3u8"
       },
       {
         "id": "USBB3200007AK",
@@ -9128,11 +9988,18 @@
         "url": "https://pb-sdyacyk3thxf9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-sdyacyk3thxf9/XITE_Hits.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD3300004RH&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-sdyacyk3thxf9_akamai"
       },
       {
-        "id": "USBD3300007PB",
+        "id": "USBB2300003JZ",
+        "name": "XITE Just Chill",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dvnftgdlbnemm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-dh48uzd9o895t/XITE_Just_Chill.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBB2300003JZ"
+      },
+      {
+        "id": "XITENuevoLatino.us",
         "name": "XITE Nuevo Latino",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://pb-dgcrtrqyg4f3h.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-dgcrtrqyg4f3h/XITE_Nuevo_Latino.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD3300007PB&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-dgcrtrqyg4f3h_akamai"
+        "url": "https://d3bsgqzbpkrvbb.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-w288eaw03izg1/XITE_Nuevo_Latino.m3u8"
       },
       {
         "id": "USBD330000948",
@@ -9156,11 +10023,25 @@
         "url": "https://jmp2.uk/plu-623a1b5188ecdc0007c9ef5a.m3u8"
       },
       {
-        "id": "USBD3300010L9",
+        "id": "XITESiempreLatino.us",
         "name": "XITE Siempre Latino",
         "reason": "manifest_and_segment",
         "status": "segment_ok",
-        "url": "https://pb-txeb23s0zqdiy.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-txeb23s0zqdiy/XITE_Siempre_Latino.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD3300010L9&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-txeb23s0zqdiy_akamai"
+        "url": "https://d1xc25jm9e0l4b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xplkt8i7m24dc/XITE_Siempre_Latino.m3u8"
+      },
+      {
+        "id": "USBD350003932",
+        "name": "XITE Summer",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://dt1s4l2cmiyit.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fcwpee1h7t5cs/XITE_Celebrates.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD350003932"
+      },
+      {
+        "id": "USBC2100008DP",
+        "name": "Xplore",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://depdwjha9qyli.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-afggztr9mcye6/Xplore.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBC2100008DP"
       },
       {
         "id": "XploreTV.us",
@@ -9189,6 +10070,20 @@
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://pb-mjr9205rtv7fy.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-mjr9205rtv7fy/Yahoo_Finance.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USAJ4300005PJ&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-mjr9205rtv7fy_akamai"
+      },
+      {
+        "id": "YahooFinance.us",
+        "name": "Yahoo! Finance",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8"
+      },
+      {
+        "id": "US3200012O8",
+        "name": "Yahoo! Sports Network",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
+        "url": "https://d1lo7b6bfnqs3w.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-skitibl14vdyx/Yahoo_Sports_Network.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US3200012O8&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-skitibl14vdyx_cloudfront"
       },
       {
         "id": "YoMTV.us",
@@ -9303,7 +10198,7 @@
         "url": "https://jmp2.uk/rok-427be38e736e5c6e92bd1cec086e941a.m3u8"
       }
     ],
-    "total": 1328
+    "total": 1456
   },
   "checked_utc": "2026-09-25T21:13:00Z",
   "limitations": "One probe, one runner location, one moment in time. inconclusive = network/TLS/timeout/server error and is NOT evidence the channel is dead. segment_ok does not guarantee playback in your location, continuity, or any distribution right. geo restrictions and terms are out of scope.",
