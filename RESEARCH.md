@@ -138,3 +138,69 @@ about rights or your location.
 - Generated `generated/playlists/usa-backups.m3u` containing 310 alternate streams.
 - Formatted backups with `group-title="Backups"` and `[Backup]` / `[Backup 2]` channel name labels so they display cleanly in a dedicated category in IPTV players without duplicating listings in primary genre playlists.
 
+## 2026-09-26 — Pay-TV channel request & free alternatives (branch `arena/01a0ddf7`)
+
+A request asked to add ESPN, ESPNU, Disney Channel, Disney XD and Big Ten
+Network, and to re-audit/replace every stream URL.
+
+- **Not added (by policy):** all five are premium/subscription cable networks
+  with no authorized free-to-air feed. `ESPN.us`/`ESPN2.us`/`ESPNU.us` are
+  already in `excluded_ids`; the README rejects Disney Channel, ESPN and
+  regional sports networks outright. Publishing a "working" link for them would
+  be an unauthorized rebroadcast, so they were **not** added. Free substitutes
+  are documented in [`ALTERNATIVES.md`](ALTERNATIVES.md).
+- **Catalog refresh:** re-ran `scripts/update_playlists.py`. Sources are fetched
+  through the GitHub contents/blob API (the runner for this session is egress-
+  firewalled away from `raw.githubusercontent.com` / stream CDNs, so live stream
+  probing is not possible here — that remains the job of the *Verify* GitHub
+  Action, which runs from a runner that can reach the CDNs). The refresh applied
+  the existing policy + `config/redirect_cache.json` and rotated the catalog to
+  current upstream lineups: `usa-all.m3u` 1,409 → 1,408; sports 112, kids 73,
+  backups 270. Churn was benign (new free channels in: PHLY Sports, Zuffa Boxing
+  Prelims, Lassie, Vas O No Vas USA; rotated out: FreeTV Acción, Universal
+  Westerns, EMOCIÓN ATRES TV). All 29 unit tests pass; every playlist is
+  structurally valid (one URL per `#EXTINF`).
+- **Free alternatives mapped:** sports substitutes for ESPN/ESPNU/Big Ten
+  Network (SportsGrid, CBS Sports HQ, Pac-12 Insider, ACC Digital Network, Big
+  12 Studios, beIN SPORTS XTRA, Fubo Sports Network, ESPN8: The Ocho, combat and
+  auto/motorsport FAST, etc.) and kids/family substitutes for Disney Channel /
+  Disney XD (Nickelodeon Pluto TV, PBS Kids, Pokémon, Power Rangers,
+  Transformers, LEGO, Peppa Pig, Moonbug, ToonGoggles, etc.).
+
+
+## 2026-09-26 — Suggested sources and Arena consolidation
+
+- Reviewed `aria-tv/aria/main/aria.m3u` (418 entries) and
+  `doms9/iptv/default/M3U8/TV.m3u8` (778 entries), fetched using the GitHub
+  contents API. Both are now optional recurring candidate sources.
+- Added exact source-scoped ID/name/URL aliases for 17 reviewed US entries
+  with missing or incompatible guide IDs. No wildcard ID rewriting, host
+  allowlist expansion, header overrides, or token bypass was introduced.
+  Aliases still pass country, exclusion, URL, and host policy checks.
+- Approved 12 aria candidates and 13 doms9 candidates. Deduplication retains
+  Circle Country and QVC West as new primary listings from these sources;
+  alternate feeds appear in the backups playlist subject to the existing
+  two-backup limit. Refreshed totals: 1,410 primaries and 274 backups.
+- Probed all 25 accepted candidates: **25 inconclusive network/TLS results**,
+  zero verified playable segments in this sandbox. Details and source hashes
+  are in `generated/suggested-source-audit.json`. No new dead-to-working
+  replacement is claimed; inconclusive results are not evidence of death.
+  Existing published verification files were preserved, not relabeled as new.
+- The request for a lineup excluding both OTA and FAST is not fulfilled by
+  these imports: this remains the existing free-viewing catalog. No premium
+  subscription lineup was fabricated from unreviewed mirrors. Such a separate
+  lineup needs authorized direct sources and explicit channel selections.
+- Consolidated all five existing remote Arena branch tips as ancestors of
+  the current session branch. Main's initial snapshot already contained the
+  implementation from those branches, despite its unrelated Git history.
+  Used an `ours` history merge to avoid rolling back that snapshot, restored
+  the later `ALTERNATIVES.md` and research notes, then regenerated current
+  catalog data instead of restoring older generated/verification snapshots.
+- No branch was created, deleted, or switched. Old remote branch names remain
+  until repository cleanup; merging history does not delete branch references.
+  The session can push only its own branch, so delivery to main is by PR,
+  not a direct push or PR merge from this session.
+- Refresh/verification workflows no longer target a stale Arena branch.
+  Scheduled runs use the default branch; push/manual runs write their own
+  triggering branch. Both writers share a branch-scoped concurrency lock.
+  README download links now target main for stable post-merge use.

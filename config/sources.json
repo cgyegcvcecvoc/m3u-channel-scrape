@@ -34,6 +34,158 @@
       "id_style": "platform",
       "resolve_redirects": true,
       "required": false
+    },
+    {
+      "name": "aria-tv/aria (user-suggested candidates; reviewed entries only)",
+      "url": "https://raw.githubusercontent.com/aria-tv/aria/main/aria.m3u",
+      "github_api_fallback": "https://api.github.com/repos/aria-tv/aria/contents/aria.m3u?ref=main",
+      "required": false,
+      "entry_aliases": [
+        {
+          "from_id": "",
+          "from_name": "Buzzer",
+          "url": "https://jmp2.uk/plu-5812bfbe4ced4f7b601b12e6.m3u8",
+          "id": "BUZZR.us",
+          "name": "BUZZR",
+          "category": "Entertainment"
+        },
+        {
+          "from_id": "",
+          "from_name": "PBS Kids (Eastern Feed)",
+          "url": "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8",
+          "id": "PBSKids.us",
+          "name": "PBS Kids",
+          "category": "Kids"
+        },
+        {
+          "from_id": "",
+          "from_name": "Charge",
+          "url": "https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8",
+          "id": "Charge.us",
+          "name": "Charge!",
+          "category": "Entertainment"
+        },
+        {
+          "from_id": "",
+          "from_name": "The Nest",
+          "url": "https://fast-channels.sinclairstoryline.com/THENEST/index.m3u8",
+          "id": "TheNest.us",
+          "name": "The Nest",
+          "category": "Entertainment"
+        },
+        {
+          "from_id": "",
+          "from_name": "Ion Plus",
+          "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionplus-tablo/playlist.m3u8",
+          "id": "IONPlus.us@East",
+          "name": "ION Plus",
+          "category": "Entertainment"
+        }
+      ]
+    },
+    {
+      "name": "doms9/iptv (user-suggested candidates; reviewed entries only)",
+      "url": "https://raw.githubusercontent.com/doms9/iptv/default/M3U8/TV.m3u8",
+      "github_api_fallback": "https://api.github.com/repos/doms9/iptv/contents/M3U8/TV.m3u8?ref=default",
+      "required": false,
+      "entry_aliases": [
+        {
+          "from_id": "plex.tv.AccuWeather.NOW.plex",
+          "from_name": "AccuWeather NOW",
+          "url": "https://amg00684-accuweather-accuweather-rokuus-0endj.amagi.tv/playlist.m3u8",
+          "id": "AccuWeatherNOW.us",
+          "name": "AccuWeather NOW",
+          "category": "Weather"
+        },
+        {
+          "from_id": "plex.tv.beIN.SPORTS.XTRA.plex",
+          "from_name": "beIN Sports XTRA",
+          "url": "https://bein-xtra-bein.amagi.tv/playlist.m3u8",
+          "id": "beINSPORTSXTRA.us",
+          "name": "beIN SPORTS XTRA",
+          "category": "Sports"
+        },
+        {
+          "from_id": "BUZZR.Stream.us2",
+          "from_name": "Buzzr",
+          "url": "https://buzzrota-web.amagi.tv/playlist.m3u8",
+          "id": "BUZZR.us",
+          "name": "BUZZR",
+          "category": "Entertainment"
+        },
+        {
+          "from_id": "CBS.News.National.Stream.us2",
+          "from_name": "CBS News 24/7",
+          "url": "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8",
+          "id": "CBSNews247.us",
+          "name": "CBS News 24/7",
+          "category": "News"
+        },
+        {
+          "from_id": "CHARGE!.us2",
+          "from_name": "Charge!",
+          "url": "https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8",
+          "id": "Charge.us",
+          "name": "Charge!",
+          "category": "Entertainment"
+        },
+        {
+          "from_id": "Circle.Country.us2",
+          "from_name": "Circle Country",
+          "url": "https://circle-klowdtv.amagi.tv/playlist.m3u8",
+          "id": "CircleCountry.us",
+          "name": "Circle Country",
+          "category": "Entertainment"
+        },
+        {
+          "from_id": "Comet.us2",
+          "from_name": "Comet TV",
+          "url": "https://fast-channels.sinclairstoryline.com/COMET/index.m3u8",
+          "id": "Comet.us",
+          "name": "Comet",
+          "category": "Entertainment"
+        },
+        {
+          "from_id": "Court.TV.us2",
+          "from_name": "Court TV",
+          "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8",
+          "id": "CourtTV.us",
+          "name": "Court TV",
+          "category": "News"
+        },
+        {
+          "from_id": "plex.tv.LiveNOW.from.FOX.plex",
+          "from_name": "Fox LiveNOW",
+          "url": "https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8",
+          "id": "LiveNOWfromFOX.us",
+          "name": "LiveNOW from FOX",
+          "category": "News"
+        },
+        {
+          "from_id": "plex.tv.FOX.Weather.plex",
+          "from_name": "Fox Weather",
+          "url": "https://247wlive.foxweather.com/stream/index.m3u8",
+          "id": "FOXWeather.us",
+          "name": "FOX Weather",
+          "category": "Weather"
+        },
+        {
+          "from_id": "plex.tv.Newsmax2.plex",
+          "from_name": "Newsmax2",
+          "url": "https://amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv/playlist.m3u8",
+          "id": "Newsmax2.us",
+          "name": "Newsmax2",
+          "category": "News"
+        },
+        {
+          "from_id": "plex.tv.Willow.Sports.plex",
+          "from_name": "Willow Sports",
+          "url": "https://amg01269-amg01269c1-distrotv-us-5379.playouts.now.amagi.tv/playlist/amg01269-willowtvfast-willowplus-distrotvus/playlist.m3u8",
+          "id": "WillowSports.us",
+          "name": "Willow Sports",
+          "category": "Sports"
+        }
+      ]
     }
   ]
 }

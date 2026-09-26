@@ -307,6 +307,14 @@ def channel_from_entry(attrs: dict, raw_name: str, url: str, source: dict, polic
                        redirect_cache: dict | None = None) -> tuple[dict | None, str]:
     if requires_headers:
         return None, "custom_headers"
+    # Exact, source-scoped identity repairs for reviewed entries only. Never
+    # infer US identity from a display name or relax URL/header/host policy.
+    for alias in source.get("entry_aliases", []):
+        if (attrs.get("tvg-id", "") == alias["from_id"]
+                and raw_name == alias["from_name"] and url == alias["url"]):
+            attrs = {**attrs, "tvg-id": alias["id"], "group-title": alias["category"]}
+            raw_name = alias["name"]
+            break
     raw_id = attrs.get("tvg-id", "")
     valid_id = ID.fullmatch(raw_id)
     if id_style == "platform" and not valid_id:
