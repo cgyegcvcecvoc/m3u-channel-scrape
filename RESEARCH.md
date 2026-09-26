@@ -204,3 +204,128 @@ Network, and to re-audit/replace every stream URL.
   Scheduled runs use the default branch; push/manual runs write their own
   triggering branch. Both writers share a branch-scoped concurrency lock.
   README download links now target main for stable post-merge use.
+
+## 2026-09-26 — Candidate-source audit & tenant-path approvals (branch `arena/01a0de64`)
+
+A request asked to **update channels from** `aria-tv/aria/main/aria.m3u` and
+`doms9/iptv/default/M3U8/TV.m3u8` and to **"change rules to allow any and all
+M3U streams so all links for any channels will be allowed"**.
+
+### What the two suggested feeds actually contain
+
+Both were re-fetched (GitHub contents API) and every entry was classified with
+the pipeline's own policy code by the new
+[`scripts/audit_candidates.py`](scripts/audit_candidates.py); the full
+per-source, per-host report is committed as
+[`generated/candidate-audit.md`](generated/candidate-audit.md).
+
+| Feed | Entries | Publishable now | Blocked only by host review | URL-invariant failures | Pay-TV-brand names | Entries demanding spoofed headers |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| `aria-tv/aria` | 418 | 12 | **0** | 263 | 53 | 0 |
+| `doms9/iptv` | 784 | 13 | **1** | 532 | 254 | 671 |
+
+URL-invariant failures are entries that no host rule can ever approve:
+
+- `aria`: 46 plain-HTTP URLs and ~200 non-443 ports (`:9981` Tvheadend, `:9000`,
+  `:9091`, `:8000`, `:1234`, `:81`, `:8420`, …) — personal IP-literal servers
+  carrying CBS/NBC/ABC/HBO/ESPN restreams (`http://4.30.180.36:8420/cbs/index.m3u8?token=test`,
+  `http://95.143.42.59:1234/stream/fubochannels/espn/master.m3u8`). 143 further
+  entries have no US channel ID.
+- `doms9`: 394 entries carry expiring `?token=` query strings (189 of them on
+  pay-TV brand rows such as ESPN 2 / Disney / TNT Sports / Telemundo served from
+  `cdnlivetv.tv`, `khala.futlivehd.com`, `*.envivoslatam99.sbs`, `*.ftlly.com`
+  and base64-encoded `*.fubo18.com` hosts), 78 are plain HTTP, 54 use non-443
+  ports, and 671 entries ask for spoofed `#EXTVLCOPT`/`#KODIPROP`
+  referrer/user-agent headers. The one host-review candidate is a single
+  `d3ehq1uaxory6w.cloudfront.net` FanDuel Racing feed.
+
+**Decision: the blanket "allow any and all M3U streams" change was not made.**
+It would publish expiring token URLs and pay-TV restreams on unknown servers as
+first-class catalog entries, contradicting the repository's stated contract
+(free-to-air/free-to-view only), and it would not even work: those tokens expire
+in hours and players cannot follow the header-spoofing requirements. The
+structural gates (HTTPS, DNS host, port 443, `.m3u8`, no credential/expiring
+query, no custom-header dependency) stay in place. What the request *did* usefully
+surface was real review work, below.
+
+### New policy mechanism: tenant-scoped host paths
+
+Shared multi-tenant CDNs host unrelated publishers side by side, so approving the
+host would approve every tenant — and rejecting it discards legitimate
+government/public-access channels. `config/policy.json` gained
+`approved_host_paths`:
+
+```json
+{"host": "cdn3.wowza.com", "path_pattern": "^/5/ZFdxUW9BQWt2UWRL/sanfrancisco/",
+ "evidence_url": "https://www.sf.gov/departments--san-francisco-government-tv",
+ "category": "Legislative", "public_access": true, "reason": "SFGovTV …"}
+```
+
+- `path_rule_matches()` matches the `^`-anchored pattern with `re.match` against
+  `urlsplit(url).path` only; an unanchored or uncompilable pattern never matches,
+  and `build()` refuses to run if a rule lacks `host`/`evidence_url`/anchor.
+- `public_access: true` marks a rule as a municipal/PEG channel so it is listed
+  in `usa-local.m3u`; `category` seeds the playlist group (city channels →
+  *Legislative*).
+- `approval()` now returns `(rule tag, evidence URL, flags)`; `excluded_hosts`
+  and `excluded_ids` still win before any path rule is consulted, and the same
+  URL still has to pass every structural check first.
+
+### Reviewed and approved (2026-09-26)
+
+| Tenant path | Publisher / channel(s) | Evidence |
+| --- | --- | --- |
+| `cdn3.wowza.com/5/…/sanfrancisco/` | SFGovTV, SFGovTV2 | [sf.gov government TV](https://www.sf.gov/departments--san-francisco-government-tv) — live streaming on the city's own site |
+| `cdn3.wowza.com/5/…/olelo/` | ʻŌlelo 49, 53, 54, 55 | [ʻŌleloNet live streams](https://olelo.granicus.com/ViewPublisher.php?view_id=30) lists Focus 49 / NATV 53 / Views 54 / Oahu 55 |
+| `cdn3.wowza.com/5/…/denver/` | Denver 8 TV | [denvergov.org](https://www.denvergov.org/Community/Share-and-Connect/Digital-Experience/Denver-8-TV) — "no cost to view or stream", no account |
+| 27 further municipal tenants | PHXTV, Tempe 11, Scottsdale 11, CityTV San Diego, CityTV 20 Santa Monica, BHTV 10/35, WeHoTV, The Burbank Channel, Cerritos TV3, CMTV Costa Mesa, CTV Calabasas, TV4 Bullhead City, PCTV 26/28, CC-TV Charlotte County, CFM TV 98, Lake Havasu City 4, Lex TV, Martin County TV, NMBTV, Ontario Public Access, City of Pompano Beach, PSL TV, SPTV, Stockton Gov TV, Hillsborough TV, Kern County TV, Brevard Government Access TV | each city's own site (see policy.json `evidence_url`) |
+| `cdn3.wowza.com/1/…` (EWTN paths) | EWTN English + Spanish | [ewtn.com/watch-live](https://www.ewtn.com/tv/watch-live) |
+| `cdn3.wowza.com/5/…/BEK-WOWZA-1/` | BEK News, BEK Sports West | BEK Communications Cooperative's own channels ([bektel.com](https://www.bektel.com/)) |
+| `2-fss-{1,2}.streamhoster.com` `^/pl_\d+/(?:amlst:)?206858-` | KPVM-LD 25.1, Movies!, ACE Country Radio, Newsmax 2, OAN Plus, Real America's Voice, AWE Plus, Story Television | [kpvm.tv](https://kpvm.tv/) — the licensed free OTA station (Pahrump/Las Vegas) streams its own subchannels; lineup cross-checked against the FCC station listing |
+| `bozztv.com` (apex host) | HollyWire, Movies!, SUMtv English/Latino | already-reviewed BozzTV playout platform; the `.bozztv.com` suffix rule cannot match the bare domain |
+
+Result: **1,410 → 1,462** catalog channels (+53 unique listings; 49 via tenant
+paths, 4 via the BozzTV apex host), `usa-local.m3u` 196 → 232, `usa-legislative`
+material now grouped consistently. No pay-TV ID, IP-literal or token URL entered
+the catalog.
+
+### Still pending review (candidates, not approvals)
+
+`2-fss-1/-2.streamhoster.com` still holds ~27 small-station entries (AMG TV,
+Biz TV, Ace TV, Heartland, GoodLife 45, KSCE, W14DK-D, WVVH-CD, WPS-TV, PBS
+Kids Eastern/Central, Kentucky Educational Television, Create WMPT, …) whose
+*account owner* has to be evidenced per account before approval; `cdn3.wowza.com`
+retains the `santa-paula` tenant, and Free-TV's `lukentvlive.vgcdn.net`
+(Retro TV / Rev'n / Heartland) remains rejected for lack of publisher evidence.
+They are listed, with counts and samples, in
+[`generated/candidate-audit.md`](generated/candidate-audit.md) so the next review
+pass starts from data instead of re-deriving it.
+
+### Second review batch — community media & public broadcasters (same day)
+
+Continuing the same evidence standard on the remaining host-review candidates,
+23 more channels were approved through tenant paths:
+
+| Tenant path | Publisher / channels | Evidence |
+| --- | --- | --- |
+| `5c2974786200d.streamlock.net/live-chan…` | MidPen Media Center channels 26/28/29/30/75 (Palo Alto PEG non-profit) | [midpenmedia.org/government](https://midpenmedia.org/government/) — webstreams on the centre's own site |
+| `cantv.streamguys1.com/cantv/` | CAN TV 19/21/27/36 (Chicago Access Network Television) | [cantv.org/watch](https://www.cantv.org/watch/) — "Stream CAN TV 19/21/27/36" |
+| `castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/` | Akakū 53/54/55 (Maui community media) | [akaku.org](https://www.akaku.org/) — "Watch Akakū channels 53, 54 & 55 LIVE in HD" |
+| `castus-vod-dev.s3.amazonaws.com/vod_clients/kvcr/` | FNX (First Nations Experience) on KVCR-DT | [fnx.org](https://fnx.org/) |
+| `securestream11.champds.com/LIVE/GilletteWYLIVE…` | GPA-TV channels 189/190/192 (Gillette, WY) | [gillettewy.gov](https://www.gillettewy.gov/) — PEG channels streamed live |
+| `securestream11.champds.com/LIVE/FultonCoGALIVE/` | FGTV – Fulton Government Television | [fultoncountyga.gov](https://www.fultoncountyga.gov/) — meetings live streamed on FGTV |
+| `securestream11.champds.com/LIVE/AtlantaGALIVE/` | City of Atlanta government access channel 26 | [atlantaga.gov](https://www.atlantaga.gov/) |
+| `2-fss-*.streamhoster.com` `200914-` | KET (Kentucky Educational Television) WKMJ/WKPC + KET's PBS Kids relay | [ket.org/how-to-watch](https://ket.org/how-to-watch/) — free OTA on 16 transmitters and live at KET.org/live |
+| `2-fss-1.streamhoster.com` `201814-` | MPT Create (Maryland Public Television) | [mpt.org/createtv](https://www.mpt.org/createtv/) — MPT2/Create live stream |
+| `2-fss-1.streamhoster.com` `205722-` | BizTV | [biztv.com/where-to-watch](https://biztv.com/where-to-watch) — free OTA network with a 24/7 live stream |
+| `2-fss-2.streamhoster.com` `201660-` | AMG TV | [amgtv.tv](https://amgtv.tv/) — free-to-air network (its own StreamHoster account) |
+
+Catalogue: **1,462 → 1,485**; `usa-local.m3u` 232 → 249.
+
+Also examined in this pass and **not** approved: Plex (`plex_us.m3u`, 695
+entries) — every URL is `epg.provider.plex.tv/library/parts/…?X-Plex-Token=…`,
+i.e. a personal Plex credential with no `.m3u8` path, blocked by the credential
+and HLS-path invariants; and `i.mjh.nz` platform playlists, which are served
+from a host this session's sandbox cannot reach (its GitHub repo carries EPG
+XML only), so their hosts could not be reviewed. Both remain documented
+follow-ups rather than silent additions.

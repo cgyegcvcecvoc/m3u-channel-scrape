@@ -123,8 +123,28 @@ python3 scripts/update_playlists.py
 The updater reads [config/sources.json](config/sources.json), fetches upstream candidate sources ([iptv-org](https://github.com/iptv-org/iptv), [Free-TV](https://github.com/Free-TV/IPTV), FAST platforms, aria-tv/aria, and doms9/iptv), and applies [config/policy.json](config/policy.json):
 - Direct HTTPS HLS (`.m3u8` paths, no raw IP addresses, port 443 only)
 - Strict host allowlist, source-scoped Samsung TV Plus delivery-host patterns tied to resolved `/stvp-` URLs, or reviewed channel-ID+host pairs with documented evidence
+- Tenant-scoped path approvals (`approved_host_paths`) that pin **one publisher's** `^`-anchored path prefix on a shared multi-tenant CDN — e.g. a city's government-access channels on `cdn3.wowza.com` or the KPVM-LD 25 account on StreamHoster — without approving unrelated tenants of the same host
 - Exclusion of pay-TV channels, expiring tokens, custom auth headers, and VOD
 - Multi-feed deduplication with secondary feeds routed to `usa-backups.m3u`
+
+### Auditing candidate feeds
+
+```bash
+python3 scripts/audit_candidates.py            # all sources
+python3 scripts/audit_candidates.py --source doms9 --top 40
+python3 scripts/audit_candidates.py --stdout   # print, write nothing
+```
+
+The audit classifies **every** entry of every configured candidate feed with the
+same policy code the updater uses, and writes
+[generated/candidate-audit.md](generated/candidate-audit.md) plus the
+machine-readable [generated/candidate-audit.json](generated/candidate-audit.json).
+Blocked entries are split into `structural_rejects` (plain HTTP, IP-literal host,
+non-443 port, expiring/credential query, non-HLS path — a host rule cannot fix
+these), `unreviewed_hosts` (publishable after a host review, grouped by host with
+entry counts and sample channel names), and `other` (excluded IDs, custom-header
+dependencies, dead streams, non-US IDs, duplicates). It never publishes anything
+and never edits policy — it is the evidence a reviewer works from.
 
 For Samsung TV Plus redirector feeds:
 ```bash
@@ -161,14 +181,45 @@ The verifier contacts each stream URL, downloads the master manifest, parses a r
 - Upstream playlist feeds: [iptv-org](https://github.com/iptv-org/iptv), [Free-TV/IPTV](https://github.com/Free-TV/IPTV), and [BuddyChewChew/app-m3u-generator](https://github.com/BuddyChewChew/app-m3u-generator).
 - XMLTV guide providers: [epg.pw](https://epg.pw/) and [matthuisman/i.mjh.nz](https://github.com/matthuisman/i.mjh.nz).
 
-### Latest suggested-source review
+### Latest suggested-source review (2026-09-26)
 
-The aria-tv/aria and doms9/iptv feeds are optional candidate sources, not
-blanket approvals. Exact reviewed aliases repair selected channel IDs without
-relaxing stream policy. See [the source audit](generated/suggested-source-audit.json)
-for the latest candidate probes: all 25 were inconclusive from this sandbox,
-so the new entries are **not playback-verified replacements**. The existing
-verification report retains its own timestamp. Circle Country and QVC West
-were added as primary listings; other accepted feeds may be deduplicated or
-listed as backups. These additions still belong to the free-viewing catalog,
-not a separate premium/no-OTA/no-FAST lineup.
+The aria-tv/aria and doms9/iptv feeds are optional candidate sources, **not**
+blanket approvals. Both were re-audited entry by entry
+([report](generated/candidate-audit.md)); the numbers explain why they cannot
+simply be dropped in wholesale:
+
+| Feed | Entries | Publishable now | Blocked only by host review | URL-invariant failures | Pay-TV-brand names | Entries needing spoofed headers |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| aria-tv/aria | 418 | 12 | 0 | 263 | 53 | 0 |
+| doms9/iptv | 784 | 13 | 1 | 532 | 254 | 671 |
+
+`doms9` is 394 expiring `?token=` URLs, 78 plain-HTTP URLs, 671 entries that
+require spoofed `#EXTVLCOPT`/`#KODIPROP` referrer/user-agent headers, and 254
+pay-TV brand names (ESPN/Disney/TNT Sports/Telemundo/Fubo-styled hosts).
+`aria` is 46 plain-HTTP URLs, ~200 non-443-port URLs, 143 entries without a US
+channel ID, and 53 pay-TV brand names, on personal IP-literal servers. Those
+entries are outside the repository's free-to-view contract and could not be
+maintained even if published (tokens expire within hours; the header
+requirements are not playlist-portable). **"Allow any and all M3U streams" is
+therefore not a supported mode** — see
+[RESEARCH.md](RESEARCH.md#2026-09-26--candidate-source-audit--tenant-path-approvals-branch-arena01a0de64)
+for the full review.
+
+What the request did surface was real work: 75 additional **legitimate** channels
+were reviewed and approved through tenant-scoped path rules — SFGovTV,
+ʻŌlelo 49/53/54/55, Denver 8 TV, PHXTV, Tempe 11, Scottsdale 11, CityTV San Diego
+and Santa Monica, BHTV 10/35, WeHoTV, the Burbank Channel, Cerritos TV3, CMTV,
+Lex TV, Martin County TV, NMBTV, Ontario Public Access, Pompano Beach, PSL TV,
+SPTV, Stockton Gov TV, Hillsborough TV, Kern County TV, Brevard Government
+Access, CC-TV/CFM TV/Lake Havasu/TV4/PCTV, EWTN English + Spanish, BEK News and
+BEK Sports West, the free over-the-air KPVM-LD 25 subchannels, MidPen Media
+Center 26/28/29/30/75, CAN TV 19/21/27/36, Akakū 53/54/55, GPA-TV 189/190/192,
+FGTV Fulton County, ATL 26, KET WKPC/WKMJ, MPT Create, BizTV and AMG TV — each
+with the publisher's own site as evidence. Catalogue totals moved 1,410 → 1,485
+and `usa-local.m3u` 196 → 249.
+
+Reviewed and **not** approved in the same pass: Plex's US lineup (695 URLs that
+are all `?X-Plex-Token=…` credential links with no `.m3u8` path) and the
+`i.mjh.nz` platform playlists (served from a host this session could not reach,
+so their hosts could not be reviewed). Both are recorded as follow-ups in
+[RESEARCH.md](RESEARCH.md) rather than added unverified.
