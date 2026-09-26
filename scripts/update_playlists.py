@@ -262,30 +262,62 @@ def download_source(source: dict) -> bytes:
             raise RuntimeError(f"{source['name']}: primary: {first}; fallback: {second}") from second
 
 
-def approval(channel_id: str, host: str, policy: dict, *, source: dict | None = None,
-             redirect_source_url: str = "") -> tuple[str, str] | None:
-    """Approve a publisher host, or a narrow ID+host/source+redirect combination.
+def path_rule_matches(rule: dict, url: str) -> bool:
+    """True when a tenant-scoped path rule covers this exact URL path.
 
-    CloudFront, Akamai `pb-*`, Samsung TV Plus, and AWS MediaTailor are shared
-    delivery infrastructure, not evidence of distribution rights on their own.
-    Rules for those hosts therefore require the entry to come from the reviewed
-    Samsung TV Plus US feed and its stable jmp2.uk `/stvp-` redirect, unless a
-    separate exact channel-ID+host rule exists.
+    Shared multi-tenant CDNs (Wowza's `cdn3.wowza.com/5/<id>/<tenant>/…`,
+    StreamHoster portals) host unrelated publishers side by side, so approving
+    the host would approve every tenant. These rules pin one publisher's own
+    path prefix instead; `re.match` anchors at the start and the pattern is
+    required to be `^`-anchored so a rule cannot silently widen.
+    """
+    pattern = rule.get("path_pattern", "")
+    if not pattern.startswith("^"):
+        return False
+    try:
+        return re.match(pattern, urlsplit(url).path) is not None
+    except re.error:
+        return False
+
+
+def rule_flags(rule: dict) -> frozenset[str]:
+    """Review annotations attached to a policy rule (e.g. public_access)."""
+    flags = {str(flag) for flag in rule.get("flags", ())}
+    if rule.get("public_access"):
+        flags.add("public_access")
+    return frozenset(flags)
+
+
+def approval(channel_id: str, host: str, policy: dict, *, source: dict | None = None,
+             redirect_source_url: str = "", url: str = "") -> tuple[str, str, set] | None:
+    """Approve a publisher host, or a narrow ID+host/path/source combination.
+
+    Returns (rule tag, evidence URL, flags). CloudFront, Akamai `pb-*`, Samsung
+    TV Plus, Wowza tenants and AWS MediaTailor are shared delivery
+    infrastructure, not evidence of distribution rights on their own. Rules for
+    those hosts therefore require the entry to come from the reviewed Samsung TV
+    Plus US feed and its stable jmp2.uk `/stvp-` redirect, an exact
+    channel-ID+host pair, or a `^`-anchored tenant path prefix that pins one
+    publisher inside a shared CDN.
     """
     if host in policy.get("excluded_hosts", ()):
         return None
     for rule in policy["allowed_hosts"]:
         if host == rule["host"]:
-            return ("host:" + host, rule["evidence_url"])
+            return ("host:" + host, rule["evidence_url"], set(rule_flags(rule)))
     for rule in policy.get("allowed_host_patterns", ()):
         if re.fullmatch(rule["pattern"], host):
-            return ("pattern:" + rule["pattern"], rule["evidence_url"])
+            return ("pattern:" + rule["pattern"], rule["evidence_url"], set(rule_flags(rule)))
     for rule in policy["allowed_host_suffixes"]:
         if host.endswith(rule["suffix"]):
-            return ("suffix:" + rule["suffix"], rule["evidence_url"])
+            return ("suffix:" + rule["suffix"], rule["evidence_url"], set(rule_flags(rule)))
+    for rule in policy.get("approved_host_paths", ()):
+        if host == rule["host"] and url and path_rule_matches(rule, url):
+            return ("path:" + rule["host"] + rule["path_pattern"], rule["evidence_url"],
+                    set(rule_flags(rule)))
     for rule in policy["approved_channels"]:
         if channel_id.casefold() == rule["id"].casefold() and host in rule["hosts"]:
-            return ("id+host:" + rule["id"], rule["evidence_url"])
+            return ("id+host:" + rule["id"], rule["evidence_url"], set(rule_flags(rule)))
     if source and source.get("resolve_redirects") and redirect_source_url:
         origin = urlsplit(redirect_source_url)
         for rule in policy.get("allowed_source_host_patterns", ()):
@@ -296,9 +328,9 @@ def approval(channel_id: str, host: str, policy: dict, *, source: dict | None = 
             if not origin.path.startswith(rule["redirect_path_prefix"]):
                 continue
             if "pattern" in rule and re.fullmatch(rule["pattern"], host):
-                return ("source-pattern:" + rule["pattern"], rule["evidence_url"])
+                return ("source-pattern:" + rule["pattern"], rule["evidence_url"], set())
             if host in rule.get("hosts", ()):
-                return ("source-host:" + host, rule["evidence_url"])
+                return ("source-host:" + host, rule["evidence_url"], set())
     return None
 
 
@@ -351,7 +383,7 @@ def channel_from_entry(attrs: dict, raw_name: str, url: str, source: dict, polic
         return None, "not_direct_https_hls"
     host = urlsplit(url).hostname or ""
     approved = approval(channel_id, host, policy, source=source,
-                         redirect_source_url=redirect_source_url)
+                        redirect_source_url=redirect_source_url, url=url)
     if not approved:
         return None, "unreviewed_host"
     name = cleaned(raw_name)
@@ -373,13 +405,21 @@ def channel_from_entry(attrs: dict, raw_name: str, url: str, source: dict, polic
         if channel_id.casefold() == rule["id"].casefold() and host in rule["hosts"]:
             groups = list(dict.fromkeys([rule["category"], *groups]))
             break
+    # A reviewed tenant path may pin a category too (city government access
+    # channels are Legislative/civic whatever group title the feed used).
+    for rule in policy.get("approved_host_paths", ()):
+        if (rule.get("category") and host == rule["host"]
+                and path_rule_matches(rule, url)):
+            groups = list(dict.fromkeys([rule["category"], *groups]))
+            break
     if not groups:
         groups = (["News"] if "News" in name or "Reuters" in name else
                   ["Sports"] if "Sports" in name else ["General"])
     category = next((c for c in CATEGORIES if c in groups), "General")
     logo = attrs.get("tvg-logo", "")
     logo = logo if valid_url(logo) and len(logo) <= 1000 else ""
-    local = (host.endswith(".cablecast.tv") or host in
+    local = ("public_access" in approved[2] or
+             host.endswith(".cablecast.tv") or host in
              {"livestream.telvue.com", "edge-f.swagit.com", "stream.swagit.com",
               "video.oct.dc.gov", "video.ct-n.com"} or
              bool(LOCAL_STATIONS.match(name)) or
@@ -442,6 +482,16 @@ def build(*, sources_path: Path = ROOT / "config/sources.json",
         raise ValueError("EPG guides must be HTTPS XMLTV URLs and include the header link")
     if not sources:
         raise ValueError("no configured playlist sources")
+    for rule in policy.get("approved_host_paths", ()):
+        pattern = rule.get("path_pattern", "")
+        if (not rule.get("host") or not rule.get("evidence_url")
+                or not pattern.startswith("^")):
+            raise ValueError("approved_host_paths rules need host, evidence_url "
+                             "and a '^'-anchored path_pattern")
+        try:
+            re.compile(pattern)
+        except re.error as exc:
+            raise ValueError(f"approved_host_paths pattern {pattern!r} does not compile") from exc
     try:
         redirect_cache = json.loads(redirect_cache_path.read_text(encoding="utf-8"))
         if not isinstance(redirect_cache, dict):

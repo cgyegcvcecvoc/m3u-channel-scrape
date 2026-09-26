@@ -3,6 +3,8 @@
 https://30a-tv.com/music.m3u8
 #EXTINF:-1 tvg-id="3ABNPraiseHimMusicNetwork.us" tvg-name="3ABN Praise Him Music Network" tvg-logo="https://i.imgur.com/iBcqT8L.png" group-title="Music",3ABN Praise Him Music Network
 https://3abn.bozztv.com/3abn1/PraiseHim/smil:PraiseHim.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ACECountryRadio.us@KPVMLD" tvg-name="ACE Country Radio KPVM-LD" tvg-logo="https://i.imgur.com/iPtuku6.png" group-title="Music",ACE Country Radio KPVM-LD
+https://2-fss-1.streamhoster.com/pl_122/206858-4412960-1/playlist.m3u8
 #EXTINF:-1 tvg-id="CaliforniaMusicChannel.us" tvg-name="California Music Channel" tvg-logo="https://i.imgur.com/FyNot5W.png" group-title="Music",California Music Channel
 https://cmc-cmctv-cineverse.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="US39000038W" tvg-name="CJ ENM K-POP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US39000038W_20260915T035044SQUARE.png" group-title="Music",CJ ENM K-POP

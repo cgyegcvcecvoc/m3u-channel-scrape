@@ -43,6 +43,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Validate the newly generated M3U files
         run: python3 -m unittest discover -s tests -v
+      - name: Audit candidate feeds against the publishing policy
+        # Informational: keeps generated/candidate-audit.{json,md} in step with
+        # the feeds so host review starts from current data. A flaky upstream
+        # must not fail the refresh itself.
+        continue-on-error: true
+        run: python3 scripts/audit_candidates.py
       - name: Commit changed generated files to the triggering branch
         env:
           BRANCH: ${{ github.ref_name }}

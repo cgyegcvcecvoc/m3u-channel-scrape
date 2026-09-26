@@ -419,6 +419,94 @@ https://redirector.example/stvp-3
         self.assertIn("https://example.org/fast-sport.m3u8", text)
 
 
+class TenantPathRuleTests(unittest.TestCase):
+    """Shared-CDN tenant paths: one publisher approved, the rest still gated."""
+
+    def setUp(self):
+        self.policy = json.loads((u.ROOT / "config/policy.json").read_text())
+        self.source = {"name": "iptv-org US", "url": "https://example.org/us.m3u"}
+        self.rule = {
+            "host": "cdn3.wowza.com",
+            "path_pattern": "^/5/ZFdxUW9BQWt2UWRL/sanfrancisco/",
+            "evidence_url": "https://www.sf.gov/departments--san-francisco-government-tv",
+            "category": "Legislative", "public_access": True,
+            "reason": "fixture",
+        }
+        self.policy = {**self.policy, "approved_host_paths": [self.rule]}
+
+    def test_only_the_pinned_tenant_path_is_approved(self):
+        approved = "https://cdn3.wowza.com/5/ZFdxUW9BQWt2UWRL/sanfrancisco/G0051_048/playlist.m3u8"
+        self.assertTrue(u.approval("SFGovTV.us@SD", "cdn3.wowza.com", self.policy, url=approved))
+        # Same host, another tenant (and lookalike prefixes) stays unreviewed.
+        for url, host in (
+            ("https://cdn3.wowza.com/5/OTHERHASH/othercity/G0001_001/playlist.m3u8", "cdn3.wowza.com"),
+            ("https://cdn3.wowza.com/5/ZFdxUW9BQWt2UWRL/sanfrancisco-evil/x.m3u8", "cdn3.wowza.com"),
+            ("https://cdn3.wowza.com/5/ZFdxUW9BQWt2UWRL/sanfrancisco.m3u8", "cdn3.wowza.com"),
+            ("https://wowza.example.org/5/ZFdxUW9BQWt2UWRL/sanfrancisco/x.m3u8", "wowza.example.org"),
+        ):
+            with self.subTest(url=url):
+                self.assertIsNone(u.approval("Other.us", host, self.policy, url=url))
+                channel, why = u.channel_from_entry(
+                    {"tvg-id": "Other.us"}, "Other", url, self.source, self.policy, False)
+                self.assertIsNone(channel)
+                self.assertEqual(why, "unreviewed_host")
+
+    def test_path_rule_sets_category_and_local_flag(self):
+        channel, why = u.channel_from_entry(
+            {"tvg-id": "SFGovTV.us@SD", "group-title": "TV"},
+            "SFGovTV",
+            "https://cdn3.wowza.com/5/ZFdxUW9BQWt2UWRL/sanfrancisco/G0051_048/playlist.m3u8",
+            self.source, self.policy, False)
+        self.assertEqual(why, "accepted")
+        self.assertEqual(channel["group"], "Legislative")
+        self.assertTrue(channel["local"])
+        self.assertTrue(channel["approval"].startswith("path:cdn3.wowza.com"))
+
+    def test_unanchored_or_malformed_patterns_never_match(self):
+        for pattern in ("/5/ZFdxUW9BQWt2UWRL/sanfrancisco/", ".*", "[unclosed"):
+            with self.subTest(pattern=pattern):
+                policy = {**self.policy,
+                          "approved_host_paths": [{**self.rule, "path_pattern": pattern}]}
+                self.assertFalse(u.path_rule_matches(
+                    {**self.rule, "path_pattern": pattern},
+                    "https://cdn3.wowza.com/5/ZFdxUW9BQWt2UWRL/sanfrancisco/G0051_048/x.m3u8"))
+                self.assertIsNone(u.approval(
+                    "US1.us", "cdn3.wowza.com", policy,
+                    url="https://cdn3.wowza.com/5/ZFdxUW9BQWt2UWRL/sanfrancisco/G0051_048/x.m3u8"))
+
+    def test_excluded_ids_still_win_over_a_path_rule(self):
+        channel, why = u.channel_from_entry(
+            {"tvg-id": "ESPN.us"}, "ESPN",
+            "https://cdn3.wowza.com/5/ZFdxUW9BQWt2UWRL/sanfrancisco/G0051_048/playlist.m3u8",
+            self.source, self.policy, False)
+        self.assertIsNone(channel)
+        self.assertEqual(why, "excluded_pay_tv")
+
+    def test_build_rejects_a_rule_missing_evidence_or_anchor(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_path = Path(tmp)
+            sources = tmp_path / "sources.json"
+            policy_path = tmp_path / "policy.json"
+            epg = tmp_path / "epg.json"
+            sources.write_text(json.dumps({"sources": [
+                {"name": "fixture", "url": "https://example.org/test.m3u", "required": True}]}))
+            epg.write_text(json.dumps({
+                "header_url": "https://guide.example.org/us.xml",
+                "guides": [{"name": "US", "url": "https://guide.example.org/us.xml"}]}))
+            for bad_rule in ({**self.rule, "path_pattern": "/5/nope/"},
+                             {**self.rule, "evidence_url": ""},
+                             {**self.rule, "path_pattern": "^/5/[unclosed/"}):
+                with self.subTest(rule=bad_rule):
+                    policy_path.write_text(json.dumps({
+                        "allowed_hosts": [], "allowed_host_suffixes": [],
+                        "approved_channels": [], "excluded_ids": [],
+                        "approved_host_paths": [bad_rule]}))
+                    with self.assertRaises(ValueError):
+                        u.build(sources_path=sources, policy_path=policy_path, epg_path=epg,
+                                out=tmp_path / "out", min_channels=1,
+                                fetcher=lambda source: b"#EXTM3U\n")
+
+
 class PublishedFileTests(unittest.TestCase):
     def test_committed_playlists_are_well_formed_and_match_manifest(self):
         out = u.ROOT / "generated"

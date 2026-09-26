@@ -1,17 +1,17 @@
 {
   "counts": {
-    "usa-all.m3u": 1410,
-    "usa-backups.m3u": 274,
+    "usa-all.m3u": 1462,
+    "usa-backups.m3u": 275,
     "usa-business.m3u": 10,
-    "usa-entertainment.m3u": 458,
-    "usa-intermittent.m3u": 17,
+    "usa-entertainment.m3u": 459,
+    "usa-intermittent.m3u": 18,
     "usa-kids.m3u": 73,
-    "usa-local.m3u": 196,
-    "usa-movies.m3u": 84,
-    "usa-music.m3u": 70,
-    "usa-news.m3u": 81,
+    "usa-local.m3u": 232,
+    "usa-movies.m3u": 86,
+    "usa-music.m3u": 71,
+    "usa-news.m3u": 85,
     "usa-spanish.m3u": 41,
-    "usa-sports.m3u": 112,
+    "usa-sports.m3u": 113,
     "usa-weather.m3u": 3
   },
   "epg_url": "https://epg.pw/xmltv/epg_US.xml",
@@ -22,21 +22,21 @@
     "https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz",
     "https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz"
   ],
-  "generated_utc": "2026-09-26T15:38:45Z",
+  "generated_utc": "2026-09-26T15:52:01Z",
   "skipped": {
     "custom_headers": 681,
     "dead_stream": 8,
     "duplicate": 234,
-    "duplicate_name": 286,
+    "duplicate_name": 287,
     "excluded_pay_tv": 15,
     "not_direct_https_hls": 165,
     "not_us_or_no_id": 559,
     "redirect_unresolved": 39,
-    "unreviewed_host": 541
+    "unreviewed_host": 488
   },
   "sources": [
     {
-      "approved_candidates": 695,
+      "approved_candidates": 748,
       "candidates": 1464,
       "name": "iptv-org US (community-submitted candidates)",
       "sha256": "5e0387fd41e4d09e0ec7bee859361e0758dfb2fbca2c186ca0e9e4da71916e5c",

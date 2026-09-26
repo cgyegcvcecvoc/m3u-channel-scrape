@@ -431,8 +431,8 @@ https://jmp2.uk/plu-66e0b4a3f0f17500085cc268.m3u8
 https://pb-60mv0y4dt8vue.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-60mv0y4dt8vue/v1/aenetworks_hoarders_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD4200009Y4&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-60mv0y4dt8vue_akamai
 #EXTINF:-1 tvg-id="HogansHeroes.us" tvg-name="Hogan's Heroes" tvg-logo="https://images.pluto.tv/channels/68939e206727ec919bb39061/colorLogoPNG_1757523507747.png" group-title="Entertainment",Hogan's Heroes
 https://jmp2.uk/plu-68939e206727ec919bb39061.m3u8
-#EXTINF:-1 tvg-id="USBC2400015DO" tvg-name="Hollywire" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC2400015DO_20240520T214806SQUARE.png" group-title="Entertainment",Hollywire
-https://pb-yc9ljxzva7lst.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-yc9ljxzva7lst/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBC2400015DO&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-yc9ljxzva7lst_akamai
+#EXTINF:-1 tvg-id="HollyWire.us" tvg-name="HollyWire" tvg-logo="https://i.imgur.com/oVNjFoj.png" group-title="News",HollyWire
+https://bozztv.com/hwotta/playlist/playlist.m3u8
 #EXTINF:-1 tvg-id="68bb16916523408b14bac7f8" tvg-name="Home Cooking by Food Network" tvg-logo="https://images.pluto.tv/channels/68bb16916523408b14bac7f8/colorLogoPNG_1757969887631.png" group-title="Entertainment",Home Cooking by Food Network
 https://jmp2.uk/plu-68bb16916523408b14bac7f8.m3u8
 #EXTINF:-1 tvg-id="USBC21000142T" tvg-name="Home Refresh" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC21000142T_20260901T055821SQUARE.png" group-title="Entertainment",Home Refresh
@@ -587,6 +587,8 @@ https://pb-6fnc5tr174otc.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 https://nbculocallive.akamaized.net/hls/live/2037096/lx/use1.m3u8
 #EXTINF:-1 tvg-id="66ff0cf663292d0008320cf8" tvg-name="No Reservations" tvg-logo="https://images.pluto.tv/channels/66ff0cf663292d0008320cf8/colorLogoPNG.png" group-title="Entertainment",No Reservations
 https://jmp2.uk/plu-66ff0cf663292d0008320cf8.m3u8
+#EXTINF:-1 tvg-id="Olelo55.us" tvg-name="Olelo 55" tvg-logo="https://i.imgur.com/0qe2R8b.png" group-title="Entertainment",Olelo 55
+https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/olelo/G0125_013/playlist.m3u8
 #EXTINF:-1 tvg-id="USBC6000219D" tvg-name="Operation Repo" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC6000219D_20260421T134129SQUARE.png" group-title="Entertainment",Operation Repo
 https://pb-wbu7g5gb6eakz.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-wbu7g5gb6eakz/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBC6000219D&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-wbu7g5gb6eakz_akamai
 #EXTINF:-1 tvg-id="Outlaw.us@WGGSTV" tvg-name="Outlaw WGGS-TV" tvg-logo="https://i.imgur.com/tSNwL8W.png" group-title="Entertainment",Outlaw WGGS-TV
