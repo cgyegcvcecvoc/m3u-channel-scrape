@@ -1,12 +1,12 @@
 # Candidate source audit
 
-Generated: `2026-09-26T16:09:51Z`
+Generated: `2026-09-26T18:35:50Z`
 
 Entries are classified with the same policy code the updater uses (scripts/update_playlists.py). This report is evidence for host review, not an approval: nothing here publishes or changes policy.json.
 
 > structural_rejects cannot be fixed by a host rule (plain HTTP, IP-literal host, non-443 port, expiring/credential query, non-HLS path). unreviewed_hosts can be approved after a host review with evidence.
 
-**Totals:** 3992 candidate entries; 2003 publishable under the current policy; 464 blocked only by an unreviewed host; 1026 fail URL invariants; 499 blocked for other reasons.
+**Totals:** 4158 candidate entries; 2003 publishable under the current policy; 464 blocked only by an unreviewed host; 1055 fail URL invariants; 636 blocked for other reasons.
 
 ## iptv-org US (community-submitted candidates)
 
@@ -141,13 +141,13 @@ Other blocker explanations:
 
 ## doms9/iptv (user-suggested candidates; reviewed entries only)
 
-- entries: **838** (sha256 `fb5e7ae77b7bd34f…`)
+- entries: **1004** (sha256 `56ce112cbfdbe1eb…`)
 - publishable now: **13**
 - blocked only by host review: **1**
-- URL invariant failures: **543** `{"expiring_or_credential_query": 209, "expiring_or_credential_query(pay_tv_brand)": 189, "scheme:http": 74, "non_443_port:8080": 46, "not_hls_path": 15, "non_443_port:8989": 4, "non_443_port:9590": 2, "non_443_port:4430": 1, "non_443_port:4004": 1, "non_443_port:4007": 1, "non_443_port:80": 1}`
-- other reasons: `{"custom_headers": 246, "not_us_or_no_id": 35}`
-- entries whose name matches a pay-TV brand: 252
-- entries that ask for spoofed `#EXTVLCOPT`/`#KODIPROP` headers: 725
+- URL invariant failures: **572** `{"expiring_or_credential_query": 224, "expiring_or_credential_query(pay_tv_brand)": 183, "scheme:http": 86, "non_443_port:8080": 46, "not_hls_path": 23, "non_443_port:8989": 4, "non_443_port:9590": 2, "non_443_port:4430": 1, "non_443_port:4004": 1, "non_443_port:4007": 1, "non_443_port:80": 1}`
+- other reasons: `{"custom_headers": 383, "not_us_or_no_id": 35}`
+- entries whose name matches a pay-TV brand: 246
+- entries that ask for spoofed `#EXTVLCOPT`/`#KODIPROP` headers: 889
 
 ### Unreviewed hosts (doms9/iptv (user-suggested candidates; reviewed entries only))
 
