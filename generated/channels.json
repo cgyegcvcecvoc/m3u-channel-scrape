@@ -1334,6 +1334,66 @@
     "url": "https://pb-u5bl22qgdmc3l.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-u5bl22qgdmc3l/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.content_cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US4100038R9&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-u5bl22qgdmc3l_akamai"
   },
   {
+    "approval": "path:castus-vod-dev.s3.amazonaws.com^/vod_clients/akaku/",
+    "base_id": "Akaku53.us",
+    "categories": [
+      "Legislative",
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.akaku.org/",
+    "geo_restricted": false,
+    "group": "Legislative",
+    "id": "Akaku53.us",
+    "local": true,
+    "logo": "https://www.akaku.org/wp-content/uploads/bb-plugin/cache/Channel53-147x150-square.png",
+    "name": "Akaku 53",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch1/video.m3u8"
+  },
+  {
+    "approval": "path:castus-vod-dev.s3.amazonaws.com^/vod_clients/akaku/",
+    "base_id": "Akaku54.us",
+    "categories": [
+      "Legislative",
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.akaku.org/",
+    "geo_restricted": false,
+    "group": "Legislative",
+    "id": "Akaku54.us",
+    "local": true,
+    "logo": "https://www.akaku.org/wp-content/uploads/bb-plugin/cache/Channel54-147x150-square.png",
+    "name": "Akaku 54",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch2/video.m3u8"
+  },
+  {
+    "approval": "path:castus-vod-dev.s3.amazonaws.com^/vod_clients/akaku/",
+    "base_id": "Akaku55.us",
+    "categories": [
+      "Legislative",
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.akaku.org/",
+    "geo_restricted": false,
+    "group": "Legislative",
+    "id": "Akaku55.us",
+    "local": true,
+    "logo": "https://www.akaku.org/wp-content/uploads/bb-plugin/cache/Channel55-147x150-square.png",
+    "name": "Akaku 55",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch3/video.m3u8"
+  },
+  {
     "approval": "host:jmp2.uk",
     "base_id": "fac7a914e241bef68c80c2f6e549458e",
     "categories": [
@@ -1828,6 +1888,25 @@
     "url": "https://tdameritrade-vizio.amagi.tv/playlist.m3u8"
   },
   {
+    "approval": "path:2-fss-2.streamhoster.com^/pl_\\d+/(?:amlst:)?201660-",
+    "base_id": "AMGTV.us",
+    "categories": [
+      "Kids"
+    ],
+    "country": "US",
+    "evidence_url": "https://amgtv.tv/",
+    "geo_restricted": false,
+    "group": "Kids",
+    "id": "AMGTV.us",
+    "local": false,
+    "logo": "https://i.imgur.com/m5Anun9.png",
+    "name": "AMG TV",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8"
+  },
+  {
     "approval": "host:jmp2.uk",
     "base_id": "6887a8fd8e92b5e0a7244e88",
     "categories": [
@@ -2094,6 +2173,25 @@
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
     "url": "https://pb-zx5oxtp5qxu46.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-zx5oxtp5qxu46/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD25000138Y&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-zx5oxtp5qxu46_akamai"
+  },
+  {
+    "approval": "path:securestream11.champds.com^/LIVE/AtlantaGALIVE/",
+    "base_id": "ATL26.us",
+    "categories": [
+      "Legislative"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.atlantaga.gov/",
+    "geo_restricted": false,
+    "group": "Legislative",
+    "id": "ATL26.us",
+    "local": true,
+    "logo": "https://i.imgur.com/s4fqNMt.png",
+    "name": "ATL 26",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://securestream11.champds.com/LIVE/AtlantaGALIVE/AtlantaGALIVE.m3u8"
   },
   {
     "approval": "suffix:.cablecast.tv",
@@ -3411,6 +3509,25 @@
     "url": "https://pb-buwuk37lh8xr3.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-buwuk37lh8xr3/Lights_Legends_Icons.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US26000201N&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-buwuk37lh8xr3_akamai"
   },
   {
+    "approval": "path:2-fss-1.streamhoster.com^/pl_\\d+/(?:amlst:)?205722-",
+    "base_id": "BizTV.us",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://biztv.com/where-to-watch",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "BizTV.us",
+    "local": false,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/05/A_logo_for_BizTV.png",
+    "name": "Biz TV",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://2-fss-1.streamhoster.com/pl_154/205722-2251224-1/playlist.m3u8"
+  },
+  {
     "approval": "source-pattern:^d[a-z0-9]+\\.cloudfront\\.net$",
     "base_id": "US1700027JI",
     "categories": [
@@ -4268,6 +4385,86 @@
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
     "url": "https://pb-dyq9hbmv0fne8.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-dyq9hbmv0fne8/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US1500002I2&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-dyq9hbmv0fne8_akamai"
+  },
+  {
+    "approval": "path:cantv.streamguys1.com^/cantv/",
+    "base_id": "CANTV19.us",
+    "categories": [
+      "Legislative",
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.cantv.org/watch/",
+    "geo_restricted": false,
+    "group": "Legislative",
+    "id": "CANTV19.us",
+    "local": true,
+    "logo": "https://i.imgur.com/PUQtIa3.png",
+    "name": "CAN TV19",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://cantv.streamguys1.com/cantv/cantv19hls/playlist.m3u8"
+  },
+  {
+    "approval": "path:cantv.streamguys1.com^/cantv/",
+    "base_id": "CANTV21.us",
+    "categories": [
+      "Legislative",
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.cantv.org/watch/",
+    "geo_restricted": false,
+    "group": "Legislative",
+    "id": "CANTV21.us",
+    "local": true,
+    "logo": "https://i.imgur.com/KP5bCYr.png",
+    "name": "CAN TV21",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://cantv.streamguys1.com/cantv/cantv21hls/playlist.m3u8"
+  },
+  {
+    "approval": "path:cantv.streamguys1.com^/cantv/",
+    "base_id": "CANTV27.us",
+    "categories": [
+      "Legislative",
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.cantv.org/watch/",
+    "geo_restricted": false,
+    "group": "Legislative",
+    "id": "CANTV27.us",
+    "local": true,
+    "logo": "https://i.imgur.com/43EpWsD.png",
+    "name": "CAN TV27",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://cantv.streamguys1.com/cantv/cantv27hls/playlist.m3u8"
+  },
+  {
+    "approval": "path:cantv.streamguys1.com^/cantv/",
+    "base_id": "CANTV36.us",
+    "categories": [
+      "Legislative",
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.cantv.org/watch/",
+    "geo_restricted": false,
+    "group": "Legislative",
+    "id": "CANTV36.us",
+    "local": true,
+    "logo": "https://i.imgur.com/43EpWsD.png",
+    "name": "CAN TV36",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://cantv.streamguys1.com/cantv/cantv36hls/playlist.m3u8"
   },
   {
     "approval": "host:jmp2.uk",
@@ -6991,6 +7188,25 @@
     "url": "https://pb-559z82u3n66z4.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-559z82u3n66z4/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US2600023WY&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-559z82u3n66z4_akamai"
   },
   {
+    "approval": "path:2-fss-1.streamhoster.com^/pl_\\d+/(?:amlst:)?201814-",
+    "base_id": "Create.us",
+    "categories": [
+      "Education"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.mpt.org/createtv/",
+    "geo_restricted": false,
+    "group": "Education",
+    "id": "Create.us@WMPT",
+    "local": false,
+    "logo": "https://static.wikia.nocookie.net/logopedia/images/4/43/Create_TV_2006.svg/revision/latest/smart/width/386/height/259?cb=20240205233457",
+    "name": "Create WMPT",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://2-fss-1.streamhoster.com/pl_122/amlst:201814-2122456/playlist.m3u8"
+  },
+  {
     "approval": "suffix:.cablecast.tv",
     "base_id": "CreaTVChannel15.us",
     "categories": [
@@ -9561,6 +9777,25 @@
     "url": "https://jmp2.uk/rok-e63d49e8acd7557596d091b3fa262999.m3u8"
   },
   {
+    "approval": "path:securestream11.champds.com^/LIVE/FultonCoGALIVE/",
+    "base_id": "FGTV.us",
+    "categories": [
+      "Legislative"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.fultoncountyga.gov/",
+    "geo_restricted": false,
+    "group": "Legislative",
+    "id": "FGTV.us",
+    "local": true,
+    "logo": "https://i.imgur.com/RXFmzVY.png",
+    "name": "FGTV (United States)",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://securestream11.champds.com/LIVE/FultonCoGALIVE/FultonCoGALIVE.m3u8"
+  },
+  {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
     "base_id": "USBD1200020Y4",
     "categories": [
@@ -10927,6 +11162,65 @@
     "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
     "url": "https://jmp2.uk/plu-6a5ff6d9c868f8fd984e005c.m3u8"
+  },
+  {
+    "approval": "path:securestream11.champds.com^/LIVE/GilletteWYLIVE\\d?/",
+    "base_id": "GillettePublicAccessTelevisionChannel189.us",
+    "categories": [
+      "Legislative",
+      "Education"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.gillettewy.gov/",
+    "geo_restricted": false,
+    "group": "Education",
+    "id": "GillettePublicAccessTelevisionChannel189.us",
+    "local": true,
+    "logo": "https://yt3.googleusercontent.com/ytc/AGIKgqMoPQ32FU8R2lR71LXhYrC3tCHfjJEXcm6E9PEO=s176-c-k-c0x00ffffff-no-rj",
+    "name": "Gillette Public Access Television Channel 189",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://securestream11.champds.com/LIVE/GilletteWYLIVE3/GilletteWYLIVE3.m3u8"
+  },
+  {
+    "approval": "path:securestream11.champds.com^/LIVE/GilletteWYLIVE\\d?/",
+    "base_id": "GillettePublicAccessTelevisionChannel190.us",
+    "categories": [
+      "Legislative",
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.gillettewy.gov/",
+    "geo_restricted": false,
+    "group": "Legislative",
+    "id": "GillettePublicAccessTelevisionChannel190.us",
+    "local": true,
+    "logo": "https://yt3.googleusercontent.com/ytc/AGIKgqMoPQ32FU8R2lR71LXhYrC3tCHfjJEXcm6E9PEO=s176-c-k-c0x00ffffff-no-rj",
+    "name": "Gillette Public Access Television Channel 190",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://securestream11.champds.com/LIVE/GilletteWYLIVE/GilletteWYLIVE.m3u8"
+  },
+  {
+    "approval": "path:securestream11.champds.com^/LIVE/GilletteWYLIVE\\d?/",
+    "base_id": "GillettePublicAccessTelevisionChannel192.us",
+    "categories": [
+      "Legislative"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.gillettewy.gov/",
+    "geo_restricted": false,
+    "group": "Legislative",
+    "id": "GillettePublicAccessTelevisionChannel192.us",
+    "local": true,
+    "logo": "https://yt3.googleusercontent.com/ytc/AGIKgqMoPQ32FU8R2lR71LXhYrC3tCHfjJEXcm6E9PEO=s176-c-k-c0x00ffffff-no-rj",
+    "name": "Gillette Public Access Television Channel 192",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://securestream11.champds.com/LIVE/GilletteWYLIVE2/GilletteWYLIVE2.m3u8"
   },
   {
     "approval": "host:jmp2.uk",
@@ -12928,6 +13222,44 @@
     "url": "https://reflect-kcat-live.cablecast.tv/live-2/live/live.m3u8"
   },
   {
+    "approval": "path:2-fss-1.streamhoster.com^/pl_\\d+/(?:amlst:)?200914-",
+    "base_id": "KentuckyEducationalTelevision.us",
+    "categories": [
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://ket.org/how-to-watch/",
+    "geo_restricted": false,
+    "group": "General",
+    "id": "KentuckyEducationalTelevision.us@WKMJTV",
+    "local": false,
+    "logo": "https://static.wikia.nocookie.net/tvstations/images/2/29/WKLE.png/revision/latest?cb=20210528010650",
+    "name": "Kentucky Educational Television WKMJ-TV",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://2-fss-1.streamhoster.com/pl_122/amlst:200914-2942150/playlist.m3u8"
+  },
+  {
+    "approval": "path:2-fss-2.streamhoster.com^/pl_\\d+/(?:amlst:)?200914-",
+    "base_id": "KentuckyEducationalTelevision.us",
+    "categories": [
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://ket.org/how-to-watch/",
+    "geo_restricted": false,
+    "group": "General",
+    "id": "KentuckyEducationalTelevision.us@WKPCTV",
+    "local": false,
+    "logo": "https://static.wikia.nocookie.net/tvstations/images/2/29/WKLE.png/revision/latest?cb=20210528010650",
+    "name": "Kentucky Educational Television WKPC-TV",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://2-fss-2.streamhoster.com/pl_132/amlst:200914-1315486/playlist.m3u8"
+  },
+  {
     "approval": "path:cdn3.wowza.com^/5/dk84U1p2UUdoMGxT/kern/",
     "base_id": "KernCountyTV.us",
     "categories": [
@@ -14563,6 +14895,105 @@
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
     "url": "https://d18l78mi5ujmqr.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mp84sul05kiy2/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD700015LK"
+  },
+  {
+    "approval": "path:5c2974786200d.streamlock.net^/live-chan\\d+/",
+    "base_id": "MidpenMediaCenterChannel26.us",
+    "categories": [
+      "Legislative",
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://midpenmedia.org/government/",
+    "geo_restricted": false,
+    "group": "Legislative",
+    "id": "MidpenMediaCenterChannel26.us",
+    "local": true,
+    "logo": "https://i.imgur.com/aX1GkCD.png",
+    "name": "Midpen Media Center Channel 26",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://5c2974786200d.streamlock.net/live-chan26/ngrp:ch26_all/playlist.m3u8"
+  },
+  {
+    "approval": "path:5c2974786200d.streamlock.net^/live-chan\\d+/",
+    "base_id": "MidpenMediaCenterChannel28.us",
+    "categories": [
+      "Legislative",
+      "Education"
+    ],
+    "country": "US",
+    "evidence_url": "https://midpenmedia.org/government/",
+    "geo_restricted": false,
+    "group": "Education",
+    "id": "MidpenMediaCenterChannel28.us",
+    "local": true,
+    "logo": "https://i.imgur.com/RPJiolQ.png",
+    "name": "Midpen Media Center Channel 28",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://5c2974786200d.streamlock.net/live-chan28/ngrp:ch28_all/playlist.m3u8"
+  },
+  {
+    "approval": "path:5c2974786200d.streamlock.net^/live-chan\\d+/",
+    "base_id": "MidpenMediaCenterChannel29.us",
+    "categories": [
+      "Legislative"
+    ],
+    "country": "US",
+    "evidence_url": "https://midpenmedia.org/government/",
+    "geo_restricted": false,
+    "group": "Legislative",
+    "id": "MidpenMediaCenterChannel29.us",
+    "local": true,
+    "logo": "https://i.imgur.com/RPJiolQ.png",
+    "name": "Midpen Media Center Channel 29",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://5c2974786200d.streamlock.net/live-chan29/ngrp:ch29_all/playlist.m3u8"
+  },
+  {
+    "approval": "path:5c2974786200d.streamlock.net^/live-chan\\d+/",
+    "base_id": "MidpenMediaCenterChannel30.us",
+    "categories": [
+      "Legislative",
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://midpenmedia.org/government/",
+    "geo_restricted": false,
+    "group": "Legislative",
+    "id": "MidpenMediaCenterChannel30.us",
+    "local": true,
+    "logo": "https://i.imgur.com/RPJiolQ.png",
+    "name": "Midpen Media Center Channel 30",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://5c2974786200d.streamlock.net/live-chan30/ngrp:ch30_all/playlist.m3u8"
+  },
+  {
+    "approval": "path:5c2974786200d.streamlock.net^/live-chan\\d+/",
+    "base_id": "MidpenMediaCenterChannel75.us",
+    "categories": [
+      "Legislative",
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://midpenmedia.org/government/",
+    "geo_restricted": false,
+    "group": "Legislative",
+    "id": "MidpenMediaCenterChannel75.us",
+    "local": true,
+    "logo": "https://i.imgur.com/RPJiolQ.png",
+    "name": "Midpen Media Center Channel 75",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://5c2974786200d.streamlock.net/live-chan75/ngrp:ch75_all/playlist.m3u8"
   },
   {
     "approval": "suffix:.wurl.tv",
@@ -17402,6 +17833,26 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://livestream.pbskids.org/out/v1/94b88ad58fc14f84a9382341f1c00b82/akst.m3u8"
+  },
+  {
+    "approval": "path:2-fss-2.streamhoster.com^/pl_\\d+/(?:amlst:)?200914-",
+    "base_id": "PBSKidsEasternCentral.us",
+    "categories": [
+      "Education",
+      "Kids"
+    ],
+    "country": "US",
+    "evidence_url": "https://ket.org/how-to-watch/",
+    "geo_restricted": false,
+    "group": "Kids",
+    "id": "PBSKidsEasternCentral.us",
+    "local": false,
+    "logo": "https://i.imgur.com/ambc9le.png",
+    "name": "PBS Kids Eastern/Central",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8"
   },
   {
     "approval": "host:livestream.pbskids.org",

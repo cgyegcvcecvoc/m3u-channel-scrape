@@ -300,3 +300,32 @@ retains the `santa-paula` tenant, and Free-TV's `lukentvlive.vgcdn.net`
 They are listed, with counts and samples, in
 [`generated/candidate-audit.md`](generated/candidate-audit.md) so the next review
 pass starts from data instead of re-deriving it.
+
+### Second review batch — community media & public broadcasters (same day)
+
+Continuing the same evidence standard on the remaining host-review candidates,
+23 more channels were approved through tenant paths:
+
+| Tenant path | Publisher / channels | Evidence |
+| --- | --- | --- |
+| `5c2974786200d.streamlock.net/live-chan…` | MidPen Media Center channels 26/28/29/30/75 (Palo Alto PEG non-profit) | [midpenmedia.org/government](https://midpenmedia.org/government/) — webstreams on the centre's own site |
+| `cantv.streamguys1.com/cantv/` | CAN TV 19/21/27/36 (Chicago Access Network Television) | [cantv.org/watch](https://www.cantv.org/watch/) — "Stream CAN TV 19/21/27/36" |
+| `castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/` | Akakū 53/54/55 (Maui community media) | [akaku.org](https://www.akaku.org/) — "Watch Akakū channels 53, 54 & 55 LIVE in HD" |
+| `castus-vod-dev.s3.amazonaws.com/vod_clients/kvcr/` | FNX (First Nations Experience) on KVCR-DT | [fnx.org](https://fnx.org/) |
+| `securestream11.champds.com/LIVE/GilletteWYLIVE…` | GPA-TV channels 189/190/192 (Gillette, WY) | [gillettewy.gov](https://www.gillettewy.gov/) — PEG channels streamed live |
+| `securestream11.champds.com/LIVE/FultonCoGALIVE/` | FGTV – Fulton Government Television | [fultoncountyga.gov](https://www.fultoncountyga.gov/) — meetings live streamed on FGTV |
+| `securestream11.champds.com/LIVE/AtlantaGALIVE/` | City of Atlanta government access channel 26 | [atlantaga.gov](https://www.atlantaga.gov/) |
+| `2-fss-*.streamhoster.com` `200914-` | KET (Kentucky Educational Television) WKMJ/WKPC + KET's PBS Kids relay | [ket.org/how-to-watch](https://ket.org/how-to-watch/) — free OTA on 16 transmitters and live at KET.org/live |
+| `2-fss-1.streamhoster.com` `201814-` | MPT Create (Maryland Public Television) | [mpt.org/createtv](https://www.mpt.org/createtv/) — MPT2/Create live stream |
+| `2-fss-1.streamhoster.com` `205722-` | BizTV | [biztv.com/where-to-watch](https://biztv.com/where-to-watch) — free OTA network with a 24/7 live stream |
+| `2-fss-2.streamhoster.com` `201660-` | AMG TV | [amgtv.tv](https://amgtv.tv/) — free-to-air network (its own StreamHoster account) |
+
+Catalogue: **1,462 → 1,485**; `usa-local.m3u` 232 → 249.
+
+Also examined in this pass and **not** approved: Plex (`plex_us.m3u`, 695
+entries) — every URL is `epg.provider.plex.tv/library/parts/…?X-Plex-Token=…`,
+i.e. a personal Plex credential with no `.m3u8` path, blocked by the credential
+and HLS-path invariants; and `i.mjh.nz` platform playlists, which are served
+from a host this session's sandbox cannot reach (its GitHub repo carries EPG
+XML only), so their hosts could not be reviewed. Both remain documented
+follow-ups rather than silent additions.

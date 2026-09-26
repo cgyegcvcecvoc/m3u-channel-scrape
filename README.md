@@ -205,13 +205,21 @@ therefore not a supported mode** — see
 [RESEARCH.md](RESEARCH.md#2026-09-26--candidate-source-audit--tenant-path-approvals-branch-arena01a0de64)
 for the full review.
 
-What the request did surface was real work: 53 additional **legitimate**
-channels were reviewed and approved through tenant-scoped path rules — SFGovTV,
+What the request did surface was real work: 75 additional **legitimate** channels
+were reviewed and approved through tenant-scoped path rules — SFGovTV,
 ʻŌlelo 49/53/54/55, Denver 8 TV, PHXTV, Tempe 11, Scottsdale 11, CityTV San Diego
 and Santa Monica, BHTV 10/35, WeHoTV, the Burbank Channel, Cerritos TV3, CMTV,
 Lex TV, Martin County TV, NMBTV, Ontario Public Access, Pompano Beach, PSL TV,
 SPTV, Stockton Gov TV, Hillsborough TV, Kern County TV, Brevard Government
 Access, CC-TV/CFM TV/Lake Havasu/TV4/PCTV, EWTN English + Spanish, BEK News and
-BEK Sports West, and the free over-the-air KPVM-LD 25 subchannels — each with
-the publisher's own site as evidence. Catalogue totals moved 1,410 → 1,462 and
-`usa-local.m3u` 196 → 232.
+BEK Sports West, the free over-the-air KPVM-LD 25 subchannels, MidPen Media
+Center 26/28/29/30/75, CAN TV 19/21/27/36, Akakū 53/54/55, GPA-TV 189/190/192,
+FGTV Fulton County, ATL 26, KET WKPC/WKMJ, MPT Create, BizTV and AMG TV — each
+with the publisher's own site as evidence. Catalogue totals moved 1,410 → 1,485
+and `usa-local.m3u` 196 → 249.
+
+Reviewed and **not** approved in the same pass: Plex's US lineup (695 URLs that
+are all `?X-Plex-Token=…` credential links with no `.m3u8` path) and the
+`i.mjh.nz` platform playlists (served from a host this session could not reach,
+so their hosts could not be reviewed). Both are recorded as follow-ups in
+[RESEARCH.md](RESEARCH.md) rather than added unverified.

@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-09-26T15:52:59Z",
+  "generated_utc": "2026-09-26T16:09:51Z",
   "method": "Entries are classified with the same policy code the updater uses (scripts/update_playlists.py). This report is evidence for host review, not an approval: nothing here publishes or changes policy.json.",
   "note": "structural_rejects cannot be fixed by a host rule (plain HTTP, IP-literal host, non-443 port, expiring/credential query, non-HLS path). unreviewed_hosts can be approved after a host review with evidence.",
   "sources": [
     {
-      "accepted": 747,
+      "accepted": 770,
       "entries": 1464,
       "entries_needing_custom_headers": 10,
       "entries_with_pay_tv_brand_name": 82,
@@ -25,29 +25,29 @@
         "not_us_or_no_id": 50
       },
       "review_checklist": [
-        "confirm 2-fss-2.streamhoster.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm mdc.ott.alticeusa.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
+        "confirm 2-fss-2.streamhoster.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm a-cdn.klowdtv.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm dlttx48mxf9m3.cloudfront.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
-        "confirm 2-fss-1.streamhoster.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm streaming-live-fcdn.api.prd.univisionnow.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm cdn.vegasplus.us is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm mediaserver.abnvideos.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm townnews.g-mana.live is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm vodcdn.bamboo-cloud.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
-        "confirm 5c2974786200d.streamlock.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
-        "confirm castus-vod-dev.s3.amazonaws.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
+        "confirm 2-fss-1.streamhoster.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm cdn.whiplash.cc is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
-        "confirm securestream11.champds.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm 58cc65c534c67.streamlock.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm 59d39900ebfb8.streamlock.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm 5aafcc5de91f1.streamlock.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
-        "confirm cantv.streamguys1.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm fuel-streaming-prod01.fuelmedia.io is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm jstre.am is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm shd-gcp-live.edgenextcdn.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm stream.ads.ottera.tv is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
-        "confirm streamer1.connectto.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule"
+        "confirm streamer1.connectto.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
+        "confirm cdn-atxn-01.vos360.video is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
+        "confirm d18fcxaqfnwjhj.cloudfront.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
+        "confirm fastly.live.brightcove.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
+        "confirm live.field59.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule"
       ],
       "sha256": "5e0387fd41e4d09e0ec7bee859361e0758dfb2fbca2c186ca0e9e4da71916e5c",
       "structural_reject_entries": 176,
@@ -85,22 +85,8 @@
         "not_hls_path": 3,
         "scheme:http": 32
       },
-      "unreviewed_host_entries": 472,
+      "unreviewed_host_entries": 449,
       "unreviewed_hosts": [
-        {
-          "distinct_channel_names": 14,
-          "entries": 14,
-          "host": "2-fss-2.streamhoster.com",
-          "pay_tv_brand_samples": 0,
-          "samples": [
-            "AMG TV (1080p)",
-            "GoodLife 45 (720p) [Not 24/7]",
-            "Heartland (720p)",
-            "KSCE 38.1 (360p)",
-            "Kentucky Educational Television WKPC-TV (480p)",
-            "MeTV Toons KMBY-LD"
-          ]
-        },
         {
           "distinct_channel_names": 12,
           "entries": 12,
@@ -113,6 +99,20 @@
             "News12 Hudson Valley [Geo-blocked]",
             "News12 Long Island (1080p) [Geo-blocked]",
             "News12 New Jersey [Geo-blocked]"
+          ]
+        },
+        {
+          "distinct_channel_names": 11,
+          "entries": 11,
+          "host": "2-fss-2.streamhoster.com",
+          "pay_tv_brand_samples": 0,
+          "samples": [
+            "GoodLife 45 (720p) [Not 24/7]",
+            "Heartland (720p)",
+            "KSCE 38.1 (360p)",
+            "MeTV Toons KMBY-LD",
+            "RTH-TV1 (1080p)",
+            "Video Mix TV"
           ]
         },
         {
@@ -141,20 +141,6 @@
             "CVC Government (480p)",
             "CVC Public (480p)",
             "CityTV Lakewood (720p)"
-          ]
-        },
-        {
-          "distinct_channel_names": 8,
-          "entries": 8,
-          "host": "2-fss-1.streamhoster.com",
-          "pay_tv_brand_samples": 0,
-          "samples": [
-            "Ace TV KCKS-LD (720p)",
-            "Biz TV (1080p)",
-            "Create WMPT",
-            "Genesis Science Network (720p)",
-            "God's Learning Channel KPCB-DT (480p)",
-            "KSCE 38.3 (360p)"
           ]
         },
         {
@@ -244,27 +230,14 @@
         {
           "distinct_channel_names": 5,
           "entries": 5,
-          "host": "5c2974786200d.streamlock.net",
+          "host": "2-fss-1.streamhoster.com",
           "pay_tv_brand_samples": 0,
           "samples": [
-            "Midpen Media Center Channel 26 (720p)",
-            "Midpen Media Center Channel 28 (720p)",
-            "Midpen Media Center Channel 29 (720p)",
-            "Midpen Media Center Channel 30 (720p)",
-            "Midpen Media Center Channel 75 (720p)"
-          ]
-        },
-        {
-          "distinct_channel_names": 5,
-          "entries": 5,
-          "host": "castus-vod-dev.s3.amazonaws.com",
-          "pay_tv_brand_samples": 0,
-          "samples": [
-            "ACTV (United States)",
-            "Akaku 53 (1080p)",
-            "Akaku 54 (1080p)",
-            "Akaku 55 (1080p)",
-            "Monroe County TV (1080p)"
+            "Ace TV KCKS-LD (720p)",
+            "Genesis Science Network (720p)",
+            "God's Learning Channel KPCB-DT (480p)",
+            "KSCE 38.3 (360p)",
+            "Talkin Live Classics TV (480p)"
           ]
         },
         {
@@ -278,19 +251,6 @@
             "Whiplash Cinema (480p)",
             "Whiplash II (480p)",
             "Window TV (720p)"
-          ]
-        },
-        {
-          "distinct_channel_names": 5,
-          "entries": 5,
-          "host": "securestream11.champds.com",
-          "pay_tv_brand_samples": 0,
-          "samples": [
-            "ATL 26",
-            "FGTV (United States)",
-            "Gillette Public Access Television Channel 189",
-            "Gillette Public Access Television Channel 190",
-            "Gillette Public Access Television Channel 192"
           ]
         },
         {
@@ -327,18 +287,6 @@
             "Alkarma TV Youth & English (1080p) [Not 24/7]",
             "Almagd TV North America (1080p)",
             "Logos TV English (1080p) [Not 24/7]"
-          ]
-        },
-        {
-          "distinct_channel_names": 4,
-          "entries": 4,
-          "host": "cantv.streamguys1.com",
-          "pay_tv_brand_samples": 0,
-          "samples": [
-            "CAN TV19 (1080p)",
-            "CAN TV21 (1080p)",
-            "CAN TV27 (1080p)",
-            "CAN TV36 (1080p)"
           ]
         },
         {
@@ -412,12 +360,56 @@
             "High Vision TV (1080p) [Not 24/7]",
             "KIIO-LD 10.4 (480p)"
           ]
+        },
+        {
+          "distinct_channel_names": 3,
+          "entries": 3,
+          "host": "cdn-atxn-01.vos360.video",
+          "pay_tv_brand_samples": 0,
+          "samples": [
+            "ATXN1 (1080p)",
+            "ATXN2 (1080p)",
+            "ATXN3 (1080p)"
+          ]
+        },
+        {
+          "distinct_channel_names": 3,
+          "entries": 3,
+          "host": "d18fcxaqfnwjhj.cloudfront.net",
+          "pay_tv_brand_samples": 0,
+          "samples": [
+            "MCN6 Arts Channel (1080p) [Not 24/7]",
+            "MCN6 Main Channel (1080p) [Not 24/7]",
+            "MCN6 Music Channel (1080p) [Not 24/7]"
+          ]
+        },
+        {
+          "distinct_channel_names": 3,
+          "entries": 3,
+          "host": "fastly.live.brightcove.com",
+          "pay_tv_brand_samples": 0,
+          "samples": [
+            "CBN Espanol (1080p)",
+            "CBN Family (1080p)",
+            "CBN News (1080p)"
+          ]
+        },
+        {
+          "distinct_channel_names": 3,
+          "entries": 3,
+          "host": "live.field59.com",
+          "pay_tv_brand_samples": 0,
+          "samples": [
+            "Fox (United States) KBSI (720p) [Not 24/7]",
+            "NBC WLIO (720p) [Not 24/7]",
+            "NBC WRDE-LD (720p) [Not 24/7]"
+          ]
         }
       ],
       "url": "https://iptv-org.github.io/iptv/countries/us.m3u"
     },
     {
-      "accepted": 9,
+      "accepted": 10,
       "entries": 28,
       "entries_needing_custom_headers": 0,
       "entries_with_pay_tv_brand_name": 0,
@@ -433,7 +425,6 @@
       },
       "review_checklist": [
         "confirm lukentvlive.vgcdn.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
-        "confirm 2-fss-1.streamhoster.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm bcovlive-a.akamaihd.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm cinedigm.vo.llnwd.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm d1bl6tskrpq9ze.cloudfront.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
@@ -450,7 +441,7 @@
         "not_hls_path": 1,
         "scheme:http": 1
       },
-      "unreviewed_host_entries": 11,
+      "unreviewed_host_entries": 10,
       "unreviewed_hosts": [
         {
           "distinct_channel_names": 3,
@@ -461,15 +452,6 @@
             "Heartland",
             "Retro TV",
             "Rev'n"
-          ]
-        },
-        {
-          "distinct_channel_names": 1,
-          "entries": 1,
-          "host": "2-fss-1.streamhoster.com",
-          "pay_tv_brand_samples": 0,
-          "samples": [
-            "Biz TV"
           ]
         },
         {
@@ -665,26 +647,26 @@
     },
     {
       "accepted": 13,
-      "entries": 784,
-      "entries_needing_custom_headers": 671,
-      "entries_with_pay_tv_brand_name": 254,
+      "entries": 838,
+      "entries_needing_custom_headers": 725,
+      "entries_with_pay_tv_brand_name": 252,
       "name": "doms9/iptv (user-suggested candidates; reviewed entries only)",
-      "other_blocked_entries": 238,
+      "other_blocked_entries": 281,
       "other_reason_notes": {
         "custom_headers": "stream needs referrer/user-agent overrides",
         "not_us_or_no_id": "no US-style tvg-id (and source is not a platform-ID feed)"
       },
       "other_reasons": {
-        "custom_headers": 203,
+        "custom_headers": 246,
         "not_us_or_no_id": 35
       },
       "review_checklist": [
         "confirm d3ehq1uaxory6w.cloudfront.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule"
       ],
-      "sha256": "53d26cc1430d86e2aae6e5b64f545f66222768641cb20815c86e05190229e9ae",
-      "structural_reject_entries": 532,
+      "sha256": "fb5e7ae77b7bd34ffee766f618ac03bcc80882e937fdf347a2cbaaa14e0a514d",
+      "structural_reject_entries": 543,
       "structural_rejects": {
-        "expiring_or_credential_query": 205,
+        "expiring_or_credential_query": 209,
         "expiring_or_credential_query(pay_tv_brand)": 189,
         "non_443_port:4004": 1,
         "non_443_port:4007": 1,
@@ -693,8 +675,8 @@
         "non_443_port:8080": 46,
         "non_443_port:8989": 4,
         "non_443_port:9590": 2,
-        "not_hls_path": 4,
-        "scheme:http": 78
+        "not_hls_path": 15,
+        "scheme:http": 74
       },
       "unreviewed_host_entries": 1,
       "unreviewed_hosts": [
@@ -713,11 +695,11 @@
   ],
   "sources_file": "/home/user/m3u-channel-scrape/config/sources.json",
   "totals": {
-    "accepted": 1979,
-    "entries": 3938,
-    "other_blocked_entries": 456,
+    "accepted": 2003,
+    "entries": 3992,
+    "other_blocked_entries": 499,
     "sources": 7,
-    "structural_reject_entries": 1015,
-    "unreviewed_host_entries": 488
+    "structural_reject_entries": 1026,
+    "unreviewed_host_entries": 464
   }
 }
