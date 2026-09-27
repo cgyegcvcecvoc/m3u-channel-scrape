@@ -1,17 +1,17 @@
 {
   "counts": {
-    "usa-all.m3u": 1484,
-    "usa-backups.m3u": 274,
+    "usa-all.m3u": 1479,
+    "usa-backups.m3u": 273,
     "usa-business.m3u": 10,
     "usa-entertainment.m3u": 460,
-    "usa-intermittent.m3u": 18,
+    "usa-intermittent.m3u": 17,
     "usa-kids.m3u": 74,
-    "usa-local.m3u": 249,
+    "usa-local.m3u": 245,
     "usa-movies.m3u": 87,
     "usa-music.m3u": 71,
-    "usa-news.m3u": 84,
+    "usa-news.m3u": 83,
     "usa-spanish.m3u": 41,
-    "usa-sports.m3u": 114,
+    "usa-sports.m3u": 113,
     "usa-weather.m3u": 3
   },
   "epg_url": "https://epg.pw/xmltv/epg_US.xml",
@@ -22,12 +22,12 @@
     "https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz",
     "https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz"
   ],
-  "generated_utc": "2026-09-27T12:09:15Z",
+  "generated_utc": "2026-09-27T17:56:22Z",
   "skipped": {
-    "custom_headers": 549,
-    "dead_stream": 8,
-    "duplicate": 235,
-    "duplicate_name": 286,
+    "custom_headers": 722,
+    "dead_stream": 12,
+    "duplicate": 237,
+    "duplicate_name": 285,
     "excluded_pay_tv": 15,
     "not_direct_https_hls": 167,
     "not_us_or_no_id": 556,
@@ -36,7 +36,7 @@
   },
   "sources": [
     {
-      "approved_candidates": 771,
+      "approved_candidates": 768,
       "candidates": 1469,
       "name": "iptv-org US (community-submitted candidates)",
       "sha256": "ed9e0d8d71bf3f60ce3d92abef7ac67d90ae2996954750025ab2fbc45ecc720a",
@@ -57,7 +57,7 @@
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u"
     },
     {
-      "approved_candidates": 230,
+      "approved_candidates": 229,
       "candidates": 231,
       "name": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
       "sha256": "346e7791acf9bb4987f23830da428fc29205cdf69f4c37f6d03654475f66dd5d",
@@ -79,9 +79,9 @@
     },
     {
       "approved_candidates": 13,
-      "candidates": 651,
+      "candidates": 824,
       "name": "doms9/iptv (user-suggested candidates; reviewed entries only)",
-      "sha256": "d9331cd4985e5d3863c536dc5ecd192464b0d14417543cc910f59c0ee1a4b62f",
+      "sha256": "f95cc9bfd9ca1cb27555c5b4dd05aa2f6cfeb876cfa3cdb67ac1deca8cc90bb7",
       "url": "https://raw.githubusercontent.com/doms9/iptv/default/M3U8/TV.m3u8"
     }
   ],
