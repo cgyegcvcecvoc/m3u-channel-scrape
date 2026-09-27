@@ -76,8 +76,12 @@ DEAD_STREAM_REPLACEMENTS: dict[str, str] = {
     "https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8": "https://jmp2.uk/plu-5dc481cda1d430000948a1b4.m3u8",
     "https://cbsn-min.cbsnstream.cbsnews.com/out/v1/76518f06941246ba810c8d175600bf74/master.m3u8": "https://jmp2.uk/plu-5eb1b0bf2240d8000732a09c.m3u8",
     "https://cbsn-ny.cbsnstream.cbsnews.com/out/v1/ec3897d58a9b45129a77d67aa247d136/master.m3u8": "https://jmp2.uk/plu-5dc48170e280c80009a861ab.m3u8",
-    "https://cbsn-phi.cbsnstream.cbsnews.com/out/v1/5c9ad3e215984b0e9ad845b335216b72/master.m3u8": "https://jmp2.uk/plu-5eb1b03cd345340008fccd28.m3u8",
-    "https://cbsn-pit.cbsnstream.cbsnews.com/out/v1/6966dabf8150405ab26f854e3cd6a2b8/master.m3u8": "https://jmp2.uk/plu-5eb1b199042b3100076fe931.m3u8",
+    "https://cbsn-phi.cbsnstream.cbsnews.com/out/v1/5c9ad3e215984b0e9ad845b335216b72/master.m3u8": "https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8",
+    "https://cbsn-pit.cbsnstream.cbsnews.com/out/v1/6966dabf8150405ab26f854e3cd6a2b8/master.m3u8": "https://jmp2.uk/plu-5eb1b17aa5277e00083f6521.m3u8",
+    # CBS News Philly / Pittsburgh Pluto slugs rotated (HTTP 404 on 2026-09-27
+    # GitHub verify). Publisher pages: pluto.tv/us/live-tv/<id>
+    "https://jmp2.uk/plu-5eb1b03cd345340008fccd28.m3u8": "https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8",
+    "https://jmp2.uk/plu-5eb1b199042b3100076fe931.m3u8": "https://jmp2.uk/plu-5eb1b17aa5277e00083f6521.m3u8",
     # The Bob Ross Channel (dead tubi.video 404 -> working Pluto TV embed)
     "https://aegis-cloudfront-1.tubi.video/45301c94-0d40-4cbb-b342-f5dc7949d76c/playlist.m3u8": "https://jmp2.uk/plu-5f36d726234ce10007784f2a.m3u8",
     # Baywatch (dead AU amagi dns failure -> working Roku Channel embed)
@@ -128,6 +132,12 @@ DEFUNCT_STREAMS: set[str] = {
     "https://rpn.bozztv.com/trn01/gusa-TVSFilmNoir/index.m3u8",
     "https://dai.google.com/linear/hls/event/HZ3JdLVcQ463l3b1BLXmmQ/master.m3u8",
     "https://d3svnrf3rmq619.cloudfront.net/krgv-live/smil:krgv-somos.smil/playlist.m3u8",
+    # Confirmed HTTP 404 on the 2026-09-27 GitHub verify runner; no reviewed
+    # replacement stream. Municipal hosts may come back under a new path.
+    "https://jmp2.uk/rok-9210a8fbeab66e9d1ce20c187804ee7d.m3u8",
+    "https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/stockton/G0044_008/playlist.m3u8",
+    "https://cdn3.wowza.com/5/djRwZmQvTEJidmZD/burbank/G0240_009/playlist.m3u8",
+    "https://witn.cablecast.tv/live-4/live/live.m3u8",
 }
 
 

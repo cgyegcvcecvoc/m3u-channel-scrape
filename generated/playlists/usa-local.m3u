@@ -133,12 +133,10 @@ https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/
 https://jmp2.uk/plu-5eb1b0bf2240d8000732a09c.m3u8
 #EXTINF:-1 tvg-id="CBSNewsNewYork.us" tvg-name="CBS News New York" tvg-logo="https://i.imgur.com/bpc4v0u.png" group-title="News",CBS News New York
 https://jmp2.uk/plu-5dc48170e280c80009a861ab.m3u8
-#EXTINF:-1 tvg-id="5eb1b05ea168cc000767ba67" tvg-name="CBS News Philadelphia" tvg-logo="https://images.pluto.tv/channels/5eb1b05ea168cc000767ba67/colorLogoPNG.png" group-title="News",CBS News Philadelphia
-https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8
 #EXTINF:-1 tvg-id="CBSNewsPhilly.us" tvg-name="CBS News Philly" tvg-logo="https://i.imgur.com/FmtTbNY.png" group-title="News",CBS News Philly
-https://jmp2.uk/plu-5eb1b03cd345340008fccd28.m3u8
+https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8
 #EXTINF:-1 tvg-id="CBSNewsPittsburgh.us" tvg-name="CBS News Pittsburgh" tvg-logo="https://i.imgur.com/Un9IrUh.png" group-title="News",CBS News Pittsburgh
-https://jmp2.uk/plu-5eb1b199042b3100076fe931.m3u8
+https://jmp2.uk/plu-5eb1b17aa5277e00083f6521.m3u8
 #EXTINF:-1 tvg-id="CBSNewsSacramento.us" tvg-name="CBS News Sacramento" tvg-logo="https://i.imgur.com/0e1kSGX.png" group-title="News",CBS News Sacramento
 https://lineup.cbsivideo.com/playout/c1ed69db-6b71-4581-a937-a70ab4089f8a/index.m3u8
 #EXTINF:-1 tvg-id="5eceb0d4065c240007688ec6" tvg-name="CBS News Texas" tvg-logo="https://images.pluto.tv/channels/5eceb0d4065c240007688ec6/colorLogoPNG.png" group-title="News",CBS News Texas
@@ -453,8 +451,6 @@ https://livestream.telvue.com/soundviewcmt2/f7b44cfafd5c52223d5498196c8a2e7b.sdp
 https://cdn3.wowza.com/5/RXJNMFI3VlVkOEFP/stpete/G0187_003/playlist.m3u8
 #EXTINF:-1 tvg-id="StLuciePublicSchools.us" tvg-name="St Lucie Public Schools" tvg-logo="https://i.imgur.com/wnB0fWG.png" group-title="Education",St Lucie Public Schools
 https://reflect-stlucie-ps-fl.cablecast.tv/live-1/live/stream-1/WIFI-1896k-720p.m3u8
-#EXTINF:-1 tvg-id="StocktonGovTV.us" tvg-name="Stockton Gov TV" tvg-logo="https://i.imgur.com/Ko4m4iw.png" group-title="Legislative",Stockton Gov TV
-https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/stockton/G0044_008/playlist.m3u8
 #EXTINF:-1 tvg-id="TAPTVChannel23.us" tvg-name="TAP TV Channel 23" tvg-logo="https://i.imgur.com/5mhYHtD.png" group-title="General",TAP TV Channel 23
 https://livestream.telvue.com/lompoccmttv1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TAPTVChannel24.us" tvg-name="TAP TV Channel 24" tvg-logo="https://i.imgur.com/5mhYHtD.png" group-title="General",TAP TV Channel 24
@@ -467,8 +463,6 @@ https://reflect-tampa-bay-community.cablecast.tv/live-16/live/live.m3u8
 https://reflect-temecula.cablecast.tv/live-2/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="Tempe11.us" tvg-name="Tempe 11" tvg-logo="https://i.imgur.com/KMeHRV3.png" group-title="Legislative",Tempe 11
 https://cdn3.wowza.com/5/cFh0V0QwUVc4SDl2/tempe/G0355_003/chunklist.m3u8
-#EXTINF:-1 tvg-id="TheBurbankChannel.us" tvg-name="The Burbank Channel" tvg-logo="https://i.imgur.com/SpkR1Fb.png" group-title="Legislative",The Burbank Channel
-https://cdn3.wowza.com/5/djRwZmQvTEJidmZD/burbank/G0240_009/playlist.m3u8
 #EXTINF:-1 tvg-id="Thornton8.us" tvg-name="Thornton 8" tvg-logo="https://i.imgur.com/C013OWn.png" group-title="Legislative",Thornton 8
 https://reflect-thornton.cablecast.tv/live-4/live/live.m3u8
 #EXTINF:-1 tvg-id="TUTV.us" tvg-name="TUTV" tvg-logo="https://i.imgur.com/At0BPeA.png" group-title="Education",TUTV
@@ -489,8 +483,6 @@ https://cdn3.wowza.com/5/M0lyamVmM2JWcjhQ/weho/G0161_004/playlist.m3u8
 https://stream.swagit.com/live-edge/whiteplainsny/smil:std-4x3-1-b/playlist.m3u8
 #EXTINF:-1 tvg-id="WHOHTV.us" tvg-name="WHOH-TV" tvg-logo="https://i.imgur.com/jTD9nLE.png" group-title="General",WHOH-TV
 https://stream.swagit.com/live-edge/hastingsonhudsonny/smil:std-4x3-1-a/playlist.m3u8
-#EXTINF:-1 tvg-id="WITN22.us" tvg-name="WITN22 [Not 24/7]" tvg-logo="https://i.imgur.com/Esu8PyB.png" group-title="General",WITN22 [Not 24/7]
-https://witn.cablecast.tv/live-4/live/live.m3u8
 #EXTINF:-1 tvg-id="YouDotGov.us" tvg-name="YouDotGov" tvg-logo="https://i.imgur.com/4Mc7baR.png" group-title="Legislative",YouDotGov
 https://reflect-communitytv.cablecast.tv/live-3/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="YumaChannel72.us" tvg-name="Yuma Channel 72" tvg-logo="https://i.imgur.com/QsFBCWv.png" group-title="Legislative",Yuma Channel 72

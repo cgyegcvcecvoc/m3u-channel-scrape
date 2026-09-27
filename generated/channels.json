@@ -2441,25 +2441,6 @@
     "url": "https://pb-ftb00fzhvlqav.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ftb00fzhvlqav/webvtt/v1/18584c3f3a2a4df8/88886064/master.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US1600011FY&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&coppa=1&declaredCC1Language=en&pb_type=pb-ftb00fzhvlqav_akamai&skipBeacons=true&useRelativeUrls=true"
   },
   {
-    "approval": "host:jmp2.uk",
-    "base_id": "9210a8fbeab66e9d1ce20c187804ee7d",
-    "categories": [
-      "Sports"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "Sports",
-    "id": "9210a8fbeab66e9d1ce20c187804ee7d",
-    "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/9210a8fbeab66e9d1ce20c187804ee7d/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1749678868866_BassmasterChannel_InfoHUDChannelIdentifier_260x147.png",
-    "name": "Bassmaster",
-    "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-9210a8fbeab66e9d1ce20c187804ee7d.m3u8"
-  },
-  {
     "approval": "source-pattern:^d[a-z0-9]+\\.cloudfront\\.net$",
     "base_id": "USBD3300012VX",
     "categories": [
@@ -5019,25 +5000,6 @@
   },
   {
     "approval": "host:jmp2.uk",
-    "base_id": "5eb1b05ea168cc000767ba67",
-    "categories": [
-      "News"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "News",
-    "id": "5eb1b05ea168cc000767ba67",
-    "local": true,
-    "logo": "https://images.pluto.tv/channels/5eb1b05ea168cc000767ba67/colorLogoPNG.png",
-    "name": "CBS News Philadelphia",
-    "not_24_7": false,
-    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
-    "url": "https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
     "base_id": "CBSNewsPhilly.us",
     "categories": [
       "News"
@@ -5053,7 +5015,7 @@
     "not_24_7": false,
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
-    "url": "https://jmp2.uk/plu-5eb1b03cd345340008fccd28.m3u8"
+    "url": "https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8"
   },
   {
     "approval": "host:jmp2.uk",
@@ -5072,7 +5034,7 @@
     "not_24_7": false,
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
-    "url": "https://jmp2.uk/plu-5eb1b199042b3100076fe931.m3u8"
+    "url": "https://jmp2.uk/plu-5eb1b17aa5277e00083f6521.m3u8"
   },
   {
     "approval": "host:lineup.cbsivideo.com",
@@ -22375,25 +22337,6 @@
     "url": "https://jmp2.uk/rok-79876f8f79d0394ba8982259393e5e32.m3u8"
   },
   {
-    "approval": "path:cdn3.wowza.com^/5/dk84U1p2UUdoMGxT/stockton/",
-    "base_id": "StocktonGovTV.us",
-    "categories": [
-      "Legislative"
-    ],
-    "country": "US",
-    "evidence_url": "https://www.stocktonca.gov/",
-    "geo_restricted": false,
-    "group": "Legislative",
-    "id": "StocktonGovTV.us",
-    "local": true,
-    "logo": "https://i.imgur.com/Ko4m4iw.png",
-    "name": "Stockton Gov TV",
-    "not_24_7": false,
-    "source": "iptv-org US (community-submitted candidates)",
-    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
-    "url": "https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/stockton/G0044_008/playlist.m3u8"
-  },
-  {
     "approval": "host:jmp2.uk",
     "base_id": "be6338f82720cc9d9548acfa377a2aab",
     "categories": [
@@ -23364,26 +23307,6 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://jmp2.uk/plu-5f36d726234ce10007784f2a.m3u8"
-  },
-  {
-    "approval": "path:cdn3.wowza.com^/5/djRwZmQvTEJidmZD/burbank/",
-    "base_id": "TheBurbankChannel.us",
-    "categories": [
-      "Legislative",
-      "General"
-    ],
-    "country": "US",
-    "evidence_url": "https://www.burbankca.gov/",
-    "geo_restricted": false,
-    "group": "Legislative",
-    "id": "TheBurbankChannel.us",
-    "local": true,
-    "logo": "https://i.imgur.com/SpkR1Fb.png",
-    "name": "The Burbank Channel",
-    "not_24_7": false,
-    "source": "iptv-org US (community-submitted candidates)",
-    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
-    "url": "https://cdn3.wowza.com/5/djRwZmQvTEJidmZD/burbank/G0240_009/playlist.m3u8"
   },
   {
     "approval": "suffix:.amagi.tv",
@@ -27323,25 +27246,6 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://wire2fish-klowdtv.amagi.tv/playlist.m3u8"
-  },
-  {
-    "approval": "suffix:.cablecast.tv",
-    "base_id": "WITN22.us",
-    "categories": [
-      "General"
-    ],
-    "country": "US",
-    "evidence_url": "https://www.cablecast.tv/",
-    "geo_restricted": false,
-    "group": "General",
-    "id": "WITN22.us",
-    "local": true,
-    "logo": "https://i.imgur.com/Esu8PyB.png",
-    "name": "WITN22 [Not 24/7]",
-    "not_24_7": true,
-    "source": "iptv-org US (community-submitted candidates)",
-    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
-    "url": "https://witn.cablecast.tv/live-4/live/live.m3u8"
   },
   {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",

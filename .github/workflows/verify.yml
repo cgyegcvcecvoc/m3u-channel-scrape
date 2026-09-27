@@ -2,14 +2,14 @@ name: Verify channel streams
 
 # Probes every catalog channel and the root bulk playlist, writes
 # generated/verification.json, and keeps the two *.m3u8 "verified" playlists
-# limited to entries that returned a real media segment. Push trigger skips
-# the bot's own commits to avoid a loop; schedule activates after this file
-# lands on the default branch.
+# limited to entries that returned a real media segment. Push runs on main
+# and every Arena session branch (arena/**); bot commits are skipped to
+# avoid a loop. Schedule activates after this file lands on the default branch.
 on:
   push:
     branches:
       - main
-      - arena/01a0de28-m3u-channel-scrape
+      - "arena/**"
   schedule:
     - cron: "43 8 * * *" # daily after the refresh window, UTC
   workflow_dispatch:

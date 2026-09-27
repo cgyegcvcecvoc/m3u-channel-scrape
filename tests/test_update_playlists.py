@@ -328,6 +328,49 @@ https://example.org/headers.m3u8
         self.assertEqual(why, "accepted")
         self.assertEqual(channel["url"], "https://jmp2.uk/plu-66df8a29b25d2b0008fc5fe0.m3u8")
 
+        # CBS News Philly / Pittsburgh: both the original cbsnstream URLs and
+        # the rotated Pluto slugs must land on the current publisher IDs.
+        cbs = (
+            ("CBSNewsPhilly.us", "CBS News Philly",
+             "https://cbsn-phi.cbsnstream.cbsnews.com/out/v1/5c9ad3e215984b0e9ad845b335216b72/master.m3u8",
+             "https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8"),
+            ("CBSNewsPhilly.us", "CBS News Philly",
+             "https://jmp2.uk/plu-5eb1b03cd345340008fccd28.m3u8",
+             "https://jmp2.uk/plu-5eb1b05ea168cc000767ba67.m3u8"),
+            ("CBSNewsPittsburgh.us", "CBS News Pittsburgh",
+             "https://cbsn-pit.cbsnstream.cbsnews.com/out/v1/6966dabf8150405ab26f854e3cd6a2b8/master.m3u8",
+             "https://jmp2.uk/plu-5eb1b17aa5277e00083f6521.m3u8"),
+            ("CBSNewsPittsburgh.us", "CBS News Pittsburgh",
+             "https://jmp2.uk/plu-5eb1b199042b3100076fe931.m3u8",
+             "https://jmp2.uk/plu-5eb1b17aa5277e00083f6521.m3u8"),
+        )
+        for channel_id, name, old_url, new_url in cbs:
+            with self.subTest(old_url=old_url):
+                channel, why = u.channel_from_entry(
+                    {"tvg-id": channel_id}, name, old_url, source, policy, False)
+                self.assertEqual(why, "accepted")
+                self.assertEqual(channel["url"], new_url)
+
+    def test_confirmed_404_streams_are_skipped_as_dead(self):
+        policy = json.loads((u.ROOT / "config/policy.json").read_text())
+        source = {"name": "iptv-org US", "url": "https://example.org/us.m3u"}
+        dead = (
+            ("Bassmaster.us", "Bassmaster",
+             "https://jmp2.uk/rok-9210a8fbeab66e9d1ce20c187804ee7d.m3u8"),
+            ("StocktonGovTV.us", "Stockton Gov TV",
+             "https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/stockton/G0044_008/playlist.m3u8"),
+            ("TheBurbankChannel.us", "The Burbank Channel",
+             "https://cdn3.wowza.com/5/djRwZmQvTEJidmZD/burbank/G0240_009/playlist.m3u8"),
+            ("WITN22.us", "WITN22",
+             "https://witn.cablecast.tv/live-4/live/live.m3u8"),
+        )
+        for channel_id, name, url in dead:
+            with self.subTest(url=url):
+                channel, why = u.channel_from_entry(
+                    {"tvg-id": channel_id}, name, url, source, policy, False)
+                self.assertIsNone(channel)
+                self.assertEqual(why, "dead_stream")
+
     def test_build_outputs_and_idempotence(self):
         report = self.build()
         self.assertEqual(report["counts"]["usa-all.m3u"], 2)
