@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - arena/01a0de28-m3u-channel-scrape
+      - "arena/**"
   pull_request:
 
 permissions:

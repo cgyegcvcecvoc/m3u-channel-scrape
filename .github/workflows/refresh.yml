@@ -2,13 +2,13 @@ name: Refresh reviewed M3U playlists
 
 # Scheduled workflows only run once the workflow file exists on the default
 # branch. Scheduled runs update main; other runs update their triggering branch.
-# The push trigger runs the same pipeline on ordinary commits (skipping the
-# github-actions bot's own commits so it cannot loop).
+# Push runs on main and every Arena session branch (arena/**) so auto-scan is
+# not pinned to a stale session name. Bot commits are skipped to avoid a loop.
 on:
   push:
     branches:
       - main
-      - arena/01a0de28-m3u-channel-scrape
+      - "arena/**"
   schedule:
     - cron: "17 6 * * *" # daily, UTC; GitHub may delay scheduled starts
   workflow_dispatch:

@@ -170,9 +170,9 @@ The verifier contacts each stream URL, downloads the master manifest, parses a r
 
 ## GitHub Automation
 
-- [.github/workflows/refresh.yml](.github/workflows/refresh.yml): Runs on pushes to `main` and the current consolidation branch, daily at 06:17 UTC, and on manual dispatch. Resolves redirects, updates playlists, runs tests, and commits updated files.
-- [.github/workflows/verify.yml](.github/workflows/verify.yml): Probes channel streams daily at 08:43 UTC and commits probe results.
-- [.github/workflows/tests.yml](.github/workflows/tests.yml): Runs test suites on pushes and pull requests.
+- [.github/workflows/refresh.yml](.github/workflows/refresh.yml): Runs on pushes to `main` and every `arena/**` session branch, daily at 06:17 UTC, and on manual dispatch. Resolves redirects, updates playlists, runs tests, and commits updated files. Scheduled runs only fire from the default branch.
+- [.github/workflows/verify.yml](.github/workflows/verify.yml): Probes every catalog channel plus the bulk playlist daily at 08:43 UTC (and on the same push/dispatch triggers) and commits probe results. This is the auto-scan: local sandboxes often cannot open publisher TLS, so playback evidence is collected on GitHub-hosted runners.
+- [.github/workflows/tests.yml](.github/workflows/tests.yml): Runs test suites on pushes to `main` / `arena/**` and on pull requests.
 
 ---
 
