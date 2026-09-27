@@ -22,9 +22,9 @@
     "https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz",
     "https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz"
   ],
-  "generated_utc": "2026-09-27T17:56:22Z",
+  "generated_utc": "2026-09-27T18:10:39Z",
   "skipped": {
-    "custom_headers": 722,
+    "custom_headers": 726,
     "dead_stream": 12,
     "duplicate": 237,
     "duplicate_name": 285,
@@ -79,9 +79,9 @@
     },
     {
       "approved_candidates": 13,
-      "candidates": 824,
+      "candidates": 828,
       "name": "doms9/iptv (user-suggested candidates; reviewed entries only)",
-      "sha256": "f95cc9bfd9ca1cb27555c5b4dd05aa2f6cfeb876cfa3cdb67ac1deca8cc90bb7",
+      "sha256": "f9b6157e43b17b78693964cec6f72ca14f8b6ffac4d5bbb4e02bea57da8c93f8",
       "url": "https://raw.githubusercontent.com/doms9/iptv/default/M3U8/TV.m3u8"
     }
   ],
