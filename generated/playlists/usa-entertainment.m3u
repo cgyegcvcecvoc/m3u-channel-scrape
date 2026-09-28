@@ -513,6 +513,8 @@ https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-u03ntq8e91n5d.m3u8?ads.devic
 https://pb-igrftfa3oobzp.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-igrftfa3oobzp/out/v1/71b60487ff094f9fbb403338aa52ff4d/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US4100033DZ&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-igrftfa3oobzp_akamai
 #EXTINF:-1 tvg-id="223627443ebe5007b1b9461cc1ea297e" tvg-name="Life with Derek" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/223627443ebe5007b1b9461cc1ea297e/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1788370831477_US_ROKU_LIFEWITHDEREK_INFOHUD_260x147.png" group-title="Entertainment",Life with Derek
 https://jmp2.uk/rok-223627443ebe5007b1b9461cc1ea297e.m3u8
+#EXTINF:-1 tvg-id="8d8befc9060e861eb1bdd5b21c0403b3" tvg-name="Lifetime Love & Drama" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/8d8befc9060e861eb1bdd5b21c0403b3/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1748881675113_LMLDHUD_logo_efefef_center_aligned_260x147.png" group-title="Entertainment",Lifetime Love & Drama
+https://jmp2.uk/rok-8d8befc9060e861eb1bdd5b21c0403b3.m3u8
 #EXTINF:-1 tvg-id="63335b193583440007c859fb" tvg-name="Lifetime Movie Favorites" tvg-logo="https://images.pluto.tv/channels/63335b193583440007c859fb/colorLogoPNG_1767722325837.png" group-title="Entertainment",Lifetime Movie Favorites
 https://jmp2.uk/plu-63335b193583440007c859fb.m3u8
 #EXTINF:-1 tvg-id="USBD170000771" tvg-name="Little Women: LA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD170000771_20250805T005821SQUARE.png" group-title="Entertainment",Little Women: LA
@@ -749,6 +751,8 @@ https://carolburnett-vizio.amagi.tv/playlist.m3u8
 https://jmp2.uk/plu-66e2a94d167a8b000813485d.m3u8
 #EXTINF:-1 tvg-id="TheDesignNetwork.us" tvg-name="The Design Network" tvg-logo="https://i.imgur.com/J5YJ3r3.png" group-title="Entertainment",The Design Network
 https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="b84d4953c086589c9d5202b7895552a7" tvg-name="The Dick Van Dyke Show" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/b84d4953c086589c9d5202b7895552a7/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1673454632549_Dick_Van_Dyke_HUDlogo_centered_260x147.png" group-title="Entertainment",The Dick Van Dyke Show
+https://jmp2.uk/rok-b84d4953c086589c9d5202b7895552a7.m3u8
 #EXTINF:-1 tvg-id="707e6e216be8369fb30f6960f8cf667e" tvg-name="The Ed Sullivan Show" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/707e6e216be8369fb30f6960f8cf667e/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1731437958811_Ed_Sullivan-HUD-Logo.png" group-title="Entertainment",The Ed Sullivan Show
 https://jmp2.uk/rok-707e6e216be8369fb30f6960f8cf667e.m3u8
 #EXTINF:-1 tvg-id="US3300011V9" tvg-name="The First 48" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3300011V9_20260428T032020SQUARE.png" group-title="Entertainment",The First 48

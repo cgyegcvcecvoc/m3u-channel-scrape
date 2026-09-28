@@ -8558,6 +8558,25 @@
     "url": "https://jmp2.uk/plu-6a70da97a4bf6cded4fdaf53.m3u8"
   },
   {
+    "approval": "host:jmp2.uk",
+    "base_id": "d93912b4b21158fd95af2ceb8979c586",
+    "categories": [
+      "Kids"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Kids",
+    "id": "d93912b4b21158fd95af2ceb8979c586",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/d93912b4b21158fd95af2ceb8979c586/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1738599967209_DoveRefresh_RokuLinear_260X147.png",
+    "name": "Dove",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-d93912b4b21158fd95af2ceb8979c586.m3u8"
+  },
+  {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
     "base_id": "USBD700016JY",
     "categories": [
@@ -9356,6 +9375,25 @@
     "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
     "url": "https://jmp2.uk/plu-5dc0c78281eddb0009a02d5e.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "8acb4f9b8a255216966db355daaa1749",
+    "categories": [
+      "News"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "News",
+    "id": "8acb4f9b8a255216966db355daaa1749",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/8acb4f9b8a255216966db355daaa1749/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1678136277077_euronews_espanol_260x147.png",
+    "name": "Euronews Español",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-8acb4f9b8a255216966db355daaa1749.m3u8"
   },
   {
     "approval": "host:jmp2.uk",
@@ -13944,6 +13982,25 @@
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
     "url": "https://d2srdplhihmu4l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-7zhasy38vq1gg/Lifetime_Cine_Selecto.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US19000247F&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-7zhasy38vq1gg_cloudfront"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "8d8befc9060e861eb1bdd5b21c0403b3",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "8d8befc9060e861eb1bdd5b21c0403b3",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/8d8befc9060e861eb1bdd5b21c0403b3/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1748881675113_LMLDHUD_logo_efefef_center_aligned_260x147.png",
+    "name": "Lifetime Love & Drama",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-8d8befc9060e861eb1bdd5b21c0403b3.m3u8"
   },
   {
     "approval": "host:jmp2.uk",
@@ -21518,6 +21575,25 @@
   },
   {
     "approval": "host:jmp2.uk",
+    "base_id": "4d62b7d4fc91fbc2b528eb10857d7ab8",
+    "categories": [
+      "Education"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Education",
+    "id": "4d62b7d4fc91fbc2b528eb10857d7ab8",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/4d62b7d4fc91fbc2b528eb10857d7ab8/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787161821038_space_live_logo_hud.png",
+    "name": "Space Live",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-4d62b7d4fc91fbc2b528eb10857d7ab8.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
     "base_id": "eb1dbd690001553eacdf32d7b155b933",
     "categories": [
       "General"
@@ -23441,6 +23517,25 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlist.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "b84d4953c086589c9d5202b7895552a7",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "b84d4953c086589c9d5202b7895552a7",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/b84d4953c086589c9d5202b7895552a7/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1673454632549_Dick_Van_Dyke_HUDlogo_centered_260x147.png",
+    "name": "The Dick Van Dyke Show",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-b84d4953c086589c9d5202b7895552a7.m3u8"
   },
   {
     "approval": "host:jmp2.uk",
