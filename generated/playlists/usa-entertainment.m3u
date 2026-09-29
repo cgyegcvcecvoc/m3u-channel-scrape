@@ -187,6 +187,8 @@ https://pb-c8x0a835mwho5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 https://jmp2.uk/rok-99e44ea6699928b32c444dce774b9b32.m3u8
 #EXTINF:-1 tvg-id="627d355aa95efd00077afcc7" tvg-name="Cheaters" tvg-logo="https://images.pluto.tv/channels/627d355aa95efd00077afcc7/colorLogoPNG.png" group-title="Entertainment",Cheaters
 https://jmp2.uk/plu-627d355aa95efd00077afcc7.m3u8
+#EXTINF:-1 tvg-id="12bb30f85cfc69e4cfaa54c11d3d72ed" tvg-name="Cheaters en Español" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/12bb30f85cfc69e4cfaa54c11d3d72ed/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787712362003_CheatersenEspanol_HUDlogo_centered_260x147.png" group-title="Entertainment",Cheaters en Español
+https://jmp2.uk/rok-12bb30f85cfc69e4cfaa54c11d3d72ed.m3u8
 #EXTINF:-1 tvg-id="6a28827ef4a627f3b07df1ea" tvg-name="Cheers" tvg-logo="https://images.pluto.tv/channels/6a28827ef4a627f3b07df1ea/colorLogoPNG_1781731467139.png" group-title="Entertainment",Cheers
 https://jmp2.uk/plu-6a28827ef4a627f3b07df1ea.m3u8
 #EXTINF:-1 tvg-id="CheersPlusFrasier.us" tvg-name="Cheers + Frasier" tvg-logo="https://images.pluto.tv/channels/66ba495ffe11e5000881f049/colorLogoPNG.png" group-title="Entertainment",Cheers + Frasier
@@ -471,6 +473,8 @@ https://jmp2.uk/plu-65453f30085df200085883d8.m3u8
 https://pb-usmbvsgwcg8pc.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-usmbvsgwcg8pc/Ion_Mystery_US.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBC24000223S&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-usmbvsgwcg8pc_akamai
 #EXTINF:-1 tvg-id="IONPlus.us@East" tvg-name="ION Plus" tvg-logo="https://i.imgur.com/1dgCvNE.png" group-title="Entertainment",ION Plus
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionplus-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="37ac7c2cc65f7fff8199119c422f7744" tvg-name="Iron Chef en Español" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/37ac7c2cc65f7fff8199119c422f7744/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787161944895_iron_chef_en_espanol_logo_hud.png" group-title="Entertainment",Iron Chef en Español
+https://jmp2.uk/rok-37ac7c2cc65f7fff8199119c422f7744.m3u8
 #EXTINF:-1 tvg-id="0597d2a4b388b1497a9bf48812e5d070" tvg-name="iShowSpeed TV" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/0597d2a4b388b1497a9bf48812e5d070/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1778863314015_ishowspeed_logo_hud.png" group-title="Entertainment",iShowSpeed TV
 https://jmp2.uk/rok-0597d2a4b388b1497a9bf48812e5d070.m3u8
 #EXTINF:-1 tvg-id="645518dc5f92519688baed84d025b14e" tvg-name="JAIL" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/645518dc5f92519688baed84d025b14e/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1709832057729_JAIL_IMAGE_HUD_2_Meela_Hice.png" group-title="Entertainment",JAIL
@@ -539,6 +543,8 @@ https://jmp2.uk/rok-52c137ae3cdc50768ad7ea3cdaf0f2f4.m3u8
 https://d60ucawhultpi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ow04zyrcgpw21/LOL_Network.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBC1300009VM
 #EXTINF:-1 tvg-id="LoneStar.us" tvg-name="Lone Star" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png" group-title="Entertainment",Lone Star
 https://lonestar-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="b1c18b035b9f77a0cfeb169a61a8cc82" tvg-name="Los Asesinatos de Midsomer" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/b1c18b035b9f77a0cfeb169a61a8cc82/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787718509537_LosasesinatosdeMidsomer_HUDlogo_centered_260x147.png" group-title="Entertainment",Los Asesinatos de Midsomer
+https://jmp2.uk/rok-b1c18b035b9f77a0cfeb169a61a8cc82.m3u8
 #EXTINF:-1 tvg-id="MadDogandMerrill.us" tvg-name="Mad Dog and Merrill [Not 24/7]" tvg-logo="https://i.imgur.com/5QQy3aW.png" group-title="Entertainment",Mad Dog and Merrill [Not 24/7]
 https://rpn.bozztv.com/gusa/gusa-mwg/index.m3u8
 #EXTINF:-1 tvg-id="Masadrenalina.us" tvg-name="Mas adrenalina" tvg-logo="https://images.pluto.tv/channels/687fea9a4fa995eff284a1c8/colorLogoPNG_1755151031497.png" group-title="Entertainment",Mas adrenalina
@@ -683,6 +689,10 @@ https://jmp2.uk/rok-eaeb1f4ef8ed510e8bc2a3fd78510c30.m3u8
 https://jmp2.uk/rok-c39d021ed8c95682a82ce6077ac0ab47.m3u8
 #EXTINF:-1 tvg-id="6565430c9d5ac4000822f508" tvg-name="Rustic Retreats" tvg-logo="https://images.pluto.tv/channels/6565430c9d5ac4000822f508/colorLogoPNG.png" group-title="Entertainment",Rustic Retreats
 https://jmp2.uk/plu-6565430c9d5ac4000822f508.m3u8
+#EXTINF:-1 tvg-id="1b5977c99bc753ec4564fcbb3955c1aa" tvg-name="Ryan Trahan" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/1b5977c99bc753ec4564fcbb3955c1aa/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787162067732_ryan_trahan_logo_hud.png" group-title="Entertainment",Ryan Trahan
+https://jmp2.uk/rok-1b5977c99bc753ec4564fcbb3955c1aa.m3u8
+#EXTINF:-1 tvg-id="46967ee2691c134faa248a86293e9a0f" tvg-name="Sam and Colby" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/46967ee2691c134faa248a86293e9a0f/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787162091220_sam_and_colby_logo_hud.png" group-title="Entertainment",Sam and Colby
+https://jmp2.uk/rok-46967ee2691c134faa248a86293e9a0f.m3u8
 #EXTINF:-1 tvg-id="US300068X7" tvg-name="Samsung Television Network" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300068X7_20260922T055739SQUARE.png" group-title="Entertainment",Samsung Television Network
 https://d23ollwr5ob0h4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-d4otq70189kci/out/v1/297a0c029060425389b147a7d604f073/HLS_CMAF_DRM/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US300068X7
 #EXTINF:-1 tvg-id="US18000096O" tvg-name="Saved by the Bell" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US18000096O_20260421T143424SQUARE.png" group-title="Entertainment",Saved by the Bell
@@ -705,8 +715,8 @@ https://jmp2.uk/plu-633354b63df9700007f6a1b7.m3u8
 https://jmp2.uk/plu-67882c1c7b11714b795c2008.m3u8
 #EXTINF:-1 tvg-id="US2100007V7" tvg-name="Smosh" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2100007V7_20260421T143229SQUARE.png" group-title="Entertainment",Smosh
 https://pb-e9epuzrgqgsu6.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-e9epuzrgqgsu6/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US2100007V7&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-e9epuzrgqgsu6_akamai
-#EXTINF:-1 tvg-id="9349c516ca6456b9b5ed7e20cb1c1384" tvg-name="SNL Vault" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/9349c516ca6456b9b5ed7e20cb1c1384/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1758302529388_snlvault_260x147_HUD.png" group-title="Entertainment",SNL Vault
-https://jmp2.uk/rok-9349c516ca6456b9b5ed7e20cb1c1384.m3u8
+#EXTINF:-1 tvg-id="US1800012MT" tvg-name="SNL Vault" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1800012MT_20260421T143211SQUARE.png" group-title="Entertainment",SNL Vault
+https://pb-v6ni7poq15kk3.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-v6ni7poq15kk3/out/v1/edf6a97e2cbf4845a912e3849e74a71e/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US1800012MT&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-v6ni7poq15kk3_akamai
 #EXTINF:-1 tvg-id="b41118f76d1a5abcb701b9cc0a035c5b" tvg-name="So... Real" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/b41118f76d1a5abcb701b9cc0a035c5b/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1752502909488_Info_HUD_Logo_260x147_px.png" group-title="Entertainment",So... Real
 https://jmp2.uk/rok-b41118f76d1a5abcb701b9cc0a035c5b.m3u8
 #EXTINF:-1 tvg-id="b0d5db7f498f56fcaf1f8289eea6ea4d" tvg-name="Spark TV - Luz & Amor" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/b0d5db7f498f56fcaf1f8289eea6ea4d/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1658958888898_1651872075315_Anthony_Straga_-_SparkTV_ROKU-US-SPANISH_HUD-2_v2.png" group-title="Entertainment",Spark TV - Luz & Amor
