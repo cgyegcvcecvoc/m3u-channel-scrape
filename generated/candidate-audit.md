@@ -1,21 +1,21 @@
 # Candidate source audit
 
-Generated: `2026-09-30T12:42:30Z`
+Generated: `2026-10-01T13:26:06Z`
 
 Entries are classified with the same policy code the updater uses (scripts/update_playlists.py). This report is evidence for host review, not an approval: nothing here publishes or changes policy.json.
 
 > structural_rejects cannot be fixed by a host rule (plain HTTP, IP-literal host, non-443 port, expiring/credential query, non-HLS path). unreviewed_hosts can be approved after a host review with evidence.
 
-**Totals:** 3563 candidate entries; 2009 publishable under the current policy; 463 blocked only by an unreviewed host; 680 fail URL invariants; 411 blocked for other reasons.
+**Totals:** 3597 candidate entries; 2015 publishable under the current policy; 459 blocked only by an unreviewed host; 787 fail URL invariants; 336 blocked for other reasons.
 
 ## iptv-org US (community-submitted candidates)
 
-- entries: **1451** (sha256 `34c4bc8596c44bb0…`)
+- entries: **1452** (sha256 `6f818209b1293e5b…`)
 - publishable now: **766**
-- blocked only by host review: **448**
-- URL invariant failures: **163** `{"non_443_port:8080": 43, "scheme:http": 29, "non_443_port:1935": 16, "non_443_port:8989": 10, "non_443_port:1936": 10, "non_443_port:8000": 6, "non_443_port:8420": 5, "not_hls_path": 4, "non_443_port:444": 3, "non_443_port:6001": 3, "non_443_port:5001": 3, "non_443_port:9953": 3, "non_443_port:5000": 3, "non_443_port:9997": 3, "non_443_port:8081": 2, "non_443_port:9002": 2, "non_443_port:9998": 2, "non_443_port:9590": 2, "non_443_port:9060": 1, "non_443_port:40000": 1, "non_443_port:3667": 1, "non_443_port:1943": 1, "non_443_port:8815": 1, "non_443_port:8298": 1, "non_443_port:4430": 1, "non_443_port:3238": 1, "non_443_port:5443": 1, "non_443_port:3000": 1, "non_443_port:3504": 1, "non_443_port:19360": 1, "non_443_port:8001": 1, "non_443_port:3943": 1}`
+- blocked only by host review: **444**
+- URL invariant failures: **168** `{"non_443_port:8080": 42, "scheme:http": 33, "non_443_port:1935": 16, "non_443_port:8989": 10, "non_443_port:1936": 10, "non_443_port:8000": 7, "non_443_port:8420": 5, "not_hls_path": 4, "non_443_port:444": 3, "non_443_port:6001": 3, "non_443_port:5001": 3, "non_443_port:9953": 3, "non_443_port:5000": 3, "non_443_port:9997": 3, "non_443_port:8081": 2, "non_443_port:9002": 2, "non_443_port:9998": 2, "non_443_port:9590": 2, "non_443_port:3000": 2, "non_443_port:9060": 1, "non_443_port:40000": 1, "non_443_port:3667": 1, "non_443_port:1943": 1, "non_443_port:8815": 1, "non_443_port:8298": 1, "non_443_port:4430": 1, "non_443_port:3238": 1, "non_443_port:5443": 1, "non_443_port:3504": 1, "non_443_port:19360": 1, "non_443_port:8001": 1, "non_443_port:3943": 1}`
 - other reasons: `{"not_us_or_no_id": 50, "custom_headers": 10, "dead_stream": 9, "not_direct_https_hls": 4, "duplicate_of_accepted_channel": 1}`
-- entries whose name matches a pay-TV brand: 73
+- entries whose name matches a pay-TV brand: 70
 - entries that ask for spoofed `#EXTVLCOPT`/`#KODIPROP` headers: 12
 
 ### Unreviewed hosts (iptv-org US (community-submitted candidates))
@@ -27,7 +27,6 @@ Entries are classified with the same policy code the updater uses (scripts/updat
 | `2-fss-2.streamhoster.com` | 10 | 10 | 0 | GoodLife 45 (720p) [Not 24/7]<br>Heartland (720p)<br>KSCE 38.1 (360p)<br>RTH-TV1 (1080p) |
 | `dlttx48mxf9m3.cloudfront.net` | 9 | 9 | 0 | AMP 1 (720p)<br>AMP 2 (720p)<br>CVC Education (480p)<br>CVC Government (480p) |
 | `d368vp0qqzvkid.cloudfront.net` | 7 | 7 | 2 | NBC KNTV (1080p)<br>NBC KXAS-TV (1080p)<br>NBC WBTS-CD (1080p)<br>NBC WMAQ-TV (1080p) |
-| `sra72yz.s.gy` | 7 | 7 | 5 | Cinemax Action East HD (1080p)<br>Discovery Turbo (1080p)<br>HBO Drama (1080p)<br>HBO Drama West (1080p) |
 | `streaming-live-fcdn.api.prd.univisionnow.com` | 7 | 7 | 0 | Galavision East HD (1080p) [Geo-blocked]<br>Galavision West HD (1080p) [Geo-blocked]<br>UniMas KFTR-DT [Geo-blocked]<br>UniMas KUVN-DT |
 | `cdn.vegasplus.us` | 6 | 6 | 0 | Asian Culture TV (1080p)<br>FilAmTV Network (1080p)<br>Las Vegas Tonight with Dale Davidson (1080p)<br>Latino Channel TV (1080p) |
 | `mediaserver.abnvideos.com` | 6 | 6 | 0 | ABN Afghanistan (540p)<br>ABN Africa (480p)<br>ABN Bible Movies Channel (720p)<br>ABN China (720p) |
@@ -41,6 +40,7 @@ Entries are classified with the same policy code the updater uses (scripts/updat
 | `fuel-streaming-prod01.fuelmedia.io` | 4 | 4 | 0 | ABC KITV (720p)<br>CBS KWTV-DT (720p) [Not 24/7]<br>TLN Media Chicago (720p)<br>TLN Media San Francisco (720p) |
 | `jstre.am` | 4 | 4 | 0 | Hope Channel Inter-America<br>Hope Channel Inter-America English (1080p)<br>Hope Channel International (1080p)<br>Hope Channel North America (1080p) |
 | `shd-gcp-live.edgenextcdn.net` | 4 | 4 | 0 | MBC 1 USA (1080p) [Geo-blocked]<br>MBC 3 USA (1080p) [Geo-blocked]<br>MBC Drama USA (1080p)<br>MBC Masr USA (1080p) |
+| `sra72yz.s.gy` | 4 | 4 | 2 | HBO Drama (1080p)<br>HBO Hits West HD (1080p)<br>Nick Jr. (United States) East HD (1080p)<br>Nicktoons (United States) (1080p) |
 | `stream.ads.ottera.tv` | 4 | 4 | 0 | Camp Spoopy (576p)<br>El Rey<br>Novelisima<br>Smurf TV (480p) |
 | `streamer1.connectto.com` | 4 | 4 | 0 | AMGA TV (720p) [Not 24/7]<br>ARTN TV (1080p) [Not 24/7]<br>High Vision TV (1080p) [Not 24/7]<br>KIIO-LD 10.4 (480p) |
 | `cdn-atxn-01.vos360.video` | 3 | 3 | 0 | ATXN1 (1080p)<br>ATXN2 (1080p)<br>ATXN3 (1080p) |
@@ -84,8 +84,8 @@ Other blocker explanations:
 
 ## Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)
 
-- entries: **430** (sha256 `8e55e5b04cf0ced6…`)
-- publishable now: **427**
+- entries: **429** (sha256 `841bd478847498c8…`)
+- publishable now: **426**
 - blocked only by host review: **0**
 - URL invariant failures: **0** `{}`
 - other reasons: `{"duplicate_of_accepted_channel": 3}`
@@ -94,12 +94,12 @@ Other blocker explanations:
 
 ## Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)
 
-- entries: **240** (sha256 `2ee625ab7b503f42…`)
-- publishable now: **238**
+- entries: **247** (sha256 `74314ae50e73d579…`)
+- publishable now: **245**
 - blocked only by host review: **1**
 - URL invariant failures: **0** `{}`
 - other reasons: `{"dead_stream": 1}`
-- entries whose name matches a pay-TV brand: 3
+- entries whose name matches a pay-TV brand: 4
 - entries that ask for spoofed `#EXTVLCOPT`/`#KODIPROP` headers: 0
 
 ### Unreviewed hosts (Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests))
@@ -130,11 +130,11 @@ Other blocker explanations:
 
 ## aria-tv/aria (user-suggested candidates; reviewed entries only)
 
-- entries: **402** (sha256 `5fa999b4cb4aee55…`)
+- entries: **401** (sha256 `2450aaa466707d08…`)
 - publishable now: **12**
 - blocked only by host review: **0**
 - URL invariant failures: **251** `{"scheme:http": 44, "non_443_port:9000": 33, "non_443_port:9981": 31, "non_443_port:9091": 27, "non_443_port:8000": 21, "non_443_port:1234": 18, "non_443_port:81": 18, "non_443_port:8080": 16, "not_hls_path": 12, "non_443_port:8888": 7, "non_443_port:8420": 4, "non_443_port:8089": 3, "non_443_port:9700": 3, "non_443_port:9998": 3, "non_443_port:9002": 2, "non_443_port:4200": 2, "non_443_port:1936": 2, "non_443_port:1935": 2, "non_443_port:10205": 1, "non_443_port:10206": 1, "non_443_port:9590": 1}`
-- other reasons: `{"not_us_or_no_id": 139}`
+- other reasons: `{"not_us_or_no_id": 138}`
 - entries whose name matches a pay-TV brand: 51
 - entries that ask for spoofed `#EXTVLCOPT`/`#KODIPROP` headers: 0
 
@@ -144,13 +144,13 @@ Other blocker explanations:
 
 ## doms9/iptv (user-suggested candidates; reviewed entries only)
 
-- entries: **427** (sha256 `25d2803e8dc08264…`)
+- entries: **455** (sha256 `8cabece7242b16fe…`)
 - publishable now: **13**
 - blocked only by host review: **1**
-- URL invariant failures: **222** `{"expiring_or_credential_query": 94, "non_443_port:8080": 46, "expiring_or_credential_query(pay_tv_brand)": 34, "scheme:http": 30, "not_hls_path": 6, "non_443_port:8989": 4, "non_443_port:9590": 4, "non_443_port:4430": 1, "non_443_port:4004": 1, "non_443_port:4007": 1, "non_443_port:80": 1}`
-- other reasons: `{"custom_headers": 156, "not_us_or_no_id": 35}`
-- entries whose name matches a pay-TV brand: 120
-- entries that ask for spoofed `#EXTVLCOPT`/`#KODIPROP` headers: 310
+- URL invariant failures: **324** `{"expiring_or_credential_query": 126, "expiring_or_credential_query(pay_tv_brand)": 117, "non_443_port:8080": 46, "scheme:http": 21, "non_443_port:8989": 4, "non_443_port:9590": 4, "not_hls_path": 2, "non_443_port:4430": 1, "non_443_port:4004": 1, "non_443_port:4007": 1, "non_443_port:80": 1}`
+- other reasons: `{"custom_headers": 82, "not_us_or_no_id": 35}`
+- entries whose name matches a pay-TV brand: 189
+- entries that ask for spoofed `#EXTVLCOPT`/`#KODIPROP` headers: 339
 
 ### Unreviewed hosts (doms9/iptv (user-suggested candidates; reviewed entries only))
 
@@ -160,5 +160,5 @@ Other blocker explanations:
 
 Other blocker explanations:
 
-- `custom_headers` — stream needs referrer/user-agent overrides
 - `not_us_or_no_id` — no US-style tvg-id (and source is not a platform-ID feed)
+- `custom_headers` — stream needs referrer/user-agent overrides

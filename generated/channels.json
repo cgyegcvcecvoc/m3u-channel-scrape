@@ -8615,23 +8615,23 @@
     "url": "https://d2fhc4pzdnok99.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-pi0su8noa2yet/out/v1/a3d7d7a3b6e943909d11cb8cf293dca8/HLS_CMAF_DRM/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4600010KE"
   },
   {
-    "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
-    "base_id": "USBB3200004X3",
+    "approval": "host:jmp2.uk",
+    "base_id": "845b77875b6056d192401e10949948d2",
     "categories": [
       "Entertainment"
     ],
     "country": "US",
-    "evidence_url": "https://www.samsungtvplus.com/",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
     "geo_restricted": false,
     "group": "Entertainment",
-    "id": "USBB3200004X3",
+    "id": "845b77875b6056d192401e10949948d2",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3200004X3_20260421T133444SQUARE.png",
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/845b77875b6056d192401e10949948d2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1673450454351_filmRiseDrGMedicalExaminer_HUDlogo_260x147.png",
     "name": "Dr. G: Medical Examiner",
     "not_24_7": false,
-    "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
-    "url": "https://pb-6zahgpf0qk0xu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-6zahgpf0qk0xu/Dr_G_Medical_Examiner_SONO15.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBB3200004X3&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-6zahgpf0qk0xu_akamai"
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-845b77875b6056d192401e10949948d2.m3u8"
   },
   {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
@@ -9968,6 +9968,25 @@
   },
   {
     "approval": "host:jmp2.uk",
+    "base_id": "62945e18ab825bfd8b4995d9bd14917b",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "62945e18ab825bfd8b4995d9bd14917b",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/62945e18ab825bfd8b4995d9bd14917b/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1673451317145_FilmRise-ForensicFiles_260x147_copy.png",
+    "name": "FilmRise Forensic Files",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-62945e18ab825bfd8b4995d9bd14917b.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
     "base_id": "d6f71998860459eca1bed73db5988330",
     "categories": [
       "Entertainment"
@@ -10176,23 +10195,23 @@
     "url": "https://pb-tsb2e2rnmfx07.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-tsb2e2rnmfx07/v1/aenetworks_flippingnation_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD4200008RS&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-tsb2e2rnmfx07_akamai"
   },
   {
-    "approval": "suffix:.amagi.tv",
-    "base_id": "Flo.Events.Dummy.us",
+    "approval": "host:jmp2.uk",
+    "base_id": "58e6bfd1c4819af32ead547dbc82e1f8",
     "categories": [
-      "General"
+      "Sports"
     ],
     "country": "US",
-    "evidence_url": "https://www.amagi.com/",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
     "geo_restricted": false,
-    "group": "General",
-    "id": "Flo.Events.Dummy.us",
+    "group": "Sports",
+    "id": "58e6bfd1c4819af32ead547dbc82e1f8",
     "local": false,
-    "logo": "https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002D2HJP.png_white_360w_270h.png",
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/58e6bfd1c4819af32ead547dbc82e1f8/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1771353198884_FloRacing_HUDLogo.png",
     "name": "FloRacing 24/7",
     "not_24_7": false,
-    "source": "doms9/iptv (user-suggested candidates; reviewed entries only)",
-    "source_url": "https://raw.githubusercontent.com/doms9/iptv/default/M3U8/TV.m3u8",
-    "url": "https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8"
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-58e6bfd1c4819af32ead547dbc82e1f8.m3u8"
   },
   {
     "approval": "host:jmp2.uk",
@@ -12918,6 +12937,25 @@
     "url": "https://d1isoijd9dbbf7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sx4e903ce0xv7/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US11000020V"
   },
   {
+    "approval": "host:jmp2.uk",
+    "base_id": "645518dc5f92519688baed84d025b14e",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "645518dc5f92519688baed84d025b14e",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/645518dc5f92519688baed84d025b14e/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1709832057729_JAIL_IMAGE_HUD_2_Meela_Hice.png",
+    "name": "JAIL",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-645518dc5f92519688baed84d025b14e.m3u8"
+  },
+  {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
     "base_id": "USBC4400016CL",
     "categories": [
@@ -13985,6 +14023,25 @@
   },
   {
     "approval": "host:jmp2.uk",
+    "base_id": "8d8befc9060e861eb1bdd5b21c0403b3",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "8d8befc9060e861eb1bdd5b21c0403b3",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/8d8befc9060e861eb1bdd5b21c0403b3/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1748881675113_LMLDHUD_logo_efefef_center_aligned_260x147.png",
+    "name": "Lifetime Love & Drama",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-8d8befc9060e861eb1bdd5b21c0403b3.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
     "base_id": "63335b193583440007c859fb",
     "categories": [
       "Entertainment"
@@ -14039,6 +14096,25 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://tgn.bozztv.com/lifevision/lifevision/index.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "c0de867f29485305b9197b14cd08240f",
+    "categories": [
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "General",
+    "id": "c0de867f29485305b9197b14cd08240f",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/c0de867f29485305b9197b14cd08240f/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1666305411241_RC_likeNastya_HUD_logo_260x147-mono.png",
+    "name": "Like Nastya",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-c0de867f29485305b9197b14cd08240f.m3u8"
   },
   {
     "approval": "host:jmp2.uk",
@@ -21858,25 +21934,6 @@
     "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
     "url": "https://jmp2.uk/plu-695c32671ca20bb8ca7fd8f7.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
-    "base_id": "6675c88da1d7ad00084762cb",
-    "categories": [
-      "Movies"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "Movies",
-    "id": "6675c88da1d7ad00084762cb",
-    "local": false,
-    "logo": "https://images.pluto.tv/channels/6675c88da1d7ad00084762cb/colorLogoPNG.png",
-    "name": "Star Trek: The Motion Pictures",
-    "not_24_7": false,
-    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
-    "url": "https://jmp2.uk/plu-6675c88da1d7ad00084762cb.m3u8"
   },
   {
     "approval": "host:jmp2.uk",
