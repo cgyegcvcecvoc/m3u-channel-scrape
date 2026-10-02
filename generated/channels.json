@@ -1984,6 +1984,25 @@
     "url": "https://amg00353-lionsgatestudio-angermgmt-samsungau-o9jg9.amagi.tv/playlist/amg00353-lionsgatestudio-angermgmt-samsungau/playlist.m3u8"
   },
   {
+    "approval": "host:jmp2.uk",
+    "base_id": "6aaadf258cc64f2b2b7dbe3c",
+    "categories": [
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "General",
+    "id": "6aaadf258cc64f2b2b7dbe3c",
+    "local": false,
+    "logo": "https://images.pluto.tv/channels/6aaadf258cc64f2b2b7dbe3c/colorLogoPNG_1790612859528.png",
+    "name": "Ani-Monsters",
+    "not_24_7": false,
+    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
+    "url": "https://jmp2.uk/plu-6aaadf258cc64f2b2b7dbe3c.m3u8"
+  },
+  {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
     "base_id": "US400002PS",
     "categories": [
@@ -3279,101 +3298,6 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://jmp2.uk/plu-6661f11a41af6400080e90d8.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
-    "base_id": "64a765c04ea480000823917a",
-    "categories": [
-      "General"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "General",
-    "id": "64a765c04ea480000823917a",
-    "local": false,
-    "logo": "https://images.pluto.tv/channels/64a765c04ea480000823917a/colorLogoPNG_1749506871042.png",
-    "name": "Big Brother Camera 1",
-    "not_24_7": false,
-    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
-    "url": "https://jmp2.uk/plu-64a765c04ea480000823917a.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
-    "base_id": "64a765fb798def0008734632",
-    "categories": [
-      "General"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "General",
-    "id": "64a765fb798def0008734632",
-    "local": false,
-    "logo": "https://images.pluto.tv/channels/64a765fb798def0008734632/colorLogoPNG_1749507013773.png",
-    "name": "Big Brother Camera 2",
-    "not_24_7": false,
-    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
-    "url": "https://jmp2.uk/plu-64a765fb798def0008734632.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
-    "base_id": "64a7665b902f2300085d7901",
-    "categories": [
-      "General"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "General",
-    "id": "64a7665b902f2300085d7901",
-    "local": false,
-    "logo": "https://images.pluto.tv/channels/64a7665b902f2300085d7901/colorLogoPNG_1749507197432.png",
-    "name": "Big Brother Camera 3",
-    "not_24_7": false,
-    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
-    "url": "https://jmp2.uk/plu-64a7665b902f2300085d7901.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
-    "base_id": "64a766a794635e0008626601",
-    "categories": [
-      "General"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "General",
-    "id": "64a766a794635e0008626601",
-    "local": false,
-    "logo": "https://images.pluto.tv/channels/64a766a794635e0008626601/colorLogoPNG_1749507400605.png",
-    "name": "Big Brother Camera 4",
-    "not_24_7": false,
-    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
-    "url": "https://jmp2.uk/plu-64a766a794635e0008626601.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
-    "base_id": "64a766cd798def0008734695",
-    "categories": [
-      "General"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "General",
-    "id": "64a766cd798def0008734695",
-    "local": false,
-    "logo": "https://images.pluto.tv/channels/64a766cd798def0008734695/colorLogoPNG_1752489905508.png",
-    "name": "Big Brother Quad View",
-    "not_24_7": false,
-    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
-    "url": "https://jmp2.uk/plu-64a766cd798def0008734695.m3u8"
   },
   {
     "approval": "suffix:.cablecast.tv",
@@ -7313,7 +7237,7 @@
     "group": "Entertainment",
     "id": "USBB36000040M",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB36000040M_20260929T044207SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB36000040M_20261001T230639SQUARE.png",
     "name": "Crime Zone",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -7871,6 +7795,25 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://tricoast-tv-dark-matter-01-us.ono.wurl.tv/playlist.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "5ef3958c66ac540007d6e6a7",
+    "categories": [
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "General",
+    "id": "5ef3958c66ac540007d6e6a7",
+    "local": false,
+    "logo": "https://images.pluto.tv/channels/5ef3958c66ac540007d6e6a7/colorLogoPNG.png",
+    "name": "Dark Shadows",
+    "not_24_7": false,
+    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
+    "url": "https://jmp2.uk/plu-5ef3958c66ac540007d6e6a7.m3u8"
   },
   {
     "approval": "id+host:Dateline247.us",
@@ -14023,25 +13966,6 @@
   },
   {
     "approval": "host:jmp2.uk",
-    "base_id": "8d8befc9060e861eb1bdd5b21c0403b3",
-    "categories": [
-      "Entertainment"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "Entertainment",
-    "id": "8d8befc9060e861eb1bdd5b21c0403b3",
-    "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/8d8befc9060e861eb1bdd5b21c0403b3/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1748881675113_LMLDHUD_logo_efefef_center_aligned_260x147.png",
-    "name": "Lifetime Love & Drama",
-    "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-8d8befc9060e861eb1bdd5b21c0403b3.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
     "base_id": "63335b193583440007c859fb",
     "categories": [
       "Entertainment"
@@ -15273,7 +15197,7 @@
     "group": "Sports",
     "id": "US1400001WV",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1400001WV_20260929T044349SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1400001WV_20261001T230804SQUARE.png",
     "name": "MLB Channel",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -18459,7 +18383,7 @@
     "group": "Entertainment",
     "id": "USBC1300008AZ",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC1300008AZ_20260929T044249SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC1300008AZ_20261001T230719SQUARE.png",
     "name": "Plated",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -18868,6 +18792,25 @@
   },
   {
     "approval": "host:jmp2.uk",
+    "base_id": "6ab165fdeae99d62d7e541ff",
+    "categories": [
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "General",
+    "id": "6ab165fdeae99d62d7e541ff",
+    "local": false,
+    "logo": "https://images.pluto.tv/channels/6ab165fdeae99d62d7e541ff/colorLogoPNG_1790715914846.png",
+    "name": "Pluto TV Halloween",
+    "not_24_7": false,
+    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
+    "url": "https://jmp2.uk/plu-6ab165fdeae99d62d7e541ff.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
     "base_id": "6a7cc5a857bd65df5dadba5f",
     "categories": [
       "General"
@@ -19151,6 +19094,25 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://jmp2.uk/plu-69fa3faab9c0f0d444e64de3.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "6aa043fe0c9f5239c2c508c2",
+    "categories": [
+      "Movies"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Movies",
+    "id": "6aa043fe0c9f5239c2c508c2",
+    "local": false,
+    "logo": "https://images.pluto.tv/channels/6aa043fe0c9f5239c2c508c2/colorLogoPNG_1790615745625.png",
+    "name": "Pluto TV Recent Releases",
+    "not_24_7": false,
+    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
+    "url": "https://jmp2.uk/plu-6aa043fe0c9f5239c2c508c2.m3u8"
   },
   {
     "approval": "host:jmp2.uk",
@@ -21860,25 +21822,6 @@
   },
   {
     "approval": "host:jmp2.uk",
-    "base_id": "6049295e7dcef800073c2499",
-    "categories": [
-      "Spanish"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "Spanish",
-    "id": "6049295e7dcef800073c2499",
-    "local": false,
-    "logo": "https://images.pluto.tv/channels/6049295e7dcef800073c2499/colorLogoPNG_1771543916293.png",
-    "name": "Star Trek en español",
-    "not_24_7": false,
-    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
-    "url": "https://jmp2.uk/plu-6049295e7dcef800073c2499.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
     "base_id": "StarTrek.us",
     "categories": [
       "General"
@@ -22576,7 +22519,7 @@
     "group": "Entertainment",
     "id": "USBD1700006T2",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700006T2_20260818T061223SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700006T2_20261001T230818SQUARE.png",
     "name": "Storage Wars: LA",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -27093,25 +27036,6 @@
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
     "url": "https://d2ugl2g2gz1giy.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4fuxzenflzs9j/index.m3u8?start_index=4&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US700004OA"
-  },
-  {
-    "approval": "host:jmp2.uk",
-    "base_id": "bf7ee95e6a905222a1d24174120cc106",
-    "categories": [
-      "News"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "News",
-    "id": "bf7ee95e6a905222a1d24174120cc106",
-    "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/bf7ee95e6a905222a1d24174120cc106/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1746558434543_WBTV_EPG_Hud_LogoWBTV_HUD_logo_260x147_Centered.png",
-    "name": "WBTV News 3",
-    "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-bf7ee95e6a905222a1d24174120cc106.m3u8"
   },
   {
     "approval": "source-pattern:^d[a-z0-9]+\\.cloudfront\\.net$",

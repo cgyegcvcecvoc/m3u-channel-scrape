@@ -127,6 +127,8 @@ https://jmp2.uk/plu-569546031a619b8f07ce6e25.m3u8
 https://jmp2.uk/plu-64b585f84ea480000838e446.m3u8
 #EXTINF:-1 tvg-id="PlutoTVReaction.us" tvg-name="Pluto TV Reaction" tvg-logo="https://i.imgur.com/H9k3OXN.png" group-title="Movies",Pluto TV Reaction
 https://jmp2.uk/plu-617b37b361e0fd0008cfd8c5.m3u8
+#EXTINF:-1 tvg-id="6aa043fe0c9f5239c2c508c2" tvg-name="Pluto TV Recent Releases" tvg-logo="https://images.pluto.tv/channels/6aa043fe0c9f5239c2c508c2/colorLogoPNG_1790615745625.png" group-title="Movies",Pluto TV Recent Releases
+https://jmp2.uk/plu-6aa043fe0c9f5239c2c508c2.m3u8
 #EXTINF:-1 tvg-id="6785b98d688edb0008cb99be" tvg-name="Pluto TV ROCKY + Creed" tvg-logo="https://images.pluto.tv/channels/6785b98d688edb0008cb99be/colorLogoPNG.png" group-title="Movies",Pluto TV ROCKY + Creed
 https://jmp2.uk/plu-6785b98d688edb0008cb99be.m3u8
 #EXTINF:-1 tvg-id="PlutoTVRomance.us" tvg-name="Pluto TV Romance (United States)" tvg-logo="https://i.imgur.com/GJBxfyf.png" group-title="Movies",Pluto TV Romance (United States)

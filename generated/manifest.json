@@ -1,16 +1,16 @@
 {
   "counts": {
-    "usa-all.m3u": 1490,
+    "usa-all.m3u": 1486,
     "usa-backups.m3u": 280,
     "usa-business.m3u": 10,
-    "usa-entertainment.m3u": 467,
+    "usa-entertainment.m3u": 466,
     "usa-intermittent.m3u": 17,
     "usa-kids.m3u": 75,
     "usa-local.m3u": 244,
-    "usa-movies.m3u": 86,
+    "usa-movies.m3u": 87,
     "usa-music.m3u": 71,
-    "usa-news.m3u": 84,
-    "usa-spanish.m3u": 41,
+    "usa-news.m3u": 83,
+    "usa-spanish.m3u": 40,
     "usa-sports.m3u": 114,
     "usa-weather.m3u": 3
   },
@@ -22,24 +22,24 @@
     "https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz",
     "https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz"
   ],
-  "generated_utc": "2026-10-01T13:26:05Z",
+  "generated_utc": "2026-10-02T12:44:23Z",
   "skipped": {
-    "custom_headers": 351,
+    "custom_headers": 353,
     "dead_stream": 12,
     "duplicate": 237,
     "duplicate_name": 292,
-    "excluded_pay_tv": 11,
-    "not_direct_https_hls": 161,
-    "not_us_or_no_id": 545,
+    "excluded_pay_tv": 10,
+    "not_direct_https_hls": 163,
+    "not_us_or_no_id": 543,
     "redirect_unresolved": 39,
     "unreviewed_host": 459
   },
   "sources": [
     {
       "approved_candidates": 767,
-      "candidates": 1452,
+      "candidates": 1453,
       "name": "iptv-org US (community-submitted candidates)",
-      "sha256": "6f818209b1293e5b970e6b6097cb9d792906d3808feb4acd8efedb64b8bbc6a3",
+      "sha256": "47bbb453c5e32e7d565f33a388dd10aa58b5d2da3a5bcccd0b6457751e6ed87a",
       "url": "https://iptv-org.github.io/iptv/countries/us.m3u"
     },
     {
@@ -50,38 +50,38 @@
       "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_usa.m3u8"
     },
     {
-      "approved_candidates": 429,
-      "candidates": 429,
+      "approved_candidates": 427,
+      "candidates": 427,
       "name": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
-      "sha256": "841bd478847498c8340b3727cc713d9bb3d1944cc6dca17b0246da489f9600be",
+      "sha256": "63d55bca218552e278cf1707dfdc9036a633a234a5478150653f61bcc34568bf",
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u"
     },
     {
-      "approved_candidates": 245,
-      "candidates": 247,
+      "approved_candidates": 243,
+      "candidates": 245,
       "name": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-      "sha256": "74314ae50e73d579e2927f602e6ea54f35ad6aecd6b5e6c70d87f8cf46568779",
+      "sha256": "b5a39b0d27bf4d2430eda2366dfa9676cc0ee57f77da6917210bed63c2b8ed9e",
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u"
     },
     {
       "approved_candidates": 543,
       "candidates": 585,
       "name": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
-      "sha256": "ca3ee8b8169b188c0740b94201f04771acee8bcbcc886afd5f326da8ad04a2c6",
+      "sha256": "156c9905cb33680cdd0c7bb7b5789b9f8109d9e887deb47766e7dccd4fed3ff2",
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u"
     },
     {
       "approved_candidates": 12,
-      "candidates": 401,
+      "candidates": 398,
       "name": "aria-tv/aria (user-suggested candidates; reviewed entries only)",
-      "sha256": "2450aaa466707d08e5f4dee9c9154e329c5eed9cb79736a706f1eee1949f9078",
+      "sha256": "0311901eda300ea093452f64aa9afe88e383683f79e5d9c64c4c5cfcc2763429",
       "url": "https://raw.githubusercontent.com/aria-tv/aria/main/aria.m3u"
     },
     {
       "approved_candidates": 13,
-      "candidates": 455,
+      "candidates": 458,
       "name": "doms9/iptv (user-suggested candidates; reviewed entries only)",
-      "sha256": "8cabece7242b16fe5052b0fa42fbb378fc5ccfb2b35ada81f75ab5a4ceac7580",
+      "sha256": "51520e9b1493a89855dee854518eed1c9cbcdd2b36de5328857c39d7597e0151",
       "url": "https://raw.githubusercontent.com/doms9/iptv/default/M3U8/TV.m3u8"
     }
   ],
