@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/us.xml,https://iptv-org.github.io/epg.xml,https://i.mjh.nz/PlutoTV/us.xml.gz" url-tvg="https://iptv-org.github.io/epg/guides/us.xml,https://iptv-org.github.io/epg.xml,https://i.mjh.nz/PlutoTV/us.xml.gz"
-# Verified working: 2272 of 4021 entries (2409 policy-format https/HLS) returned a playable media segment at 2026-10-03T13:55:40Z.
+# Verified working: 2273 of 4021 entries (2409 policy-format https/HLS) returned a playable media segment at 2026-10-04T14:21:10Z.
 # Original bulk playlist filtered by scripts/verify_channels.py; point-in-time probe, not a rights review.
 #EXTINF:-1 tvg-id="" tvg-name="233 Pluto TV Comedy" tvg-logo="https://images.pluto.tv/channels/5a4d3a00ad95e4718ae8d8db/logoAlt.png?w=380&h=110&trim=auto&trim-sd=10&trim-md=0&fit=clip&fm=png" group-title="Comedy",233 Pluto TV Comedy
 https://jmp2.uk/plu-5a4d3a00ad95e4718ae8d8db.m3u8
@@ -395,6 +395,8 @@ https://d2irko5f9gt1c5.cloudfront.net/10008/99951195/hls/playlist.m3u8?ads.xumo_
 https://d3mr43kyql7wgk.cloudfront.net/PBS_Nature.m3u8
 #EXTINF:-1 tvg-id="PBSTravel.us@SD" tvg-name="PBS Travel (1080p)" tvg-logo="https://i.imgur.com/A6GXhta.png" group-title="Lifestyle",PBS Travel (1080p)
 https://d3hqevbyoxtkoi.cloudfront.net/PBS_Travel.m3u8
+#EXTINF:-1 tvg-id="PBS.us@WJXT" tvg-name="PBS WJXT (720p)" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="Education",PBS WJXT (720p)
+https://dai.google.com/linear/hls/event/RDmbn03GRCOLNG1eetEKhg/master.m3u8
 #EXTINF:-1 tvg-id="PlutoTVAmericanTrueCrime.de@GB" tvg-name="Pluto TV American True Crime" tvg-logo="https://images.pluto.tv/channels/692ebafce72f03e07e7df985/colorLogoPNG_1768902223754.png" group-title="Documentary;Series",Pluto TV American True Crime
 https://jmp2.uk/plu-692ebafce72f03e07e7df985.m3u8
 #EXTINF:-1 tvg-id="PlutoTVHistory.us@US" tvg-name="Pluto TV History" tvg-logo="https://i.imgur.com/XkQD5kM.png" group-title="Documentary",Pluto TV History
@@ -615,18 +617,14 @@ https://amg00136-wbd-amg00136c83-lg-us-9807.playouts.now.amagi.tv/playlist/amg00
 https://jmp2.uk/plu-5bb3fea0f711fd76340eebff.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="309 Life Below Zero" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/feeds/images/LifeBelowZero/LBZ_Stacked_400x200.png" group-title="Entertainment",309 Life Below Zero
 https://amg00497-amg00497c36-amgplt0023.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg00497-amg00497c36-amgplt0023/playlist.m3u8?ads.country=[COUNTRY]&ads.donotsell=[DNS]&ads.gdprconsent=[GDPR_CONSENT]&ads.lat=[LMT]&ads.ua=[UA]&ads.usprivacy=[US_PRIVACY]&ads.appname=[APP_NAME]&ads.appstoreurl=[APP_STOREURL]&ads.devicemodel=[DEVICE_MODEL]&ads.gdpr=[GDPR]&ads.ip=[IP]&ads.viewsize=[VIEWSIZE]&ads.bundleid=[APP_BUNDLE]&ads.deviceid=[DEVICE_ID]&ads.devicemake=[DEVICE_MAKE]&ads.fck=[FCK]&ads.givn=[NONCE]&ads.ifa=[IFA]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.ifatype=[IFA_TYPE]&ads.targetad=[TARGETAD_ALLOWED]&coppa=0
-#EXTINF:-1 tvg-id="30ADarcizzleOffshore.us@SD" tvg-name="30A Darcizzle Offshore (720p)" tvg-logo="https://i.imgur.com/Q4l2uao.png" group-title="Outdoor",30A Darcizzle Offshore (720p)
-https://30a-tv.com/darcizzle.m3u8
 #EXTINF:-1 tvg-id="30AInvestmentPitch.us@SD" tvg-name="30A Investment Pitch (720p)" tvg-logo="https://i.imgur.com/CKCtZo7.png" group-title="Business",30A Investment Pitch (720p)
 https://30a-tv.com/feeds/xodglobal/30atv.m3u8
+#EXTINF:-1 tvg-id="30ALuxeLifeDiscovered.us@SD" tvg-name="30A Luxe Life Discovered (720p)" tvg-logo="https://m.media-amazon.com/images/I/51FJ5A0mEyL.jpg" group-title="Lifestyle",30A Luxe Life Discovered (720p)
+https://30a-tv.com/feeds/vidaa/luxelife.m3u8
 #EXTINF:-1 tvg-id="30ASidewalks.us@SD" tvg-name="30A Sidewalks (720p)" tvg-logo="https://i.imgur.com/HSdwqZN.png" group-title="Entertainment",30A Sidewalks (720p)
 https://30a-tv.com/sidewalks.m3u8
 #EXTINF:-1 tvg-id="30ATelevisionChannel.us@SD" tvg-name="30A Television Channel (720p)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTHiYfIB01K44LIBG81aEGAmDuIWw8MA0f2w&s" group-title="Entertainment",30A Television Channel (720p)
 https://30a-tv.com/feeds/masters/30atv.m3u8
-#EXTINF:-1 tvg-id="30ATheBeachShow.us@SD" tvg-name="30A The Beach Show (720p)" tvg-logo="https://i.imgur.com/0j5Aget.png" group-title="Shop",30A The Beach Show (720p)
-https://30a-tv.com/beachy.m3u8
-#EXTINF:-1 tvg-id="30AWeLoveCars.us@SD" tvg-name="30A We Love Cars (720p)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxroqfE_hvEApKMQx03sSYXPeEh4ClaF5QSa8XfRwJW_So3vfSN0CjqzxN30H-qEBswqU&usqp=CAU" group-title="Auto",30A We Love Cars (720p)
-https://30a-tv.com/feeds/vidaa/cars.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="310 Wicked Tuna" tvg-logo="https://db6iftd8li11q.cloudfront.net/Wicked_Tuna_400X200_new.png" group-title="Entertainment",310 Wicked Tuna
 https://amg00353-amg00353c55-amgplt0023.playout.now3.amagi.tv/ts-us-e2-n1/playlist/amg00353-amg00353c55-amgplt0023/playlist.m3u8?ads.appname=[APP_NAME]&ads.appstoreurl=[APP_STOREURL]&ads.appversion=[APP_VERSION]&ads.bundleid=[APP_BUNDLE]&ads.country=[COUNTRY]&ads.deviceid=[DEVICE_ID]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.devicetype=[DEVICE_TYPE]&ads.donotsell=[DNS]&ads.fck=[FCK]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.givn=[NONCE]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.ip=[IP]&ads.lat=[LMT]&ads.targetad=[TARGETAD_ALLOWED]&ads.ua=[UA]&ads.usprivacy=[US_PRIVACY]&ads.viewsize=[VIEWSIZE]&coppa=0&ads.ic=[IAB_CATEGORY]
 #EXTINF:-1 tvg-id="" tvg-name="315 Waypoint TV" tvg-logo="https://d97g6zbo9kng8.cloudfront.net/logo_waypoint.png" group-title="Entertainment",315 Waypoint TV
@@ -1207,8 +1205,6 @@ https://cantv.streamguys1.com/cantv/cantv36hls/playlist.m3u8
 https://jmp2.uk/rok-e9d183acab06314b2bcddbb7ed391e70.m3u8
 #EXTINF:-1 tvg-id="3bc1756db0ef525b9cab86edcd426c55" tvg-name="Canela.TV Narco-Drama" tvg-chno="5028" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/3bc1756db0ef525b9cab86edcd426c55/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1734562691721_ROKU-NarcoDrama-InfoHUD-1.png" group-title="TV & Entertainment",Canela.TV Narco-Drama
 https://jmp2.uk/rok-3bc1756db0ef525b9cab86edcd426c55.m3u8
-#EXTINF:-1 tvg-id="0de9839c79b758589c580dcdd4b40a8a" tvg-name="Caso Cerrado" tvg-chno="5065" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/0de9839c79b758589c580dcdd4b40a8a/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1747831065584_CASO_CERRADO_260x147_2x1_logo_center_align_EFEFEF_transparent_bkgd_roku.png" group-title="TV & Entertainment",Caso Cerrado
-https://jmp2.uk/rok-0de9839c79b758589c580dcdd4b40a8a.m3u8
 #EXTINF:-1 tvg-id="CatholicFaithNetwork.us@SD" tvg-name="Catholic Faith Network (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/07/Catholic_Faith_Network_2018.png" group-title="Religious",Catholic Faith Network (720p)
 https://uni8rtmp.tulix.tv/cfntv/cfntv/playlist.m3u8
 #EXTINF:-1 tvg-id="CatholicTV.us@SD" tvg-name="Catholic TV (1080p)" tvg-logo="https://i.imgur.com/EL0rWD3.png" group-title="Religious",Catholic TV (1080p)
@@ -2071,6 +2067,8 @@ https://aegis-cloudfront-1.tubi.video/5d314174-0110-42af-8811-feaae073ea1e/playl
 https://aegis-cloudfront-1.tubi.video/b32c0573-4add-4b47-b826-24412d952164/playlist.m3u8
 #EXTINF:-1 tvg-id="NBC.us@WHECTV" tvg-name="NBC WHEC-TV (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="General",NBC WHEC-TV (1080p)
 https://amg01942-amg01942c4-stirr-us-10190.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBC.us@WJAR" tvg-name="NBC WJAR (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="General",NBC WJAR (1080p)
+https://pubads.g.doubleclick.net/ssai/event/kpannrCBQ5KwdV3Hag3Wog/master.m3u8
 #EXTINF:-1 tvg-id="NBC.us@WMAQTV" tvg-name="NBC WMAQ-TV (1080p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="General",NBC WMAQ-TV (1080p)
 https://d368vp0qqzvkid.cloudfront.net/11603/88889704/hls/master.m3u8?ads.xumo_channelId=88889704a&ads.xumo_ifaType=&ads.xumo_providerId=3818&ads.xumo_providerName=NBCNCHI
 #EXTINF:-1 tvg-id="NBC.us@WMGTTV" tvg-name="NBC WMGT-TV (720p)" tvg-logo="https://i.imgur.com/nxY84W5.png" group-title="General",NBC WMGT-TV (720p)
@@ -2163,6 +2161,8 @@ https://d3is52sgpnlx4c.cloudfront.net/10901/88885527/hls/master.m3u8?withResolut
 https://parshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PascoTV.us@SD" tvg-name="Pasco TV (480p)" tvg-logo="https://i.imgur.com/CM91sME.png" group-title="Legislative",Pasco TV (480p)
 https://cpcdn.azureedge.net/PASCOCOFLLIVE1/PASCOCOFLLIVE1/playlist.m3u8
+#EXTINF:-1 tvg-id="PayamJavanTV.us@SD" tvg-name="Payam Javan TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/GYfsHh9.png" group-title="Education",Payam Javan TV (720p) [Not 24/7]
+https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="PayameAfghanTV.us@SD" tvg-name="Payam-e-Afghan TV (480p) [Not 24/7]" tvg-logo="https://i.imgur.com/t9wYYY9.png" group-title="General",Payam-e-Afghan TV (480p) [Not 24/7]
 https://g5nl6xx5lpq6-hls-live.5centscdn.com/live1234/2621b29e501b445fabf227b086123b70.sdp/mono.m3u8
 #EXTINF:-1 tvg-id="PayameArameshTV.us@SD" tvg-name="Payame Aramesh TV (720p)" tvg-logo="https://i.imgur.com/WaPr0t0.png" group-title="Religious",Payame Aramesh TV (720p)
@@ -2181,8 +2181,6 @@ https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/pinole/G0032_004/playlist.m3u8
 https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/pinole/G0032_002/playlist.m3u8
 #EXTINF:-1 tvg-id="395e5ab16c63e8c58af0680395af35a6" tvg-name="Penn & Teller: Fool Us" tvg-chno="4362" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/395e5ab16c63e8c58af0680395af35a6/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1783457535885_penn_teller_fool_us_logo_hud.png" group-title="TV & Entertainment",Penn & Teller: Fool Us
 https://jmp2.uk/rok-395e5ab16c63e8c58af0680395af35a6.m3u8
-#EXTINF:-1 tvg-id="PeopleAreAwesome.us@SD" tvg-name="People Are Awesome (1080p)" tvg-logo="https://i.imgur.com/MsIx7Ax.png" group-title="Entertainment",People Are Awesome (1080p)
-https://mumbai-edge.smartplaytv.in/PeopleAreAwesome/index.m3u8
 #EXTINF:-1 tvg-id="PerryMason.us@SD" tvg-name="Perry Mason" tvg-logo="https://images.pluto.tv/channels/63e20bd160bc8f0008b4c949/colorLogoPNG.png" group-title="Series",Perry Mason
 https://jmp2.uk/plu-6197086891ddd4000739941a.m3u8
 #EXTINF:-1 tvg-id="69791edb54d953268aa8933e2cb29a32" tvg-name="Pet Collective" tvg-chno="3921" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/69791edb54d953268aa8933e2cb29a32/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1686086019153_TPC_TRC_LOGO_MONOCHROMATIC_260x147_CENTER.png" group-title="Animals",Pet Collective
@@ -2427,6 +2425,8 @@ https://livestream.telvue.com/santamariactv3/f7b44cfafd5c52223d5498196c8a2e7b.sd
 https://jmp2.uk/rok-9349c516ca6456b9b5ed7e20cb1c1384.m3u8
 #EXTINF:-1 tvg-id="b41118f76d1a5abcb701b9cc0a035c5b" tvg-name="So... Real" tvg-chno="4509" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/b41118f76d1a5abcb701b9cc0a035c5b/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1752502909488_Info_HUD_Logo_260x147_px.png" group-title="Cooking",So... Real
 https://jmp2.uk/rok-b41118f76d1a5abcb701b9cc0a035c5b.m3u8
+#EXTINF:-1 tvg-id="498b53f6f63455bbba27754ceb5fcefc" tvg-name="Sonic The Hedgehog" tvg-chno="4107" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/498b53f6f63455bbba27754ceb5fcefc/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1788370948268_US_ROKU_SONIC_INFOHUD_260x147.png" group-title="Animated",Sonic The Hedgehog
+https://jmp2.uk/rok-498b53f6f63455bbba27754ceb5fcefc.m3u8
 #EXTINF:-1 tvg-id="SoundViewCommunityMedia.us@SD" tvg-name="Sound View Community Media (480p)" tvg-logo="https://i.imgur.com/3gASzGc.png" group-title="General",Sound View Community Media (480p)
 https://livestream.telvue.com/soundviewcmt2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="4d62b7d4fc91fbc2b528eb10857d7ab8" tvg-name="Space Live" tvg-chno="6210" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/4d62b7d4fc91fbc2b528eb10857d7ab8/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787161821038_space_live_logo_hud.png" group-title="Educational",Space Live
@@ -2461,6 +2461,8 @@ https://2-fss-1.streamhoster.com/pl_122/206858-4412976-1/playlist.m3u8
 https://2-fss-1.streamhoster.com/pl_122/206858-4412976-1/chunklist.m3u8
 #EXTINF:-1 tvg-id="STV.us@HD" tvg-name="STV (United States) (360p)" tvg-logo="https://i.postimg.cc/4dHXzBRr/In-Shot-20260816-223433608.png" group-title="General",STV (United States) (360p)
 https://vodcdn.bamboo-cloud.com/livehls/6a81edf1063044437202e65c/master.m3u8
+#EXTINF:-1 tvg-id="a3c405bfca9b525983054aa761b10dfb" tvg-name="Super Mario Brothers" tvg-chno="4108" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/a3c405bfca9b525983054aa761b10dfb/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1788371000634_US_ROKU_SUPERMARIO_INFOHUD_260x147.png" group-title="Animated",Super Mario Brothers
+https://jmp2.uk/rok-a3c405bfca9b525983054aa761b10dfb.m3u8
 #EXTINF:-1 tvg-id="62b4eba68f3051c68d2beb22dc94ebbc" tvg-name="Supermarket Sweep" tvg-chno="4307" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/62b4eba68f3051c68d2beb22dc94ebbc/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1669151901470_ROKU_SMS_HUD-MONO_260X147.png" group-title="Game Show",Supermarket Sweep
 https://jmp2.uk/rok-62b4eba68f3051c68d2beb22dc94ebbc.m3u8
 #EXTINF:-1 tvg-id="XUMO_99951126" tvg-name="Supermarket Sweep" tvg-logo="https://image.xumo.com/v1/channels/channel/99951126/300x300.webp?type=color_onBlack" group-title="XUMO🇺🇸: Game Shows",Supermarket Sweep
@@ -2855,6 +2857,8 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsbbreaking-viz
 https://wtvlive.b-cdn.net/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="WVLT 8 Knoxville" tvg-logo="https://images.vizio.com/v4/btv/1/1664636422/1/267/150/0.jpg" group-title="LOCAL CHANNELS",WVLT 8 Knoxville
 https://amg00312-amg00312c37-amgplt0022.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg00312-amg00312c37-amgplt0022/playlist.m3u8?skip=%7bSKIPPABLE%7d&h=%7bHEIGHT%7d&ifa_type=%7bIFATYPE%7d&iu=%7bIU%7d&app_bundle=%7bAPP_BUNDLE%7d&coppa=0&idtype=%7bIDTYPE%7d&pod_ad_slots=%7bPOD_AD_SLOTS%7d&tv_ad_id=%7bTV_AD_ID%7d&device_make=%7bDEVICE_MAKE%7d&schain=%7bSCHAIN%7d&app_name=%7bAPP_NAME%7d&content_livestream=%7bCONTENT_LIVESTREAM%7d&inv_partner_domain=%7bINV_PARTNER_DOMAIN%7d&lmt=%7bLMT%7d&channel_name=%7bCHANNEL_NAME%7d&ic=%7bIC%7d&is_lat=%7bIS_LAT%7d&network_name=%7bNETWORK_NAME%7d&prodq=%7bPRODQ%7d&url=%7bDOMAIN%7d&ad_pos=%7bAD_POS%7d&did=%7bADID%7d&gpp=%7bGPP%7d&app_store_url=%7bAPP_STORE_URL%7d&dnt=%7bDNT%7d&gpp_sid=%7bGPP_SID%7d&us_privacy=%7bUSPRIVACY%7d&vizio_network_name=%7b%7bVIZIO_NETWORK_NAME%7d%7d&w=%7bWIDTH%7d&vizdartoken=eyJhdWQiOiI5MyIsIndmcGNpZCI6NDIwNzk5NDQ1MX0
+#EXTINF:-1 tvg-id="WVVHCD181.us@HD" tvg-name="WVVH-CD 18.1 (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/3f/WVVH-CD_logo.png" group-title="Undefined",WVVH-CD 18.1 (720p)
+https://2-fss-2.streamhoster.com/pl_138/amlst:207282-6094500/playlist.m3u8
 #EXTINF:-1 tvg-id="WXTV.tw@SD" tvg-name="WXTV (480p)" tvg-logo="https://i.imgur.com/s8tiTeb.png" group-title="Religious",WXTV (480p)
 https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
 #EXTINF:-1 tvg-id="WXWZLD231.pr@HD" tvg-name="WXWZ-LD 23.1 (720p)" tvg-logo="https://i.imgur.com/rjmGc9p.png" group-title="Undefined",WXWZ-LD 23.1 (720p)
@@ -3079,8 +3083,6 @@ https://d4whmvwm0rdvi.cloudfront.net/10007/99993044/hls/master.m3u8?ads.xumo_cha
 https://jmp2.uk/plu-5b4e94282d4ec87bdcbb87cd.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="268 Western Bound Wrangled by INSP" tvg-logo="https://image.xumo.com/v1/channels/channel/99992520/600x200.png?type=white_cropped" group-title="Movies",268 Western Bound Wrangled by INSP
 https://d1bl6tskrpq9ze.cloudfront.net/hls/cw.m3u8?ads.xumo_channelId=99992520&ads.xumo_streamId=99992520&ads.channelId=99992520&ads.ad_tag_id=45116&ads.csid=lgchannels_us_cowboyway_ssai&ads.channelName=cowboyway_us&ads.xumo_contentName=cowboyway&ads.xumo_contentId=3790&ads.xumo_providerName=cowboyway&ads.xumo_providerId=3790&ads.content_category=IAB1-7&ads.content_genre=Western,EW,Entertainment,GV,Drama,GD,Movie,Movies,FF&ads.content_language=en&ads.content_rating=tv-pg&ads.coppa=0&ads.livestream=0&ads.prodq=1&ads.did=[IFA]&ads.lmt=[LMT]&ads.dnt=[DNS]&ads.us_privacy=[US_PRIVACY]&ads.gdpr=[GDPR]&ads.gdpr_consent=[GDPR_CONSENT]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.country=[COUNTRY]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]&ads.app_name=[APP_NAME]&ads.app_bundle=[APP_BUNDLE]&ads.app_storeurl=[APP_STOREURL]
-#EXTINF:-1 tvg-id="30ATVClassicMovies.us@SD" tvg-name="30A TV Classic Movies (720p)" tvg-logo="" group-title="Movies",30A TV Classic Movies (720p)
-https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="375 Universal Crime" tvg-logo="https://image.xumo.com/v1/channels/channel/99993021/600x200.png?type=white_cropped" group-title="Movies",375 Universal Crime
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993021/hls/master.m3u8?ads.xumo_channelId=99993021&ads.asnw=169843&ads.afid=380752676&ads.sfid=17556671&ads.csid=lgchannels_us_nbcuuniversalcrime_ssai_cro&ads._fw_is_lat=[LMT]&ads._fw_us_privacy=[US_PRIVACY]&ads._fw_coppa=0&ads._fw_did=[IFA]&ads._fw_vcid2=512116:[IFA]&ads._fw_app_bundle=[APP_BUNDLE]&ads._fw_app_store_url=[APP_STOREURL]&ads._fw_content_category=IAB1-7&ads._fw_content_genre=television&ads._fw_content_language=en&ads._fw_content_rating=tv-14&ads._fw_deviceMake=[DEVICE_MAKE]&ads._fw_device_model=[DEVICE_MODEL]&ads._fw_deviceType=3-Connected_TV&ads.appVersion=[APP_VERSION]&ads.appName=lgchannels&ads.xumo_contentId=3939&ads.xumo_contentName=NBCUUniversalCrime&ads.xumo_providerId=3939&ads.xumo_providerName=NBCUUniversalCrime&ads.channelId=99993021&ads._fw_ifa_type=dpid&ads.givn=[NONCE]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
 #EXTINF:-1 tvg-id="XUMO_99951439" tvg-name="50 Cent Action" tvg-logo="https://image.xumo.com/v1/channels/channel/99951439/300x300.webp?type=color_onBlack" group-title="XUMO🇺🇸: Action & Drama",50 Cent Action
@@ -3385,8 +3387,6 @@ https://d4whmvwm0rdvi.cloudfront.net/10007/99951264/hls/master.m3u8?ads.xumo_cha
 https://d4whmvwm0rdvi.cloudfront.net/10007/99991621/hls/master.m3u8?ads.xumo_channelId=99991621&ads.asnw=169843&ads.afid=158702674&ads.sfid=16926435&ads.csid=xumo_[PLATFORM]_rottentomatoesrttv_ssai_cro&ads._fw_is_lat=[IS_LAT]&ads._fw_us_privacy=[CCPA_Value]&ads._fw_coppa=0&ads._fw_did=[IFA]&ads._fw_vcid2=512116:[IFA]&ads._fw_app_bundle=[app_bundle]&ads._fw_app_store_url=[app_store_url]&ads._fw_content_category=[IAB_content_category]&ads._fw_content_genre=[content_genre]&ads._fw_content_language=[content_language]&ads._fw_content_rating=[content_rating]&ads._fw_deviceMake=[device_make]&ads._fw_device_model=[device_model]&ads._fw_deviceType=3-Connected_TV&ads.appVersion=[APP_VERSION]&ads.appName=XumoPlay&ads.xumo_contentId=2659&ads.xumo_contentName=RottenTomatoesRTTV&ads.xumo_providerId=2659&ads.xumo_providerName=RottenTomatoesRTTV&ads.channelId=99991621&ads._fw_ifa_type=[IFA_TYPE]
 #EXTINF:-1 tvg-id="XUMO_99951255" tvg-name="Universal Westerns" tvg-logo="https://image.xumo.com/v1/channels/channel/99951255/300x300.webp?type=color_onBlack" group-title="XUMO🇺🇸: Westerns & Country",Universal Westerns
 https://d4whmvwm0rdvi.cloudfront.net/10007/99951255/hls/master.m3u8?ads.xumo_channelId=99951255&ads.asnw=169843&ads.afid=380752734&ads.sfid=19301248&ads.csid=xumo_[PLATFORM]_NBCUUniversalWesterns_ssai_cro&ads._fw_is_lat=[IS_LAT]&ads._fw_us_privacy=[CCPA_Value]&ads._fw_coppa=0&ads._fw_did=[IFA]&ads._fw_vcid2=512116:[IFA]&ads._fw_app_bundle=[app_bundle]&ads._fw_app_store_url=[app_store_url]&ads._fw_content_category=[IAB_content_category]&ads._fw_content_genre=Western,EW,Entertainment,GV,Drama,GD&ads._fw_content_language=[content_language]&ads._fw_content_rating=[content_rating]&ads._fw_deviceMake=[device_make]&ads._fw_device_model=[device_model]&ads._fw_deviceType=3-Connected_TV&ads.appVersion=[APP_VERSION]&ads.appName=XumoPlay&ads.xumo_contentId=3947&ads.xumo_contentName=NBCUUniversalWesterns&ads.xumo_providerId=3947&ads.xumo_providerName=NBCUUniversalWesterns&ads.channelId=99951255&ads._fw_ifa_type=[IFA_TYPE]
-#EXTINF:-1 tvg-id="017397f76bae510a8a9800c4b94eaa40" tvg-name="ViX Cine Club" tvg-chno="5067" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/017397f76bae510a8a9800c4b94eaa40/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1704751574192_CineClub_RokuHub_260x147_White.png" group-title="Comedy",ViX Cine Club
-https://jmp2.uk/rok-017397f76bae510a8a9800c4b94eaa40.m3u8
 #EXTINF:-1 tvg-id="XUMO_99951160" tvg-name="Western Bound Wrangled by INSP" tvg-logo="https://image.xumo.com/v1/channels/channel/99951160/300x300.webp?type=color_onBlack" group-title="XUMO🇺🇸: Westerns & Country",Western Bound Wrangled by INSP
 https://dbrb49pjoymg4.cloudfront.net/10001/99951160/hls/cw.m3u8?ads.xumo_channelId=99951160&ads._fw_ifa_type=[IFA_TYPE]&ads._fw_did=[IFA]&ads.amznappId=[AMZN_APP_ID]&ads.lat=[LAT]&ads.lon=[LON]&ads.os=[OS]&ads.osv=[OS_VERSION]&ads.asnw=&ads.caid=ImagicommEntCowboyWay&ads.csid=xumo_[PLATFORM]_ImagicommEntCowboyWay_ssai&ads._fw_is_lat=[IS_LAT]&ads._fw_us_privacy=[CCPA_Value]&ads._fw_coppa=0&ads.genre=Western,EW,Entertainment,GV,Drama,GD,Movie,Movies,FF&ads._fw_content_category=[IAB_content_category]&ads._fw_content_language=[content_language]&ads._fw_content_genre=Western,EW,Entertainment,GV,Drama,GD,Movie,Movies,FF&ads._fw_content_rating=[content_rating]&ads.xumo_contentId=3790&ads.xumo_contentName=ImagicommEntCowboyWay&ads.xumo_providerId=3790&ads.xumo_providerName=ImagicommEntCowboyWay&ads._fw_deviceMake=[device_make]&ads._fw_device_model=[device_model]&ads.channelId=99951160&ads.xumo_platform=[PLATFORM]&ads.site_id=[publica_site_id]&ads.appName=xumo&ads.appVersion=[APP_VERSION]&ads._fw_app_bundle=[app_bundle]&ads._fw_app_store_url=[app_store_url]
 #EXTINF:-1 tvg-id="WesternTV.us@SD" tvg-name="Western TV" tvg-logo="https://i.imgur.com/nNy9oTx.png" group-title="Classic",Western TV
@@ -3663,6 +3663,8 @@ https://amg01438-amg01438c13-vizio-us-10921.playouts.now.amagi.tv/playlist/amg01
 https://amg01438-amg01438c28-vizio-us-10893.playouts.now.amagi.tv/playlist/amg01438-ewscrippscompany-ewscrippskxxv-vizious/playlist.m3u8?app_name=%7bAPP_NAME%7d&app_bundle=%7bAPP_BUNDLE%7d&app_store_url=%7bAPP_STORE_URL%7d&url=%7bDOMAIN%7d&ifa_type=%7bIFATYPE%7d&lmt=%7bLMT%7d&dnt=%7bDNT%7d&did=%7bADID%7d&us_privacy=%7bUSPRIVACY%7d&coppa=%7bCOPPA%7d&skip=%7bSKIPPABLE%7d&device_make=%7bDEVICE_MAKE%7d&w=%7bWIDTH%7d&h=%7bHEIGHT%7d&vizio_network_name=%7bVIZIO_NETWORK_NAME%7d&vizdartoken=eyJhdWQiOiI5MyIsIndmcGNpZCI6NDczNDkwNjI3N30
 #EXTINF:-1 tvg-id="" tvg-name="3 News Now" tvg-logo="https://images.vizio.com/v4/btv/1/1736242508/1/267/150/0.jpg" group-title="LOCAL CHANNELS",3 News Now
 https://amg01438-amg01438c9-vizio-us-10858.playouts.now.amagi.tv/playlist/amg01438-ewscrippscompany-ewscrippskmtv-vizious/playlist.m3u8?app_name=%7bAPP_NAME%7d&app_bundle=%7bAPP_BUNDLE%7d&app_store_url=%7bAPP_STORE_URL%7d&url=%7bDOMAIN%7d&ifa_type=%7bIFATYPE%7d&lmt=%7bLMT%7d&dnt=%7bDNT%7d&did=%7bADID%7d&us_privacy=%7bUSPRIVACY%7d&coppa=%7bCOPPA%7d&skip=%7bSKIPPABLE%7d&device_make=%7bDEVICE_MAKE%7d&w=%7bWIDTH%7d&h=%7bHEIGHT%7d&vizio_network_name=%7bVIZIO_NETWORK_NAME%7d&vizdartoken=eyJhdWQiOiI5MyIsIndmcGNpZCI6NDczMzE2OTU3NH0
+#EXTINF:-1 tvg-id="30AGeorgiaHollywoodReview.us@SD" tvg-name="30A Georgia Hollywood Review (720p)" tvg-logo="https://images.axios.com/JiG3RuYBwpU_WZFeU6HHjt03FAU=/111x0:1191x1080/320x320/2023/11/09/1699558891265.jpg" group-title="Entertainment;News",30A Georgia Hollywood Review (720p)
+https://30a-tv.com/gh.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="402 Divorce Court" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/feeds/images/foxfirstrun/Divorce_Court_logo_400x200.png" group-title="News",402 Divorce Court
 https://amg30655-amg30655c1-amgplt0023.playout.now3.amagi.tv/ts-us-w2-n1/playlist/amg30655-amg30655c1-amgplt0023/playlist.m3u8?coppa=0
 #EXTINF:-1 tvg-id="" tvg-name="540 Martha Stewart" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/feeds/images/marquee/MStewartChannel_800x200WhiteLogo_LGTV.png" group-title="News",540 Martha Stewart
@@ -3893,6 +3895,8 @@ https://amg01438-amg01438c17-vizio-us-10900.playouts.now.amagi.tv/playlist/amg01
 https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="KTV2.kw@SD" tvg-name="KTV 2 (1080p)" tvg-logo="https://i.imgur.com/hB57mNh.png" group-title="Culture;News",KTV 2 (1080p)
 https://kwtktv2ta.cdn.mangomolo.com/ktv2/smil:ktv2.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="KTVNews.kw@SD" tvg-name="KTV News (1080p)" tvg-logo="https://i.imgur.com/erZ0Ol1.png" group-title="News",KTV News (1080p)
+https://kwtkbta.cdn.mangomolo.com/kb/smil:kb.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="8ba514251e1a58b7b53368177baa1041" tvg-name="Law & Crime" tvg-chno="2668" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/8ba514251e1a58b7b53368177baa1041/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1705443337284_lc-roku-epg-infohud-260x147.png" group-title="News",Law & Crime
 https://jmp2.uk/rok-8ba514251e1a58b7b53368177baa1041.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="LEX 18 News" tvg-logo="https://images.vizio.com/v4/btv/1/1736242469/1/267/150/0.jpg" group-title="LOCAL CHANNELS",LEX 18 News
@@ -4517,8 +4521,6 @@ https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8
 https://jmp2.uk/rok-98cafb7f4b01848a967fda4bd2225bd7.m3u8
 #EXTINF:-1 tvg-id="XUMO_99951369" tvg-name="Unbeaten Sports Channel" tvg-logo="https://image.xumo.com/v1/channels/channel/99951369/300x300.webp?type=color_onBlack" group-title="XUMO🇺🇸: Sports",Unbeaten Sports Channel
 https://dbrb49pjoymg4.cloudfront.net/10001/99951369/hls/playlist.m3u8?ads.xumo_channelId=99951369&ads._fw_ifa_type=[IFA_TYPE]&ads._fw_did=[IFA]&ads.amznappId=[AMZN_APP_ID]&ads.lat=[LAT]&ads.lon=[LON]&ads.os=[OS]&ads.osv=[OS_VERSION]&ads.asnw=&ads.caid=DSIByInverleighPtyLtdUnbeatenSportsChannel&ads.csid=xumo_[PLATFORM]_DSIByInverleighPtyLtdUnbeatenSportsChannel_ssai&ads._fw_is_lat=[IS_LAT]&ads._fw_us_privacy=[CCPA_Value]&ads._fw_coppa=0&ads.genre=[CONTENT_IMDB_GENRE]&ads._fw_content_category=[IAB_content_category]&ads._fw_content_language=[content_language]&ads._fw_content_genre=[content_genre]&ads._fw_content_rating=[content_rating]&ads.xumo_contentId=4142&ads.xumo_contentName=DSIByInverleighPtyLtdUnbeatenSportsChannel&ads.xumo_providerId=4142&ads.xumo_providerName=DSIByInverleighPtyLtdUnbeatenSportsChannel&ads._fw_deviceMake=[device_make]&ads._fw_device_model=[device_model]&ads.channelId=99951369&ads.xumo_platform=[PLATFORM]&ads.site_id=[publica_site_id]&ads.appName=xumo&ads.appVersion=[APP_VERSION]&ads._fw_app_bundle=[app_bundle]&ads._fw_app_store_url=[app_store_url]
-#EXTINF:-1 tvg-id="8346cc0f3d415e39875fca80b67fd951" tvg-name="Universal Westerns" tvg-chno="1508" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/8346cc0f3d415e39875fca80b67fd951/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1701820121460_Universal-Western-ROKU-HUD-LOGO-260x147.png" group-title="Sports",Universal Westerns
-https://jmp2.uk/rok-8346cc0f3d415e39875fca80b67fd951.m3u8
 #EXTINF:-1 tvg-id="35633f08c98857cb9e85c91eae17c0d5" tvg-name="ViX Lo Mejor de Liga MX" tvg-chno="5044" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/35633f08c98857cb9e85c91eae17c0d5/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1749856192932_LoMejorDeLigaMX_HUD_ChannelLogo_260x147px.png" group-title="Sports",ViX Lo Mejor de Liga MX
 https://jmp2.uk/rok-35633f08c98857cb9e85c91eae17c0d5.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Waypoint TV" tvg-logo="https://images.vizio.com/v4/btv/1/1567398745/1/267/150/0.jpg" group-title="SPORTS",Waypoint TV
