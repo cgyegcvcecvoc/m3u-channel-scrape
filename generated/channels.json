@@ -2748,6 +2748,25 @@
   },
   {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
+    "base_id": "US2600028R7",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.samsungtvplus.com/",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "US2600028R7",
+    "local": false,
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2600028R7_20261006T051026SQUARE.png",
+    "name": "BBC Travel",
+    "not_24_7": false,
+    "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
+    "url": "https://pb-6w5xz3ro0hrz5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-6w5xz3ro0hrz5/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US2600028R7&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-6w5xz3ro0hrz5_akamai"
+  },
+  {
+    "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
     "base_id": "US14000119Q",
     "categories": [
       "General"
@@ -3815,6 +3834,25 @@
     "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-bouncexl-tablo/playlist.m3u8"
   },
   {
+    "approval": "host:jmp2.uk",
+    "base_id": "aefe55d5eb7e49a25b2c17513be6f1e1",
+    "categories": [
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "General",
+    "id": "aefe55d5eb7e49a25b2c17513be6f1e1",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/aefe55d5eb7e49a25b2c17513be6f1e1/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787162238358_bowling_tv_logo_hud.png",
+    "name": "Bowling TV",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-aefe55d5eb7e49a25b2c17513be6f1e1.m3u8"
+  },
+  {
     "approval": "suffix:.cablecast.tv",
     "base_id": "BPTV.us",
     "categories": [
@@ -4408,6 +4446,25 @@
     "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
     "url": "https://jmp2.uk/rok-e3823bb513585861904499a21a736c4f.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "e9d183acab06314b2bcddbb7ed391e70",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "e9d183acab06314b2bcddbb7ed391e70",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/e9d183acab06314b2bcddbb7ed391e70/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787161677058_candyjar_logo_hud.png",
+    "name": "Candyjar",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-e9d183acab06314b2bcddbb7ed391e70.m3u8"
   },
   {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
@@ -5683,6 +5740,25 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://jmp2.uk/plu-5cf96b1c4f1ca3f0629f4bf0.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "a4c928aa7928e5703f2918ef18904463",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "a4c928aa7928e5703f2918ef18904463",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/a4c928aa7928e5703f2918ef18904463/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787712658573_CINE-EN-ESPANOL_Logo__efefef_260x147px.png",
+    "name": "Cine en Español",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-a4c928aa7928e5703f2918ef18904463.m3u8"
   },
   {
     "approval": "host:jmp2.uk",
@@ -12956,25 +13032,6 @@
     "url": "https://d1isoijd9dbbf7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-sx4e903ce0xv7/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US11000020V"
   },
   {
-    "approval": "host:jmp2.uk",
-    "base_id": "645518dc5f92519688baed84d025b14e",
-    "categories": [
-      "Entertainment"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "Entertainment",
-    "id": "645518dc5f92519688baed84d025b14e",
-    "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/645518dc5f92519688baed84d025b14e/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1709832057729_JAIL_IMAGE_HUD_2_Meela_Hice.png",
-    "name": "JAIL",
-    "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-645518dc5f92519688baed84d025b14e.m3u8"
-  },
-  {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
     "base_id": "USBC4400016CL",
     "categories": [
@@ -13296,6 +13353,25 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://reflect-kcat-live.cablecast.tv/live-2/live/live.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "004bc9ca41ae0ffb848a75f33b34ad4a",
+    "categories": [
+      "Documentary"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Documentary",
+    "id": "004bc9ca41ae0ffb848a75f33b34ad4a",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/004bc9ca41ae0ffb848a75f33b34ad4a/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787162259025_kelsi_davies_logo_hud.png",
+    "name": "Kelsi Davies: Paranormal Investigations",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-004bc9ca41ae0ffb848a75f33b34ad4a.m3u8"
   },
   {
     "approval": "path:2-fss-1.streamhoster.com^/pl_\\d+/(?:amlst:)?200914-",
@@ -14156,6 +14232,25 @@
   },
   {
     "approval": "host:jmp2.uk",
+    "base_id": "94414bbf0f694f521a8f5fea5ca4e1f6",
+    "categories": [
+      "Sports"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Sports",
+    "id": "94414bbf0f694f521a8f5fea5ca4e1f6",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/94414bbf0f694f521a8f5fea5ca4e1f6/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787161751909_lionsgate_network_logo_hud.png",
+    "name": "Lionsgate Network",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-94414bbf0f694f521a8f5fea5ca4e1f6.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
     "base_id": "654933ac986ad20008a1f406",
     "categories": [
       "General"
@@ -14818,6 +14913,101 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://maverick-maverick-black-cinema-3-us.roku.wurl.tv/playlist.m3u8"
+  },
+  {
+    "approval": "suffix:.bozztv.com",
+    "base_id": "Maxcine.us",
+    "categories": [
+      "Movies"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.bozztv.com/",
+    "geo_restricted": false,
+    "group": "Movies",
+    "id": "Maxcine.us",
+    "local": false,
+    "logo": "https://gia.tv/streams/pptv/208138.png",
+    "name": "Maxcine",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-208138/playlist.m3u8"
+  },
+  {
+    "approval": "suffix:.bozztv.com",
+    "base_id": "Maxcine2.us",
+    "categories": [
+      "Movies"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.bozztv.com/",
+    "geo_restricted": false,
+    "group": "Movies",
+    "id": "Maxcine2.us",
+    "local": false,
+    "logo": "https://gia.tv/streams/pptv/209163.png",
+    "name": "Maxcine 2",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8"
+  },
+  {
+    "approval": "suffix:.bozztv.com",
+    "base_id": "MaxcineComedy.us",
+    "categories": [
+      "Movies"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.bozztv.com/",
+    "geo_restricted": false,
+    "group": "Movies",
+    "id": "MaxcineComedy.us",
+    "local": false,
+    "logo": "https://gia.tv/streams/pptv/208730.png",
+    "name": "Maxcine Comedy",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8"
+  },
+  {
+    "approval": "suffix:.bozztv.com",
+    "base_id": "MaxcineFamily.us",
+    "categories": [
+      "Movies"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.bozztv.com/",
+    "geo_restricted": false,
+    "group": "Movies",
+    "id": "MaxcineFamily.us",
+    "local": false,
+    "logo": "https://gia.tv/streams/pptv/208817.png",
+    "name": "Maxcine Family",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8"
+  },
+  {
+    "approval": "suffix:.bozztv.com",
+    "base_id": "MaxcineKids.us",
+    "categories": [
+      "Movies"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.bozztv.com/",
+    "geo_restricted": false,
+    "group": "Movies",
+    "id": "MaxcineKids.us",
+    "local": false,
+    "logo": "https://gia.tv/streams/pptv/209909.png",
+    "name": "Maxcine Kids",
+    "not_24_7": false,
+    "source": "iptv-org US (community-submitted candidates)",
+    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8"
   },
   {
     "approval": "host:jmp2.uk",
@@ -16022,6 +16212,25 @@
     "url": "https://jmp2.uk/plu-6549337183595c000815ad05.m3u8"
   },
   {
+    "approval": "host:jmp2.uk",
+    "base_id": "93f5a4f02ad22cf28104ffc6726e9e82",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "93f5a4f02ad22cf28104ffc6726e9e82",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/93f5a4f02ad22cf28104ffc6726e9e82/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787963205316_MurdochMysteries_Roku_HUD_efefef.png",
+    "name": "Murdoch Mysteries",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-93f5a4f02ad22cf28104ffc6726e9e82.m3u8"
+  },
+  {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
     "base_id": "US2900011CJ",
     "categories": [
@@ -16039,6 +16248,25 @@
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
     "url": "https://pb-mwzayhpk88rw2.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-mwzayhpk88rw2/out/v1/723adf0d37164351bab055209a1095cf/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US2900011CJ&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&coppa=1&pb_type=pb-mwzayhpk88rw2_akamai"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "be3c81de355c56f89cbf99301735cfd2",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "be3c81de355c56f89cbf99301735cfd2",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/be3c81de355c56f89cbf99301735cfd2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1654727499791_MyTime_Roku_ChannelLogos_260x147.png",
+    "name": "My Time Movie Network",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-be3c81de355c56f89cbf99301735cfd2.m3u8"
   },
   {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
@@ -18564,21 +18792,21 @@
   },
   {
     "approval": "host:jmp2.uk",
-    "base_id": "PlutoTVBackcountry.us",
+    "base_id": "5cabdf1437b88b26947346b2",
     "categories": [
-      "General"
+      "Entertainment"
     ],
     "country": "US",
     "evidence_url": "https://github.com/iptv-org/community/issues/1492",
     "geo_restricted": false,
-    "group": "General",
-    "id": "PlutoTVBackcountry.us",
+    "group": "Entertainment",
+    "id": "5cabdf1437b88b26947346b2",
     "local": false,
-    "logo": "https://i.imgur.com/KnlQzs7.png",
+    "logo": "https://images.pluto.tv/channels/5cabdf1437b88b26947346b2/colorLogoPNG.png",
     "name": "Pluto TV Backcountry",
     "not_24_7": false,
-    "source": "iptv-org US (community-submitted candidates)",
-    "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
     "url": "https://jmp2.uk/plu-5cabdf1437b88b26947346b2.m3u8"
   },
   {
@@ -21403,6 +21631,25 @@
     "url": "https://pb-mbepv2mhantfo.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-mbepv2mhantfo/Shout_TV.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD1200021JM&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-mbepv2mhantfo_akamai"
   },
   {
+    "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
+    "base_id": "US2600027AI",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.samsungtvplus.com/",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "US2600027AI",
+    "local": false,
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2600027AI_20261006T051031SQUARE.png",
+    "name": "Silent Witness & New Tricks",
+    "not_24_7": false,
+    "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
+    "url": "https://pb-3twyx0vi2fzma.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-3twyx0vi2fzma/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US2600027AI&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-3twyx0vi2fzma_akamai"
+  },
+  {
     "approval": "host:jmp2.uk",
     "base_id": "SitcomLegends.us",
     "categories": [
@@ -21743,25 +21990,6 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://livestream.telvue.com/soundviewcmt2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
-    "base_id": "4d62b7d4fc91fbc2b528eb10857d7ab8",
-    "categories": [
-      "Education"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "Education",
-    "id": "4d62b7d4fc91fbc2b528eb10857d7ab8",
-    "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/4d62b7d4fc91fbc2b528eb10857d7ab8/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787161821038_space_live_logo_hud.png",
-    "name": "Space Live",
-    "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-4d62b7d4fc91fbc2b528eb10857d7ab8.m3u8"
   },
   {
     "approval": "host:jmp2.uk",
@@ -24453,6 +24681,25 @@
     "url": "https://thisoldhouse-2-us.roku.wurl.tv/playlist.m3u8"
   },
   {
+    "approval": "host:jmp2.uk",
+    "base_id": "c7825e03df4a5bf4bdc87d65b7e3cdbb",
+    "categories": [
+      "Education"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Education",
+    "id": "c7825e03df4a5bf4bdc87d65b7e3cdbb",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/c7825e03df4a5bf4bdc87d65b7e3cdbb/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1652917233272_TOHC_HudChannelID_rev.png",
+    "name": "This Old House Classic",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-c7825e03df4a5bf4bdc87d65b7e3cdbb.m3u8"
+  },
+  {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
     "base_id": "USBC1300005T6",
     "categories": [
@@ -24470,6 +24717,25 @@
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
     "url": "https://pb-wypmpv17wzieu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-wypmpv17wzieu/This_Old_House_Makers.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBC1300005T6&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-wypmpv17wzieu_akamai"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "ccfcc3307fa908684a95bf9643b1b935",
+    "categories": [
+      "Education"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Education",
+    "id": "ccfcc3307fa908684a95bf9643b1b935",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/ccfcc3307fa908684a95bf9643b1b935/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1754514295581_TOHShorts_InfoHUD_Mono.png",
+    "name": "This Old House Shorts",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-ccfcc3307fa908684a95bf9643b1b935.m3u8"
   },
   {
     "approval": "suffix:.cablecast.tv",
@@ -25100,25 +25366,6 @@
   },
   {
     "approval": "host:jmp2.uk",
-    "base_id": "bdb3cb29453a137748dfaeadae2f9d2b",
-    "categories": [
-      "Entertainment"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "Entertainment",
-    "id": "bdb3cb29453a137748dfaeadae2f9d2b",
-    "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/bdb3cb29453a137748dfaeadae2f9d2b/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1765320641655_jira-generated-image-static-b6689660-306d-406e-adcb-d123fd2f979c.png",
-    "name": "TV Amor",
-    "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-bdb3cb29453a137748dfaeadae2f9d2b.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
     "base_id": "TVLandDrama.us",
     "categories": [
       "Movies"
@@ -25211,6 +25458,25 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/bullheadcity/G0860_002/playlist.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "a77b94bceefad7df653d27acc05ae420",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "a77b94bceefad7df653d27acc05ae420",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/a77b94bceefad7df653d27acc05ae420/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1738699180944_hud_logo-2.png",
+    "name": "TVOAI Channel",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-a77b94bceefad7df653d27acc05ae420.m3u8"
   },
   {
     "approval": "suffix:.bozztv.com",
@@ -26677,6 +26943,25 @@
     "url": "https://jmp2.uk/rok-017397f76bae510a8a9800c4b94eaa40.m3u8"
   },
   {
+    "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
+    "base_id": "USBD1700016X9",
+    "categories": [
+      "Spanish"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.samsungtvplus.com/",
+    "geo_restricted": false,
+    "group": "Spanish",
+    "id": "USBD1700016X9",
+    "local": false,
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700016X9_20261006T051008SQUARE.png",
+    "name": "ViX Deportes 24/7",
+    "not_24_7": false,
+    "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
+    "url": "https://pb-zzt9klnrvfyf6.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-zzt9klnrvfyf6/server/distrib/jNRQRKsWY2kxcEBj/zuvPJYoOOdEMDNF2j2mvmg.XD-5XW7bmDpD5yWfV328oU9NWPX1Y7dhiYqJY3ymkerRKjKvBm9YaKmRu09CS8ak3vKkgVwPUO3_k0fGhRTEqmz_IT731OUAvvJWUO7I8b4d6FbvMORdXi-V3pCAiBr0JARhscS-3WkU6FOUBwPwJnqMv4GCOc2gutqomsrHRTSUl3Uveb3OckqNB_uKGZyqp1MN-AQSrGdqPGHIh4ZkM1qcJ0EK7zvf7UnRlwZAqGWGOqra8-Rqhg0wiraCQIS5xbUshW63EISyP5F69-b62g/manifest.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD1700016X9&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-zzt9klnrvfyf6_akamai"
+  },
+  {
     "approval": "host:jmp2.uk",
     "base_id": "09430bcd30bf5b30a96ca22ecb87e3e1",
     "categories": [
@@ -27925,8 +28210,8 @@
     "group": "Music",
     "id": "USBD350003932",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD350003932_20260609T035034SQUARE.png",
-    "name": "XITE Summer",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD350003932_20261006T051013SQUARE.png",
+    "name": "XITE The Beatles",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
@@ -28007,6 +28292,25 @@
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
     "url": "https://pb-xa6uijo25a92t.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-xa6uijo25a92t/v1/aenetworks_skills_thrills_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USAK3508706A&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-xa6uijo25a92t_akamai"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "b953c51bbdf5866b3816740c3da7c124",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "b953c51bbdf5866b3816740c3da7c124",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/b953c51bbdf5866b3816740c3da7c124/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787712789843_XumoHERFreeMovies_HUDlogo_centered_260x147_EFEFEF.png",
+    "name": "Xumo Her Movies",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-b953c51bbdf5866b3816740c3da7c124.m3u8"
   },
   {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
@@ -28292,25 +28596,6 @@
     "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
     "url": "https://jmp2.uk/plu-696998dfa2b623e8b20125a3.m3u8"
-  },
-  {
-    "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
-    "base_id": "USBD1700016X9",
-    "categories": [
-      "Spanish"
-    ],
-    "country": "US",
-    "evidence_url": "https://www.samsungtvplus.com/",
-    "geo_restricted": false,
-    "group": "Spanish",
-    "id": "USBD1700016X9",
-    "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700016X9_20240520T212951SQUARE.png",
-    "name": "Zona TUDN",
-    "not_24_7": false,
-    "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
-    "url": "https://pb-zzt9klnrvfyf6.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-zzt9klnrvfyf6/server/distrib/jNRQRKsWY2kxcEBj/zuvPJYoOOdEMDNF2j2mvmg.XD-5XW7bmDpD5yWfV328oU9NWPX1Y7dhiYqJY3ymkerRKjKvBm9YaKmRu09CS8ak3vKkgVwPUO3_k0fGhRTEqmz_IT731OUAvvJWUO7I8b4d6FbvMORdXi-V3pCAiBr0JARhscS-3WkU6FOUBwPwJnqMv4GCOc2gutqomsrHRTSUl3Uveb3OckqNB_uKGZyqp1MN-AQSrGdqPGHIh4ZkM1qcJ0EK7zvf7UnRlwZAqGWGOqra8-Rqhg0wiraCQIS5xbUshW63EISyP5F69-b62g/manifest.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD1700016X9&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-zzt9klnrvfyf6_akamai"
   },
   {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",

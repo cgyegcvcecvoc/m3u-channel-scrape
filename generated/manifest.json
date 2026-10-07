@@ -1,17 +1,17 @@
 {
   "counts": {
-    "usa-all.m3u": 1489,
-    "usa-backups.m3u": 281,
+    "usa-all.m3u": 1504,
+    "usa-backups.m3u": 280,
     "usa-business.m3u": 10,
-    "usa-entertainment.m3u": 464,
+    "usa-entertainment.m3u": 471,
     "usa-intermittent.m3u": 17,
     "usa-kids.m3u": 75,
     "usa-local.m3u": 244,
-    "usa-movies.m3u": 87,
+    "usa-movies.m3u": 92,
     "usa-music.m3u": 71,
     "usa-news.m3u": 92,
     "usa-spanish.m3u": 40,
-    "usa-sports.m3u": 113,
+    "usa-sports.m3u": 114,
     "usa-weather.m3u": 3
   },
   "epg_url": "https://epg.pw/xmltv/epg_US.xml",
@@ -22,24 +22,24 @@
     "https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz",
     "https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz"
   ],
-  "generated_utc": "2026-10-06T13:23:33Z",
+  "generated_utc": "2026-10-07T13:32:06Z",
   "skipped": {
-    "custom_headers": 376,
+    "custom_headers": 226,
     "dead_stream": 12,
     "duplicate": 236,
-    "duplicate_name": 290,
+    "duplicate_name": 291,
     "excluded_pay_tv": 11,
-    "not_direct_https_hls": 161,
+    "not_direct_https_hls": 162,
     "not_us_or_no_id": 482,
     "redirect_unresolved": 39,
-    "unreviewed_host": 457
+    "unreviewed_host": 452
   },
   "sources": [
     {
-      "approved_candidates": 766,
-      "candidates": 1450,
+      "approved_candidates": 770,
+      "candidates": 1451,
       "name": "iptv-org US (community-submitted candidates)",
-      "sha256": "3d2fcd48cc30640049f7ddc1c3027ede9e69ba1d75a6231114d0057b69be33db",
+      "sha256": "a7aa42b849e40a94710a3322f3a32e5774ec48fc81105d2aa018608e0d411fa8",
       "url": "https://iptv-org.github.io/iptv/countries/us.m3u"
     },
     {
@@ -57,17 +57,17 @@
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u"
     },
     {
-      "approved_candidates": 245,
-      "candidates": 247,
+      "approved_candidates": 255,
+      "candidates": 257,
       "name": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-      "sha256": "7038120f4c7066e097124c23ff53dc9af55ad4d3951a88f152f67bac2445af58",
+      "sha256": "bdb08287c0a94f883d104c00d9fbc87cd3c8c4464463ba39b03bfad99742a8bf",
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u"
     },
     {
-      "approved_candidates": 543,
-      "candidates": 585,
+      "approved_candidates": 545,
+      "candidates": 587,
       "name": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
-      "sha256": "1cc08aa4f876d15017d9810e9b49ef5996e67480abc8d877293008983b04a524",
+      "sha256": "81fc3b23f5bf2f4f0acbbaf9672255740ad68098da92d98b1f2a7baf283cf524",
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u"
     },
     {
@@ -79,9 +79,9 @@
     },
     {
       "approved_candidates": 12,
-      "candidates": 468,
+      "candidates": 317,
       "name": "doms9/iptv (user-suggested candidates; reviewed entries only)",
-      "sha256": "5c2009cf46e59a4a8f37c1de0e219e12f188f643bfbfcc9db4edeb2ed4c2e3a8",
+      "sha256": "258b83a678ce110e9b36a80e2e58852d7b2bee7538002f83983684fe3bbd8ce7",
       "url": "https://raw.githubusercontent.com/doms9/iptv/default/M3U8/TV.m3u8"
     }
   ],
