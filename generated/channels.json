@@ -2156,6 +2156,25 @@
     "url": "https://uptv-aspiretvlife-klowdtv.amagi.tv/playlist.m3u8"
   },
   {
+    "approval": "host:jmp2.uk",
+    "base_id": "3ee48530e00e0abe8eb40c71fc819aa0",
+    "categories": [
+      "Documentary"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Documentary",
+    "id": "3ee48530e00e0abe8eb40c71fc819aa0",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/3ee48530e00e0abe8eb40c71fc819aa0/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1774998916966_HUD_260x147.png",
+    "name": "Astro Ciencia",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-3ee48530e00e0abe8eb40c71fc819aa0.m3u8"
+  },
+  {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
     "base_id": "USBD25000138Y",
     "categories": [
@@ -7294,7 +7313,7 @@
     "group": "Entertainment",
     "id": "USAK3508703A",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAK3508703A_20251202T005850SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAK3508703A_20261008T213456SQUARE.png",
     "name": "Crime 24/7",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -7795,6 +7814,25 @@
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
     "url": "https://pb-7mac3oqm75pg3.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-7mac3oqm75pg3/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US25000063S&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-7mac3oqm75pg3_akamai"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "ac0caef9123a35df3b884b139340a597",
+    "categories": [
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "General",
+    "id": "ac0caef9123a35df3b884b139340a597",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/ac0caef9123a35df3b884b139340a597/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1783457806003_cw_presents_wwe_nxt_logo_hud.png",
+    "name": "CW Presents WWE NXT",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-ac0caef9123a35df3b884b139340a597.m3u8"
   },
   {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
@@ -11920,7 +11958,7 @@
     "group": "Entertainment",
     "id": "USBB2900003O3",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB2900003O3_20261002T181850SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB2900003O3_20261008T213504SQUARE.png",
     "name": "Heartland",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -13165,6 +13203,25 @@
     "url": "https://pb-pyubb0crlznqc.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-pyubb0crlznqc/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US27000062U&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-pyubb0crlznqc_akamai"
   },
   {
+    "approval": "host:jmp2.uk",
+    "base_id": "69e286e45a360c02a5966c668726172f",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "69e286e45a360c02a5966c668726172f",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/69e286e45a360c02a5966c668726172f/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1782326705078_jorge_ramos_asi_veo_las_cosas_logo_hud.png",
+    "name": "Jorge Ramos: Asi Veo Las Cosas",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-69e286e45a360c02a5966c668726172f.m3u8"
+  },
+  {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
     "base_id": "USBB1000003HL",
     "categories": [
@@ -13794,6 +13851,25 @@
     "url": "https://jmp2.uk/rok-8c36c765b4415db78a85078c37df4a5f.m3u8"
   },
   {
+    "approval": "host:jmp2.uk",
+    "base_id": "97db4de8d8568332f9743c3999e67b3e",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "97db4de8d8568332f9743c3999e67b3e",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/97db4de8d8568332f9743c3999e67b3e/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1783644927570_LogoHUDLatinus260x147.png",
+    "name": "Latinus",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-97db4de8d8568332f9743c3999e67b3e.m3u8"
+  },
+  {
     "approval": "suffix:.amagi.tv",
     "base_id": "LATV.us",
     "categories": [
@@ -14039,6 +14115,25 @@
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
     "url": "https://pb-igrftfa3oobzp.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-igrftfa3oobzp/out/v1/71b60487ff094f9fbb403338aa52ff4d/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US4100033DZ&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-igrftfa3oobzp_akamai"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "223627443ebe5007b1b9461cc1ea297e",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "223627443ebe5007b1b9461cc1ea297e",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/223627443ebe5007b1b9461cc1ea297e/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1788370831477_US_ROKU_LIFEWITHDEREK_INFOHUD_260x147.png",
+    "name": "Life with Derek",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-223627443ebe5007b1b9461cc1ea297e.m3u8"
   },
   {
     "approval": "source-pattern:^d[a-z0-9]+\\.cloudfront\\.net$",
@@ -14991,6 +15086,25 @@
     "url": "https://pb-g77y95aw2ib5n.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-g77y95aw2ib5n/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US21000043S&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-g77y95aw2ib5n_akamai"
   },
   {
+    "approval": "host:jmp2.uk",
+    "base_id": "11b69d01eadbc0259b0d05042a49f842",
+    "categories": [
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "General",
+    "id": "11b69d01eadbc0259b0d05042a49f842",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/11b69d01eadbc0259b0d05042a49f842/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1751557780578_MecumTV-Circle-260x147_HUD-01.png",
+    "name": "Mecum TV",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-11b69d01eadbc0259b0d05042a49f842.m3u8"
+  },
+  {
     "approval": "id+host:MeritStreet.us",
     "base_id": "MeritStreet.us",
     "categories": [
@@ -15292,7 +15406,7 @@
     "group": "Movies",
     "id": "US18000163F",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US18000163F_20260707T035902SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US18000163F_20261008T213617SQUARE.png",
     "name": "Miramax Movie Channel",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -21012,7 +21126,7 @@
     "group": "Entertainment",
     "id": "US300068X7",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300068X7_20260929T044420SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300068X7_20261008T213631SQUARE.png",
     "name": "Samsung Television Network",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -21222,7 +21336,7 @@
     "group": "Sports",
     "id": "US400221W2",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US400221W2_20260609T035216SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US400221W2_20261008T213638SQUARE.png",
     "name": "Scripps Sports Network",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -22717,6 +22831,25 @@
     "url": "https://jmp2.uk/rok-be6338f82720cc9d9548acfa377a2aab.m3u8"
   },
   {
+    "approval": "host:jmp2.uk",
+    "base_id": "091bf303c7fd2bc2ec6683b1dbbadae1",
+    "categories": [
+      "General"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "General",
+    "id": "091bf303c7fd2bc2ec6683b1dbbadae1",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/091bf303c7fd2bc2ec6683b1dbbadae1/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1746034081194_Storage_Wars_HUD_logo_260x147_center_aligned.png",
+    "name": "Storage Wars by A&E",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-091bf303c7fd2bc2ec6683b1dbbadae1.m3u8"
+  },
+  {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
     "base_id": "USBD1700006T2",
     "categories": [
@@ -23891,7 +24024,7 @@
     "group": "Entertainment",
     "id": "US3300011V9",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3300011V9_20261002T182026SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3300011V9_20261008T213644SQUARE.png",
     "name": "The First 48",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -25382,25 +25515,6 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/bullheadcity/G0860_002/playlist.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
-    "base_id": "a77b94bceefad7df653d27acc05ae420",
-    "categories": [
-      "Entertainment"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "Entertainment",
-    "id": "a77b94bceefad7df653d27acc05ae420",
-    "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/a77b94bceefad7df653d27acc05ae420/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1738699180944_hud_logo-2.png",
-    "name": "TVOAI Channel",
-    "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-a77b94bceefad7df653d27acc05ae420.m3u8"
   },
   {
     "approval": "suffix:.bozztv.com",
