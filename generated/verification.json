@@ -2,8 +2,8 @@
   "catalog": {
     "counts": {
       "inconclusive": 466,
-      "segment_ok": 1027,
-      "unavailable": 13
+      "segment_ok": 1033,
+      "unavailable": 8
     },
     "results": [
       {
@@ -37,8 +37,8 @@
       {
         "id": "30AGolfKingdom.us",
         "name": "30A Golf Kingdom",
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "RemoteDisconnected",
+        "status": "inconclusive",
         "url": "https://30a-tv.com/feeds/vidaa/golf.m3u8"
       },
       {
@@ -86,8 +86,8 @@
       {
         "id": "30ATheBeachShow.us",
         "name": "30A The Beach Show",
-        "reason": "RemoteDisconnected",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://30a-tv.com/beachy.m3u8"
       },
       {
@@ -2319,7 +2319,7 @@
       {
         "id": "ClassicMovieWesterns.us",
         "name": "Classic Movie Westerns",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-61f33318210549000806a530.m3u8"
       },
@@ -2830,8 +2830,8 @@
       {
         "id": "23cf98a043e9d1336c958e6b707f81dc",
         "name": "Curiosity Explora",
-        "reason": "http_404",
-        "status": "unavailable",
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
         "url": "https://jmp2.uk/rok-23cf98a043e9d1336c958e6b707f81dc.m3u8"
       },
       {
@@ -3642,7 +3642,7 @@
       {
         "id": "50cd4d6c632d5172834eb5b77fa395c6",
         "name": "FILMEX Clásico",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-50cd4d6c632d5172834eb5b77fa395c6.m3u8"
       },
@@ -3670,8 +3670,8 @@
       {
         "id": "dead0e7a46da533c94c61c8710ef3418",
         "name": "FilmRise British TV",
-        "reason": "http_404",
-        "status": "unavailable",
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
         "url": "https://jmp2.uk/rok-dead0e7a46da533c94c61c8710ef3418.m3u8"
       },
       {
@@ -3705,8 +3705,8 @@
       {
         "id": "d6f71998860459eca1bed73db5988330",
         "name": "FilmRise Free Movies",
-        "reason": "http_404",
-        "status": "unavailable",
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
         "url": "https://jmp2.uk/rok-d6f71998860459eca1bed73db5988330.m3u8"
       },
       {
@@ -4076,8 +4076,8 @@
       {
         "id": "ada4254a1dd65c138f62e7c45affb45c",
         "name": "GARDEN with Monty Don",
-        "reason": "manifest_and_encrypted_segment",
-        "status": "segment_ok",
+        "reason": "http_404",
+        "status": "unavailable",
         "url": "https://jmp2.uk/rok-ada4254a1dd65c138f62e7c45affb45c.m3u8"
       },
       {
@@ -4825,7 +4825,7 @@
       {
         "id": "JerseyShore.us",
         "name": "Jersey Shore (United States)",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-609bfa51fbecc1000733152e.m3u8"
       },
@@ -4895,8 +4895,8 @@
       {
         "id": "6212fc29da09d7938c80b54a09f3fd69",
         "name": "Kalogeras Sisters TV",
-        "reason": "http_404",
-        "status": "unavailable",
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
         "url": "https://jmp2.uk/rok-6212fc29da09d7938c80b54a09f3fd69.m3u8"
       },
       {
@@ -5364,7 +5364,7 @@
       {
         "id": "LoveHipHop.us",
         "name": "Love & Hip Hop",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5d51ddf0369acdb278dfb05e.m3u8"
       },
@@ -5763,7 +5763,7 @@
       {
         "id": "b5cde121f98257329346020e2a60295a",
         "name": "Moonbug Kids",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-b5cde121f98257329346020e2a60295a.m3u8"
       },
@@ -6120,8 +6120,8 @@
       {
         "id": "098bce44be895630a3e437516fe70853",
         "name": "Naturaleza Salvaje",
-        "reason": "http_404",
-        "status": "unavailable",
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
         "url": "https://jmp2.uk/rok-098bce44be895630a3e437516fe70853.m3u8"
       },
       {
@@ -6253,8 +6253,8 @@
       {
         "id": "NBC.us@WTVJ",
         "name": "NBC WTVJ",
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_404",
+        "status": "unavailable",
         "url": "https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream1/master.m3u8"
       },
       {
@@ -6589,8 +6589,8 @@
       {
         "id": "e7b30e2a58409242100d0edd2bfebbfd",
         "name": "Pam Grier's Soul Flix",
-        "reason": "http_404",
-        "status": "unavailable",
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
         "url": "https://jmp2.uk/rok-e7b30e2a58409242100d0edd2bfebbfd.m3u8"
       },
       {
@@ -7002,7 +7002,7 @@
       {
         "id": "PlutoTVFantastic.us",
         "name": "Pluto TV Fantastic",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5b64a245a202b3337f09e51d.m3u8"
       },
@@ -7926,7 +7926,7 @@
       {
         "id": "34e2d8f442ab5fa3aed29436c2f8ed63",
         "name": "Shades of Black",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-34e2d8f442ab5fa3aed29436c2f8ed63.m3u8"
       },
@@ -8717,7 +8717,7 @@
       {
         "id": "TheAmazingRace.us",
         "name": "The Amazing Race",
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5f21e8a6e2f12b000755afdb.m3u8"
       },
@@ -8752,7 +8752,7 @@
       {
         "id": "TheChallenge.us",
         "name": "The Challenge",
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5d48685da7e9f476aa8a1888.m3u8"
       },
@@ -9378,6 +9378,13 @@
         "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/bullheadcity/G0860_002/playlist.m3u8"
+      },
+      {
+        "id": "a77b94bceefad7df653d27acc05ae420",
+        "name": "TVOAI Channel",
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
+        "url": "https://jmp2.uk/rok-a77b94bceefad7df653d27acc05ae420.m3u8"
       },
       {
         "id": "TVSBowlingNetwork.us",
@@ -10278,8 +10285,8 @@
       {
         "id": "302d8d86738c0ab83d0ca3a5e2df3492",
         "name": "Xena",
-        "reason": "http_404",
-        "status": "unavailable",
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
         "url": "https://jmp2.uk/rok-302d8d86738c0ab83d0ca3a5e2df3492.m3u8"
       },
       {
@@ -10549,18 +10556,18 @@
         "url": "https://jmp2.uk/rok-427be38e736e5c6e92bd1cec086e941a.m3u8"
       }
     ],
-    "total": 1506
+    "total": 1507
   },
-  "checked_utc": "2026-10-09T15:32:56Z",
+  "checked_utc": "2026-10-10T14:42:39Z",
   "limitations": "One probe, one runner location, one moment in time. inconclusive = network/TLS/timeout/server error and is NOT evidence the channel is dead. segment_ok does not guarantee playback in your location, continuity, or any distribution right. geo restrictions and terms are out of scope.",
   "method": "HLS master/media playlists plus one complete media segment; container signature checked (TS/MP4/ADTS), not decoded and not a continuous-playback test",
   "runner": "github-actions",
   "usa-verified.m3u": {
     "counts": {
-      "inconclusive": 908,
+      "inconclusive": 889,
       "manifest_ok": 6,
-      "segment_ok": 3033,
-      "unavailable": 74
+      "segment_ok": 3058,
+      "unavailable": 68
     },
     "results": [
       {
@@ -11252,8 +11259,8 @@
       {
         "name": "Laff WJLP (576p)",
         "policy_format": false,
-        "reason": "timeout",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "http://4.30.180.36:8420/laff/index.m3u8?token=test"
       },
       {
@@ -12281,8 +12288,8 @@
       {
         "name": "Curiosity Explora",
         "policy_format": true,
-        "reason": "http_404",
-        "status": "unavailable",
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
         "url": "https://jmp2.uk/rok-23cf98a043e9d1336c958e6b707f81dc.m3u8"
       },
       {
@@ -13002,8 +13009,8 @@
       {
         "name": "Misterios sin resolver",
         "policy_format": true,
-        "reason": "http_404",
-        "status": "unavailable",
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
         "url": "https://jmp2.uk/rok-f2bbfc9566f9519aad982aea41b95f83.m3u8"
       },
       {
@@ -13149,8 +13156,8 @@
       {
         "name": "Naturaleza Salvaje",
         "policy_format": true,
-        "reason": "http_404",
-        "status": "unavailable",
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
         "url": "https://jmp2.uk/rok-098bce44be895630a3e437516fe70853.m3u8"
       },
       {
@@ -14045,14 +14052,14 @@
       {
         "name": "Wild 'N Out",
         "policy_format": false,
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/stvp-USBA3000100X"
       },
       {
         "name": "Wild 'N Out",
         "policy_format": true,
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5d48678d34ceb37d3c458a55.m3u8"
       },
@@ -14696,8 +14703,8 @@
       {
         "name": "30A Investment Pitch (720p)",
         "policy_format": true,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "RemoteDisconnected",
+        "status": "inconclusive",
         "url": "https://30a-tv.com/feeds/xodglobal/30atv.m3u8"
       },
       {
@@ -14717,8 +14724,8 @@
       {
         "name": "30A Television Channel (720p)",
         "policy_format": true,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "RemoteDisconnected",
+        "status": "inconclusive",
         "url": "https://30a-tv.com/feeds/masters/30atv.m3u8"
       },
       {
@@ -14920,14 +14927,14 @@
       {
         "name": "350 The Amazing Race",
         "policy_format": true,
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5f21e8a6e2f12b000755afdb.m3u8"
       },
       {
         "name": "351 Survivor",
         "policy_format": true,
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5f21e7b24744c60007c1f6fc.m3u8"
       },
@@ -15431,7 +15438,7 @@
       {
         "name": "507 Family Ties",
         "policy_format": true,
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5f77939a630f530007dde654.m3u8"
       },
@@ -17496,7 +17503,7 @@
       {
         "name": "Best of The Drew Barrymore Show (United States)",
         "policy_format": true,
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-6310cbee5a8ad300070fdb7c.m3u8"
       },
@@ -17657,8 +17664,8 @@
       {
         "name": "Billiard TV",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6334a8e48a7b2a349d903b8c/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -17678,15 +17685,15 @@
       {
         "name": "Bizaar",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-689e1f0dd84bfb3d54b6756f/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
         "name": "Bizarre Foods with Andrew Zimmern",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-66a2b83ef7180d8d2ca77f60/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -17727,15 +17734,15 @@
       {
         "name": "BlackPix",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-62280644c9f485cc7afe8c48/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
         "name": "Bloodline Detectives Hosted by Nancy Grace",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-67cbd119cc5136329877e096/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -17776,8 +17783,8 @@
       {
         "name": "Bonanza-Billies TV",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-68fb0375004ccee30be51252/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -17790,8 +17797,8 @@
       {
         "name": "Bondi Rescue",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-69ae4f38e657bab5f7a9b7ec/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -17804,8 +17811,8 @@
       {
         "name": "BOOT",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-5ef11487d33ab9004048a1d3/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -17825,8 +17832,8 @@
       {
         "name": "Bounce XL",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-623d9b0370560b72147a994a/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -17846,8 +17853,8 @@
       {
         "name": "Bowling TV",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6970fdabbde579fb71262401/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -17860,8 +17867,8 @@
       {
         "name": "Brat TV",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-63d6f6c5a9e88ee909e7ee1f/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -17888,8 +17895,8 @@
       {
         "name": "Bravo Vault",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-645e328fb164db00b4547f05/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -17930,15 +17937,15 @@
       {
         "name": "BritBox Mysteries",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-639a0b83812b6c1429f7acd1/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
         "name": "Buen Viaje",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-666e15a3ce73ed6023b55a0f/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -17972,8 +17979,8 @@
       {
         "name": "BUZZR",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-66a2d71b0b91165254efdb40/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18049,8 +18056,8 @@
       {
         "name": "C4 en Alerta",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-65b1568052aa31b8f64da064/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18063,8 +18070,8 @@
       {
         "name": "Camp Spoopy",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6164a963766ab4f9f57e81b1/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18119,22 +18126,22 @@
       {
         "name": "Canela.TV Clásicos",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-64fba469bb3e0baa5dcc0947/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
         "name": "Canela.TV Deportes",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-64fba7b6bb3e0baa5dcc0949/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
         "name": "Canela.TV Hollywood y Más",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-64fba5f3214cf8b3b54b5ecc/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18147,8 +18154,8 @@
       {
         "name": "Canela.TV Novelas y Dramas",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-5f5132e362fe160040f26c18/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18168,8 +18175,8 @@
       {
         "name": "Caso Cerrado",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6478acb5c83f56da796f166d/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18196,8 +18203,8 @@
       {
         "name": "Caught in Providence",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-61ddcdc03c12aa1e5d320aaf/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18315,8 +18322,8 @@
       {
         "name": "Celebrity Name Game",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-640205c40e1daf16b299567e/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18343,8 +18350,8 @@
       {
         "name": "Cesar's Pack Leader TV",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-693cbba358076a970420f597/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18385,8 +18392,8 @@
       {
         "name": "Chaos on Cam by A&E",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-67be3cc41a98aab3729899ba/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18420,8 +18427,8 @@
       {
         "name": "Cheaters",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-64f115ad2173e54397ce0d40/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18476,8 +18483,8 @@
       {
         "name": "Chef vs Chef",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-69d93901a5c870fb1e88f86d/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18497,8 +18504,8 @@
       {
         "name": "Chip & Jo: Feels Like Home",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-69d93f7ca5c870fb1e88f875/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18525,15 +18532,15 @@
       {
         "name": "Christmas Plus",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-634700569d64afa6830d1521/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
         "name": "Cindie TV",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6a3ec58b4ac530f3bac10721/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18546,8 +18553,8 @@
       {
         "name": "Circle Country",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6995ed8173f56d61dc078f0d/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18637,15 +18644,15 @@
       {
         "name": "Classic Car Auctions",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-67c614985908ba2cc8775bf5/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
         "name": "Classic Doctor Who",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-63068b870bbec3b06755a0ee/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18686,8 +18693,8 @@
       {
         "name": "Clic",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6469502df73356567a64ce8e/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18756,8 +18763,8 @@
       {
         "name": "Cold Case Files by A&E",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-63f693a3fff2b53dc9ddc8f4/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18770,22 +18777,22 @@
       {
         "name": "Combat War Channel",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-65e87f35335524a69e8e0ce1/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
         "name": "CombaTV",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-63f0ca427b78030ed9990309/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
         "name": "Come Dine With Me",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-68e03e7b18c739b4d91a6a5b/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18819,8 +18826,8 @@
       {
         "name": "Complex TV",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-608aec5fa09205002da4f28f/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18847,8 +18854,8 @@
       {
         "name": "Confess by Nosey",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6438ee5a83766488c3bc9d4d/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18875,8 +18882,8 @@
       {
         "name": "Continuum",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-66ce3ef09ac0b1441b19ca2b/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18910,15 +18917,15 @@
       {
         "name": "Corazón",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-64694d52f73356567a64ce8c/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
         "name": "Corner Gas",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-66ce3cf459062698a13c39df/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18931,8 +18938,8 @@
       {
         "name": "Cosmic Frontiers",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-63616d4c9fdbf7808e22baee/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18966,8 +18973,8 @@
       {
         "name": "CraftsyTV",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6365779dde08f8eec6c3f21f/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -18994,8 +19001,8 @@
       {
         "name": "Creator Television",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-67884bd6d37f2fd48d6220db/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -19162,15 +19169,15 @@
       {
         "name": "CW Forever",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-66635fc0ca7b22f4c3a2d743/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
         "name": "CW Gold",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-66635e41ca7b22f4c3a2d741/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -19211,8 +19218,8 @@
       {
         "name": "Dark Matter TV",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-5eea605674085f0040ddc7a6/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -19225,8 +19232,8 @@
       {
         "name": "Dateline",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-5fc70600598c41002da3dd19/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -19295,15 +19302,15 @@
       {
         "name": "Deal Or No Deal",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6516023b1fc969615e69d172/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
         "name": "Deal Or No Deal",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6a56bff72ad9d298044c58f8/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -19344,8 +19351,8 @@
       {
         "name": "Death Valley Days",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6674b68af04cf4bb9233c916/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -19358,8 +19365,8 @@
       {
         "name": "Degrassi",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-636d5aa3dc2c550b145ed422/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -19386,8 +19393,8 @@
       {
         "name": "Delito",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-69a516217c245b3390e8a4d2/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -19421,8 +19428,8 @@
       {
         "name": "Designated Survivor",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-66aa9b7fd8fc59729226073e/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -19470,8 +19477,8 @@
       {
         "name": "Dick Van Dyke",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6449369eb3ff17382cae5801/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -19540,8 +19547,8 @@
       {
         "name": "Dog the Bounty Hunter",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-66428faa5116d565e63ae32a/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -19589,8 +19596,8 @@
       {
         "name": "Don't Tell The Bride",
         "policy_format": false,
-        "reason": "http_429",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-635847d0d3a668f1cafc1f9d/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -20772,8 +20779,8 @@
       {
         "name": "GARDEN with Monty Don",
         "policy_format": true,
-        "reason": "manifest_and_encrypted_segment",
-        "status": "segment_ok",
+        "reason": "http_404",
+        "status": "unavailable",
         "url": "https://jmp2.uk/rok-ada4254a1dd65c138f62e7c45affb45c.m3u8"
       },
       {
@@ -20982,8 +20989,8 @@
       {
         "name": "GoTraveler",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-60a53634126de9002e694bc2/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21010,8 +21017,8 @@
       {
         "name": "Great British Menu",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-64704596e536e0faaf10be9b/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21031,15 +21038,15 @@
       {
         "name": "Green Acres",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-689fb2c329e3c9f1368c04a3/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
         "name": "Grit Xtra",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-62b45f15b4508e0eedacdf25/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21059,15 +21066,15 @@
       {
         "name": "Grjngo - Películas Del Oeste",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-63489eff90b96ef5e0eb3282/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
         "name": "Growing Up Hip Hop",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6a8cb463fc51826f5301a156/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21094,8 +21101,8 @@
       {
         "name": "GrowthDay Network",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6a8786c4fa0d0293e2681b7c/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21129,8 +21136,8 @@
       {
         "name": "GUSTOTV",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-5f8746eabd529300418246d9/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21164,8 +21171,8 @@
       {
         "name": "Hard Knocks",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-5fd115bdb7ef8d002dcf1820/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21178,14 +21185,14 @@
       {
         "name": "Hasbro Legends",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-69153a4be449c6fdde65a65d/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
         "name": "Haunt TV",
         "policy_format": true,
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-285f3ba210e8561fa5261af0871ace90.m3u8"
       },
@@ -21241,8 +21248,8 @@
       {
         "name": "Heartland",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6449369eb3ff17382cae5806/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21290,8 +21297,8 @@
       {
         "name": "Hell's Kitchen & Kitchen Nightmares",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6449369eb3ff17382cae580c/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21311,15 +21318,15 @@
       {
         "name": "HerSphere by Lionsgate",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-644c4bc17472b186783f35a0/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
         "name": "Hi-YAH!",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-5f64c4ef35f612003f6ffe30/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21332,8 +21339,8 @@
       {
         "name": "Highway Thru Hell",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6616cbcc0360e123d9f3f366/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21353,8 +21360,8 @@
       {
         "name": "Highway to Heaven",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-64f1177d79fd56092f9061bf/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21388,8 +21395,8 @@
       {
         "name": "Hip-Hop/R&B",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-62ee7ae2271f393d2d9f709e/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21402,8 +21409,8 @@
       {
         "name": "Historias de Corazón",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-69791422623bdf0fc9bc3ea6/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21458,8 +21465,8 @@
       {
         "name": "Home Cooking",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-69d939ace90724066206785f/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21514,8 +21521,8 @@
       {
         "name": "Home.Made.Nation",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-5f74cf82ffbe690040689f47/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21605,8 +21612,8 @@
       {
         "name": "HOT BENCH",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6a3c23ec97845f69835ac533/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21619,8 +21626,8 @@
       {
         "name": "Hot Ones",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6582a1316b91be4547aa153c/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21647,8 +21654,8 @@
       {
         "name": "How To",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-66a1aa319101f360242499a8/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21731,8 +21738,8 @@
       {
         "name": "Hunter",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-66f6b6baac1a1890ef197a4b/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21745,8 +21752,8 @@
       {
         "name": "I Shouldn't Be Alive",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6a10ad97b05301ef36a6a8e6/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21773,8 +21780,8 @@
       {
         "name": "Ice Pilots NWT",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-666e1820ce73ed6023b55a11/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21787,8 +21794,8 @@
       {
         "name": "Ice Road Truckers",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-63c97610187b3c9f3581fdf6/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21801,8 +21808,8 @@
       {
         "name": "Ideas En 5 Minutos",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-64a355697d24564fba37bab8/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21829,8 +21836,8 @@
       {
         "name": "Impossible - Quiz Show",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6308fa9c0417b7074a4ad959/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21892,8 +21899,8 @@
       {
         "name": "INTER 24/7",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-69011e71d320237a5a2d9f63/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21920,8 +21927,8 @@
       {
         "name": "ION",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-624c37af6281708eabbbe26b/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21934,15 +21941,15 @@
       {
         "name": "Ion Mystery",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-62b45f15b4508e0eedacdf26/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
         "name": "ION Plus",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-627e347795b0f50af26d78f9/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -21969,8 +21976,8 @@
       {
         "name": "Iron Chef",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6707cfa5da81682f2d1e6837/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -22011,8 +22018,8 @@
       {
         "name": "ITV Deportes",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-688d3402a6fe30698ab42007/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -22172,8 +22179,8 @@
       {
         "name": "Journy",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-5f5132df62fe160040f26bc2/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -22242,15 +22249,15 @@
       {
         "name": "Kalogeras Sisters TV",
         "policy_format": true,
-        "reason": "http_404",
-        "status": "unavailable",
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
         "url": "https://jmp2.uk/rok-6212fc29da09d7938c80b54a09f3fd69.m3u8"
       },
       {
         "name": "Kaloopy TV (1080p)",
         "policy_format": true,
-        "reason": "timeout",
-        "status": "inconclusive",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://streamingserver000.viewtv.cloud/VIEWTVNETWORK-KALOOPY/index.m3u8"
       },
       {
@@ -22501,8 +22508,8 @@
       {
         "name": "KTK (576p)",
         "policy_format": false,
-        "reason": "not_hls_body",
-        "status": "unavailable",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "http://stream.mcquack.net/26/index.m3u8"
       },
       {
@@ -22613,8 +22620,8 @@
       {
         "name": "La Fiebre del Jade",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-666e1af3d91d13cb4c8cbb6d/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -22676,8 +22683,8 @@
       {
         "name": "Lawless",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-654a6d313713a28d9f0b917f/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -22767,7 +22774,7 @@
       {
         "name": "Life with Derek",
         "policy_format": true,
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-223627443ebe5007b1b9461cc1ea297e.m3u8"
       },
@@ -22921,8 +22928,8 @@
       {
         "name": "Lone Star",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6196c9241d310bf925e02616/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -23222,8 +23229,8 @@
       {
         "name": "Million Dollar Dream Home",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-684c2379e32026b0c1f53793/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -23355,8 +23362,8 @@
       {
         "name": "MrBeast",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_429",
+        "status": "inconclusive",
         "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-68d15e51c80ec69e0bd8965b/?X-Plex-Token=Ju1zTds_rq8t148k7xXX"
       },
       {
@@ -24069,8 +24076,8 @@
       {
         "name": "People Are Awesome (1080p)",
         "policy_format": true,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_404",
+        "status": "unavailable",
         "url": "https://mumbai-edge.smartplaytv.in/PeopleAreAwesome/index.m3u8"
       },
       {
@@ -25483,7 +25490,7 @@
       {
         "name": "Supernatural Drama",
         "policy_format": true,
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5f24662bebe0f0000767de32.m3u8"
       },
@@ -25497,7 +25504,7 @@
       {
         "name": "Survivor",
         "policy_format": false,
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/stvp-US3900014MX"
       },
@@ -25777,7 +25784,7 @@
       {
         "name": "The Amazing Race",
         "policy_format": false,
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/stvp-US390001557"
       },
@@ -27044,7 +27051,7 @@
       {
         "name": "ViX Novelas de oro",
         "policy_format": true,
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-ab6cd6569bf6557a8c5d9798cfce202b.m3u8"
       },
@@ -29242,7 +29249,7 @@
       {
         "name": "BET Pluto TV",
         "policy_format": false,
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/stvp-USBC450000130"
       },
@@ -29634,8 +29641,8 @@
       {
         "name": "FilmRise British TV",
         "policy_format": true,
-        "reason": "http_404",
-        "status": "unavailable",
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
         "url": "https://jmp2.uk/rok-dead0e7a46da533c94c61c8710ef3418.m3u8"
       },
       {
@@ -29669,8 +29676,8 @@
       {
         "name": "FilmRise Free Movies",
         "policy_format": true,
-        "reason": "http_404",
-        "status": "unavailable",
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
         "url": "https://jmp2.uk/rok-d6f71998860459eca1bed73db5988330.m3u8"
       },
       {
@@ -30761,7 +30768,7 @@
       {
         "name": "Supernatural Drama",
         "policy_format": false,
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/stvp-USAJ26000015Y"
       },
@@ -30880,7 +30887,7 @@
       {
         "name": "TV Land Drama",
         "policy_format": false,
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/stvp-USBB3500002FL"
       },
@@ -31545,7 +31552,7 @@
       {
         "name": "MTV Catfish (United States)",
         "policy_format": true,
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-64f8a2a23a0d700008a6ed7b.m3u8"
       },
@@ -31629,14 +31636,14 @@
       {
         "name": "MTV Pluto TV",
         "policy_format": false,
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/stvp-USBA3000093U"
       },
       {
         "name": "MTV Pluto TV",
         "policy_format": true,
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/plu-5ca672f515a62078d2ec0ad2.m3u8"
       },
@@ -33099,8 +33106,8 @@
       {
         "name": "Apple Valley News Now",
         "policy_format": false,
-        "reason": "segment_signature_mismatch",
-        "status": "manifest_ok",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://s7host4.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config8/m2/localnow/895375dd86c496d884e490fd33e721121cbb74469a71f3fa5c55135073880102b22768a1db14/master.m3u8?ads.cdnhost=s7host4.localnow.api.cms.amdvids.com&ads.playbackid=011D22C5-FD97-44E6-A65A-BBF9830A7561&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=011D22C5-FD97-44E6-A65A-BBF9830A7561&ads.n4=content_name&ads.v4=EPG%20%7C%20Apple%20Valley%20News%20Now%20KAPP%20KVEW&ads.n21=channel_rating&ads.v21=TV-PG&ads.n22=channel_brand_id&ads.v22=AMDB012941&ads.n23=device_type&ads.v23=&ads.n24=content_producer_name&ads.v24=Morgan%20Murphy%20Media&ads.n25=content_custom_1_param&ads.v25=011D22C5-FD97-44E6-A65A-BBF9830A7561&ads.n26=us_privacy&ads.v26=1YNY&ads.n27=dnt&ads.v27=&ads.n28=w&ads.v28=1920&ads.n29=channel_id&ads.v29=011D22C5-FD97-44E6-A65A-BBF9830A7561&ads.n30=channel_ext_id&ads.v30=6483929784fd0de50b045073&ads.n31=ip&ads.v31=185.217.168.164&ads.n32=channel_genre&ads.v32=News&ads.n33=app_store_url&ads.v33=&ads.n34=content_livestream&ads.v34=1&ads.n35=channel_language&ads.v35=en&ads.n36=app_name&ads.v36=&ads.n37=channel_corp&ads.v37=Morgan%20Murphy%20Media&ads.n38=app_bundle&ads.v38=&ads.n39=cust_devicename&ads.v39=desktop_web&ads.n40=content_type&ads.v40=channel&ads.n41=h&ads.v41=1080&ads.n42=gpp_sid&ads.v42=&ads.n43=url&ads.v43=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n44=gpp&ads.v44=&ads.n45=device_model&ads.v45=&ads.n46=device_make&ads.v46=&ads.n47=content_custom_2_param&ads.v47=AMDB012941&ads.n48=pos&ads.v48=midroll&ads.n49=network_name&ads.v49=kapp&ads.n50=channel_company_id&ads.v50=AMDP500435&ads.n51=content_provider&ads.v51=kapp&ads.n52=channel_title&ads.v52=EPG%20%20Apple%20Valley%20News%20Now%20KAPP%20KVEW&ads.n53=did&ads.v53=&ads.n54=content_custom_3_param&ads.v54=channel&ads.n55=app_version&ads.v55=0.0.0&ads.n56=ua&ads.v56=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n57=ifa_type&ads.v57=&ads.n58=channel_name&ads.v58=EPG%20%20Apple%20Valley%20News%20Now%20KAPP%20KVEW"
       },
       {
@@ -34912,8 +34919,8 @@
       {
         "name": "NorCast Weather (1080p)",
         "policy_format": true,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "not_hls_body",
+        "status": "unavailable",
         "url": "https://norcast-weather.streamology.live/api/v1/streams/c1b5b114698e1ad4687153c4402d5ef0/live.m3u8"
       },
       {
@@ -36186,8 +36193,8 @@
       {
         "name": "Expedientes Sobrenaturales",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "segment_signature_mismatch",
+        "status": "manifest_ok",
         "url": "https://s11host3.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config14/playlist.m3u8?ads.cdnhost=s11host3.localnow.api.cms.amdvids.com&ads.playbackid=2F20DCA2-9005-4C24-9BF4-B2E2607F356F&ads.n1=rule_id&ads.v1=31E67C91-301F-4DA0-997C-55E852CBE4CB-1752176430&ads.n3=qp_content_id&ads.v3=2F20DCA2-9005-4C24-9BF4-B2E2607F356F&ads.n4=content_name&ads.v4=Expedientes%20Sobrenaturales&ads.n21=channel_rating&ads.v21=TV-PG&ads.n22=content_livestream&ads.v22=1&ads.n23=gpp_sid&ads.v23=&ads.n24=channel_company_id&ads.v24=AMDP500559&ads.n25=w&ads.v25=1920&ads.n26=content_custom_2_param&ads.v26=AMDB013590&ads.n27=ifa_type&ads.v27=&ads.n28=cust_devicename&ads.v28=desktop_web&ads.n29=app_store_url&ads.v29=&ads.n30=content_custom_1_param&ads.v30=2F20DCA2-9005-4C24-9BF4-B2E2607F356F&ads.n31=channel_ext_id&ads.v31=&ads.n32=ip&ads.v32=185.217.168.164&ads.n33=gpp&ads.v33=&ads.n34=pos&ads.v34=midroll&ads.n35=device_model&ads.v35=&ads.n36=channel_brand_id&ads.v36=AMDB013590&ads.n37=content_type&ads.v37=channel&ads.n38=content_provider&ads.v38=expedientes-sobrenaturales&ads.n39=app_name&ads.v39=&ads.n40=h&ads.v40=1080&ads.n41=content_custom_3_param&ads.v41=channel&ads.n42=content_producer_name&ads.v42=Warner%20Brothers%20Discovery&ads.n43=channel_name&ads.v43=Expedientes%20Sobrenaturales&ads.n44=channel_corp&ads.v44=Warner%20Brothers%20Discovery&ads.n45=app_bundle&ads.v45=&ads.n46=device_make&ads.v46=&ads.n47=channel_language&ads.v47=en&ads.n48=dnt&ads.v48=&ads.n49=ua&ads.v49=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n50=channel_genre&ads.v50=Entertainment&ads.n51=did&ads.v51=&ads.n52=channel_id&ads.v52=2F20DCA2-9005-4C24-9BF4-B2E2607F356F&ads.n53=url&ads.v53=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n54=device_type&ads.v54=&ads.n55=app_version&ads.v55=0.0.0&ads.n56=channel_title&ads.v56=Expedientes%20Sobrenaturales&ads.n57=us_privacy&ads.v57=1YNY&ads.n58=network_name&ads.v58=expedientes-sobrenaturales"
       },
       {
@@ -36501,8 +36508,8 @@
       {
         "name": "Telemundo West (2160p)",
         "policy_format": false,
-        "reason": "manifest_and_segment",
-        "status": "segment_ok",
+        "reason": "http_404",
+        "status": "unavailable",
         "url": "http://168.228.44.241:9997/play/a07g/index.m3u8"
       },
       {
@@ -37012,7 +37019,7 @@
       {
         "name": "Cars",
         "policy_format": false,
-        "reason": "manifest_and_segment",
+        "reason": "manifest_and_encrypted_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/stvp-USAJ3504545A"
       },
@@ -37523,8 +37530,8 @@
       {
         "name": "KTV Sport Plus (1080p)",
         "policy_format": true,
-        "reason": "not_hls_body",
-        "status": "unavailable",
+        "reason": "manifest_and_segment",
+        "status": "segment_ok",
         "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8"
       },
       {
@@ -37579,7 +37586,7 @@
       {
         "name": "Maverick Black Cinema",
         "policy_format": true,
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-834e2a09799752b3be7ecaab726b7242.m3u8"
       },
@@ -37859,8 +37866,8 @@
       {
         "name": "Pam Grier's Soul Flix",
         "policy_format": true,
-        "reason": "http_404",
-        "status": "unavailable",
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
         "url": "https://jmp2.uk/rok-e7b30e2a58409242100d0edd2bfebbfd.m3u8"
       },
       {
@@ -38195,7 +38202,7 @@
       {
         "name": "Stargate",
         "policy_format": true,
-        "reason": "manifest_and_encrypted_segment",
+        "reason": "manifest_and_segment",
         "status": "segment_ok",
         "url": "https://jmp2.uk/rok-11c7c3660c6b6f18a21838fd404a7a1d.m3u8"
       },
@@ -38699,8 +38706,8 @@
       {
         "name": "Xena",
         "policy_format": true,
-        "reason": "http_404",
-        "status": "unavailable",
+        "reason": "manifest_and_encrypted_segment",
+        "status": "segment_ok",
         "url": "https://jmp2.uk/rok-302d8d86738c0ab83d0ca3a5e2df3492.m3u8"
       },
       {
