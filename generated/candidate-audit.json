@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-09T13:24:08Z",
+  "generated_utc": "2026-10-10T12:39:08Z",
   "method": "Entries are classified with the same policy code the updater uses (scripts/update_playlists.py). This report is evidence for host review, not an approval: nothing here publishes or changes policy.json.",
   "note": "structural_rejects cannot be fixed by a host rule (plain HTTP, IP-literal host, non-443 port, expiring/credential query, non-HLS path). unreviewed_hosts can be approved after a host review with evidence.",
   "sources": [
@@ -7,18 +7,20 @@
       "accepted": 769,
       "entries": 1467,
       "entries_needing_custom_headers": 13,
-      "entries_with_pay_tv_brand_name": 79,
+      "entries_with_pay_tv_brand_name": 80,
       "name": "iptv-org US (community-submitted candidates)",
-      "other_blocked_entries": 74,
+      "other_blocked_entries": 75,
       "other_reason_notes": {
         "custom_headers": "stream needs referrer/user-agent overrides",
         "dead_stream": "listed in DEFUNCT_STREAMS (known dead)",
+        "excluded_pay_tv": "channel ID is on the pay-TV exclusion list",
         "not_us_or_no_id": "no US-style tvg-id (and source is not a platform-ID feed)"
       },
       "other_reasons": {
         "custom_headers": 11,
         "dead_stream": 9,
         "duplicate_of_accepted_channel": 1,
+        "excluded_pay_tv": 1,
         "not_direct_https_hls": 4,
         "not_us_or_no_id": 49
       },
@@ -31,7 +33,6 @@
         "confirm cdn.vegasplus.us is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm mediaserver.abnvideos.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm townnews.g-mana.live is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
-        "confirm vodcdn.bamboo-cloud.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm 2-fss-1.streamhoster.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm cdn.whiplash.cc is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm 58cc65c534c67.streamlock.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
@@ -46,10 +47,11 @@
         "confirm fastly.live.brightcove.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm live.field59.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm live.nowtelly.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
-        "confirm livecdn.use1-0004.jwplive.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule"
+        "confirm livecdn.use1-0004.jwplive.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
+        "confirm livefta.malimarcdn.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule"
       ],
-      "sha256": "f49d9550e441cc0352bf4327bd0787a7ff153c1290f045815e03bec607c042ed",
-      "structural_reject_entries": 186,
+      "sha256": "919faf07260960e45529d369ac11e0f014f6e86a1fef1170d2d8c0919fcaed95",
+      "structural_reject_entries": 188,
       "structural_rejects": {
         "non_443_port:1935": 16,
         "non_443_port:1936": 10,
@@ -71,7 +73,7 @@
         "non_443_port:8000": 10,
         "non_443_port:8001": 1,
         "non_443_port:8003": 1,
-        "non_443_port:8080": 52,
+        "non_443_port:8080": 53,
         "non_443_port:8081": 2,
         "non_443_port:8298": 1,
         "non_443_port:8815": 1,
@@ -84,9 +86,9 @@
         "non_443_port:9998": 2,
         "non_443_port:9999": 2,
         "not_hls_path": 3,
-        "scheme:http": 41
+        "scheme:http": 42
       },
-      "unreviewed_host_entries": 438,
+      "unreviewed_host_entries": 435,
       "unreviewed_hosts": [
         {
           "distinct_channel_names": 12,
@@ -212,20 +214,6 @@
             "CBS WDEF-TV (720p)",
             "Fox (United States) WXXV-TV (720p)",
             "NBC WMGT-TV (720p)"
-          ]
-        },
-        {
-          "distinct_channel_names": 6,
-          "entries": 6,
-          "host": "vodcdn.bamboo-cloud.com",
-          "pay_tv_brand_samples": 0,
-          "samples": [
-            "S Corby TV (480p)",
-            "S Free! (360p)",
-            "S KPop! (480p)",
-            "S Metro TV (360p)",
-            "S Premium! HD (360p)",
-            "STV (United States) (360p)"
           ]
         },
         {
@@ -403,6 +391,17 @@
             "TBN (1080p)",
             "TBN Inspire (1080p)"
           ]
+        },
+        {
+          "distinct_channel_names": 3,
+          "entries": 3,
+          "host": "livefta.malimarcdn.com",
+          "pay_tv_brand_samples": 0,
+          "samples": [
+            "Hmong Star TV (720p) [Not 24/7]",
+            "Hmong TV Network (720p)",
+            "NAT TV (1080p)"
+          ]
         }
       ],
       "url": "https://iptv-org.github.io/iptv/countries/us.m3u"
@@ -554,7 +553,7 @@
       "review_checklist": [
         "confirm d3868b4ny0rgdf.cloudfront.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule"
       ],
-      "sha256": "3cc3c8261a13d947f63b1e786f9bc57aa60623080783da21a2745b7fa2253b40",
+      "sha256": "9d5251e17d1faca6c3798c602ddf4d5190e868d835073869e9031715836f5318",
       "structural_reject_entries": 0,
       "structural_rejects": {},
       "unreviewed_host_entries": 1,
@@ -583,7 +582,7 @@
       "review_checklist": [
         "confirm dai.google.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule"
       ],
-      "sha256": "cc770460835fe06731783e249a8db907caa708c9da29fa51d5035ac910a4b794",
+      "sha256": "7f831f8d213810793212a2a1120a14ee0094ec2e8b5d693cdff038c970571e20",
       "structural_reject_entries": 39,
       "structural_rejects": {
         "not_hls_path": 39
@@ -647,36 +646,36 @@
     },
     {
       "accepted": 12,
-      "entries": 471,
-      "entries_needing_custom_headers": 363,
-      "entries_with_pay_tv_brand_name": 184,
+      "entries": 817,
+      "entries_needing_custom_headers": 708,
+      "entries_with_pay_tv_brand_name": 263,
       "name": "doms9/iptv (user-suggested candidates; reviewed entries only)",
-      "other_blocked_entries": 112,
+      "other_blocked_entries": 188,
       "other_reason_notes": {
         "custom_headers": "stream needs referrer/user-agent overrides",
         "not_us_or_no_id": "no US-style tvg-id (and source is not a platform-ID feed)"
       },
       "other_reasons": {
-        "custom_headers": 78,
+        "custom_headers": 154,
         "not_us_or_no_id": 34
       },
       "review_checklist": [
         "confirm d3ehq1uaxory6w.cloudfront.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule"
       ],
-      "sha256": "8269fa7ad9615956b96a975ad222fd6bc2e209b077cf806db9eea9d21b1532a6",
-      "structural_reject_entries": 346,
+      "sha256": "2e8ebb472fbb332a20477d3a64f3b8f02f10f76a188cf323e2745fd06de6408c",
+      "structural_reject_entries": 616,
       "structural_rejects": {
-        "expiring_or_credential_query": 143,
-        "expiring_or_credential_query(pay_tv_brand)": 122,
+        "expiring_or_credential_query": 307,
+        "expiring_or_credential_query(pay_tv_brand)": 197,
         "non_443_port:4004": 1,
         "non_443_port:4007": 1,
         "non_443_port:4430": 1,
         "non_443_port:80": 1,
-        "non_443_port:8080": 37,
+        "non_443_port:8080": 38,
         "non_443_port:8989": 5,
         "non_443_port:9590": 4,
-        "not_hls_path": 3,
-        "scheme:http": 28
+        "not_hls_path": 1,
+        "scheme:http": 60
       },
       "unreviewed_host_entries": 1,
       "unreviewed_hosts": [
@@ -696,10 +695,10 @@
   "sources_file": "/home/runner/work/m3u-channel-scrape/m3u-channel-scrape/config/sources.json",
   "totals": {
     "accepted": 2030,
-    "entries": 3588,
-    "other_blocked_entries": 315,
+    "entries": 3934,
+    "other_blocked_entries": 392,
     "sources": 7,
-    "structural_reject_entries": 790,
-    "unreviewed_host_entries": 453
+    "structural_reject_entries": 1062,
+    "unreviewed_host_entries": 450
   }
 }

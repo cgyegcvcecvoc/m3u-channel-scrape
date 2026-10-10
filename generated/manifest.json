@@ -1,9 +1,9 @@
 {
   "counts": {
-    "usa-all.m3u": 1506,
-    "usa-backups.m3u": 281,
+    "usa-all.m3u": 1507,
+    "usa-backups.m3u": 280,
     "usa-business.m3u": 10,
-    "usa-entertainment.m3u": 472,
+    "usa-entertainment.m3u": 473,
     "usa-intermittent.m3u": 17,
     "usa-kids.m3u": 75,
     "usa-local.m3u": 244,
@@ -22,24 +22,24 @@
     "https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz",
     "https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz"
   ],
-  "generated_utc": "2026-10-09T13:24:07Z",
+  "generated_utc": "2026-10-10T12:39:08Z",
   "skipped": {
-    "custom_headers": 376,
+    "custom_headers": 721,
     "dead_stream": 12,
     "duplicate": 236,
-    "duplicate_name": 292,
-    "excluded_pay_tv": 11,
-    "not_direct_https_hls": 177,
-    "not_us_or_no_id": 486,
+    "duplicate_name": 291,
+    "excluded_pay_tv": 13,
+    "not_direct_https_hls": 178,
+    "not_us_or_no_id": 487,
     "redirect_unresolved": 39,
-    "unreviewed_host": 453
+    "unreviewed_host": 450
   },
   "sources": [
     {
       "approved_candidates": 770,
       "candidates": 1467,
       "name": "iptv-org US (community-submitted candidates)",
-      "sha256": "f49d9550e441cc0352bf4327bd0787a7ff153c1290f045815e03bec607c042ed",
+      "sha256": "919faf07260960e45529d369ac11e0f014f6e86a1fef1170d2d8c0919fcaed95",
       "url": "https://iptv-org.github.io/iptv/countries/us.m3u"
     },
     {
@@ -60,14 +60,14 @@
       "approved_candidates": 258,
       "candidates": 260,
       "name": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-      "sha256": "3cc3c8261a13d947f63b1e786f9bc57aa60623080783da21a2745b7fa2253b40",
+      "sha256": "9d5251e17d1faca6c3798c602ddf4d5190e868d835073869e9031715836f5318",
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u"
     },
     {
       "approved_candidates": 545,
       "candidates": 587,
       "name": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
-      "sha256": "cc770460835fe06731783e249a8db907caa708c9da29fa51d5035ac910a4b794",
+      "sha256": "7f831f8d213810793212a2a1120a14ee0094ec2e8b5d693cdff038c970571e20",
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u"
     },
     {
@@ -79,9 +79,9 @@
     },
     {
       "approved_candidates": 12,
-      "candidates": 471,
+      "candidates": 817,
       "name": "doms9/iptv (user-suggested candidates; reviewed entries only)",
-      "sha256": "8269fa7ad9615956b96a975ad222fd6bc2e209b077cf806db9eea9d21b1532a6",
+      "sha256": "2e8ebb472fbb332a20477d3a64f3b8f02f10f76a188cf323e2745fd06de6408c",
       "url": "https://raw.githubusercontent.com/doms9/iptv/default/M3U8/TV.m3u8"
     }
   ],
