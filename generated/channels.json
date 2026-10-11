@@ -9224,25 +9224,6 @@
     "url": "https://pb-m5i8i9dn1zeyk.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-m5i8i9dn1zeyk/Emeril_Lagasse.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US4500010B0&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-m5i8i9dn1zeyk_akamai"
   },
   {
-    "approval": "host:jmp2.uk",
-    "base_id": "770c7e1794505869b1ce94c84905ecea",
-    "categories": [
-      "Entertainment"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "Entertainment",
-    "id": "770c7e1794505869b1ce94c84905ecea",
-    "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/770c7e1794505869b1ce94c84905ecea/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1764947814081_LOGO_EA3TV-HUD-HORIZONTAL.png",
-    "name": "EMOCIÓN ATRES TV",
-    "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-770c7e1794505869b1ce94c84905ecea.m3u8"
-  },
-  {
     "approval": "suffix:.getpublica.com",
     "base_id": "EntrepreneurTV.us",
     "categories": [
@@ -11086,25 +11067,6 @@
     "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
     "url": "https://jmp2.uk/rok-ada4254a1dd65c138f62e7c45affb45c.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
-    "base_id": "c389cec44375fbb8881a2657daedf637",
-    "categories": [
-      "General"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "General",
-    "id": "c389cec44375fbb8881a2657daedf637",
-    "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/c389cec44375fbb8881a2657daedf637/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1782328840085_ottera_garfield_logo_hud.png",
-    "name": "Garfield",
-    "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-c389cec44375fbb8881a2657daedf637.m3u8"
   },
   {
     "approval": "host:jmp2.uk",
@@ -20545,25 +20507,6 @@
     "url": "https://pb-pskpwdav4v1e3.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-pskpwdav4v1e3/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBB3200001MG&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-pskpwdav4v1e3_akamai"
   },
   {
-    "approval": "host:jmp2.uk",
-    "base_id": "8abbea29b86a5a5da299c7ef2e288cab",
-    "categories": [
-      "Entertainment"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "Entertainment",
-    "id": "8abbea29b86a5a5da299c7ef2e288cab",
-    "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/8abbea29b86a5a5da299c7ef2e288cab/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1733326414482_ReelzFI_260x147_v1.png",
-    "name": "Reelz Famous and Infamous",
-    "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-8abbea29b86a5a5da299c7ef2e288cab.m3u8"
-  },
-  {
     "approval": "source-pattern:^d[a-z0-9]+\\.cloudfront\\.net$",
     "base_id": "USBC36000073J",
     "categories": [
@@ -23916,25 +23859,6 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlist.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
-    "base_id": "b84d4953c086589c9d5202b7895552a7",
-    "categories": [
-      "Entertainment"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "Entertainment",
-    "id": "b84d4953c086589c9d5202b7895552a7",
-    "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/b84d4953c086589c9d5202b7895552a7/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1673454632549_Dick_Van_Dyke_HUDlogo_centered_260x147.png",
-    "name": "The Dick Van Dyke Show",
-    "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-b84d4953c086589c9d5202b7895552a7.m3u8"
   },
   {
     "approval": "host:jmp2.uk",
@@ -28598,23 +28522,23 @@
     "url": "https://livestream.telvue.com/yumaaz2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8"
   },
   {
-    "approval": "host:jmp2.uk",
-    "base_id": "f99fa811e587e924c1aeebfe3d7f575f",
+    "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
+    "base_id": "US800014B2",
     "categories": [
-      "Sports"
+      "General"
     ],
     "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "evidence_url": "https://www.samsungtvplus.com/",
     "geo_restricted": false,
-    "group": "Sports",
-    "id": "f99fa811e587e924c1aeebfe3d7f575f",
+    "group": "General",
+    "id": "US800014B2",
     "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/f99fa811e587e924c1aeebfe3d7f575f/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1736192889275_ZNation_HUDlogo_centered_260x147.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US800014B2_20260421T141808SQUARE.png",
     "name": "Z Nation",
     "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-f99fa811e587e924c1aeebfe3d7f575f.m3u8"
+    "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
+    "url": "https://pb-v5e2x6fqykwac.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-v5e2x6fqykwac/Z_Nation.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US800014B2&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-v5e2x6fqykwac_akamai"
   },
   {
     "approval": "suffix:.bozztv.com",

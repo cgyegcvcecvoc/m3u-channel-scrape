@@ -1,15 +1,15 @@
 {
-  "generated_utc": "2026-10-10T12:39:08Z",
+  "generated_utc": "2026-10-11T12:58:44Z",
   "method": "Entries are classified with the same policy code the updater uses (scripts/update_playlists.py). This report is evidence for host review, not an approval: nothing here publishes or changes policy.json.",
   "note": "structural_rejects cannot be fixed by a host rule (plain HTTP, IP-literal host, non-443 port, expiring/credential query, non-HLS path). unreviewed_hosts can be approved after a host review with evidence.",
   "sources": [
     {
       "accepted": 769,
-      "entries": 1467,
+      "entries": 1476,
       "entries_needing_custom_headers": 13,
-      "entries_with_pay_tv_brand_name": 80,
+      "entries_with_pay_tv_brand_name": 86,
       "name": "iptv-org US (community-submitted candidates)",
-      "other_blocked_entries": 75,
+      "other_blocked_entries": 76,
       "other_reason_notes": {
         "custom_headers": "stream needs referrer/user-agent overrides",
         "dead_stream": "listed in DEFUNCT_STREAMS (known dead)",
@@ -20,7 +20,7 @@
         "custom_headers": 11,
         "dead_stream": 9,
         "duplicate_of_accepted_channel": 1,
-        "excluded_pay_tv": 1,
+        "excluded_pay_tv": 2,
         "not_direct_https_hls": 4,
         "not_us_or_no_id": 49
       },
@@ -47,10 +47,9 @@
         "confirm fastly.live.brightcove.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm live.field59.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm live.nowtelly.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
-        "confirm livecdn.use1-0004.jwplive.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
-        "confirm livefta.malimarcdn.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule"
+        "confirm livecdn.use1-0004.jwplive.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule"
       ],
-      "sha256": "919faf07260960e45529d369ac11e0f014f6e86a1fef1170d2d8c0919fcaed95",
+      "sha256": "5c45ce9b10b7be75d45b173972a1483b34b7e92dad714b2e762e288841fcece1",
       "structural_reject_entries": 188,
       "structural_rejects": {
         "non_443_port:1935": 16,
@@ -78,17 +77,17 @@
         "non_443_port:8298": 1,
         "non_443_port:8815": 1,
         "non_443_port:8989": 10,
-        "non_443_port:9002": 2,
+        "non_443_port:9002": 1,
         "non_443_port:9060": 1,
-        "non_443_port:9590": 2,
+        "non_443_port:9590": 4,
         "non_443_port:9953": 3,
         "non_443_port:9997": 3,
         "non_443_port:9998": 2,
         "non_443_port:9999": 2,
         "not_hls_path": 3,
-        "scheme:http": 42
+        "scheme:http": 41
       },
-      "unreviewed_host_entries": 435,
+      "unreviewed_host_entries": 443,
       "unreviewed_hosts": [
         {
           "distinct_channel_names": 12,
@@ -214,6 +213,20 @@
             "CBS WDEF-TV (720p)",
             "Fox (United States) WXXV-TV (720p)",
             "NBC WMGT-TV (720p)"
+          ]
+        },
+        {
+          "distinct_channel_names": 6,
+          "entries": 6,
+          "host": "turnerlive.warnermediacdn.com",
+          "pay_tv_brand_samples": 4,
+          "samples": [
+            "TBS (720p) [Geo-blocked]",
+            "TBS West (720p) [Geo-blocked]",
+            "TCM (720p) [Geo-blocked]",
+            "TCM West (720p) [Geo-blocked]",
+            "TNT (United States) West (720p) [Geo-blocked]",
+            "truTV West (720p) [Geo-blocked]"
           ]
         },
         {
@@ -391,17 +404,6 @@
             "TBN (1080p)",
             "TBN Inspire (1080p)"
           ]
-        },
-        {
-          "distinct_channel_names": 3,
-          "entries": 3,
-          "host": "livefta.malimarcdn.com",
-          "pay_tv_brand_samples": 0,
-          "samples": [
-            "Hmong Star TV (720p) [Not 24/7]",
-            "Hmong TV Network (720p)",
-            "NAT TV (1080p)"
-          ]
         }
       ],
       "url": "https://iptv-org.github.io/iptv/countries/us.m3u"
@@ -538,8 +540,8 @@
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u"
     },
     {
-      "accepted": 258,
-      "entries": 260,
+      "accepted": 252,
+      "entries": 254,
       "entries_needing_custom_headers": 0,
       "entries_with_pay_tv_brand_name": 4,
       "name": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
@@ -553,7 +555,7 @@
       "review_checklist": [
         "confirm d3868b4ny0rgdf.cloudfront.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule"
       ],
-      "sha256": "9d5251e17d1faca6c3798c602ddf4d5190e868d835073869e9031715836f5318",
+      "sha256": "41aded696524ab98baed8f3c6e6c52a36e195749983f9d8516010662a81769b7",
       "structural_reject_entries": 0,
       "structural_rejects": {},
       "unreviewed_host_entries": 1,
@@ -605,7 +607,7 @@
     },
     {
       "accepted": 12,
-      "entries": 348,
+      "entries": 347,
       "entries_needing_custom_headers": 0,
       "entries_with_pay_tv_brand_name": 40,
       "name": "aria-tv/aria (user-suggested candidates; reviewed entries only)",
@@ -617,12 +619,12 @@
         "not_us_or_no_id": 122
       },
       "review_checklist": [],
-      "sha256": "e4f5fc66acf6f23f8259a0bc0ee0a316ecfe9d734dba20b989e2af4a9c61deae",
-      "structural_reject_entries": 214,
+      "sha256": "5bdaf0190fa98fa6dd7d34852ac40cfbc53804d32ceb4f09ffe999357fe3bc1a",
+      "structural_reject_entries": 213,
       "structural_rejects": {
         "non_443_port:10205": 1,
         "non_443_port:10206": 1,
-        "non_443_port:1234": 16,
+        "non_443_port:1234": 15,
         "non_443_port:1935": 2,
         "non_443_port:1936": 2,
         "non_443_port:4200": 2,
@@ -646,27 +648,27 @@
     },
     {
       "accepted": 12,
-      "entries": 817,
-      "entries_needing_custom_headers": 708,
-      "entries_with_pay_tv_brand_name": 263,
+      "entries": 856,
+      "entries_needing_custom_headers": 747,
+      "entries_with_pay_tv_brand_name": 328,
       "name": "doms9/iptv (user-suggested candidates; reviewed entries only)",
-      "other_blocked_entries": 188,
+      "other_blocked_entries": 166,
       "other_reason_notes": {
         "custom_headers": "stream needs referrer/user-agent overrides",
         "not_us_or_no_id": "no US-style tvg-id (and source is not a platform-ID feed)"
       },
       "other_reasons": {
-        "custom_headers": 154,
+        "custom_headers": 132,
         "not_us_or_no_id": 34
       },
       "review_checklist": [
         "confirm d3ehq1uaxory6w.cloudfront.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule"
       ],
-      "sha256": "2e8ebb472fbb332a20477d3a64f3b8f02f10f76a188cf323e2745fd06de6408c",
-      "structural_reject_entries": 616,
+      "sha256": "f28d4fb11d6bc55357d6344d74f1b9758e94e258fca5a1ad6c700ff8ab1542ba",
+      "structural_reject_entries": 677,
       "structural_rejects": {
-        "expiring_or_credential_query": 307,
-        "expiring_or_credential_query(pay_tv_brand)": 197,
+        "expiring_or_credential_query": 292,
+        "expiring_or_credential_query(pay_tv_brand)": 257,
         "non_443_port:4004": 1,
         "non_443_port:4007": 1,
         "non_443_port:4430": 1,
@@ -674,8 +676,8 @@
         "non_443_port:8080": 38,
         "non_443_port:8989": 5,
         "non_443_port:9590": 4,
-        "not_hls_path": 1,
-        "scheme:http": 60
+        "not_hls_path": 22,
+        "scheme:http": 55
       },
       "unreviewed_host_entries": 1,
       "unreviewed_hosts": [
@@ -694,11 +696,11 @@
   ],
   "sources_file": "/home/runner/work/m3u-channel-scrape/m3u-channel-scrape/config/sources.json",
   "totals": {
-    "accepted": 2030,
-    "entries": 3934,
-    "other_blocked_entries": 392,
+    "accepted": 2024,
+    "entries": 3975,
+    "other_blocked_entries": 371,
     "sources": 7,
-    "structural_reject_entries": 1062,
-    "unreviewed_host_entries": 450
+    "structural_reject_entries": 1122,
+    "unreviewed_host_entries": 458
   }
 }
