@@ -1,13 +1,13 @@
 {
-  "generated_utc": "2026-10-12T15:36:36Z",
+  "generated_utc": "2026-10-13T14:18:48Z",
   "method": "Entries are classified with the same policy code the updater uses (scripts/update_playlists.py). This report is evidence for host review, not an approval: nothing here publishes or changes policy.json.",
   "note": "structural_rejects cannot be fixed by a host rule (plain HTTP, IP-literal host, non-443 port, expiring/credential query, non-HLS path). unreviewed_hosts can be approved after a host review with evidence.",
   "sources": [
     {
       "accepted": 769,
-      "entries": 1481,
-      "entries_needing_custom_headers": 13,
-      "entries_with_pay_tv_brand_name": 89,
+      "entries": 1479,
+      "entries_needing_custom_headers": 14,
+      "entries_with_pay_tv_brand_name": 86,
       "name": "iptv-org US (community-submitted candidates)",
       "other_blocked_entries": 76,
       "other_reason_notes": {
@@ -49,11 +49,11 @@
         "confirm live.nowtelly.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule",
         "confirm livecdn.use1-0004.jwplive.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule"
       ],
-      "sha256": "83e10869a83dc782093e907372cf4f76ef160ba1551e7f848a6c7a67a5fd0ea1",
-      "structural_reject_entries": 193,
+      "sha256": "d5e0a7a54d93f21924b7dbda47e5ccd6501f025a83351f9f3193dc654447b643",
+      "structural_reject_entries": 192,
       "structural_rejects": {
         "non_443_port:1935": 16,
-        "non_443_port:1936": 10,
+        "non_443_port:1936": 11,
         "non_443_port:19360": 1,
         "non_443_port:1943": 1,
         "non_443_port:2122": 1,
@@ -65,7 +65,7 @@
         "non_443_port:40000": 1,
         "non_443_port:4430": 1,
         "non_443_port:444": 3,
-        "non_443_port:5000": 3,
+        "non_443_port:5000": 2,
         "non_443_port:5001": 3,
         "non_443_port:5443": 1,
         "non_443_port:6001": 2,
@@ -85,9 +85,9 @@
         "non_443_port:9998": 2,
         "non_443_port:9999": 2,
         "not_hls_path": 3,
-        "scheme:http": 44
+        "scheme:http": 43
       },
-      "unreviewed_host_entries": 443,
+      "unreviewed_host_entries": 442,
       "unreviewed_hosts": [
         {
           "distinct_channel_names": 12,
@@ -532,7 +532,7 @@
         "duplicate_of_accepted_channel": 3
       },
       "review_checklist": [],
-      "sha256": "3bd09bc3cc0218eb11529b50c2324af7c18f77e4e5cbae8fab91c76685f3139a",
+      "sha256": "e1f569b1548fb8fe0ee6c898239fe5916f18b87139318e9901b430b89c83142f",
       "structural_reject_entries": 0,
       "structural_rejects": {},
       "unreviewed_host_entries": 0,
@@ -540,8 +540,8 @@
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u"
     },
     {
-      "accepted": 254,
-      "entries": 256,
+      "accepted": 258,
+      "entries": 260,
       "entries_needing_custom_headers": 0,
       "entries_with_pay_tv_brand_name": 4,
       "name": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
@@ -555,7 +555,7 @@
       "review_checklist": [
         "confirm d3868b4ny0rgdf.cloudfront.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule"
       ],
-      "sha256": "e9ffbf725fcaddce4a1c065e4d29a933e5f6f08a30b8e9bbbb0e31d5f0c02057",
+      "sha256": "0dad220010423eab837218eca1e73466ea30920806ba44417cd52aff37e902ed",
       "structural_reject_entries": 0,
       "structural_rejects": {},
       "unreviewed_host_entries": 1,
@@ -584,7 +584,7 @@
       "review_checklist": [
         "confirm dai.google.com is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule"
       ],
-      "sha256": "7f831f8d213810793212a2a1120a14ee0094ec2e8b5d693cdff038c970571e20",
+      "sha256": "cdd359b90526a9f9ababdad6ce63628626e22bdfbd7539fa86aff28fa430b8d9",
       "structural_reject_entries": 39,
       "structural_rejects": {
         "not_hls_path": 39
@@ -607,20 +607,20 @@
     },
     {
       "accepted": 12,
-      "entries": 346,
+      "entries": 332,
       "entries_needing_custom_headers": 0,
       "entries_with_pay_tv_brand_name": 39,
       "name": "aria-tv/aria (user-suggested candidates; reviewed entries only)",
-      "other_blocked_entries": 122,
+      "other_blocked_entries": 121,
       "other_reason_notes": {
         "not_us_or_no_id": "no US-style tvg-id (and source is not a platform-ID feed)"
       },
       "other_reasons": {
-        "not_us_or_no_id": 122
+        "not_us_or_no_id": 121
       },
       "review_checklist": [],
-      "sha256": "58e4a92342da21f335999ba6e825bdeb4a38229d7eda2b59027119fe11f26125",
-      "structural_reject_entries": 212,
+      "sha256": "208785a02186290499313230d287674d39477e5716775ca6d1044bcd43a06796",
+      "structural_reject_entries": 199,
       "structural_rejects": {
         "non_443_port:10205": 1,
         "non_443_port:10206": 1,
@@ -640,7 +640,7 @@
         "non_443_port:9981": 31,
         "non_443_port:9998": 3,
         "not_hls_path": 12,
-        "scheme:http": 43
+        "scheme:http": 30
       },
       "unreviewed_host_entries": 0,
       "unreviewed_hosts": [],
@@ -648,36 +648,36 @@
     },
     {
       "accepted": 12,
-      "entries": 429,
-      "entries_needing_custom_headers": 320,
-      "entries_with_pay_tv_brand_name": 168,
+      "entries": 497,
+      "entries_needing_custom_headers": 389,
+      "entries_with_pay_tv_brand_name": 193,
       "name": "doms9/iptv (user-suggested candidates; reviewed entries only)",
-      "other_blocked_entries": 61,
+      "other_blocked_entries": 95,
       "other_reason_notes": {
         "custom_headers": "stream needs referrer/user-agent overrides",
         "not_us_or_no_id": "no US-style tvg-id (and source is not a platform-ID feed)"
       },
       "other_reasons": {
-        "custom_headers": 27,
+        "custom_headers": 61,
         "not_us_or_no_id": 34
       },
       "review_checklist": [
         "confirm d3ehq1uaxory6w.cloudfront.net is a publisher/CDN used by the named channels (evidence URL required) before adding a host rule"
       ],
-      "sha256": "06a42a0b1d73f42166c111cc02196bdbcdeb0105dc169bf322a6cca9efbf078b",
-      "structural_reject_entries": 355,
+      "sha256": "63110994bf73f6023f3ca2ce4a4115a26f5620eb4037931cf85dad1b043ae5bb",
+      "structural_reject_entries": 389,
       "structural_rejects": {
-        "expiring_or_credential_query": 125,
-        "expiring_or_credential_query(pay_tv_brand)": 128,
+        "expiring_or_credential_query": 147,
+        "expiring_or_credential_query(pay_tv_brand)": 151,
         "non_443_port:4004": 1,
         "non_443_port:4007": 1,
         "non_443_port:4430": 1,
         "non_443_port:80": 1,
-        "non_443_port:8080": 38,
+        "non_443_port:8080": 37,
         "non_443_port:8989": 5,
         "non_443_port:9590": 4,
-        "not_hls_path": 27,
-        "scheme:http": 24
+        "not_hls_path": 16,
+        "scheme:http": 25
       },
       "unreviewed_host_entries": 1,
       "unreviewed_hosts": [
@@ -696,11 +696,11 @@
   ],
   "sources_file": "/home/runner/work/m3u-channel-scrape/m3u-channel-scrape/config/sources.json",
   "totals": {
-    "accepted": 2026,
-    "entries": 3554,
-    "other_blocked_entries": 266,
+    "accepted": 2030,
+    "entries": 3610,
+    "other_blocked_entries": 299,
     "sources": 7,
-    "structural_reject_entries": 804,
-    "unreviewed_host_entries": 458
+    "structural_reject_entries": 824,
+    "unreviewed_host_entries": 457
   }
 }
