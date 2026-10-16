@@ -1,12 +1,12 @@
 # Candidate source audit
 
-Generated: `2026-10-15T11:37:34Z`
+Generated: `2026-10-16T11:31:46Z`
 
 Entries are classified with the same policy code the updater uses (scripts/update_playlists.py). This report is evidence for host review, not an approval: nothing here publishes or changes policy.json.
 
 > structural_rejects cannot be fixed by a host rule (plain HTTP, IP-literal host, non-443 port, expiring/credential query, non-HLS path). unreviewed_hosts can be approved after a host review with evidence.
 
-**Totals:** 3762 candidate entries; 2031 publishable under the current policy; 459 blocked only by an unreviewed host; 869 fail URL invariants; 403 blocked for other reasons.
+**Totals:** 3626 candidate entries; 2026 publishable under the current policy; 459 blocked only by an unreviewed host; 771 fail URL invariants; 370 blocked for other reasons.
 
 ## iptv-org US (community-submitted candidates)
 
@@ -85,18 +85,18 @@ Other blocker explanations:
 
 ## Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)
 
-- entries: **427** (sha256 `f3f83ac789bd4481…`)
-- publishable now: **424**
+- entries: **426** (sha256 `60011c62e25a65ff…`)
+- publishable now: **423**
 - blocked only by host review: **0**
 - URL invariant failures: **0** `{}`
 - other reasons: `{"duplicate_of_accepted_channel": 3}`
-- entries whose name matches a pay-TV brand: 31
+- entries whose name matches a pay-TV brand: 30
 - entries that ask for spoofed `#EXTVLCOPT`/`#KODIPROP` headers: 0
 
 ## Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)
 
-- entries: **260** (sha256 `a922d913df3fb726…`)
-- publishable now: **258**
+- entries: **256** (sha256 `4ed425af5bd56f87…`)
+- publishable now: **254**
 - blocked only by host review: **1**
 - URL invariant failures: **0** `{}`
 - other reasons: `{"dead_stream": 1}`
@@ -131,11 +131,11 @@ Other blocker explanations:
 
 ## aria-tv/aria (user-suggested candidates; reviewed entries only)
 
-- entries: **320** (sha256 `f6ab81c0e99d76a5…`)
+- entries: **319** (sha256 `b406f8a31cad9c0b…`)
 - publishable now: **12**
 - blocked only by host review: **0**
 - URL invariant failures: **188** `{"non_443_port:9000": 33, "non_443_port:9981": 31, "scheme:http": 30, "non_443_port:8000": 18, "non_443_port:1234": 15, "non_443_port:8080": 15, "not_hls_path": 12, "non_443_port:8888": 7, "non_443_port:81": 6, "non_443_port:8420": 4, "non_443_port:8089": 3, "non_443_port:9998": 3, "non_443_port:9002": 2, "non_443_port:4200": 2, "non_443_port:1936": 2, "non_443_port:1935": 2, "non_443_port:10205": 1, "non_443_port:10206": 1, "non_443_port:9590": 1}`
-- other reasons: `{"not_us_or_no_id": 120}`
+- other reasons: `{"not_us_or_no_id": 119}`
 - entries whose name matches a pay-TV brand: 38
 - entries that ask for spoofed `#EXTVLCOPT`/`#KODIPROP` headers: 0
 
@@ -145,13 +145,13 @@ Other blocker explanations:
 
 ## doms9/iptv (user-suggested candidates; reviewed entries only)
 
-- entries: **657** (sha256 `ec9c497c86423e3d…`)
+- entries: **527** (sha256 `314262e2a1db707c…`)
 - publishable now: **12**
 - blocked only by host review: **1**
-- URL invariant failures: **444** `{"expiring_or_credential_query": 192, "expiring_or_credential_query(pay_tv_brand)": 140, "scheme:http": 43, "non_443_port:8080": 41, "not_hls_path": 16, "non_443_port:8989": 4, "non_443_port:9590": 4, "non_443_port:4430": 1, "non_443_port:4004": 1, "non_443_port:4007": 1, "non_443_port:80": 1}`
-- other reasons: `{"custom_headers": 150, "not_us_or_no_id": 50}`
+- URL invariant failures: **346** `{"expiring_or_credential_query(pay_tv_brand)": 142, "expiring_or_credential_query": 117, "non_443_port:8080": 41, "scheme:http": 25, "not_hls_path": 9, "non_443_port:8989": 4, "non_443_port:9590": 4, "non_443_port:4430": 1, "non_443_port:4004": 1, "non_443_port:4007": 1, "non_443_port:80": 1}`
+- other reasons: `{"custom_headers": 119, "not_us_or_no_id": 49}`
 - entries whose name matches a pay-TV brand: 203
-- entries that ask for spoofed `#EXTVLCOPT`/`#KODIPROP` headers: 531
+- entries that ask for spoofed `#EXTVLCOPT`/`#KODIPROP` headers: 402
 
 ### Unreviewed hosts (doms9/iptv (user-suggested candidates; reviewed entries only))
 
