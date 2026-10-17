@@ -973,25 +973,6 @@
     "url": "https://aegis-cloudfront-1.tubi.video/e739361e-fa12-4cac-92f3-e0dbf332cd88/playlist.m3u8"
   },
   {
-    "approval": "host:jmp2.uk",
-    "base_id": "50b18dea9c5c51568c1343fcd3d88ec9",
-    "categories": [
-      "News"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "News",
-    "id": "50b18dea9c5c51568c1343fcd3d88ec9",
-    "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/50b18dea9c5c51568c1343fcd3d88ec9/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1746557592232_WWSB_EPG_Hud_LogoWWSB_HUD_logo_260x147_Centered.png",
-    "name": "ABC7 Sarasota",
-    "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-50b18dea9c5c51568c1343fcd3d88ec9.m3u8"
-  },
-  {
     "approval": "suffix:.wurl.tv",
     "base_id": "AbsoluteRealitybyWETV.us",
     "categories": [
@@ -1193,7 +1174,7 @@
     "group": "Entertainment",
     "id": "US4100028ZF",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100028ZF_20260421T143023SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100028ZF_20261016T224616SQUARE.png",
     "name": "According to Jim",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -1823,7 +1804,7 @@
     "group": "Entertainment",
     "id": "USBD3500041ZF",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500041ZF_20260505T062500SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500041ZF_20261016T224622SQUARE.png",
     "name": "American Pickers by History",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -4254,25 +4235,6 @@
     "url": "https://pb-tv1zh2wa4bktf.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-tv1zh2wa4bktf/BYUtv.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US410000230&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-tv1zh2wa4bktf_akamai"
   },
   {
-    "approval": "host:jmp2.uk",
-    "base_id": "5cbb91d07dbd5b92ae3ef3e37be7f2ce",
-    "categories": [
-      "News"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "News",
-    "id": "5cbb91d07dbd5b92ae3ef3e37be7f2ce",
-    "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/5cbb91d07dbd5b92ae3ef3e37be7f2ce/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1695173043846_C4_centeraligned_monocromatico_HUD_260x147.png",
-    "name": "C4 en Alerta",
-    "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-5cbb91d07dbd5b92ae3ef3e37be7f2ce.m3u8"
-  },
-  {
     "approval": "source-pattern:^d[a-z0-9]+\\.cloudfront\\.net$",
     "base_id": "USBD50000048H",
     "categories": [
@@ -4744,7 +4706,7 @@
     "group": "General",
     "id": "CBS.us@KZTV",
     "local": true,
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png",
+    "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/KZTV_logo%2C_introduced_in_2021.svg/960px-KZTV_logo%2C_introduced_in_2021.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "name": "CBS KZTV",
     "not_24_7": false,
     "source": "iptv-org US (community-submitted candidates)",
@@ -5182,7 +5144,7 @@
     "group": "Entertainment",
     "id": "US1900010IY",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1900010IY_20260421T142136SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1900010IY_20261016T224634SQUARE.png",
     "name": "Celebrity Name Game",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -8618,12 +8580,12 @@
     "approval": "host:jmp2.uk",
     "base_id": "6a70da97a4bf6cded4fdaf53",
     "categories": [
-      "General"
+      "Kids"
     ],
     "country": "US",
     "evidence_url": "https://github.com/iptv-org/community/issues/1492",
     "geo_restricted": false,
-    "group": "General",
+    "group": "Kids",
     "id": "6a70da97a4bf6cded4fdaf53",
     "local": false,
     "logo": "https://images.pluto.tv/channels/6a70da97a4bf6cded4fdaf53/colorLogoPNG_1786461439766.png",
@@ -12872,7 +12834,7 @@
     "group": "Entertainment",
     "id": "USBC24000223S",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC24000223S_20260421T133716SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC24000223S_20261016T224640SQUARE.png",
     "name": "ION Mystery",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -14660,7 +14622,7 @@
     "group": "Documentary",
     "id": "USBA3000044BJ",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3000044BJ_20240826T191212SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3000044BJ_20261016T224545SQUARE.png",
     "name": "Lucky Dog",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -15482,7 +15444,7 @@
     "group": "Sports",
     "id": "US1400001WV",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1400001WV_20261001T230804SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1400001WV_20261016T224647SQUARE.png",
     "name": "MLB Channel",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -15843,7 +15805,7 @@
     "group": "Movies",
     "id": "USBD3500033U0",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500033U0_20261009T160646SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500033U0_20261016T175708SQUARE.png",
     "name": "Movie Hub Romance",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -17996,7 +17958,7 @@
     "group": "Entertainment",
     "id": "US300003S3",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300003S3_20260922T055732SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300003S3_20261016T224653SQUARE.png",
     "name": "Pawn Stars",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -19112,25 +19074,6 @@
     "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
     "url": "https://jmp2.uk/plu-6ab165fdeae99d62d7e541ff.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
-    "base_id": "6a7cc5a857bd65df5dadba5f",
-    "categories": [
-      "General"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "General",
-    "id": "6a7cc5a857bd65df5dadba5f",
-    "local": false,
-    "logo": "https://images.pluto.tv/channels/6a7cc5a857bd65df5dadba5f/colorLogoPNG_1788454948703.png",
-    "name": "Pluto TV Hispanic Favorites",
-    "not_24_7": false,
-    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
-    "url": "https://jmp2.uk/plu-6a7cc5a857bd65df5dadba5f.m3u8"
   },
   {
     "approval": "host:jmp2.uk",

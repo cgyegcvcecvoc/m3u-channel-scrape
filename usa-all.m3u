@@ -101,8 +101,6 @@ https://aegis-cloudfront-1.tubi.video/b77ffe96-c5d1-43a7-8687-306ff244d725/playl
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsocbreaking-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us@WTXLTV" tvg-name="ABC WTXL-TV" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="General",ABC WTXL-TV
 https://aegis-cloudfront-1.tubi.video/e739361e-fa12-4cac-92f3-e0dbf332cd88/playlist.m3u8
-#EXTINF:-1 tvg-id="50b18dea9c5c51568c1343fcd3d88ec9" tvg-name="ABC7 Sarasota" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/50b18dea9c5c51568c1343fcd3d88ec9/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1746557592232_WWSB_EPG_Hud_LogoWWSB_HUD_logo_260x147_Centered.png" group-title="News",ABC7 Sarasota
-https://jmp2.uk/rok-50b18dea9c5c51568c1343fcd3d88ec9.m3u8
 #EXTINF:-1 tvg-id="AbsoluteRealitybyWETV.us" tvg-name="Absolute Reality by WE TV" tvg-logo="https://i.imgur.com/Gtwk8ic.png" group-title="Entertainment",Absolute Reality by WE TV
 https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="AcapulcoShore.us" tvg-name="Acapulco Shore US" tvg-logo="https://images.pluto.tv/channels/61a52615cbef2500072876e2/colorLogoPNG_1756972226445.png" group-title="General",Acapulco Shore US
@@ -123,7 +121,7 @@ https://reflect-tuolumne.cablecast.tv/live-3/live/stream-1/live.m3u8
 https://livestream.telvue.com/accvision1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="AccessVisionChannel17.us" tvg-name="AccessVision Channel 17" tvg-logo="https://i.imgur.com/vi4TCdb.png" group-title="Legislative",AccessVision Channel 17
 https://livestream.telvue.com/accvision2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="US4100028ZF" tvg-name="According to Jim" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100028ZF_20260421T143023SQUARE.png" group-title="Entertainment",According to Jim
+#EXTINF:-1 tvg-id="US4100028ZF" tvg-name="According to Jim" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100028ZF_20261016T224616SQUARE.png" group-title="Entertainment",According to Jim
 https://d2clpoicomiitr.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-h4x204nsuu7p5/out/v1/4ab3a9e3ad794bc0a092211bf433b266/HLS_CMAF_DRM/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4100028ZF
 #EXTINF:-1 tvg-id="AccuWeatherNOW.us" tvg-name="AccuWeather NOW" tvg-logo="https://i.imgur.com/M8wbVYK.png" group-title="Weather",AccuWeather NOW
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
@@ -189,7 +187,7 @@ https://jmp2.uk/plu-5e1f7da4bc7d740009831259.m3u8
 https://jmp2.uk/plu-65492fc7056b9700088560b5.m3u8
 #EXTINF:-1 tvg-id="eec9d131b4095083a23c485d804c8b2d" tvg-name="American Ninja Warrior" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/eec9d131b4095083a23c485d804c8b2d/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1713548868549_ANW_260x147_2x1_logo_center_align_EFEFEF_transparent_bkgd_roku_PNG.png" group-title="Entertainment",American Ninja Warrior
 https://jmp2.uk/rok-eec9d131b4095083a23c485d804c8b2d.m3u8
-#EXTINF:-1 tvg-id="USBD3500041ZF" tvg-name="American Pickers by History" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500041ZF_20260505T062500SQUARE.png" group-title="Entertainment",American Pickers by History
+#EXTINF:-1 tvg-id="USBD3500041ZF" tvg-name="American Pickers by History" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500041ZF_20261016T224622SQUARE.png" group-title="Entertainment",American Pickers by History
 https://pb-k9ikw6ov8z4qi.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-k9ikw6ov8z4qi/American_Pickers_by_History.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD3500041ZF&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-k9ikw6ov8z4qi_akamai
 #EXTINF:-1 tvg-id="US4100039PO" tvg-name="America’s Funniest Home Videos" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100039PO_20251125T030910SQUARE.png" group-title="Entertainment",America’s Funniest Home Videos
 https://d1mp1kdk5zi1ie.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-upluuumbom0c7/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4100039PO
@@ -445,8 +443,6 @@ https://reflect-stream-bronxnet.cablecast.tv/live-16/live/stream-1/live.m3u8
 https://d13j8jpstr8iqz.cloudfront.net/BYUtv.m3u8
 #EXTINF:-1 tvg-id="US410000230" tvg-name="BYUtv" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US410000230_20250415T005934SQUARE.png" group-title="Entertainment",BYUtv
 https://pb-tv1zh2wa4bktf.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-tv1zh2wa4bktf/BYUtv.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US410000230&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-tv1zh2wa4bktf_akamai
-#EXTINF:-1 tvg-id="5cbb91d07dbd5b92ae3ef3e37be7f2ce" tvg-name="C4 en Alerta" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/5cbb91d07dbd5b92ae3ef3e37be7f2ce/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1695173043846_C4_centeraligned_monocromatico_HUD_260x147.png" group-title="News",C4 en Alerta
-https://jmp2.uk/rok-5cbb91d07dbd5b92ae3ef3e37be7f2ce.m3u8
 #EXTINF:-1 tvg-id="USBD50000048H" tvg-name="Caillou" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD50000048H_20260915T035121SQUARE.png" group-title="Kids",Caillou
 https://d2mshoh3usf646.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ymen9lq6zp2an/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD50000048H&coppa=1
 #EXTINF:-1 tvg-id="CaliforniaMusicChannel.us" tvg-name="California Music Channel" tvg-logo="https://i.imgur.com/FyNot5W.png" group-title="Music",California Music Channel
@@ -495,7 +491,7 @@ https://aegis-cloudfront-1.tubi.video/8d1f164d-34ef-4f70-b948-ae33826a0aaa/playl
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-kirobreaking-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="CBS.us@KMTVTV" tvg-name="CBS KMTV-TV" tvg-logo="https://i.imgur.com/E4PkyqN.png" group-title="General",CBS KMTV-TV
 https://aegis-cloudfront-1.tubi.video/0b16cabe-a8fd-4d91-99e5-3efb7aa740cc/playlist.m3u8
-#EXTINF:-1 tvg-id="CBS.us@KZTV" tvg-name="CBS KZTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="General",CBS KZTV
+#EXTINF:-1 tvg-id="CBS.us@KZTV" tvg-name="CBS KZTV" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/KZTV_logo%2C_introduced_in_2021.svg/960px-KZTV_logo%2C_introduced_in_2021.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail" group-title="General",CBS KZTV
 https://content.uplynk.com/channel/d1f868588ae5476dadaeff450170a183.m3u8
 #EXTINF:-1 tvg-id="CBSNews.us" tvg-name="CBS News" tvg-logo="https://i.imgur.com/nki2HDQ.png" group-title="News",CBS News
 https://jmp2.uk/plu-5a6b92f6e22a617379789618.m3u8
@@ -541,7 +537,7 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wjaxbreaking-on
 https://aegis-cloudfront-1.tubi.video/d8fc1d6c-fd55-45c8-973b-b7327ee1a6e0/playlist.m3u8
 #EXTINF:-1 tvg-id="CCTV.us" tvg-name="CC-TV" tvg-logo="" group-title="Legislative",CC-TV
 https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/charlotte/G0055_009/playlist.m3u8
-#EXTINF:-1 tvg-id="US1900010IY" tvg-name="Celebrity Name Game" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1900010IY_20260421T142136SQUARE.png" group-title="Entertainment",Celebrity Name Game
+#EXTINF:-1 tvg-id="US1900010IY" tvg-name="Celebrity Name Game" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1900010IY_20261016T224634SQUARE.png" group-title="Entertainment",Celebrity Name Game
 https://pb-d2lhceaijkdr7.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-d2lhceaijkdr7/out/v1/4ac3067baffe440abb634b8f3866c032/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US1900010IY&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-d2lhceaijkdr7_akamai
 #EXTINF:-1 tvg-id="CelebrityNameGame.us" tvg-name="Celebrity Name Game [Geo-blocked]" tvg-logo="https://provider-static.plex.tv/epg/cms/production/773232e1-5c36-490b-922e-e5be8ec12eb2/celebrityd5796a3e14bf45513f7b3071b90d030.png" group-title="General",Celebrity Name Game [Geo-blocked]
 https://amg00353-amg00353c19-xumo-us-2608.playouts.now.amagi.tv/lionsgate-clbng/playlist.m3u8
@@ -903,7 +899,7 @@ https://pb-ffpxvjshv4rxx.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 https://jmp2.uk/plu-664fd48894d5580008e45e7c.m3u8
 #EXTINF:-1 tvg-id="US17000281T" tvg-name="Donut" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US17000281T_20260303T094105SQUARE.png" group-title="Sports",Donut
 https://pb-yn8oqsdjqcppz.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-yn8oqsdjqcppz/Donut.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US17000281T&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-yn8oqsdjqcppz_akamai
-#EXTINF:-1 tvg-id="6a70da97a4bf6cded4fdaf53" tvg-name="Dora TV" tvg-logo="https://images.pluto.tv/channels/6a70da97a4bf6cded4fdaf53/colorLogoPNG_1786461439766.png" group-title="General",Dora TV
+#EXTINF:-1 tvg-id="6a70da97a4bf6cded4fdaf53" tvg-name="Dora TV" tvg-logo="https://images.pluto.tv/channels/6a70da97a4bf6cded4fdaf53/colorLogoPNG_1786461439766.png" group-title="Kids",Dora TV
 https://jmp2.uk/plu-6a70da97a4bf6cded4fdaf53.m3u8
 #EXTINF:-1 tvg-id="d93912b4b21158fd95af2ceb8979c586" tvg-name="Dove" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/d93912b4b21158fd95af2ceb8979c586/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1738599967209_DoveRefresh_RokuLinear_260X147.png" group-title="Kids",Dove
 https://jmp2.uk/rok-d93912b4b21158fd95af2ceb8979c586.m3u8
@@ -1349,7 +1345,7 @@ https://jmp2.uk/plu-5cf96b8f4f1ca3f0629f4bf1.m3u8
 https://amg00861-terninternation-inwonderushd-samsungus-gqtpa.amagi.tv/playlist/amg00861-terninternation-inwonderushd-samsungus/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.coppa=0
 #EXTINF:-1 tvg-id="65453f30085df200085883d8" tvg-name="ION" tvg-logo="https://images.pluto.tv/channels/65453f30085df200085883d8/colorLogoPNG.png" group-title="Entertainment",ION
 https://jmp2.uk/plu-65453f30085df200085883d8.m3u8
-#EXTINF:-1 tvg-id="USBC24000223S" tvg-name="ION Mystery" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC24000223S_20260421T133716SQUARE.png" group-title="Entertainment",ION Mystery
+#EXTINF:-1 tvg-id="USBC24000223S" tvg-name="ION Mystery" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC24000223S_20261016T224640SQUARE.png" group-title="Entertainment",ION Mystery
 https://pb-usmbvsgwcg8pc.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-usmbvsgwcg8pc/Ion_Mystery_US.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBC24000223S&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-usmbvsgwcg8pc_akamai
 #EXTINF:-1 tvg-id="IONPlus.us@East" tvg-name="ION Plus" tvg-logo="https://i.imgur.com/1dgCvNE.png" group-title="Entertainment",ION Plus
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionplus-tablo/playlist.m3u8
@@ -1537,7 +1533,7 @@ https://jmp2.uk/plu-66df8a29b25d2b0008fc5fe0.m3u8
 https://pb-ehs1glsha1juy.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ehs1glsha1juy/Love_Nature_4K.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBA3400003IP&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-ehs1glsha1juy_akamai
 #EXTINF:-1 tvg-id="US300065DB" tvg-name="Love Pets" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300065DB_20250304T041514SQUARE.png" group-title="Documentary",Love Pets
 https://d31r8y66tn175.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swiro27v7lz6z/Love_Pets.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US300065DB
-#EXTINF:-1 tvg-id="USBA3000044BJ" tvg-name="Lucky Dog" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3000044BJ_20240826T191212SQUARE.png" group-title="Documentary",Lucky Dog
+#EXTINF:-1 tvg-id="USBA3000044BJ" tvg-name="Lucky Dog" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3000044BJ_20261016T224545SQUARE.png" group-title="Documentary",Lucky Dog
 https://pb-p4miesqtiwklg.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-p4miesqtiwklg/Lucky_Dog.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBA3000044BJ&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-p4miesqtiwklg_akamai
 #EXTINF:-1 tvg-id="US2900004L2" tvg-name="Luxe Fireplace Vibes" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2900004L2_20241210T013914SQUARE.png" group-title="General",Luxe Fireplace Vibes
 https://pb-0yvknepz2ngjh.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-0yvknepz2ngjh/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US2900004L2&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-0yvknepz2ngjh_akamai
@@ -1623,7 +1619,7 @@ https://jmp2.uk/plu-65e23f340d4561000821540d.m3u8
 https://jmp2.uk/plu-5f610042272f68000867685b.m3u8
 #EXTINF:-1 tvg-id="MLB.us" tvg-name="MLB" tvg-logo="https://i.imgur.com/ym3su2J.png" group-title="Sports",MLB
 https://jmp2.uk/plu-5e66968a70f34c0007d050be.m3u8
-#EXTINF:-1 tvg-id="US1400001WV" tvg-name="MLB Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1400001WV_20261001T230804SQUARE.png" group-title="Sports",MLB Channel
+#EXTINF:-1 tvg-id="US1400001WV" tvg-name="MLB Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1400001WV_20261016T224647SQUARE.png" group-title="Sports",MLB Channel
 https://pb-2y9ox4r1fy550.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-2y9ox4r1fy550/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US1400001WV&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-2y9ox4r1fy550_akamai
 #EXTINF:-1 tvg-id="MNT.us@WFLD" tvg-name="MNT WFLD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/MyNetworkTV_2D_Logo.svg/960px-MyNetworkTV_2D_Logo.svg.png" group-title="General",MNT WFLD
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wfld-lgus/playlist.m3u8
@@ -1661,7 +1657,7 @@ https://jmp2.uk/rok-d32267711c6a5cf36520716c96b5b3fa.m3u8
 https://jmp2.uk/rok-c5cbd4129753f5732d7160596440404f.m3u8
 #EXTINF:-1 tvg-id="US38000108V" tvg-name="Movie Hub Action West" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US38000108V_20260421T133631SQUARE.png" group-title="Movies",Movie Hub Action West
 https://pb-56nu8mupxbqfp.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-56nu8mupxbqfp/out/v1/fa62bddcbfda46e9a7b5ba4525aae297/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.content_cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US38000108V&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-56nu8mupxbqfp_akamai
-#EXTINF:-1 tvg-id="USBD3500033U0" tvg-name="Movie Hub Romance" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500033U0_20261009T160646SQUARE.png" group-title="Movies",Movie Hub Romance
+#EXTINF:-1 tvg-id="USBD3500033U0" tvg-name="Movie Hub Romance" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500033U0_20261016T175708SQUARE.png" group-title="Movies",Movie Hub Romance
 https://pb-2qxkqaxchiikd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-2qxkqaxchiikd/out/v1/7e74715f06c44edfb352fa57664f6b3e/HLS_CMAF_DRM/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.content_cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD3500033U0&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-2qxkqaxchiikd_akamai
 #EXTINF:-1 tvg-id="USBD3500036HP" tvg-name="Movie Hub West" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500036HP_20260421T134120SQUARE.png" group-title="Movies",Movie Hub West
 https://pb-xc375v7ga0g9s.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-xc375v7ga0g9s/out/v1/e362d409b32f41c48595436691d9b321/THE-MOVIE-HUB-WEST-HLS-CMAF-DRM/index.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.content_cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD3500036HP&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-xc375v7ga0g9s_akamai
@@ -1887,7 +1883,7 @@ https://jmp2.uk/plu-5ff8c708653d080007361b14.m3u8
 https://jmp2.uk/rok-62fc9a6990970240178dae0203ef63e8.m3u8
 #EXTINF:-1 tvg-id="ce8a61a75e94b71f52ad51ed92b1ec65" tvg-name="Paternity Court" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/ce8a61a75e94b71f52ad51ed92b1ec65/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1749753178405_PaternityCourt_HUDLogo_Centered_260x147.png" group-title="Entertainment",Paternity Court
 https://jmp2.uk/rok-ce8a61a75e94b71f52ad51ed92b1ec65.m3u8
-#EXTINF:-1 tvg-id="US300003S3" tvg-name="Pawn Stars" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300003S3_20260922T055732SQUARE.png" group-title="Entertainment",Pawn Stars
+#EXTINF:-1 tvg-id="US300003S3" tvg-name="Pawn Stars" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300003S3_20261016T224653SQUARE.png" group-title="Entertainment",Pawn Stars
 https://pb-jo4rx96uyjcxx.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-jo4rx96uyjcxx/v1/aenetworks_pawnstars_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US300003S3&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-jo4rx96uyjcxx_akamai
 #EXTINF:-1 tvg-id="PayvandTV.us" tvg-name="Payvand TV (United States)" tvg-logo="https://i.imgur.com/A4gqEmG.png" group-title="News",Payvand TV (United States)
 https://tgn.bozztv.com/cus01/ucur1/Payvand/index.m3u8
@@ -2005,8 +2001,6 @@ https://jmp2.uk/plu-68fbf8101d26140175db8b58.m3u8
 https://jmp2.uk/plu-6036e7c385749f00075dbd3b.m3u8
 #EXTINF:-1 tvg-id="6ab165fdeae99d62d7e541ff" tvg-name="Pluto TV Halloween" tvg-logo="https://images.pluto.tv/channels/6ab165fdeae99d62d7e541ff/colorLogoPNG_1790715914846.png" group-title="General",Pluto TV Halloween
 https://jmp2.uk/plu-6ab165fdeae99d62d7e541ff.m3u8
-#EXTINF:-1 tvg-id="6a7cc5a857bd65df5dadba5f" tvg-name="Pluto TV Hispanic Favorites" tvg-logo="https://images.pluto.tv/channels/6a7cc5a857bd65df5dadba5f/colorLogoPNG_1788454948703.png" group-title="General",Pluto TV Hispanic Favorites
-https://jmp2.uk/plu-6a7cc5a857bd65df5dadba5f.m3u8
 #EXTINF:-1 tvg-id="PlutoTVHistory.us" tvg-name="Pluto TV History" tvg-logo="https://i.imgur.com/XkQD5kM.png" group-title="Documentary",Pluto TV History
 https://jmp2.uk/plu-5a4d35dfa5c02e717a234f86.m3u8
 #EXTINF:-1 tvg-id="PlutoTVHometownDrama.us" tvg-name="Pluto TV Hometown Drama" tvg-logo="https://images.pluto.tv/channels/69d6c7befde57cd5ba0160c3/colorLogoPNG_1777488284970.png" group-title="General",Pluto TV Hometown Drama
