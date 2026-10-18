@@ -973,6 +973,25 @@
     "url": "https://aegis-cloudfront-1.tubi.video/e739361e-fa12-4cac-92f3-e0dbf332cd88/playlist.m3u8"
   },
   {
+    "approval": "host:jmp2.uk",
+    "base_id": "50b18dea9c5c51568c1343fcd3d88ec9",
+    "categories": [
+      "News"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "News",
+    "id": "50b18dea9c5c51568c1343fcd3d88ec9",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/50b18dea9c5c51568c1343fcd3d88ec9/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1746557592232_WWSB_EPG_Hud_LogoWWSB_HUD_logo_260x147_Centered.png",
+    "name": "ABC7 Sarasota",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-50b18dea9c5c51568c1343fcd3d88ec9.m3u8"
+  },
+  {
     "approval": "suffix:.wurl.tv",
     "base_id": "AbsoluteRealitybyWETV.us",
     "categories": [
@@ -4233,6 +4252,25 @@
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
     "url": "https://pb-tv1zh2wa4bktf.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-tv1zh2wa4bktf/BYUtv.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US410000230&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-tv1zh2wa4bktf_akamai"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "5cbb91d07dbd5b92ae3ef3e37be7f2ce",
+    "categories": [
+      "News"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "News",
+    "id": "5cbb91d07dbd5b92ae3ef3e37be7f2ce",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/5cbb91d07dbd5b92ae3ef3e37be7f2ce/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1695173043846_C4_centeraligned_monocromatico_HUD_260x147.png",
+    "name": "C4 en Alerta",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-5cbb91d07dbd5b92ae3ef3e37be7f2ce.m3u8"
   },
   {
     "approval": "source-pattern:^d[a-z0-9]+\\.cloudfront\\.net$",
@@ -25439,25 +25477,6 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/bullheadcity/G0860_002/playlist.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
-    "base_id": "a77b94bceefad7df653d27acc05ae420",
-    "categories": [
-      "Entertainment"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "Entertainment",
-    "id": "a77b94bceefad7df653d27acc05ae420",
-    "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/a77b94bceefad7df653d27acc05ae420/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1738699180944_hud_logo-2.png",
-    "name": "TVOAI Channel",
-    "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-a77b94bceefad7df653d27acc05ae420.m3u8"
   },
   {
     "approval": "suffix:.bozztv.com",

@@ -101,6 +101,8 @@ https://aegis-cloudfront-1.tubi.video/b77ffe96-c5d1-43a7-8687-306ff244d725/playl
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsocbreaking-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us@WTXLTV" tvg-name="ABC WTXL-TV" tvg-logo="https://i.imgur.com/pvXZ8DX.png" group-title="General",ABC WTXL-TV
 https://aegis-cloudfront-1.tubi.video/e739361e-fa12-4cac-92f3-e0dbf332cd88/playlist.m3u8
+#EXTINF:-1 tvg-id="50b18dea9c5c51568c1343fcd3d88ec9" tvg-name="ABC7 Sarasota" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/50b18dea9c5c51568c1343fcd3d88ec9/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1746557592232_WWSB_EPG_Hud_LogoWWSB_HUD_logo_260x147_Centered.png" group-title="News",ABC7 Sarasota
+https://jmp2.uk/rok-50b18dea9c5c51568c1343fcd3d88ec9.m3u8
 #EXTINF:-1 tvg-id="AbsoluteRealitybyWETV.us" tvg-name="Absolute Reality by WE TV" tvg-logo="https://i.imgur.com/Gtwk8ic.png" group-title="Entertainment",Absolute Reality by WE TV
 https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="AcapulcoShore.us" tvg-name="Acapulco Shore US" tvg-logo="https://images.pluto.tv/channels/61a52615cbef2500072876e2/colorLogoPNG_1756972226445.png" group-title="General",Acapulco Shore US
@@ -443,6 +445,8 @@ https://reflect-stream-bronxnet.cablecast.tv/live-16/live/stream-1/live.m3u8
 https://d13j8jpstr8iqz.cloudfront.net/BYUtv.m3u8
 #EXTINF:-1 tvg-id="US410000230" tvg-name="BYUtv" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US410000230_20250415T005934SQUARE.png" group-title="Entertainment",BYUtv
 https://pb-tv1zh2wa4bktf.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-tv1zh2wa4bktf/BYUtv.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US410000230&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-tv1zh2wa4bktf_akamai
+#EXTINF:-1 tvg-id="5cbb91d07dbd5b92ae3ef3e37be7f2ce" tvg-name="C4 en Alerta" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/5cbb91d07dbd5b92ae3ef3e37be7f2ce/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1695173043846_C4_centeraligned_monocromatico_HUD_260x147.png" group-title="News",C4 en Alerta
+https://jmp2.uk/rok-5cbb91d07dbd5b92ae3ef3e37be7f2ce.m3u8
 #EXTINF:-1 tvg-id="USBD50000048H" tvg-name="Caillou" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD50000048H_20260915T035121SQUARE.png" group-title="Kids",Caillou
 https://d2mshoh3usf646.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ymen9lq6zp2an/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD50000048H&coppa=1
 #EXTINF:-1 tvg-id="CaliforniaMusicChannel.us" tvg-name="California Music Channel" tvg-logo="https://i.imgur.com/FyNot5W.png" group-title="Music",California Music Channel
@@ -2669,8 +2673,6 @@ https://pb-wwhlpt4s3xs5v.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 https://pb-t4rabz540xy27.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-t4rabz540xy27/v1/tv_one_llc_tvonestarsstories_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US4600011ZJ&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-t4rabz540xy27_akamai
 #EXTINF:-1 tvg-id="TV4.us" tvg-name="TV4 (United States)" tvg-logo="https://i.imgur.com/CRvQ6sF.png" group-title="Legislative",TV4 (United States)
 https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/bullheadcity/G0860_002/playlist.m3u8
-#EXTINF:-1 tvg-id="a77b94bceefad7df653d27acc05ae420" tvg-name="TVOAI Channel" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/a77b94bceefad7df653d27acc05ae420/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1738699180944_hud_logo-2.png" group-title="Entertainment",TVOAI Channel
-https://jmp2.uk/rok-a77b94bceefad7df653d27acc05ae420.m3u8
 #EXTINF:-1 tvg-id="TVSBowlingNetwork.us" tvg-name="TVS Bowling Network" tvg-logo="https://www.watchyour.tv/channels/logo/tvs-bowling-network.jpg" group-title="Sports",TVS Bowling Network
 https://rpn.bozztv.com/gusa/gusa-tvsbowling/index.m3u8
 #EXTINF:-1 tvg-id="TVSBoxing.us" tvg-name="TVS Boxing" tvg-logo="https://i.imgur.com/30ZoF75.png" group-title="Sports",TVS Boxing
