@@ -22,24 +22,24 @@
     "https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/us.xml.gz",
     "https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml.gz"
   ],
-  "generated_utc": "2026-10-18T11:15:52Z",
+  "generated_utc": "2026-10-19T13:28:09Z",
   "skipped": {
-    "custom_headers": 924,
+    "custom_headers": 293,
     "dead_stream": 12,
     "duplicate": 236,
     "duplicate_name": 292,
     "excluded_pay_tv": 19,
-    "not_direct_https_hls": 176,
-    "not_us_or_no_id": 474,
+    "not_direct_https_hls": 175,
+    "not_us_or_no_id": 471,
     "redirect_unresolved": 39,
     "unreviewed_host": 460
   },
   "sources": [
     {
       "approved_candidates": 771,
-      "candidates": 1483,
+      "candidates": 1482,
       "name": "iptv-org US (community-submitted candidates)",
-      "sha256": "92d1656ac04f4082f67c42b2079db2c8327896bfab78277ccf4618ed1659aba1",
+      "sha256": "cf80d2001c0211d3d1e3350dc0f2b710e3fc100e57160fd1fdc6347d023bf7bf",
       "url": "https://iptv-org.github.io/iptv/countries/us.m3u"
     },
     {
@@ -60,7 +60,7 @@
       "approved_candidates": 258,
       "candidates": 260,
       "name": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-      "sha256": "4b3025aacdda0009cffc7e5eaab6789fd9961e36f8f89115f755c2adcd156a96",
+      "sha256": "3a8f3090c5450f33d58ca389e5fd2bc846be5c49b384983cc1973c16500f04f9",
       "url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u"
     },
     {
@@ -79,9 +79,9 @@
     },
     {
       "approved_candidates": 12,
-      "candidates": 1035,
+      "candidates": 401,
       "name": "doms9/iptv (user-suggested candidates; reviewed entries only)",
-      "sha256": "1e503faf0e24dd45ce36f5504957d53c0734080e10b6e061b90561e26af3d278",
+      "sha256": "893764bf4610c7b30cbc64ee780d0fcd1c67622afa6d91c4f0a35f6a77c7fcb5",
       "url": "https://raw.githubusercontent.com/doms9/iptv/default/M3U8/TV.m3u8"
     }
   ],
