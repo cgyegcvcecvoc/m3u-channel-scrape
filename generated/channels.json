@@ -4981,6 +4981,25 @@
   },
   {
     "approval": "host:jmp2.uk",
+    "base_id": "62cdca1cda044a00077b903d",
+    "categories": [
+      "News"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "News",
+    "id": "62cdca1cda044a00077b903d",
+    "local": true,
+    "logo": "https://images.pluto.tv/channels/62cdca1cda044a00077b903d/colorLogoPNG.png",
+    "name": "CBS News Philadelphia",
+    "not_24_7": false,
+    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
+    "url": "https://jmp2.uk/plu-62cdca1cda044a00077b903d.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
     "base_id": "CBSNewsPhilly.us",
     "categories": [
       "News"
@@ -9540,8 +9559,8 @@
     "group": "General",
     "id": "b484db42f3d31b6dc2f604d453c694a0",
     "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/b484db42f3d31b6dc2f604d453c694a0/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1782328770262_fairground_tv_logo_hud.png",
-    "name": "Fairground AI Creator TV",
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/b484db42f3d31b6dc2f604d453c694a0/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1792431886357_HUG_Logo_260-x-147.png",
+    "name": "Fairground AI TV",
     "not_24_7": false,
     "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
@@ -13201,6 +13220,25 @@
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
     "url": "https://pb-pyubb0crlznqc.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-pyubb0crlznqc/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US27000062U&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-pyubb0crlznqc_akamai"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "69e286e45a360c02a5966c668726172f",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "69e286e45a360c02a5966c668726172f",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/69e286e45a360c02a5966c668726172f/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1782326705078_jorge_ramos_asi_veo_las_cosas_logo_hud.png",
+    "name": "Jorge Ramos: Asi Veo Las Cosas",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-69e286e45a360c02a5966c668726172f.m3u8"
   },
   {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
