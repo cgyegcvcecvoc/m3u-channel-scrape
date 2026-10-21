@@ -612,23 +612,42 @@
     "url": "https://jmp2.uk/plu-6000a5a9e767980007b497ca.m3u8"
   },
   {
-    "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
-    "base_id": "US900059YT",
+    "approval": "host:jmp2.uk",
+    "base_id": "6aab1ec6f2eaa8924745678e",
     "categories": [
       "Entertainment"
     ],
     "country": "US",
-    "evidence_url": "https://www.samsungtvplus.com/",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
     "geo_restricted": false,
     "group": "Entertainment",
-    "id": "US900059YT",
+    "id": "6aab1ec6f2eaa8924745678e",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US900059YT_20260528T041942SQUARE.png",
+    "logo": "https://images.pluto.tv/channels/6aab1ec6f2eaa8924745678e/colorLogoPNG_1790808102594.png",
     "name": "A&E Live PD: Greatest Shifts",
     "not_24_7": false,
-    "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
-    "url": "https://pb-89zu6mvbvt435.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-89zu6mvbvt435/v1/ae_networks_livepdgreatestshifts_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US900059YT&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-89zu6mvbvt435_akamai"
+    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
+    "url": "https://jmp2.uk/plu-6aab1ec6f2eaa8924745678e.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
+    "base_id": "6aab1ea02cfd341eb5036c5a",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "6aab1ea02cfd341eb5036c5a",
+    "local": false,
+    "logo": "https://images.pluto.tv/channels/6aab1ea02cfd341eb5036c5a/colorLogoPNG_1791210755629.png",
+    "name": "A&E’s Alaska State Troopers",
+    "not_24_7": false,
+    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
+    "url": "https://jmp2.uk/plu-6aab1ea02cfd341eb5036c5a.m3u8"
   },
   {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
@@ -1831,6 +1850,25 @@
     "url": "https://pb-k9ikw6ov8z4qi.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-k9ikw6ov8z4qi/American_Pickers_by_History.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD3500041ZF&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-k9ikw6ov8z4qi_akamai"
   },
   {
+    "approval": "host:jmp2.uk",
+    "base_id": "6565413e4261ca0008215320",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "6565413e4261ca0008215320",
+    "local": false,
+    "logo": "https://images.pluto.tv/channels/6565413e4261ca0008215320/colorLogoPNG_1792511758070.png",
+    "name": "American Pickers Plus by History",
+    "not_24_7": false,
+    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
+    "url": "https://jmp2.uk/plu-6565413e4261ca0008215320.m3u8"
+  },
+  {
     "approval": "source-pattern:^d[a-z0-9]+\\.cloudfront\\.net$",
     "base_id": "US4100039PO",
     "categories": [
@@ -2211,25 +2249,6 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://securestream11.champds.com/LIVE/AtlantaGALIVE/AtlantaGALIVE.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
-    "base_id": "1672824c4fd55e5dbfcb57f147910270",
-    "categories": [
-      "News"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "News",
-    "id": "1672824c4fd55e5dbfcb57f147910270",
-    "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/1672824c4fd55e5dbfcb57f147910270/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1684345590463_WANF_EPGHud_LogoWANF_HUD_logo_260x147.png",
-    "name": "Atlanta News First",
-    "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-1672824c4fd55e5dbfcb57f147910270.m3u8"
   },
   {
     "approval": "suffix:.cablecast.tv",
@@ -18023,6 +18042,25 @@
     "url": "https://pb-jo4rx96uyjcxx.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-jo4rx96uyjcxx/v1/aenetworks_pawnstars_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US300003S3&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-jo4rx96uyjcxx_akamai"
   },
   {
+    "approval": "host:jmp2.uk",
+    "base_id": "6aab1f18c349e6a78bb489ad",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "6aab1f18c349e6a78bb489ad",
+    "local": false,
+    "logo": "https://images.pluto.tv/channels/6aab1f18c349e6a78bb489ad/colorLogoPNG_1790808022808.png",
+    "name": "Pawn Stars Plus by History",
+    "not_24_7": false,
+    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
+    "url": "https://jmp2.uk/plu-6aab1f18c349e6a78bb489ad.m3u8"
+  },
+  {
     "approval": "suffix:.bozztv.com",
     "base_id": "PayvandTV.us",
     "categories": [
@@ -18617,25 +18655,6 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://cdn3.wowza.com/5/bGZUOHp2TnhudnM2/phoenix/G1498_006/playlist.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
-    "base_id": "6565413e4261ca0008215320",
-    "categories": [
-      "Entertainment"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "Entertainment",
-    "id": "6565413e4261ca0008215320",
-    "local": false,
-    "logo": "https://images.pluto.tv/channels/6565413e4261ca0008215320/colorLogoPNG.png",
-    "name": "Pickers & Pawn",
-    "not_24_7": false,
-    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
-    "url": "https://jmp2.uk/plu-6565413e4261ca0008215320.m3u8"
   },
   {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
@@ -19363,25 +19382,6 @@
   },
   {
     "approval": "host:jmp2.uk",
-    "base_id": "5d8bf0b06d2d855ee15115e3",
-    "categories": [
-      "Entertainment"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "Entertainment",
-    "id": "5d8bf0b06d2d855ee15115e3",
-    "local": false,
-    "logo": "https://images.pluto.tv/channels/5d8bf0b06d2d855ee15115e3/colorLogoPNG.png",
-    "name": "Pluto TV Reality",
-    "not_24_7": false,
-    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
-    "url": "https://jmp2.uk/plu-5d8bf0b06d2d855ee15115e3.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
     "base_id": "PlutoTVReality.us",
     "categories": [
       "Entertainment"
@@ -19393,7 +19393,7 @@
     "id": "PlutoTVReality.us",
     "local": false,
     "logo": "https://images.pluto.tv/channels/67922858b83355184c699699/colorLogoPNG.png",
-    "name": "Pluto TV Reality (United States)",
+    "name": "Pluto TV Reality",
     "not_24_7": false,
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
@@ -19451,7 +19451,7 @@
     "id": "PlutoTVRomance.us",
     "local": false,
     "logo": "https://i.imgur.com/GJBxfyf.png",
-    "name": "Pluto TV Romance (United States)",
+    "name": "Pluto TV Romance",
     "not_24_7": false,
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
@@ -19528,7 +19528,7 @@
     "id": "PlutoTVScience.us",
     "local": false,
     "logo": "https://i.imgur.com/uhunRoU.png",
-    "name": "Pluto TV Science (United States)",
+    "name": "Pluto TV Science",
     "not_24_7": false,
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
@@ -19643,7 +19643,7 @@
     "id": "PlutoTVThrillers.us",
     "local": false,
     "logo": "https://i.imgur.com/ULKvDN7.png",
-    "name": "Pluto TV Thrillers (United States)",
+    "name": "Pluto TV Thrillers",
     "not_24_7": false,
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
@@ -25138,6 +25138,25 @@
   },
   {
     "approval": "host:jmp2.uk",
+    "base_id": "6aab1ef220ec28a21adca712",
+    "categories": [
+      "Entertainment"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "Entertainment",
+    "id": "6aab1ef220ec28a21adca712",
+    "local": false,
+    "logo": "https://images.pluto.tv/channels/6aab1ef220ec28a21adca712/colorLogoPNG_1791210850118.png",
+    "name": "Torque by History",
+    "not_24_7": false,
+    "source": "Pluto TV US (FAST platform lineup via jmp2.uk to Pluto's official embed manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_us.m3u",
+    "url": "https://jmp2.uk/plu-6aab1ef220ec28a21adca712.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
     "base_id": "Tosh0.us",
     "categories": [
       "General"
@@ -28047,6 +28066,25 @@
     "url": "https://pb-x7tnbj7wuv57j.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-x7tnbj7wuv57j/XITE_90s_Throwback.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBB3200007AK&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-x7tnbj7wuv57j_akamai"
   },
   {
+    "approval": "source-pattern:^d[a-z0-9]+\\.cloudfront\\.net$",
+    "base_id": "USBD350003932",
+    "categories": [
+      "Music"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.samsungtvplus.com/",
+    "geo_restricted": false,
+    "group": "Music",
+    "id": "USBD350003932",
+    "local": false,
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD350003932_20261020T100511SQUARE.png",
+    "name": "XITE Celebrates",
+    "not_24_7": false,
+    "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
+    "url": "https://dt1s4l2cmiyit.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fcwpee1h7t5cs/XITE_Celebrates.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD350003932"
+  },
+  {
     "approval": "source-pattern:^pb-[a-z0-9]+\\.akamaized\\.net$",
     "base_id": "US46000072L",
     "categories": [
@@ -28254,25 +28292,6 @@
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
     "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
     "url": "https://pb-txeb23s0zqdiy.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-txeb23s0zqdiy/XITE_Siempre_Latino.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD3300010L9&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-txeb23s0zqdiy_akamai"
-  },
-  {
-    "approval": "source-pattern:^d[a-z0-9]+\\.cloudfront\\.net$",
-    "base_id": "USBD350003932",
-    "categories": [
-      "Music"
-    ],
-    "country": "US",
-    "evidence_url": "https://www.samsungtvplus.com/",
-    "geo_restricted": false,
-    "group": "Music",
-    "id": "USBD350003932",
-    "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD350003932_20261006T051013SQUARE.png",
-    "name": "XITE The Beatles",
-    "not_24_7": false,
-    "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
-    "url": "https://dt1s4l2cmiyit.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fcwpee1h7t5cs/XITE_Celebrates.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBD350003932"
   },
   {
     "approval": "source-pattern:^d[a-z0-9]+\\.cloudfront\\.net$",

@@ -21,8 +21,10 @@ https://pb-cu6cej0pat0by.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 https://pb-5pwu87xmnmaqo.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-5pwu87xmnmaqo/v1/ae_networks_alaskastatetroopers_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US1900023QQ&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-5pwu87xmnmaqo_akamai
 #EXTINF:-1 tvg-id="6000a5a9e767980007b497ca" tvg-name="A&E Crime 360" tvg-logo="https://images.pluto.tv/channels/6000a5a9e767980007b497ca/colorLogoPNG_1767745470551.png" group-title="Entertainment",A&E Crime 360
 https://jmp2.uk/plu-6000a5a9e767980007b497ca.m3u8
-#EXTINF:-1 tvg-id="US900059YT" tvg-name="A&E Live PD: Greatest Shifts" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US900059YT_20260528T041942SQUARE.png" group-title="Entertainment",A&E Live PD: Greatest Shifts
-https://pb-89zu6mvbvt435.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-89zu6mvbvt435/v1/ae_networks_livepdgreatestshifts_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US900059YT&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-89zu6mvbvt435_akamai
+#EXTINF:-1 tvg-id="6aab1ec6f2eaa8924745678e" tvg-name="A&E Live PD: Greatest Shifts" tvg-logo="https://images.pluto.tv/channels/6aab1ec6f2eaa8924745678e/colorLogoPNG_1790808102594.png" group-title="Entertainment",A&E Live PD: Greatest Shifts
+https://jmp2.uk/plu-6aab1ec6f2eaa8924745678e.m3u8
+#EXTINF:-1 tvg-id="6aab1ea02cfd341eb5036c5a" tvg-name="A&E’s Alaska State Troopers" tvg-logo="https://images.pluto.tv/channels/6aab1ea02cfd341eb5036c5a/colorLogoPNG_1791210755629.png" group-title="Entertainment",A&E’s Alaska State Troopers
+https://jmp2.uk/plu-6aab1ea02cfd341eb5036c5a.m3u8
 #EXTINF:-1 tvg-id="US4800001W5" tvg-name="ABC 20/20" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4800001W5_20260421T133700SQUARE.png" group-title="Entertainment",ABC 20/20
 https://pb-ycseayifkqre8.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ycseayifkqre8/ABC_2020.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US4800001W5&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-ycseayifkqre8_akamai
 #EXTINF:-1 tvg-id="AbsoluteRealitybyWETV.us" tvg-name="Absolute Reality by WE TV" tvg-logo="https://i.imgur.com/Gtwk8ic.png" group-title="Entertainment",Absolute Reality by WE TV
@@ -65,6 +67,8 @@ https://jmp2.uk/plu-65492fc7056b9700088560b5.m3u8
 https://jmp2.uk/rok-eec9d131b4095083a23c485d804c8b2d.m3u8
 #EXTINF:-1 tvg-id="USBD3500041ZF" tvg-name="American Pickers by History" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500041ZF_20261016T224622SQUARE.png" group-title="Entertainment",American Pickers by History
 https://pb-k9ikw6ov8z4qi.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-k9ikw6ov8z4qi/American_Pickers_by_History.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD3500041ZF&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-k9ikw6ov8z4qi_akamai
+#EXTINF:-1 tvg-id="6565413e4261ca0008215320" tvg-name="American Pickers Plus by History" tvg-logo="https://images.pluto.tv/channels/6565413e4261ca0008215320/colorLogoPNG_1792511758070.png" group-title="Entertainment",American Pickers Plus by History
+https://jmp2.uk/plu-6565413e4261ca0008215320.m3u8
 #EXTINF:-1 tvg-id="US4100039PO" tvg-name="America’s Funniest Home Videos" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100039PO_20251125T030910SQUARE.png" group-title="Entertainment",America’s Funniest Home Videos
 https://d1mp1kdk5zi1ie.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-upluuumbom0c7/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US4100039PO
 #EXTINF:-1 tvg-id="6887a8fd8e92b5e0a7244e88" tvg-name="Ancient Aliens" tvg-logo="https://images.pluto.tv/channels/6887a8fd8e92b5e0a7244e88/colorLogoPNG_1753992701393.png" group-title="Entertainment",Ancient Aliens
@@ -615,6 +619,8 @@ https://pb-64pqek0rno2oa.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 https://jmp2.uk/rok-ce8a61a75e94b71f52ad51ed92b1ec65.m3u8
 #EXTINF:-1 tvg-id="US300003S3" tvg-name="Pawn Stars" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300003S3_20261016T224653SQUARE.png" group-title="Entertainment",Pawn Stars
 https://pb-jo4rx96uyjcxx.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-jo4rx96uyjcxx/v1/aenetworks_pawnstars_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US300003S3&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-jo4rx96uyjcxx_akamai
+#EXTINF:-1 tvg-id="6aab1f18c349e6a78bb489ad" tvg-name="Pawn Stars Plus by History" tvg-logo="https://images.pluto.tv/channels/6aab1f18c349e6a78bb489ad/colorLogoPNG_1790808022808.png" group-title="Entertainment",Pawn Stars Plus by History
+https://jmp2.uk/plu-6aab1f18c349e6a78bb489ad.m3u8
 #EXTINF:-1 tvg-id="US13000081O" tvg-name="PBS Food" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US13000081O_20250915T233907SQUARE.png" group-title="Entertainment",PBS Food
 https://d2jvtmm6kdz8ah.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-1dodgz7ilzxr8/PBS_Food.m3u8?ads.ads_cdn=cf&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=cf&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US13000081O&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-1dodgz7ilzxr8_cloudfront
 #EXTINF:-1 tvg-id="US130000639" tvg-name="PBS Genealogy" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US130000639_20251118T030559SQUARE.png" group-title="Entertainment",PBS Genealogy
@@ -625,8 +631,6 @@ https://pb-41d44411qur7m.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 https://jmp2.uk/rok-395e5ab16c63e8c58af0680395af35a6.m3u8
 #EXTINF:-1 tvg-id="USBB520002604" tvg-name="Perform" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB520002604_20250325T015251SQUARE.png" group-title="Entertainment",Perform
 https://pb-sokvwyddqkjif.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-sokvwyddqkjif/v1/aenetworks_perform_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBB520002604&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-sokvwyddqkjif_akamai
-#EXTINF:-1 tvg-id="6565413e4261ca0008215320" tvg-name="Pickers & Pawn" tvg-logo="https://images.pluto.tv/channels/6565413e4261ca0008215320/colorLogoPNG.png" group-title="Entertainment",Pickers & Pawn
-https://jmp2.uk/plu-6565413e4261ca0008215320.m3u8
 #EXTINF:-1 tvg-id="65506c44c9535b3787d255f333e7b1f7" tvg-name="Places & Spaces" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/65506c44c9535b3787d255f333e7b1f7/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1687441710940_1666809188462_P%2526S_ROKU_HUD_LOGO_260X147_copy.png" group-title="Entertainment",Places & Spaces
 https://jmp2.uk/rok-65506c44c9535b3787d255f333e7b1f7.m3u8
 #EXTINF:-1 tvg-id="USBC1300008AZ" tvg-name="Plated" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC1300008AZ_20261001T230719SQUARE.png" group-title="Entertainment",Plated
@@ -643,9 +647,7 @@ https://jmp2.uk/plu-5a4d3a00ad95e4718ae8d8db.m3u8
 https://jmp2.uk/plu-5877ac8cb791f4eb4a140d81.m3u8
 #EXTINF:-1 tvg-id="PlutoTVGameShows.us" tvg-name="Pluto TV Game Shows" tvg-logo="https://i.imgur.com/JXZEg2e.png" group-title="Entertainment",Pluto TV Game Shows
 https://jmp2.uk/plu-6036e7c385749f00075dbd3b.m3u8
-#EXTINF:-1 tvg-id="5d8bf0b06d2d855ee15115e3" tvg-name="Pluto TV Reality" tvg-logo="https://images.pluto.tv/channels/5d8bf0b06d2d855ee15115e3/colorLogoPNG.png" group-title="Entertainment",Pluto TV Reality
-https://jmp2.uk/plu-5d8bf0b06d2d855ee15115e3.m3u8
-#EXTINF:-1 tvg-id="PlutoTVReality.us" tvg-name="Pluto TV Reality (United States)" tvg-logo="https://images.pluto.tv/channels/67922858b83355184c699699/colorLogoPNG.png" group-title="Entertainment",Pluto TV Reality (United States)
+#EXTINF:-1 tvg-id="PlutoTVReality.us" tvg-name="Pluto TV Reality" tvg-logo="https://images.pluto.tv/channels/67922858b83355184c699699/colorLogoPNG.png" group-title="Entertainment",Pluto TV Reality
 https://jmp2.uk/plu-69fa3faab9c0f0d444e64de3.m3u8
 #EXTINF:-1 tvg-id="6a4fd96d7652851fb490204f" tvg-name="Pluto TV Royal Drama" tvg-logo="https://images.pluto.tv/channels/6a4fd96d7652851fb490204f/colorLogoPNG_1785178336408.png" group-title="Entertainment",Pluto TV Royal Drama
 https://jmp2.uk/plu-6a4fd96d7652851fb490204f.m3u8
@@ -821,6 +823,8 @@ https://jmp2.uk/plu-68757effdf333e336be1e49f.m3u8
 https://jmp2.uk/rok-b3eb95a883bfcd7b458d9ec965cedb35.m3u8
 #EXTINF:-1 tvg-id="636adc255bcf470007d6e0e2" tvg-name="Top Gear" tvg-logo="https://images.pluto.tv/channels/636adc255bcf470007d6e0e2/colorLogoPNG.png" group-title="Entertainment",Top Gear
 https://jmp2.uk/plu-636adc255bcf470007d6e0e2.m3u8
+#EXTINF:-1 tvg-id="6aab1ef220ec28a21adca712" tvg-name="Torque by History" tvg-logo="https://images.pluto.tv/channels/6aab1ef220ec28a21adca712/colorLogoPNG_1791210850118.png" group-title="Entertainment",Torque by History
+https://jmp2.uk/plu-6aab1ef220ec28a21adca712.m3u8
 #EXTINF:-1 tvg-id="6a2b0edf201df02a8bfea30a" tvg-name="Touched By An Angel" tvg-logo="https://images.pluto.tv/channels/6a2b0edf201df02a8bfea30a/colorLogoPNG_1782947651184.png" group-title="Entertainment",Touched By An Angel
 https://jmp2.uk/plu-6a2b0edf201df02a8bfea30a.m3u8
 #EXTINF:-1 tvg-id="ToughJobs.us" tvg-name="Tough Jobs" tvg-logo="https://images.pluto.tv/channels/65c69bf23ef47d0008583967/colorLogoPNG.png" group-title="Entertainment",Tough Jobs
