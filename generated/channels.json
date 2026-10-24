@@ -1212,7 +1212,7 @@
     "group": "Entertainment",
     "id": "US4100028ZF",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100028ZF_20261016T224616SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100028ZF_20261023T182348SQUARE.png",
     "name": "According to Jim",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -1326,7 +1326,7 @@
     "group": "Entertainment",
     "id": "US4100038R9",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100038R9_20260421T143031SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100038R9_20261023T223546SQUARE.png",
     "name": "AFV with Alfonso Ribeiro",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -2136,6 +2136,25 @@
     "url": "https://amg00353-lionsgatestudio-arewethereyet-samsunguk-6h2ju.amagi.tv/playlist/amg00353-lionsgatestudio-arewethereyet-samsunguk/playlist.m3u8"
   },
   {
+    "approval": "host:jmp2.uk",
+    "base_id": "ec2faed50af3503e934f0c342a7952fe",
+    "categories": [
+      "News"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "News",
+    "id": "ec2faed50af3503e934f0c342a7952fe",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/ec2faed50af3503e934f0c342a7952fe/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1746557956357_KPHO_EPG_Hud_LogoKPHO_HUD_logo_260x147_Centered.png",
+    "name": "Arizona's Family",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-ec2faed50af3503e934f0c342a7952fe.m3u8"
+  },
+  {
     "approval": "suffix:.wurl.tv",
     "base_id": "ARTFLIXMovieClassics.us",
     "categories": [
@@ -2230,25 +2249,6 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://securestream11.champds.com/LIVE/AtlantaGALIVE/AtlantaGALIVE.m3u8"
-  },
-  {
-    "approval": "host:jmp2.uk",
-    "base_id": "1672824c4fd55e5dbfcb57f147910270",
-    "categories": [
-      "News"
-    ],
-    "country": "US",
-    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
-    "geo_restricted": false,
-    "group": "News",
-    "id": "1672824c4fd55e5dbfcb57f147910270",
-    "local": false,
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/1672824c4fd55e5dbfcb57f147910270/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1684345590463_WANF_EPGHud_LogoWANF_HUD_logo_260x147.png",
-    "name": "Atlanta News First",
-    "not_24_7": false,
-    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
-    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
-    "url": "https://jmp2.uk/rok-1672824c4fd55e5dbfcb57f147910270.m3u8"
   },
   {
     "approval": "suffix:.cablecast.tv",
@@ -12910,7 +12910,7 @@
     "group": "Entertainment",
     "id": "USBC24000223S",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC24000223S_20261016T224640SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC24000223S_20261023T182409SQUARE.png",
     "name": "ION Mystery",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -17136,7 +17136,7 @@
     "group": "Sports",
     "id": "US300062TG",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300062TG_20260421T143408SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300062TG_20261023T223608SQUARE.png",
     "name": "NESN Nation",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -18053,7 +18053,7 @@
     "group": "Entertainment",
     "id": "US300003S3",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300003S3_20261016T224653SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300003S3_20261023T182425SQUARE.png",
     "name": "Pawn Stars",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -21126,7 +21126,7 @@
     "group": "Entertainment",
     "id": "US300068X7",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300068X7_20261009T160652SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300068X7_20261023T223618SQUARE.png",
     "name": "Samsung Television Network",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -23441,6 +23441,25 @@
   },
   {
     "approval": "host:jmp2.uk",
+    "base_id": "ceb64d994c7756c2a8f09ace94c3e43f",
+    "categories": [
+      "News"
+    ],
+    "country": "US",
+    "evidence_url": "https://github.com/iptv-org/community/issues/1492",
+    "geo_restricted": false,
+    "group": "News",
+    "id": "ceb64d994c7756c2a8f09ace94c3e43f",
+    "local": false,
+    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/ceb64d994c7756c2a8f09ace94c3e43f/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1715804997455_Logtipo_TDNOW_260x147_centradoaleje.png",
+    "name": "Telediario Now",
+    "not_24_7": false,
+    "source": "Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u",
+    "url": "https://jmp2.uk/rok-ceb64d994c7756c2a8f09ace94c3e43f.m3u8"
+  },
+  {
+    "approval": "host:jmp2.uk",
     "base_id": "8e0bb4b7ca7c5ea1af52427462297f38",
     "categories": [
       "News"
@@ -23853,7 +23872,7 @@
     "group": "General",
     "id": "US300002BE",
     "local": false,
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300002BE_20250805T005837SQUARE.png",
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300002BE_20261023T223634SQUARE.png",
     "name": "The Curse of Oak Island",
     "not_24_7": false,
     "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
@@ -27378,6 +27397,25 @@
     "source": "iptv-org US (community-submitted candidates)",
     "source_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
     "url": "https://waypoint-waypointtv-firetv.amagi.tv/playlist.m3u8"
+  },
+  {
+    "approval": "source-pattern:^d[a-z0-9]+\\.cloudfront\\.net$",
+    "base_id": "US700004OA",
+    "categories": [
+      "News"
+    ],
+    "country": "US",
+    "evidence_url": "https://www.samsungtvplus.com/",
+    "geo_restricted": false,
+    "group": "News",
+    "id": "US700004OA",
+    "local": false,
+    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US700004OA_20260421T143852SQUARE.png",
+    "name": "WBTV News",
+    "not_24_7": false,
+    "source": "Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)",
+    "source_url": "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u",
+    "url": "https://d2ugl2g2gz1giy.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4fuxzenflzs9j/index.m3u8?start_index=4&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=US700004OA"
   },
   {
     "approval": "host:jmp2.uk",

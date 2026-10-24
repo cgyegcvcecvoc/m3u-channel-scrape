@@ -1,12 +1,12 @@
 # Candidate source audit
 
-Generated: `2026-10-23T11:46:08Z`
+Generated: `2026-10-24T11:10:04Z`
 
 Entries are classified with the same policy code the updater uses (scripts/update_playlists.py). This report is evidence for host review, not an approval: nothing here publishes or changes policy.json.
 
 > structural_rejects cannot be fixed by a host rule (plain HTTP, IP-literal host, non-443 port, expiring/credential query, non-HLS path). unreviewed_hosts can be approved after a host review with evidence.
 
-**Totals:** 3627 candidate entries; 2035 publishable under the current policy; 465 blocked only by an unreviewed host; 758 fail URL invariants; 369 blocked for other reasons.
+**Totals:** 3829 candidate entries; 2036 publishable under the current policy; 465 blocked only by an unreviewed host; 928 fail URL invariants; 400 blocked for other reasons.
 
 ## iptv-org US (community-submitted candidates)
 
@@ -95,7 +95,7 @@ Other blocker explanations:
 
 ## Roku Channel lineup (FAST platform via jmp2.uk to Roku's CDN manifests)
 
-- entries: **259** (sha256 `df32466d7fe6ccea…`)
+- entries: **259** (sha256 `84c679802fea9209…`)
 - publishable now: **257**
 - blocked only by host review: **1**
 - URL invariant failures: **0** `{}`
@@ -115,8 +115,8 @@ Other blocker explanations:
 
 ## Samsung TV Plus US (FAST platform; jmp2.uk URLs resolved via redirect cache)
 
-- entries: **587** (sha256 `c3c58758b41da58a…`)
-- publishable now: **546**
+- entries: **588** (sha256 `c230c1e786fbfa6a…`)
+- publishable now: **547**
 - blocked only by host review: **3**
 - URL invariant failures: **38** `{"not_hls_path": 38}`
 - other reasons: `{}`
@@ -131,10 +131,10 @@ Other blocker explanations:
 
 ## aria-tv/aria (user-suggested candidates; reviewed entries only)
 
-- entries: **312** (sha256 `85b5750bfc1afaad…`)
+- entries: **305** (sha256 `8923744d434dda2f…`)
 - publishable now: **12**
 - blocked only by host review: **0**
-- URL invariant failures: **182** `{"non_443_port:9000": 33, "non_443_port:9981": 31, "scheme:http": 30, "non_443_port:8000": 18, "non_443_port:1234": 15, "non_443_port:8080": 15, "not_hls_path": 12, "non_443_port:8888": 7, "non_443_port:81": 6, "non_443_port:8089": 3, "non_443_port:9998": 3, "non_443_port:9002": 2, "non_443_port:4200": 2, "non_443_port:1936": 2, "non_443_port:1935": 2, "non_443_port:9590": 1}`
+- URL invariant failures: **175** `{"non_443_port:9000": 33, "non_443_port:9981": 31, "scheme:http": 30, "non_443_port:8000": 18, "non_443_port:1234": 15, "non_443_port:8080": 15, "not_hls_path": 12, "non_443_port:81": 6, "non_443_port:8089": 3, "non_443_port:9998": 3, "non_443_port:9002": 2, "non_443_port:4200": 2, "non_443_port:1936": 2, "non_443_port:1935": 2, "non_443_port:9590": 1}`
 - other reasons: `{"not_us_or_no_id": 118}`
 - entries whose name matches a pay-TV brand: 37
 - entries that ask for spoofed `#EXTVLCOPT`/`#KODIPROP` headers: 0
@@ -145,13 +145,13 @@ Other blocker explanations:
 
 ## doms9/iptv (user-suggested candidates; reviewed entries only)
 
-- entries: **528** (sha256 `7b0a38b6e1e8e467…`)
+- entries: **736** (sha256 `ab87a35553152670…`)
 - publishable now: **12**
 - blocked only by host review: **1**
-- URL invariant failures: **347** `{"expiring_or_credential_query": 160, "expiring_or_credential_query(pay_tv_brand)": 101, "non_443_port:8080": 41, "scheme:http": 19, "not_hls_path": 12, "non_443_port:8989": 5, "non_443_port:9590": 4, "non_443_port:4001": 1, "non_443_port:8000": 1, "non_443_port:4004": 1, "non_443_port:4007": 1, "non_443_port:80": 1}`
-- other reasons: `{"custom_headers": 119, "not_us_or_no_id": 49}`
-- entries whose name matches a pay-TV brand: 153
-- entries that ask for spoofed `#EXTVLCOPT`/`#KODIPROP` headers: 403
+- URL invariant failures: **524** `{"expiring_or_credential_query": 221, "expiring_or_credential_query(pay_tv_brand)": 177, "scheme:http": 50, "non_443_port:8080": 45, "not_hls_path": 17, "non_443_port:8989": 5, "non_443_port:9590": 4, "non_443_port:4001": 1, "non_443_port:8000": 1, "non_443_port:4004": 1, "non_443_port:4007": 1, "non_443_port:80": 1}`
+- other reasons: `{"custom_headers": 149, "not_us_or_no_id": 50}`
+- entries whose name matches a pay-TV brand: 231
+- entries that ask for spoofed `#EXTVLCOPT`/`#KODIPROP` headers: 603
 
 ### Unreviewed hosts (doms9/iptv (user-suggested candidates; reviewed entries only))
 
