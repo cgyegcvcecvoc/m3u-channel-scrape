@@ -235,6 +235,8 @@ https://jmp2.uk/rok-3ee48530e00e0abe8eb40c71fc819aa0.m3u8
 https://pb-zx5oxtp5qxu46.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-zx5oxtp5qxu46/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=USBD25000138Y&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-zx5oxtp5qxu46_akamai
 #EXTINF:-1 tvg-id="ATL26.us" tvg-name="ATL 26" tvg-logo="https://i.imgur.com/s4fqNMt.png" group-title="Legislative",ATL 26
 https://securestream11.champds.com/LIVE/AtlantaGALIVE/AtlantaGALIVE.m3u8
+#EXTINF:-1 tvg-id="1672824c4fd55e5dbfcb57f147910270" tvg-name="Atlanta News First" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/1672824c4fd55e5dbfcb57f147910270/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1684345590463_WANF_EPGHud_LogoWANF_HUD_logo_260x147.png" group-title="News",Atlanta News First
+https://jmp2.uk/rok-1672824c4fd55e5dbfcb57f147910270.m3u8
 #EXTINF:-1 tvg-id="AuroraTV.us" tvg-name="AuroraTV" tvg-logo="https://i.imgur.com/g8Q1ASR.png" group-title="General",AuroraTV
 https://reflect-aurora.cablecast.tv/live-8/live/live.m3u8
 #EXTINF:-1 tvg-id="AWEPlus.us@KPVMLD" tvg-name="AWE Plus KPVM-LD" tvg-logo="https://i.imgur.com/hL8i7Ar.png" group-title="General",AWE Plus KPVM-LD
@@ -1003,7 +1005,7 @@ https://cdn3.wowza.com/1/QjRzVXJtVml5SUVx/WGJRSWxz/hls/live/playlist.m3u8
 https://cdn3.wowza.com/1/TUI5dU5ucnUxdGFD/ZFlVeGRl/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="FailArmy.us" tvg-name="FailArmy" tvg-logo="https://i.imgur.com/VIpQJxL.png" group-title="Entertainment",FailArmy
 https://failarmy-international-au.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="b484db42f3d31b6dc2f604d453c694a0" tvg-name="Fairground AI TV" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/b484db42f3d31b6dc2f604d453c694a0/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1792431886357_HUG_Logo_260-x-147.png" group-title="General",Fairground AI TV
+#EXTINF:-1 tvg-id="FairgroundAICreatorTV.us" tvg-name="Fairground AI Creator TV" tvg-logo="https://raw.githubusercontent.com/RoqueDJ/iptv-svg/main/1792454211883.png" group-title="General",Fairground AI Creator TV
 https://jmp2.uk/rok-b484db42f3d31b6dc2f604d453c694a0.m3u8
 #EXTINF:-1 tvg-id="US1400010S0" tvg-name="Fall Vibes" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1400010S0_20260907T200456SQUARE.png" group-title="General",Fall Vibes
 https://pb-rvt3desmhnv4q.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-rvt3desmhnv4q/playlist.m3u8?ads.ads_cdn=ak&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.cdn=ak&ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.service_id=US1400010S0&ads.ssai_vendor=SSSLIVE&ads.us_privacy=%7BUS_PRIVACY%7D&pb_type=pb-rvt3desmhnv4q_akamai
@@ -1327,8 +1329,6 @@ https://pb-v1xmv2qsqz87l.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 https://jmp2.uk/plu-6450209d939a5900084dba1d.m3u8
 #EXTINF:-1 tvg-id="USBB520002173" tvg-name="Ice Road Truckers" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB520002173_20260825T040228SQUARE.png" group-title="Entertainment",Ice Road Truckers
 https://d27c7ivrw07fxl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lvjy0yd75y498/v1/aenetworks_iceroadtruckers_1/samsungheadend_us/latest/main/hls/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=USBB520002173
-#EXTINF:-1 tvg-id="3395d3b6c6e895a495fd12a2c719b21c" tvg-name="iHeartCountry Classics" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/3395d3b6c6e895a495fd12a2c719b21c/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1728501104207_260x147_Image_HUD_2.png" group-title="Music",iHeartCountry Classics
-https://jmp2.uk/rok-3395d3b6c6e895a495fd12a2c719b21c.m3u8
 #EXTINF:-1 tvg-id="ImpossibleQuizShow.us" tvg-name="Impossible Quiz Show" tvg-logo="https://i.imgur.com/9EWffqx.png" group-title="General",Impossible Quiz Show
 https://bbc-impossible-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="US2600024EO" tvg-name="In Depth with Graham Bensinger" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2600024EO_20251006T225030SQUARE.png" group-title="Entertainment",In Depth with Graham Bensinger
